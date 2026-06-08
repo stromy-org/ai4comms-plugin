@@ -2,7 +2,6 @@
 name: proposal
 description: "Build production-quality consulting proposals, executive briefs, and bid documents. Supports 5 proposal archetypes (Corporate, Consultant, Entrepreneur, Creative, Minimal) with quick-setup and full intake workflows. Format-agnostic — handles proposal strategy, content assembly, and quality validation, then produces the final document in the requested output format (DOCX, PPTX, PDF). Use when creating new proposals, revising existing ones, merging sections, or condensing documents."
 license: Proprietary. LICENSE.txt has complete terms
-_local: true
 ---
 
 # Consulting Proposal Builder
