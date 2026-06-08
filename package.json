@@ -1,0 +1,7 @@
+{
+  "name": "ai4comms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code plugin for AI4comms branded deliverables",
+  "dependencies": {}
+}
