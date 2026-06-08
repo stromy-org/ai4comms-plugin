@@ -1,7 +1,6 @@
 ---
 name: organic-social-campaign
 description: "Build organic B2B social media campaigns — editorial strategy, content pillars, editorial calendars, content matrices, community management playbooks, employee advocacy plans, and measurement specs. Interactive multi-phase process from discovery through governance. Integrates with company profiles, messaging libraries, and brand data for consistent voice and positioning. Use this skill whenever the user asks to build an organic social strategy, create a content calendar, plan social media content, develop editorial pillars, build a community management playbook, set up employee advocacy, plan organic LinkedIn content, create a social content program, or anything involving 'what should we post and how do we build an audience' — even if they just say 'we need a social presence' or 'help me plan our LinkedIn content.'"
-_local: true
 ---
 
 # Organic Social Campaign
