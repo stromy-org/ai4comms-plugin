@@ -47,6 +47,17 @@ both contexts. Missing **required** input (charter/profile) → surface the full
 resolved path and ask. Missing **optional** input → degrade per the Content
 Assembly fallbacks below.
 
+## Deliverable canvas (prerequisite for prose deliverables)
+
+The prose strategy deliverables this skill produces (strategy document, playbooks, governance docs) MUST be drafted in a single **chat markdown artifact** — the deliverable canvas. The canvas is the source of truth for the in-progress document; chat scroll-back is not. No server, no MCP — the markdown artifact IS the canvas. Tabular outputs (editorial calendar, content matrix → XLSX) are exempt.
+
+1. **Open the canvas** once the strategy direction is confirmed (Phase 3): one markdown artifact with identifier `canvas-<canvas_id>-organic_social_campaign` (`canvas_id` = 8 random hex chars, minted once per chat), one `## <Section Title>` heading per planned section in order; undrafted sections hold a one-line `_to draft_` placeholder.
+2. **Iterate in the canvas.** After every change, re-emit the **full** canvas as a new version of the SAME artifact (same identifier) — never a delta, never a second artifact, never final prose that lives only in a chat reply. One chat = one canvas.
+3. **Sign-off gate.** Before invoking any format skill or `render_*` tool on a prose deliverable, every section must be substantive (no `TBD`/placeholders) and the user must explicitly confirm the canvas is final.
+4. **Hand off** the finalized canvas content to the format skill as the envelope `{deliverable_type: "organic_social_campaign", title, client_id: <client_slug>, sections: [{id, title, body}], meta: {canvas_id}}` — the formatter renders from the envelope, never from chat history.
+
+**Legacy note.** This skill does not use the `deliverable-canvas` MCP; if such a server is connected, ignore it and author the canvas inline as above.
+
 ## Overview
 
 This skill builds organic B2B social media campaigns as a systems design problem — not a creative exercise. The goal is to define objectives, editorial architecture, operating rhythms, and measurement so that every post is traceable to business outcomes. Organic social optimizes for compounding: reach via credibility, engagement via relevance, and distribution via employee networks.
@@ -478,6 +489,8 @@ Load these as needed — do not read all at once.
 | [content-generation.md](references/content-generation.md) | Phase 8 — the edition-batched generation loop, anchor-select, Track A vs family-resemblance, brand_context construction, asset output, edge cases. |
 
 ## Output Format Production
+
+**Gate: prose deliverables require the deliverable canvas sign-off gate to have passed** (see "Deliverable canvas" above; tabular XLSX outputs are exempt).
 
 This skill owns organic social campaign architecture — editorial strategy, content systems, community management, and measurement. Document production is handled by the appropriate format skill:
 
