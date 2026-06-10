@@ -14,18 +14,6 @@ mcp_servers:
     - claude
     - codex
     - gemini
-    env_var_prefix: DELIVERABLE_CANVAS_MCP
-    name: deliverable-canvas
-    notes: Shared canvas backend for strategic deliverables (proposal, messaging-framework,
-        press-release). Per-user OAuth via Microsoft Entra ID (handled by mcp-remote
-        browser flow). See infra-docs/ai/deliverable-canvas.md.
-    transport: http
-    url: https://deliverable-canvas-mcp.salmonglacier-1282ede1.northeurope.azurecontainerapps.io/mcp
-    via: mcp-remote
--   consumed_by:
-    - claude
-    - codex
-    - gemini
     env_var_prefix: NL_GOV_DATA_MCP
     name: nl-gov-data
     notes: Dutch government open-data MCP — search/fetch legislation, parliamentary
