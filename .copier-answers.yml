@@ -5,38 +5,13 @@ author_name: William Masquelier
 client_name: AI4comms
 client_slug: ai4comms
 description: Claude Code plugin for AI4comms branded deliverables
+enable_asset_broker: true
+enable_stromy_format: true
 github_org: stromy-org
 include_mcp: false
 include_node: true
 include_python: true
-mcp_servers:
--   consumed_by:
-    - claude
-    - codex
-    - gemini
-    env_var_prefix: NL_GOV_DATA_MCP
-    name: nl-gov-data
-    notes: Dutch government open-data MCP — search/fetch legislation, parliamentary
-        records, Rijksoverheid documents. Hosts the nl-gov-data, nl-gov-shared, nl-issue-framing,
-        nl-parliamentary-positioning, nl-policy-legislative-landscape, and nl-tensions
-        skills (fetched at runtime via fs_read). Per-user OAuth via Microsoft Entra
-        ID.
-    transport: http
-    url: https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp
-    via: mcp-remote
--   consumed_by:
-    - claude
-    - codex
-    - gemini
-    env_var_prefix: STROMY_FORMAT_MCP
-    name: stromy-format
-    notes: Hosted format skills (format-pptx, format-pptx-hd, format-docx, format-pdf,
-        format-pdf-hd, format-xlsx, format-mermaid, format-diagram, format-chart,
-        format-remotion-video). Fetched at runtime via fs_read — see skills/<name>/SKILL.md
-        stubs.
-    transport: http
-    url: https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp
-    via: mcp-remote
+mcp_servers: []
 plugin_name: AI4comms Deliverables
 plugin_slug: ai4comms
 provider_targets: claude
