@@ -49,14 +49,36 @@ Assembly fallbacks below.
 
 ## Deliverable canvas (prerequisite for prose deliverables)
 
-The prose strategy deliverables this skill produces (strategy document, playbooks, governance docs) MUST be drafted in a single **chat markdown artifact** — the deliverable canvas. The canvas is the source of truth for the in-progress document; chat scroll-back is not. No server, no MCP — the markdown artifact IS the canvas. Tabular outputs (editorial calendar, content matrix → XLSX) are exempt.
+<!-- canvas-protocol:start v1 -->
+This skill produces a multi-section deliverable. Collaborate through a single
+chat artifact — the deliverable canvas. The canvas is the source of truth for
+the in-progress draft; chat scroll-back is not.
 
-1. **Open the canvas** once the strategy direction is confirmed (Phase 3): one markdown artifact with identifier `canvas-<canvas_id>-organic_social_campaign` (`canvas_id` = 8 random hex chars, minted once per chat), one `## <Section Title>` heading per planned section in order; undrafted sections hold a one-line `_to draft_` placeholder.
-2. **Iterate in the canvas.** After every change, re-emit the **full** canvas as a new version of the SAME artifact (same identifier) — never a delta, never a second artifact, never final prose that lives only in a chat reply. One chat = one canvas.
-3. **Sign-off gate.** Before invoking any format skill or `render_*` tool on a prose deliverable, every section must be substantive (no `TBD`/placeholders) and the user must explicitly confirm the canvas is final.
-4. **Hand off** the finalized canvas content to the format skill as the envelope `{deliverable_type: "organic_social_campaign", title, client_id: <client_slug>, sections: [{id, title, body}], meta: {canvas_id}}` — the formatter renders from the envelope, never from chat history.
-
-**Legacy note.** This skill does not use the `deliverable-canvas` MCP; if such a server is connected, ignore it and author the canvas inline as above.
+1. **Resolve the section plan from this skill's own workflow.** Use the
+   approved structure this skill already defines (or the prompt/resource it
+   names). The canvas protocol does not invent sections.
+2. **Choose the substrate.** Use `markdown` by default for strategic wording,
+   plans, and other content where layout does not change meaning. Use `html`
+   only when visual arrangement materially affects the user's decision. HTML is
+   a **one-way display** surface only: never call back into an MCP from the
+   artifact.
+3. **Open the canvas.** Mint an 8-character hex `canvas_id`, then emit exactly
+   one artifact with identifier `canvas-<canvas_id>-<deliverable_type>`. One
+   chat = one canvas.
+4. **Iterate in the canvas.** After every change, re-emit the **full** canvas
+   as a new version of the same artifact. Never emit deltas. Never mint a
+   second canvas mid-session.
+5. **Self-check before handoff.** Every planned section exists, is substantive,
+   and appears in the agreed order. No `TBD`, placeholders, or pending
+   structural questions remain.
+6. **Sign-off gate.** Ask the user to confirm the canvas is final before any
+   render handoff or client-data write.
+7. **Construct the envelope.** Hand off `{deliverable_type, title, client_id,
+   sections:[{id, title, body}], meta:{canvas_id, substrate,
+   methodology_version}}`, where `methodology_version` is `1`. The downstream
+   formatter or terminal write step consumes the envelope — never raw chat
+   history.
+<!-- canvas-protocol:end -->
 
 ## Overview
 
@@ -364,7 +386,7 @@ Compile the complete governance document:
 
 ### Final Output Assembly
 
-After Phase 6, compile all deliverables and present a summary to the user.
+After Phase 6, compile all deliverables and present a summary to the user. Then *mention* (never auto-activate) that the user can capture feedback with `asset-feedback`, and file your own `source: agent` retrospective there if the run hit an instruction gap or tool-call failure worth fixing.
 
 **Offer to save reusable config** to `{base}/social_media/`:
 - `config.json` — platform + UTM + compliance settings (if new or changed)
@@ -492,16 +514,16 @@ Load these as needed — do not read all at once.
 
 **Gate: prose deliverables require the deliverable canvas sign-off gate to have passed** (see "Deliverable canvas" above; tabular XLSX outputs are exempt).
 
-This skill owns organic social campaign architecture — editorial strategy, content systems, community management, and measurement. Document production is handled by the appropriate format skill:
+This skill owns organic social campaign architecture — editorial strategy, content systems, community management, and measurement. Prose deliverables on the render path should go through `format-prepare-document`; tabular outputs stay on their direct format skill.
 
-| Output | Skill | Recommended For |
-|--------|-------|-----------------|
-| DOCX | `docx` | Strategy documents, playbooks, governance docs |
-| PPTX | `pptx` | Strategy presentations, stakeholder decks |
-| PDF | `pdf` | Distribution-ready strategy documents |
-| XLSX | `xlsx` | Editorial calendars, content matrices, KPI dashboards |
+| Output | Routed renderer / skill | Recommended For |
+|--------|-------------------------|-----------------|
+| DOCX | `format-docx` | Strategy documents, playbooks, governance docs |
+| PPTX | `format-pptx-hd` | Strategy presentations, stakeholder decks |
+| PDF | `format-pdf-hd` | Distribution-ready strategy documents |
+| XLSX | `format-xlsx` | Editorial calendars, content matrices, KPI dashboards |
 
-**Default**: Produce markdown first. If the user wants formatted output, recommend XLSX for the editorial calendar and content matrix (tabular data), DOCX for the strategy and playbook documents.
+**Default**: Produce markdown first. If the user wants formatted output, route prose documents through `format-prepare-document`; keep XLSX direct for calendars and matrices.
 
 **Brand context to carry forward** when producing formatted output:
 - Brand charter location: `{base}/charter.json`
