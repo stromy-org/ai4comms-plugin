@@ -7,7 +7,7 @@ description: "Build organic B2B social media campaigns — editorial strategy, c
 
 ## Inputs from client-data
 
-- `companies/{client_slug}/charter.json` — brand identity (colors, fonts, logo, image catalog)
+- `companies/{client_slug}/charter.json` — brand identity (colors, fonts, logo, image catalog); read `expression` (optional) for compact brand direction (`principles`, `signatureElements`, `antiPatterns`) and `identity.positioning`
 - `companies/{client_slug}/profile.json` — company positioning, services, audiences
 - `companies/{client_slug}/people.json` (optional) — SMEs, authors, spokespersons
 - `companies/{client_slug}/messaging/pillars.json` (optional) — reusable messaging pillars
@@ -156,6 +156,14 @@ If `voice://*` is unreachable (headless), fall back to L2-only + the inline
 anti-slop checklist and `log` the degradation — never fail the copy step. This
 skill *mentions* the cascade as context; it never invokes another skill. Full
 loop, precedence, and checklist: [voice-integration.md](references/voice-integration.md).
+
+**Brand expression layer (additive to voice cascade).** Before any copy step, read `expression` from `{base}/charter.json`. If present, apply as prose guidance alongside the cascade:
+- `expression.principles` — inform the register of pillar copy, hook language, and CTAs (e.g., "measured authority" → factual hooks, evidence-first; "evidence before decoration" → data-led captions)
+- `expression.signatureElements` — reflect where natural in copy style and series naming
+- `expression.antiPatterns` — add to the ban-list alongside voice cascade bans
+- `identity.positioning` — anchor the editorial strategy framing and the core message of content pillars
+- If `expression` is absent, fall back to the voice profile only with a soft note; no hard failure (output-tier brands may legitimately omit expression)
+- **Voice-cascade rule:** `expression` is additive to L1 + L2 bans, never a relaxation. Expression principles may sharpen tone but must not reintroduce a banned construction. Where a Brand Context API narrative is attached (`candidate.context`), treat it as input evidence for expression principles, not a voice source that overrides the cascade.
 
 ## Workflow
 
@@ -462,7 +470,10 @@ config + media taxonomy: [platform-content-config.md](references/platform-conten
      `short`) vs non-media-gen (`infographic`/`document` → `chart`/`diagram`/
      `pdf`/`pptx`).
    - **Anchor-select loop** (media-gen) — build the `brand_context` dict
-     (mirror `build_brand_context_from_charter`; call `validate_brand_context`),
+     (mirror `build_brand_context_from_charter`; call `validate_brand_context`);
+     extend the dict with `expression` (resolved from `{base}/charter.json`,
+     if present) and `deliverable_genre: "organic-social"` so the renderer
+     applies the same compact direction as the authoring side. Then
      `generate_image` for 3–4 candidates → **human picks ONE anchor** → set
      `anchor_asset_ref` on siblings.
    - **Generate siblings & video** (media-gen) — with Track A, pass the anchor as
@@ -529,6 +540,7 @@ This skill owns organic social campaign architecture — editorial strategy, con
 - Brand charter location: `{base}/charter.json`
 - Apply heading color from `colors.primary`, body font from `fonts.body`
 - Logo from `{base}/logos/` (path in charter `logo` section)
+- Include resolved `expression` (if present) and `deliverable_genre: "organic-social"` in the envelope for downstream render direction
 
 ### Diagram Integration
 
