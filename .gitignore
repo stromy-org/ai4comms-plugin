@@ -8,3 +8,6 @@ _output/
 dist/
 build/
 .env
+
+# Office temp/lock files
+~$*
