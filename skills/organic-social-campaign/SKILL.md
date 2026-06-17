@@ -34,15 +34,15 @@ above. Resolve it **overlay-first** (per `skill-data-loading.md` §2):
    that overlay — zero entries → fail loud ("this plugin has no `companies/`
    overlay; client data unavailable"); one entry → use it; multiple → ask the
    user which client, never guess. Never accept `client_slug` as a parameter.
-2. **Cowork source fallback (development):** when running inside the Cowork
+2. **Workspace Studio source fallback (development):** when running inside the Workspace Studio
    checkout with no `companies/` overlay, `{base}` = `client-data/clients/<slug>/`.
 
-> **Operator environment only.** The `client-data/clients/<slug>/` fallback path is only reachable inside the Cowork checkout. Deployed plugins have no `client-data/` directory — if the `companies/` overlay is absent, **STOP**: do not fabricate brand data, do not default to a Stromy brand, and do not attempt to read `client-data/` paths.
+> **Operator environment only.** The `client-data/clients/<slug>/` fallback path is only reachable inside the Workspace Studio checkout. Deployed plugins have no `client-data/` directory — if the `companies/` overlay is absent, **STOP**: do not fabricate brand data, do not default to a Stromy brand, and do not attempt to read `client-data/` paths.
 
-This skill is authored in Cowork and synced into client plugin overlays (the
+This skill is authored in Workspace Studio and synced into client plugin overlays (the
 same distribution model as `proposal`, `messaging-framework`, `press-release`).
 The plugin overlay is therefore the **primary, steady-state contract** (it is
-what `validate-plugin-completeness.py` Invariant #3 enforces); the Cowork
+what `validate-plugin-completeness.py` Invariant #3 enforces); the Workspace Studio
 direct-read path is the development fallback. The `{base}` rule is correct in
 both contexts. Missing **required** input (charter/company_context) → surface the full
 resolved path and ask. Missing **optional** input → degrade per the Content
@@ -95,7 +95,7 @@ Resolve `{base}` overlay-first (see **Path resolution** above):
 
 1. If a `companies/` overlay exists → `{base}` = `companies/{client_slug}/`
    (one entry → use; multiple → ask which company; zero → **STOP** — "this plugin has no `companies/` overlay; client data unavailable. Do not fabricate brand or company data.").
-2. **Operator environment only.** Else (Cowork checkout only) → `{base}` = `client-data/clients/<slug>/`; if no client is in scope, ask, or gather company details manually during intake.
+2. **Operator environment only.** Else (Workspace Studio checkout only) → `{base}` = `client-data/clients/<slug>/`; if no client is in scope, ask, or gather company details manually during intake.
 
 Do not list the central `client-data/clients/` repo and ask as the *primary*
 discovery — the overlay-first rule above governs which client is in scope.
