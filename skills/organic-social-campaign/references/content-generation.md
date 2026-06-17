@@ -37,7 +37,7 @@ Get explicit acknowledgement before generating.
 
 Derive a verbatim prompt string (photography spec + palette) from
 charter/tokens. Persist as
-`{base}/social_media/organic/style-blocks/<ref>.txt` (the
+`{base}/social-media/organic/style-blocks/<ref>.txt` (the
 `default_style_block_ref` from config). Reused across editions and by
 `paid-social-campaign`.
 

@@ -1,8 +1,8 @@
 <!-- since: 2026-06-01 -->
 
-# `social_media/*` shared data schema (v1.0)
+# `social-media/*` shared data schema (v1.0)
 
-The persisted files under `{base}/social_media/` are the contract shared between
+The persisted files under `{base}/social-media/` are the contract shared between
 `organic-social-campaign` (writer) and `paid-social-campaign` (reader of
 `config.json`). Every file carries a top-level `"schema_version": "1.0"` so the
 two skills can detect drift. **When `schema_version` is absent on read, treat the
@@ -12,7 +12,7 @@ All additions to these schemas are **additive** — consumers ignore unknown key
 Never repurpose or remove a documented key without bumping `schema_version`.
 
 ```
-{base}/social_media/
+{base}/social-media/
 ├── config.json
 └── organic/
     ├── pillars.json
@@ -129,5 +129,5 @@ it. It is documented separately because it is large and Phase-8-specific.
 
 The skill's **"Offer to save reusable config"** step (Final Output Assembly) and
 the Phase 7/8 persistence steps MUST write `"schema_version": "1.0"` into every
-file they create or overwrite under `social_media/`. On read, missing
+file they create or overwrite under `social-media/`. On read, missing
 `schema_version` is treated as `"1.0"`.

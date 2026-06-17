@@ -8,8 +8,7 @@ description: "Build organic B2B social media campaigns — editorial strategy, c
 ## Inputs from client-data
 
 - `companies/{client_slug}/charter.json` — brand identity (colors, fonts, logo, image catalog); read `expression` (optional) for compact brand direction (`principles`, `signatureElements`, `antiPatterns`) and `identity.positioning`
-- `companies/{client_slug}/profile.json` — company positioning, services, audiences
-- `companies/{client_slug}/people.json` (optional) — SMEs, authors, spokespersons
+- `companies/{client_slug}/company_context.json` — redacted public company facts (name, positioning, values, services, publicContact) and public people (SMEs, spokespersons). PII such as banking, registration, VAT, billing, and personal contact details is intentionally absent from deployed overlays.
 - `companies/{client_slug}/messaging/pillars.json` (optional) — reusable messaging pillars
 - `companies/{client_slug}/messaging/proof-points.json` (optional) — evidence library
 - `companies/{client_slug}/messaging/audiences.json` (optional) — audience profiles / ICP seeds
@@ -17,11 +16,11 @@ description: "Build organic B2B social media campaigns — editorial strategy, c
 - `companies/{client_slug}/voice/voice-profile.md` (optional) — L2 voice profile
 - `companies/{client_slug}/voice/voice-anchors.md` (optional) — L2 reference passages
 - `companies/{client_slug}/voice/voice-extensions.json` (optional) — L2 additive bans
-- `companies/{client_slug}/social_media/config.json` (optional) — platforms, UTM, compliance, content_generation
-- `companies/{client_slug}/social_media/organic/pillars.json` (optional) — editorial pillars from a prior run
-- `companies/{client_slug}/social_media/organic/series.json` (optional) — repeatable content series
-- `companies/{client_slug}/social_media/organic/community-playbook.json` (optional) — response SLAs, tone, escalation
-- `companies/{client_slug}/social_media/organic/advocacy.json` (optional) — employee advocacy config
+- `companies/{client_slug}/social-media/config.json` (optional) — platforms, UTM, compliance, content_generation
+- `companies/{client_slug}/social-media/organic/pillars.json` (optional) — editorial pillars from a prior run
+- `companies/{client_slug}/social-media/organic/series.json` (optional) — repeatable content series
+- `companies/{client_slug}/social-media/organic/community-playbook.json` (optional) — response SLAs, tone, escalation
+- `companies/{client_slug}/social-media/organic/advocacy.json` (optional) — employee advocacy config
 - `companies/{client_slug}/tokens.css` (optional) — design tokens for branded output
 - `companies/{client_slug}/logos/` (optional) — logo variant files
 
@@ -38,12 +37,14 @@ above. Resolve it **overlay-first** (per `skill-data-loading.md` §2):
 2. **Cowork source fallback (development):** when running inside the Cowork
    checkout with no `companies/` overlay, `{base}` = `client-data/clients/<slug>/`.
 
+> **Operator environment only.** The `client-data/clients/<slug>/` fallback path is only reachable inside the Cowork checkout. Deployed plugins have no `client-data/` directory — if the `companies/` overlay is absent, **STOP**: do not fabricate brand data, do not default to a Stromy brand, and do not attempt to read `client-data/` paths.
+
 This skill is authored in Cowork and synced into client plugin overlays (the
 same distribution model as `proposal`, `messaging-framework`, `press-release`).
 The plugin overlay is therefore the **primary, steady-state contract** (it is
 what `validate-plugin-completeness.py` Invariant #3 enforces); the Cowork
 direct-read path is the development fallback. The `{base}` rule is correct in
-both contexts. Missing **required** input (charter/profile) → surface the full
+both contexts. Missing **required** input (charter/company_context) → surface the full
 resolved path and ask. Missing **optional** input → degrade per the Content
 Assembly fallbacks below.
 
@@ -93,9 +94,8 @@ The skill is interactive and phase-gated. Each phase produces deliverables and i
 Resolve `{base}` overlay-first (see **Path resolution** above):
 
 1. If a `companies/` overlay exists → `{base}` = `companies/{client_slug}/`
-   (one entry → use; multiple → ask which company; zero → fail loud).
-2. Else (Cowork checkout) → `{base}` = `client-data/clients/<slug>/`; if no
-   client is in scope, ask, or gather company details manually during intake.
+   (one entry → use; multiple → ask which company; zero → **STOP** — "this plugin has no `companies/` overlay; client data unavailable. Do not fabricate brand or company data.").
+2. **Operator environment only.** Else (Cowork checkout only) → `{base}` = `client-data/clients/<slug>/`; if no client is in scope, ask, or gather company details manually during intake.
 
 Do not list the central `client-data/clients/` repo and ask as the *primary*
 discovery — the overlay-first rule above governs which client is in scope.
@@ -103,16 +103,15 @@ discovery — the overlay-first rule above governs which client is in scope.
 ### Loading Company Data
 
 ```
-{base}/profile.json              → Company identity, services, value proposition
+{base}/company_context.json      → Company identity, positioning, values, services, publicContact, public people (SMEs/spokespersons)
 {base}/charter.json              → Colors, fonts, logo (for branded output guidance)
-{base}/people.json               → SMEs, authors, spokespersons (optional)
 {base}/messaging/                → Messaging content library (optional):
   ├── pillars.json         → Reusable messaging pillars (seed editorial pillars)
   ├── proof-points.json    → Evidence library (seed content proof)
   ├── audiences.json       → Audience profiles (seed ICP definition)
   └── narratives.json      → Core narratives, positioning
 {base}/voice/                    → L2 voice profile (optional; see voice-integration.md)
-{base}/social_media/             → Social media config and content (optional):
+{base}/social-media/             → Social media config and content (optional):
   ├── config.json          → Platforms, UTM taxonomy, hashtags, compliance, content_generation
   └── organic/
       ├── pillars.json     → Editorial pillars (if previous run exists)
@@ -123,21 +122,21 @@ discovery — the overlay-first rule above governs which client is in scope.
       └── style-blocks/    → Locked visual prompt blocks (Phase 8, if generated)
 ```
 
-When `{base}/social_media/organic/` already exists, the skill operates in **resume mode** — read the existing content and offer the user a choice: continue from where they left off, rework a specific phase, or start fresh. Resume can re-enter mid-Phase-8 by edition (see Phase 8).
+When `{base}/social-media/organic/` already exists, the skill operates in **resume mode** — read the existing content and offer the user a choice: continue from where they left off, rework a specific phase, or start fresh. Resume can re-enter mid-Phase-8 by edition (see Phase 8).
 
 ### Content Assembly
 
 | Component | Source | Fallback |
 |-----------|--------|----------|
-| Company identity | `{base}/profile.json` → `company` | Ask user |
-| Services/sectors | `{base}/profile.json` → `services[]` | Ask user |
+| Company identity | `{base}/company_context.json` → `company` | Ask user |
+| Services/sectors | `{base}/company_context.json` → `company.services[]` | Ask user |
 | Target audiences | `{base}/messaging/audiences.json` | Ask user to define ICP |
 | Messaging pillars | `{base}/messaging/pillars.json` | Build editorial pillars from scratch |
 | Proof points | `{base}/messaging/proof-points.json` | Ask user for evidence |
-| Platform config | `{base}/social_media/config.json` | Ask user which platforms |
-| Existing editorial pillars | `{base}/social_media/organic/pillars.json` | Build new |
-| UTM taxonomy | `{base}/social_media/config.json` → `utm` | Propose defaults |
-| Compliance posture | `{base}/social_media/config.json` → `compliance` | Default to conservative EU posture |
+| Platform config | `{base}/social-media/config.json` | Ask user which platforms |
+| Existing editorial pillars | `{base}/social-media/organic/pillars.json` | Build new |
+| UTM taxonomy | `{base}/social-media/config.json` → `utm` | Propose defaults |
+| Compliance posture | `{base}/social-media/config.json` → `compliance` | Default to conservative EU posture |
 
 ## Voice (prerequisite for every copy step)
 
@@ -175,7 +174,7 @@ Every phase is interactive: present options, ask questions, propose directions, 
 
 **Step 1: Understand the request and detect entry point**
 
-If `social_media/organic/` exists, summarize what's there and ask:
+If `social-media/organic/` exists, summarize what's there and ask:
 - **Continue** — Pick up from where the last run left off
 - **Rework phase N** — Jump to a specific phase with existing context
 - **Start fresh** — Ignore existing and rebuild
@@ -396,7 +395,7 @@ Compile the complete governance document:
 
 After Phase 6, compile all deliverables and present a summary to the user. Then *mention* (never auto-activate) that the user can capture feedback with `asset-feedback`, and file your own `source: agent` retrospective there if the run hit an instruction gap or tool-call failure worth fixing.
 
-**Offer to save reusable config** to `{base}/social_media/`:
+**Offer to save reusable config** to `{base}/social-media/`:
 - `config.json` — platform + UTM + compliance settings (if new or changed)
 - `organic/pillars.json` — editorial pillar definitions
 - `organic/series.json` — content series definitions
@@ -429,7 +428,7 @@ into N native per-post objects. Three artifacts (full schemas in
    of week / pillar_id / series_id / concept / format / cta / platforms / owner /
    utm).
 2. **Run the builder** —
-   `uv run python scripts/build_posts.py calendar.json {base}/social_media/config.json -o posts.json`.
+   `uv run python scripts/build_posts.py calendar.json {base}/social-media/config.json -o posts.json`.
    This fills the **structural** fields deterministically (stable `post_id`,
    platform, surface, `media_spec`, utm, schedule) and leaves the **creative**
    fields (`hook`, `body`, `thread_parts`, `hashtags`, `cta`) empty. Builder =
@@ -440,7 +439,7 @@ into N native per-post objects. Three artifacts (full schemas in
 4. **Validate** — `uv run python scripts/validate_posts.py posts.json`. Rejects
    bad aspect ratios, `producer`↔`type` mismatches, and leftover empty
    placeholders, naming the offending `post_id`. Fix and re-run until it exits 0.
-5. **Persist** — write to `{base}/social_media/organic/posts.json` with
+5. **Persist** — write to `{base}/social-media/organic/posts.json` with
    `"schema_version": "1.0"`.
 
 The per-post object is a **superset** of the Phase 5 calendar columns — it
@@ -462,7 +461,7 @@ config + media taxonomy: [platform-content-config.md](references/platform-conten
    not identical subjects — get explicit acknowledgement.
 2. **Lock the style block once** (campaign-level): derive a verbatim prompt
    string from charter/tokens; persist to
-   `{base}/social_media/organic/style-blocks/<ref>.txt`. Reused across editions.
+   `{base}/social-media/organic/style-blocks/<ref>.txt`. Reused across editions.
 3. **Per edition (default one week), in order:**
    - **Select + partition** — posts where `media_spec.type != none`, capped at
      `max_assets_per_edition` (`log` any deferred — no silent truncation).
@@ -515,7 +514,7 @@ Load these as needed — do not read all at once.
 | [measurement-benchmarks.md](references/measurement-benchmarks.md) | Phase 6 — when setting KPI targets. Directional benchmarks by platform (use cautiously). |
 | [community-management.md](references/community-management.md) | Phase 5 — when building community playbook. Response frameworks, crisis protocol, moderation. |
 | [editorial-calendar-template.md](references/editorial-calendar-template.md) | Phase 5 — when generating the calendar. Structure and examples. |
-| [social-data-schema.md](references/social-data-schema.md) | When persisting to `social_media/` (Final Output, Phase 7/8). `config.json` + `organic/*` shapes, `schema_version`, the paid-social shared contract. |
+| [social-data-schema.md](references/social-data-schema.md) | When persisting to `social-media/` (Final Output, Phase 7/8). `config.json` + `organic/*` shapes, `schema_version`, the paid-social shared contract. |
 | [voice-integration.md](references/voice-integration.md) | Any copy-producing step (Phase 5/7/8). The draft→review→rewrite loop, L1/L2 precedence, anti-slop checklist, headless fallback. |
 | [post-object-schema.md](references/post-object-schema.md) | Phase 7 — when freezing the calendar. `calendar.json` input + per-post object schema, the builder/validator seam, aspect Literal sets. |
 | [platform-content-config.md](references/platform-content-config.md) | Phase 8 — the `content_generation` config block + surface→producer→primitive media taxonomy (what media-gen renders vs what routes to chart/diagram/pdf/pptx). |
@@ -575,4 +574,4 @@ workspace/<client>/output/organic-social-campaign/
 | User wants "just a calendar" | Explain that a calendar without a strategy behind it tends to produce inconsistent content — offer a lightweight strategy (Phase 3 only) as minimum viable structure |
 | Too many platforms (4+) | Recommend focusing on 1-2 primary platforms first, then expanding after the system is proven |
 | No capacity for community management | Reduce cadence recommendations and skip employee advocacy; flag that engagement drives organic distribution |
-| Existing social_media/organic/ data conflicts with new brief | Surface the conflict, ask which takes priority, document the decision |
+| Existing social-media/organic/ data conflicts with new brief | Surface the conflict, ask which takes priority, document the decision |
