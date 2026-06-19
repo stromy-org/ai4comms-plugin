@@ -7,7 +7,7 @@ description: "Build organic B2B social media campaigns — editorial strategy, c
 
 ## Inputs from client-data
 
-- `companies/{client_slug}/charter.json` — brand identity (colors, fonts, logo, image catalog); read `expression` (optional) for compact brand direction (`principles`, `signatureElements`, `antiPatterns`) and `identity.positioning`
+- `companies/{client_slug}/brand_context.json` — resolved brand (expression, colors, fonts, logo); read `expression` (`principles`, `signatureElements`, `antiPatterns`) for compact brand direction and `identity.positioning`. **Reference, never bind** — prose guidance, not hard rules. (Image catalog lives in `images/manifest.json`.)
 - `companies/{client_slug}/company_context.json` — redacted public company facts (name, positioning, values, services, publicContact) and public people (SMEs, spokespersons). PII such as banking, registration, VAT, billing, and personal contact details is intentionally absent from deployed overlays.
 - `companies/{client_slug}/messaging/pillars.json` (optional) — reusable messaging pillars
 - `companies/{client_slug}/messaging/proof-points.json` (optional) — evidence library
@@ -44,7 +44,7 @@ same distribution model as `proposal`, `messaging-framework`, `press-release`).
 The plugin overlay is therefore the **primary, steady-state contract** (it is
 what `validate-plugin-completeness.py` Invariant #3 enforces); the Workspace Studio
 direct-read path is the development fallback. The `{base}` rule is correct in
-both contexts. Missing **required** input (charter/company_context) → surface the full
+both contexts. Missing **required** input (brand_context/company_context) → surface the full
 resolved path and ask. Missing **optional** input → degrade per the Content
 Assembly fallbacks below.
 
@@ -104,7 +104,7 @@ discovery — the overlay-first rule above governs which client is in scope.
 
 ```
 {base}/company_context.json      → Company identity, positioning, values, services, publicContact, public people (SMEs/spokespersons)
-{base}/charter.json              → Colors, fonts, logo (for branded output guidance)
+{base}/brand_context.json        → Resolved brand: expression, colors, fonts, logo (for branded output guidance)
 {base}/messaging/                → Messaging content library (optional):
   ├── pillars.json         → Reusable messaging pillars (seed editorial pillars)
   ├── proof-points.json    → Evidence library (seed content proof)
@@ -156,7 +156,7 @@ anti-slop checklist and `log` the degradation — never fail the copy step. This
 skill *mentions* the cascade as context; it never invokes another skill. Full
 loop, precedence, and checklist: [voice-integration.md](references/voice-integration.md).
 
-**Brand expression layer (additive to voice cascade).** Before any copy step, read `expression` from `{base}/charter.json`. If present, apply as prose guidance alongside the cascade:
+**Brand expression layer (additive to voice cascade) — reference, never bind.** Before any copy step, read `expression` from `{base}/brand_context.json`. If present, apply as prose guidance alongside the cascade:
 - `expression.principles` — inform the register of pillar copy, hook language, and CTAs (e.g., "measured authority" → factual hooks, evidence-first; "evidence before decoration" → data-led captions)
 - `expression.signatureElements` — reflect where natural in copy style and series naming
 - `expression.antiPatterns` — add to the ban-list alongside voice cascade bans
@@ -460,7 +460,7 @@ config + media taxonomy: [platform-content-config.md](references/platform-conten
    if unavailable, assets are *family-resemblance* (consistent style/palette),
    not identical subjects — get explicit acknowledgement.
 2. **Lock the style block once** (campaign-level): derive a verbatim prompt
-   string from charter/tokens; persist to
+   string from `brand_context.json`/tokens; persist to
    `{base}/social-media/organic/style-blocks/<ref>.txt`. Reused across editions.
 3. **Per edition (default one week), in order:**
    - **Select + partition** — posts where `media_spec.type != none`, capped at
@@ -469,8 +469,8 @@ config + media taxonomy: [platform-content-config.md](references/platform-conten
      `short`) vs non-media-gen (`infographic`/`document` → `chart`/`diagram`/
      `pdf`/`pptx`).
    - **Anchor-select loop** (media-gen) — build the `brand_context` dict
-     (mirror `build_brand_context_from_charter`; call `validate_brand_context`);
-     extend the dict with `expression` (resolved from `{base}/charter.json`,
+     (reshape `{base}/brand_context.json` via media-gen's `compiled_to_brand_payload`; call `validate_brand_context`);
+     extend the dict with `expression` (resolved from `{base}/brand_context.json`,
      if present) and `deliverable_genre: "organic-social"` so the renderer
      applies the same compact direction as the authoring side. Then
      `generate_image` for 3–4 candidates → **human picks ONE anchor** → set
@@ -536,9 +536,9 @@ This skill owns organic social campaign architecture — editorial strategy, con
 **Default**: Produce markdown first. If the user wants formatted output, route prose documents through `format-prepare-document`; keep XLSX direct for calendars and matrices.
 
 **Brand context to carry forward** when producing formatted output:
-- Brand charter location: `{base}/charter.json`
-- Apply heading color from `colors.primary`, body font from `fonts.body`
-- Logo from `{base}/logos/` (path in charter `logo` section)
+- Brand location: `{base}/brand_context.json`
+- Apply heading color from `colors.primary`, body font from `typography.body`
+- Logo from `{base}/logos/` (path in `brand_context.logo`)
 - Include resolved `expression` (if present) and `deliverable_genre: "organic-social"` in the envelope for downstream render direction
 
 ### Diagram Integration
