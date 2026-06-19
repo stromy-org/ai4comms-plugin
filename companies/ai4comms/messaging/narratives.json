@@ -1,0 +1,71 @@
+{
+  "positioning": {
+    "statement": "Voor communicatieprofessionals en -afdelingen die AI verantwoord willen inzetten, is AI4Comms het eerste Nederlandse bureau dat zich specifiek richt op AI-oplossingen voor de communicatiefunctie — omdat we de brug slaan tussen corporate communicatie-expertise en state-of-the-art AI-toepassingen, met mensen aan het stuur.",
+    "category": "AI-advies voor communicatieprofessionals",
+    "differentiator": "het eerste bureau in Nederland specifiek gericht op AI-oplossingen voor communicatieprofessionals, met de overtuiging dat AI een partner is, geen vervanger",
+    "lastUpdated": "2026-06"
+  },
+  "coreMessage": {
+    "full": "AI maakt communicatieteams sterker — als je het goed inricht. AI4Comms helpt communicatieprofessionals AI praktisch en verantwoord inzetten, met strategie, training en governance die past bij hun werk.",
+    "lastUpdated": "2026-06"
+  },
+  "elevatorPitch": {
+    "text": "AI4Comms is het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals. Wij helpen communicatieleiders en -teams AI omzetten van abstracte hype naar praktisch voordeel — via strategie, training, governance en implementatiebegeleiding. Ons uitgangspunt: AI als partner, niet als vervanger.",
+    "lastUpdated": "2026-06"
+  },
+  "tagline": {
+    "primary": "Kies voor AI als partner, niet als vervanger.",
+    "alternatives": [
+      "Lead AI with clarity.",
+      "AI praktisch inzetbaar voor communicatieprofessionals."
+    ],
+    "lastUpdated": "2026-06"
+  },
+  "messageLengths": {
+    "headline": "Het eerste Nederlandse bureau voor AI in de communicatiefunctie",
+    "short": "AI4Comms helpt communicatieleiders AI omzetten van hype naar praktisch voordeel. Wij zijn het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals — met strategie, training, governance en implementatiebegeleiding. Ons uitgangspunt: AI als partner, niet als vervanger.",
+    "full": "AI4Comms slaat de brug tussen corporate communicatie-expertise en state-of-the-art AI-toepassingen. Wij zijn het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals en -afdelingen. Opgericht in 2026 door ervaren communicatieprofessionals met een achtergrond bij Hill & Knowlton, helpen wij communicatieleiders en -teams AI verantwoord en praktisch inzetten — van strategie en training tot governance en executive advies. Wij maken AI praktisch toepasbaar voor communicatieprofessionals: niet als hype, niet als vervanging van mensen, maar als strategische versneller van de communicatiefunctie. AI4Comms is een onderdeel van Duke Strategy & Corporate Affairs B.V., gevestigd in 's-Hertogenbosch."
+  },
+  "voice": {
+    "attributes": ["senior", "praktisch", "anti-hype", "menselijk", "direct"],
+    "use": ["praktisch inzetbaar", "verantwoord", "AI als partner", "communicatiefunctie", "mensen aan het stuur", "concrete toepassing"],
+    "avoid": ["revolutionair", "game-changing", "disruptief", "supercharge", "AI neemt het over", "exponentieel"],
+    "tone": "Senior en rustig — schrijft als een ervaren communicatieadviseur die AI begrijpt maar weigert mee te gaan in de hype. Praktisch eerste, altijd concreet, altijd respectvol voor de professional aan de andere kant van de tafel."
+  },
+  "strategicNarrative": {
+    "oldWorld": "AI in communicatie was lang een experiment voor early adopters en technici. Communicatieprofessionals keken van een afstand toe — of gebruikten tools ongepland, zonder beleid, zonder governance.",
+    "shift": "Nu verwachten organisaties dat communicatieteams een helder AI-standpunt hebben. Medewerkers gebruiken al tools — met of zonder beleid. Stakeholders, toezichthouders en journalisten stellen vragen over AI-gebruik in communicatie. Wie geen governance heeft, loopt reputatierisico.",
+    "newWorld": "Communicatieteams die AI goed inrichten, werken slimmer en betrouwbaarder — met AI als partner voor de taken die ervoor geschikt zijn, en professionals aan het stuur van de oordelen die dat vereisen. Het is geen kwestie van of, maar van hoe.",
+    "yourRole": "AI4Comms is opgericht om dat gat te dichten. Wij zijn geen generalist die communicatie als een use case behandelt — wij zijn gebouwd rondom de communicatiefunctie. Strategie, training, governance en executive advies: altijd vanuit de praktijk van corporate communicatie.",
+    "stakes": "Organisaties die AI in communicatie ongepland adopteren, riskeren kwaliteitsproblemen, reputatieschade en juridische exposure. Organisaties die te lang wachten, riskeren achterstand en onzekerheid in het team. Het goede nieuws: wie het goed aanpakt, versterkt de communicatiefunctie structureel."
+  },
+  "competitiveContext": {
+    "primaryAlternatives": [
+      "Generieke AI-consultants — verstaan de communicatiefunctie niet van binnenuit",
+      "Communicatiebureaus met een AI-module — niet gebouwd rond AI-adoptie als kern",
+      "Interne IT- of digitale transformatie-afdelingen — missen communicatie-specifieke governance-expertise"
+    ],
+    "positioningGaps": [
+      "Eerste bureau in Nederland specifiek gericht op AI voor de communicatiefunctie",
+      "Partner-not-replacement filosofie consequent doorgevoerd in alle diensten",
+      "Governance als kerncompetentie, niet als bijproduct"
+    ],
+    "competitiveAdvantages": [
+      "Communicatie-expertise en AI-kennis gecombineerd in één bureau",
+      "Praktische output: strategie, training en governance die teams direct kunnen gebruiken",
+      "Opgericht door communicatieprofessionals — geen technologen die communicatie uitleggen"
+    ],
+    "lastUpdated": "2026-06"
+  },
+  "frameworkType": "messaging-hierarchy",
+  "scope": "brand",
+  "version": "1.0",
+  "status": "approved",
+  "lastFullReview": "2026-06",
+  "reviewTriggers": [
+    "New senior hire or advisor",
+    "Expansion to new geography or service line",
+    "Annual brand review (Q1)",
+    "Significant regulatory development in AI governance for communications"
+  ]
+}

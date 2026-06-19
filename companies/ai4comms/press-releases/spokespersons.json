@@ -1,0 +1,43 @@
+{
+  "spokespersons": [
+    {
+      "id": "spk-001",
+      "personId": "person-001",
+      "name": "Ingo Heijnen",
+      "title": "Co-founder",
+      "role": "primary",
+      "topics": ["company strategy", "AI strategy for communications", "executive AI advisory", "AI governance", "company milestones", "corporate communications leadership"],
+      "quoteStyle": "Measured and senior; speaks from decades of in-the-room experience and frames AI as a strategic accelerator, never as hype.",
+      "email": "ingo@dukestrategies.eu",
+      "phone": null,
+      "headshot": null,
+      "bio": "Ingo Heijnen is co-founder of AI4Comms. He spent more than 25 years in corporate communications and corporate affairs, most of it at Hill & Knowlton, advising executives and building senior communications teams. He now focuses on making AI practically useful for the communications function."
+    },
+    {
+      "id": "spk-002",
+      "personId": "person-002",
+      "name": "Emma van Gelder",
+      "title": "Co-founder",
+      "role": "subject-matter",
+      "topics": ["AI training and team enablement", "AI adoption as a leadership challenge", "governance for communications teams", "responsible AI for communications"],
+      "quoteStyle": "Mission-driven and collaborative; frames AI adoption in communications as a leadership question, not a tooling one.",
+      "email": "emma@dukestrategies.eu",
+      "phone": null,
+      "headshot": null,
+      "bio": "Emma van Gelder is a co-founder of AI4Comms. She worked in corporate communications at Hill & Knowlton before co-founding AI4Comms, where she focuses on helping organisations treat AI adoption in communications as a leadership challenge rather than a tooling question."
+    },
+    {
+      "id": "spk-003",
+      "personId": "person-003",
+      "name": "Ariën Stuijt",
+      "title": "Advisor",
+      "role": "subject-matter",
+      "topics": ["authority and authenticity in the age of generative AI", "AI governance for editorial standards", "responsible AI for crisis communications", "journalism and AI"],
+      "quoteStyle": "Reflective and principled; moves between corporate-affairs analysis and public commentary on journalism and the rule of law; writes in Dutch and English.",
+      "email": "arien@dukestrategies.eu",
+      "phone": null,
+      "headshot": null,
+      "bio": "Ariën Stuijt is a former journalist (Dow Jones Newswires, The Wall Street Journal) who spent 17 years in strategic consulting at Hill & Knowlton, specialising in transformative situations such as crises, shareholder activism, M&A, and stakeholder communication. He advises on keeping authority and authenticity in the age of generative AI."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "lists": [
+    {
+      "id": "dl-nl-comms-trade",
+      "name": "Dutch Communications & Marketing Trade Press",
+      "beat": "communications",
+      "region": "Netherlands",
+      "tier": "trade",
+      "description": "Trade publications covering the Dutch communications, marketing, and PR industry — the primary beat for AI4Comms news",
+      "outlets": ["Adformatie", "MarketingTribune", "Emerce", "Logeion Magazine", "Villamedia", "Marketingfacts"]
+    },
+    {
+      "id": "dl-nl-business",
+      "name": "Dutch Business & Financial Press",
+      "beat": "business",
+      "region": "Netherlands",
+      "tier": "national",
+      "description": "Business and financial journalists at major Dutch national publications covering professional services, technology, and corporate news",
+      "outlets": ["Het Financieele Dagblad", "NRC Handelsblad", "De Volkskrant (business desk)", "BNR Nieuwsradio", "RTL Z"]
+    },
+    {
+      "id": "dl-nl-tech-ai",
+      "name": "Dutch Technology & AI Press",
+      "beat": "technology",
+      "region": "Netherlands",
+      "tier": "trade",
+      "description": "Technology and AI-focused Dutch publications and journalists covering enterprise AI adoption, digital transformation, and professional services",
+      "outlets": ["Emerce", "Computable", "Frankwatching", "AG Connect", "Financieele Dagblad (tech desk)"]
+    }
+  ]
+}

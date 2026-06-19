@@ -1,0 +1,24 @@
+{
+  "boilerplates": [
+    {
+      "id": "bp-standard",
+      "variant": "standard",
+      "text": "AI4Comms helpt communicatieleiders en -teams AI omzetten van abstracte hype naar praktisch voordeel — via strategie, training, governance en implementatiebegeleiding. AI4Comms is het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals, met de overtuiging dat AI een partner is en geen vervanger. AI4Comms is een merk van Duke Strategy & Corporate Affairs B.V., gevestigd in 's-Hertogenbosch. Voor meer informatie, bezoek ai4-comms.com."
+    },
+    {
+      "id": "bp-standard-en",
+      "variant": "standard-en",
+      "text": "AI4Comms helps communications leaders and teams turn AI from abstract hype into practical advantage through strategy, training, governance, and hands-on implementation support. AI4Comms is the first agency in the Netherlands specifically focused on AI solutions for communications professionals, with the conviction that AI is a partner, not a replacement. AI4Comms is a brand of Duke Strategy & Corporate Affairs B.V., headquartered in 's-Hertogenbosch, Netherlands. For more information, visit ai4-comms.com."
+    },
+    {
+      "id": "bp-short",
+      "variant": "short",
+      "text": "AI4Comms maakt AI praktisch toepasbaar voor communicatieprofessionals — als partner, niet als vervanger. AI4Comms is een merk van Duke Strategy & Corporate Affairs B.V. Meer informatie op ai4-comms.com."
+    },
+    {
+      "id": "bp-short-en",
+      "variant": "short-en",
+      "text": "AI4Comms makes AI practically applicable for communications professionals — as a partner, not a replacement. AI4Comms is a brand of Duke Strategy & Corporate Affairs B.V. More information at ai4-comms.com."
+    }
+  ]
+}

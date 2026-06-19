@@ -1,0 +1,42 @@
+[
+  {
+    "id": "diff-001",
+    "theme": "First Dutch Agency Focused on AI for Communications",
+    "headline": "Het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals",
+    "evidence": [],
+    "applicableServices": ["svc-001", "svc-002", "svc-003", "svc-004"],
+    "tags": ["positioning", "market-first", "netherlands", "communications-specific"],
+    "ghostStatement": "AI4Comms is the first agency in the Netherlands specifically focused on AI solutions for communications professionals. This is not a generic AI consultancy that added a communications module, nor a communications agency that bolted on an AI product. AI4Comms was built from the start around the specific workflows, governance needs, and stakeholder pressures of the communications function.",
+    "lastReviewed": "2026-06"
+  },
+  {
+    "id": "diff-002",
+    "theme": "AI as Partner, Not Replacement",
+    "headline": "AI versterkt het communicatieteam — mensen blijven aan het stuur",
+    "evidence": [],
+    "applicableServices": ["svc-001", "svc-002", "svc-003", "svc-004"],
+    "tags": ["positioning", "philosophy", "augmentation", "human-in-the-loop"],
+    "ghostStatement": "Where others sell AI as disruption or efficiency that replaces headcount, AI4Comms is built on a different conviction: AI is a partner that accelerates the communications function, with humans in charge of strategy, judgment, and relationships. Every service is designed around that principle — from how we train teams to how we design governance frameworks.",
+    "lastReviewed": "2026-06"
+  },
+  {
+    "id": "diff-003",
+    "theme": "Corporate Communications Expertise Meets AI",
+    "headline": "AI4Comms slaat de brug tussen corporate communicatie-expertise en state-of-the-art AI-toepassingen",
+    "evidence": [],
+    "applicableServices": ["svc-001", "svc-002", "svc-003", "svc-004"],
+    "tags": ["expertise", "integrated", "communications-depth", "ai-capability"],
+    "ghostStatement": "AI4Comms was founded by communications professionals who understand the actual work of corporate communications, public affairs, and media relations — not technologists explaining AI to communicators. That difference matters: advice is grounded in how communications teams actually operate, what governance risks are real, and which AI applications create genuine value versus noise.",
+    "lastReviewed": "2026-06"
+  },
+  {
+    "id": "diff-004",
+    "theme": "Governance and Responsible AI from the Start",
+    "headline": "AI-governance voor de communicatiefunctie — reputatierisico en compliance ingebouwd, niet achteraf toegevoegd",
+    "evidence": [],
+    "applicableServices": ["svc-003", "svc-001", "svc-004"],
+    "tags": ["governance", "responsible-ai", "risk", "compliance"],
+    "ghostStatement": "Most AI adoption in communications happens first and governs later — creating reputational, legal, and workflow risk that is expensive to fix. AI4Comms builds governance into every engagement from the start: risk registers, usage policies, and approval workflows that are calibrated to the communications function's specific exposure, not borrowed from generic IT frameworks.",
+    "lastReviewed": "2026-06"
+  }
+]

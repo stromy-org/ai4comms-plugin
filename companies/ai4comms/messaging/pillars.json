@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pillar-001",
+    "headline": "AI als partner, niet als vervanger",
+    "shortStatement": "AI versterkt de communicatiefunctie — professionals blijven aan het stuur van strategie, oordeel en relaties.",
+    "statement": "Wij geloven niet in AI die communicatieprofessionals vervangt. Wij geloven in AI die hen sterker maakt. Elke dienst van AI4Comms is gebouwd op die overtuiging: AI neemt de taken op zich die daarvoor geschikt zijn, professionals bewaken de kwaliteit, beoordelen de toon en dragen de verantwoordelijkheid. Dat is geen concessie — het is de juiste manier om AI in te zetten voor communicatie.",
+    "messageLengths": {
+      "headline": "AI versterkt het communicatieteam — mensen blijven aan het stuur",
+      "short": "AI4Comms bouwt al zijn diensten op één overtuiging: AI is een partner die de communicatiefunctie versnelt, niet een vervanger van de professionals in het team.",
+      "full": "Wij geloven niet in AI die communicatieprofessionals vervangt. Wij geloven in AI die hen sterker maakt. Elke dienst van AI4Comms is gebouwd op die overtuiging: AI neemt de taken op zich die daarvoor geschikt zijn — content drafts, monitoring, analyse — professionals bewaken de kwaliteit, beoordelen de toon en dragen de verantwoordelijkheid. Dat is geen concessie aan voorzichtigheid. Het is de juiste manier om AI duurzaam en verantwoord in te zetten voor de communicatiefunctie."
+    },
+    "proofPointIds": [],
+    "scope": "brand",
+    "tags": ["partner-not-replacement", "augmentation", "philosophy", "core-differentiator"],
+    "created": "2026-06",
+    "lastReviewed": "2026-06"
+  },
+  {
+    "id": "pillar-002",
+    "headline": "Communicatie-expertise ontmoet AI",
+    "shortStatement": "AI4Comms is het eerste bureau in Nederland gebouwd op de combinatie van communicatievakmanschap en AI-kennis.",
+    "statement": "AI4Comms is opgericht door communicatieprofessionals, niet door technologen. Het verschil is zichtbaar in elk advies: wij begrijpen hoe een communicatieteam werkt, waar de reputatierisico's zitten in AI-gebruik, en welke toepassingen echte waarde creëren versus ruis. Wij slaan de brug tussen corporate communicatie-expertise en state-of-the-art AI-toepassingen.",
+    "messageLengths": {
+      "headline": "Het eerste bureau in Nederland voor AI in de communicatiefunctie",
+      "short": "AI4Comms is het eerste bureau in Nederland specifiek gericht op AI voor communicatieprofessionals — gebouwd op communicatievakmanschap, niet op technologie-advies.",
+      "full": "AI4Comms is opgericht door communicatieprofessionals met jarenlange ervaring bij toonaangevende bureaus. Het verschil met een generiek AI-adviesbureau is zichtbaar in elk gesprek: wij weten hoe een communicatieteam werkt, welke governance-vragen realistisch zijn voor de functie, en welke AI-toepassingen daadwerkelijk bijdragen aan het communicatiewerk. Wij zijn het eerste bureau in Nederland specifiek gericht op AI-oplossingen voor de communicatiefunctie."
+    },
+    "proofPointIds": ["proof-001", "proof-002"],
+    "scope": "brand",
+    "tags": ["positioning", "market-first", "communications-expertise", "credibility"],
+    "created": "2026-06",
+    "lastReviewed": "2026-06"
+  },
+  {
+    "id": "pillar-003",
+    "headline": "Governance en verantwoord AI als kerncompetentie",
+    "shortStatement": "Reputatierisico en compliance ingebouwd — governance is geen bijproduct, maar onderdeel van elke dienst.",
+    "statement": "AI-adoptie zonder governance creëert risico's die communicatiefuncties zich niet kunnen veroorloven: kwaliteitsproblemen, reputatieschade, juridische exposure. AI4Comms behandelt governance niet als een toevoeging achteraf, maar als een kerndeel van verantwoorde AI-adoptie. Elk adviestraject bevat een risicoanalyse, beleid en werkwijzen die zijn afgestemd op de communicatiefunctie — niet geleend van IT of compliance.",
+    "messageLengths": {
+      "headline": "Governance voor de communicatiefunctie — ingebouwd, niet achteraf",
+      "short": "Verantwoorde AI-adoptie in communicatie vereist governance die past bij de communicatiefunctie. AI4Comms bouwt dat in elk traject — risico's, beleid en werkwijzen afgestemd op de praktijk van communicatieprofessionals.",
+      "full": "AI-adoptie zonder governance creëert risico's die communicatiefuncties zich niet kunnen veroorloven: AI-gegenereerde content die de toon mist, reputatierisico's die niet zijn gemitigeerd, beleid dat ontbreekt wanneer een journalist of toezichthouder ernaar vraagt. AI4Comms behandelt governance niet als toevoeging achteraf, maar als kerndeel van verantwoorde AI-adoptie. Elk traject bevat een risicoanalyse, een gebruiksbeleid en goedkeuringsprocessen die zijn ontworpen voor de communicatiefunctie — niet als generieke IT-governance."
+    },
+    "proofPointIds": [],
+    "scope": "brand",
+    "tags": ["governance", "responsible-ai", "risk", "compliance", "core-differentiator"],
+    "created": "2026-06",
+    "lastReviewed": "2026-06"
+  }
+]

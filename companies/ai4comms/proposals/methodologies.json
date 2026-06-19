@@ -1,0 +1,59 @@
+[
+  {
+    "id": "meth-001",
+    "name": "ASSESS-ENABLE-GOVERN-OPTIMISE Framework",
+    "tags": ["ai-strategy", "team-enablement", "governance", "responsible-ai", "executive-advisory"],
+    "summary": "AI4Comms' core four-phase methodology for communications teams adopting AI responsibly and sustainably. Each phase builds on the previous, moving from an honest diagnostic through practical skill-building, governance design, and continuous improvement — keeping communications professionals in charge throughout.",
+    "phases": [
+      {
+        "name": "ASSESS",
+        "description": "An honest diagnostic of where AI creates real value for this specific communications function. Map current workflows, identify high-potential use cases, surface risks, and establish a clear baseline. The output is an AI Opportunity Assessment and Use-Case Prioritization that grounds all subsequent work in the team's actual reality — not in hype or generic AI narratives."
+      },
+      {
+        "name": "ENABLE",
+        "description": "Practical skill-building and workflow integration for the communications team. Design and deliver training that builds confidence without jargon, develop Prompt Playbooks tailored to the team's specific tasks, and establish Adoption Guidelines that make AI tools genuinely usable in daily work. Humans stay in charge; AI handles the right parts."
+      },
+      {
+        "name": "GOVERN",
+        "description": "Policy, operating-model, and approval-workflow design to ensure AI is used in communications without creating reputational, legal, or workflow risk. Develop an AI Governance Framework, Risk Register, and Usage Policy calibrated to the organization's sector, stakeholder expectations, and regulatory environment. Governance is built for the communications function — not borrowed from IT."
+      },
+      {
+        "name": "OPTIMISE",
+        "description": "Ongoing advisory support and structured review to ensure AI adoption in communications matures over time. Track how AI tools are performing against defined objectives, surface new use cases as technology evolves, and advise leadership on emerging AI developments relevant to the communications function. The communications team's AI capability grows; the dependency on external support decreases."
+      }
+    ],
+    "differentiators": [
+      "Communications-specific: designed for communications professionals, not generic IT or transformation frameworks",
+      "Partner-not-replacement framing throughout: every phase keeps humans in control of judgment and strategy",
+      "Governance is built in, not bolted on — reputational and legal risk is addressed from the start",
+      "Practical payoff at every phase: teams leave each phase with usable tools, not just a presentation"
+    ],
+    "applicableServices": ["svc-001", "svc-002", "svc-003", "svc-004"]
+  },
+  {
+    "id": "meth-002",
+    "name": "Responsible AI Adoption for Communications",
+    "tags": ["governance", "responsible-ai", "team-enablement", "ai-strategy"],
+    "summary": "A targeted three-phase methodology for organizations that need to move from AI curiosity to AI governance without derailing the communications function. Focuses on making AI adoption safe, explainable, and leadership-owned — not just technically deployed.",
+    "phases": [
+      {
+        "name": "Brief",
+        "description": "Structured leadership intake to establish the organization's current AI posture, risk appetite, and strategic ambitions for the communications function. Produces a Decision Memo and Scenario Analysis that frames AI adoption as a leadership choice — with clear implications of acting, waiting, or moving too fast."
+      },
+      {
+        "name": "Build",
+        "description": "Design and deliver the governance and enablement infrastructure: AI Governance Framework, Approval Workflow, Usage Policy, and tailored training for the communications team. All materials use the team's own language and workflows — no generic playbooks."
+      },
+      {
+        "name": "Sustain",
+        "description": "Periodic advisory reviews and leadership briefings to keep AI governance current as tools, regulation, and stakeholder expectations evolve. Includes a defined escalation path for new AI use cases requiring governance decisions."
+      }
+    ],
+    "differentiators": [
+      "Leadership-first design: AI adoption is treated as a strategic and governance decision, not a tooling question",
+      "Sector-calibrated governance: risk frameworks reflect the communications function's specific reputational and legal exposure",
+      "Lightweight and maintainable: designed so the communications team can own and update governance without ongoing external dependency"
+    ],
+    "applicableServices": ["svc-003", "svc-004", "svc-001"]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "person-001",
+    "name": "Ingo Heijnen",
+    "title": "Co-founder",
+    "expertise": ["ai-strategy", "corporate-communications", "executive-advisory", "governance", "strategic-advisory"],
+    "certifications": [],
+    "education": [],
+    "executive": "Ingo Heijnen is co-founder of AI4Comms. He spent more than 25 years in corporate communications and corporate affairs, most of it at Hill & Knowlton, advising executives and building senior communications teams. He now focuses on making AI practically useful for the communications function.",
+    "technical": "Ingo Heijnen brings more than 25 years of senior communications advisory experience to AI4Comms, with a career built at Hill & Knowlton advising executives and leading corporate communications teams. His advisory work on AI for communications is grounded in that operational experience — he understands how communications functions actually work, where AI creates genuine leverage, and where human judgment must remain central. At AI4Comms he leads AI strategy advisory and executive briefing engagements.",
+    "short": "Ingo Heijnen — Co-founder AI4Comms, 25+ years corporate communications & corporate affairs, H&K background"
+  },
+  {
+    "id": "person-002",
+    "name": "Emma van Gelder",
+    "title": "Co-founder",
+    "expertise": ["ai-adoption", "team-enablement", "corporate-communications", "governance"],
+    "certifications": [],
+    "education": [],
+    "executive": "Emma van Gelder is a co-founder of AI4Comms. She worked in corporate communications at Hill & Knowlton before co-founding AI4Comms, where she focuses on helping organisations treat AI adoption in communications as a leadership challenge rather than a tooling question.",
+    "technical": "Emma van Gelder co-founded AI4Comms with a focus on AI adoption and team enablement for communications professionals. Her background in corporate communications at Hill & Knowlton grounds her approach: she advises organisations on how to adopt AI in the communications function without outsourcing judgment to the tool. At AI4Comms she leads training, team enablement, and governance programme design.",
+    "short": "Emma van Gelder — Co-founder AI4Comms, corporate communications & AI adoption, H&K background"
+  },
+  {
+    "id": "person-003",
+    "name": "Ariën Stuijt",
+    "title": "Advisor",
+    "expertise": ["responsible-ai", "authenticity", "authority", "strategic-advisory", "public-affairs", "crisis"],
+    "certifications": [],
+    "education": [],
+    "executive": "Ariën Stuijt is a former journalist (Dow Jones Newswires, The Wall Street Journal) who spent 17 years in strategic consulting at Hill & Knowlton, specialising in transformative situations such as crises, shareholder activism, M&A, and stakeholder communication. He advises on keeping authority and authenticity in the age of generative AI.",
+    "technical": "Ariën Stuijt brings a journalist's discipline and 17 years of strategic consulting experience to AI4Comms. His background at Dow Jones Newswires, The Wall Street Journal, and Hill & Knowlton informs his advisory focus: how communications professionals maintain authority, accuracy, and authenticity when working with generative AI tools. He advises AI4Comms clients on the governance and editorial standards required to use AI responsibly in high-stakes communications situations — crises, M&A, stakeholder-sensitive moments.",
+    "short": "Ariën Stuijt — Advisor AI4Comms, former WSJ journalist, 17 years H&K strategic consulting, authority & authenticity in the AI age"
+  }
+]

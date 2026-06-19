@@ -1,0 +1,32 @@
+{
+  "classifications": {
+    "ordinary": {
+      "factPack": ["comms_lead"],
+      "draft": ["comms_lead", "primary_founder"],
+      "distribution": ["comms_lead"]
+    },
+    "reputationally_sensitive": {
+      "factPack": ["comms_lead", "primary_founder"],
+      "draft": ["comms_lead", "both_founders", "legal"],
+      "distribution": ["comms_lead", "primary_founder"]
+    },
+    "market_sensitive": {
+      "factPack": ["comms_lead", "both_founders", "legal"],
+      "draft": ["comms_lead", "both_founders", "legal"],
+      "distribution": ["comms_lead", "both_founders", "legal"]
+    },
+    "crisis": {
+      "factPack": ["crisis_lead", "both_founders"],
+      "draft": ["crisis_lead", "both_founders", "legal"],
+      "distribution": ["crisis_lead", "both_founders"]
+    }
+  },
+  "roles": {
+    "comms_lead": { "name": "Emma van Gelder", "title": "Co-founder", "personId": "person-002" },
+    "primary_founder": { "name": "Ingo Heijnen", "title": "Co-founder", "personId": "person-001" },
+    "both_founders": { "name": "Ingo Heijnen & Emma van Gelder", "title": "Co-founders", "personIds": ["person-001", "person-002"] },
+    "legal": { "name": "External Counsel", "title": "TBD — retained law firm" },
+    "crisis_lead": { "name": "Ingo Heijnen", "title": "Co-founder (crisis lead)", "personId": "person-001" },
+    "subject_owner": { "name": "Varies", "title": "Co-founder or Advisor leading the engagement" }
+  }
+}
