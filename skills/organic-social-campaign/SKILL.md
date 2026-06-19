@@ -100,6 +100,8 @@ Resolve `{base}` overlay-first (see **Path resolution** above):
 Do not list the central `client-data/clients/` repo and ask as the *primary*
 discovery — the overlay-first rule above governs which client is in scope.
 
+> **Empty `people` → never fabricate an SME, spokesperson, or advocate.** A present overlay can still lack public people. If `company_context.people[]` is empty or absent, do **not** attribute a quote, point of view, bio, or advocacy role to a named individual, and do **not** invent a spokesperson or employee advocate. Spokesperson visibility (Phase 3), employee advocacy (Phase 5), and any recurring on-camera subject (Phase 8) must use only real people from `company_context.people[]`; if there are none, ask the user who to feature or keep the content org/brand-level (no named individuals). A present-but-empty `people[]` is missing data, not a license to improvise a real person's identity — the within-overlay twin of the no-overlay STOP above.
+
 ### Loading Company Data
 
 ```
@@ -150,6 +152,8 @@ rewrite** pass against the org voice cascade:
    relax L1), then rewrite until it passes — only then show the user.
 3. Ban engagement-bait, filler openers, antithesis frames, and overused LLM
    vocabulary. Cross-check the platform's tone notes.
+
+**Maintain the unsourced ledger as you draft.** As you write each content item (pillar, series, sample copy, post, caption), record its `basis` — `client_data` (traces to the overlay), `inferred` (extrapolated from real data), or `fabricated` (no client-data source) — *when you write it*, not reconstructed later. Any named SME/spokesperson/advocate, quote, or proof point with no client-data source is `fabricated` and means you must revisit the empty-`people` guard (ask or keep it org-level). This ledger seeds `asset-feedback.unsourced_content` at close-out (Final Output Assembly).
 
 If `voice://*` is unreachable (headless), fall back to L2-only + the inline
 anti-slop checklist and `log` the degradation — never fail the copy step. This
@@ -394,6 +398,14 @@ Compile the complete governance document:
 ### Final Output Assembly
 
 After Phase 6, compile all deliverables and present a summary to the user. Then *mention* (never auto-activate) that the user can capture feedback with `asset-feedback`, and file your own `source: agent` retrospective there if the run hit an instruction gap or tool-call failure worth fixing.
+
+**Close-out grounding (file a truthful retrospective).** Before filing the `asset-feedback` retrospective, inspect the overlay you actually used — inspecting an artifact you already loaded is itself an `external_signal`, not a judgement call:
+
+- If `company_context.people[]` was empty/absent **and** you nonetheless named an SME, spokesperson, or advocate (or attributed a quote/POV to a named person), record `{section: "<where>", basis: inferred|fabricated}` in `unsourced_content`.
+- For every explicit ask you could not satisfy from client-data, add an `unmet_asks` entry (`reason: no_data`, `resolution` = what you actually did: `stopped` / `asked_user` / `flagged_in_output` / `improvised`).
+- Carry the in-canvas unsourced ledger straight into `unsourced_content`; an improvised identity or unsupported claim is the highest-value signal and is **always** reported.
+
+Use `category: data-shortfall` when content improvised under a client-data gap.
 
 **Offer to save reusable config** to `{base}/social-media/`:
 - `config.json` — platform + UTM + compliance settings (if new or changed)
