@@ -54,6 +54,26 @@
       "name": "ai4comms-logo-primary.svg",
       "sha256": "ec12d10e4bdbf685a99e79504b6d22f6f42b0fcb0ffec8522879d60bb02fff0c",
       "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-full.svg",
+      "sha256": "6e6b1cc7c77ff89c3b1a2a39804795498d8f5c84773ab5704301fd6c2750dbae",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-minimal.svg",
+      "sha256": "8675797580a9e86aad1ad5de9e782b05f39f550825170d20c2ff6de05f12b5fd",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-short.svg",
+      "sha256": "5ad507d3076a4a23f9b9e236ff9b847a220a49936f4617d77e1045c064368301",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "pattern-tile.svg",
+      "sha256": "eae3d31fdc81869df84adea3369a786d40b8c36870fc5296b4a643799ce9e126",
+      "mime": "image/svg+xml"
     }
   ],
   "images": [
