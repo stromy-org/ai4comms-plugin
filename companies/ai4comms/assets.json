@@ -71,6 +71,16 @@
       "mime": "image/svg+xml"
     },
     {
+      "name": "motif-canopy-sprout.svg",
+      "sha256": "3095f4c4ef5c21b3899018ac6bd76ca92079d5b0d05348acd13004039304b8a7",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "motif-rounded-node.svg",
+      "sha256": "ed4a38299930464d02067f924b6c5eec586c158e677f03d371efb2f63a4f02f5",
+      "mime": "image/svg+xml"
+    },
+    {
       "name": "pattern-tile.svg",
       "sha256": "eae3d31fdc81869df84adea3369a786d40b8c36870fc5296b4a643799ce9e126",
       "mime": "image/svg+xml"
