@@ -1,12 +1,19 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "ai4comms",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Claude Code plugin for AI4comms branded deliverables",
   "author": {
     "name": "stromy-org"
   },
   "repository": "https://github.com/stromy-org/ai4comms-plugin",
   "license": "UNLICENSED",
-  "keywords": ["deliverables", "branding", "documents", "messaging", "press-release", "social"]
+  "keywords": [
+    "deliverables",
+    "branding",
+    "documents",
+    "messaging",
+    "press-release",
+    "social"
+  ]
 }
