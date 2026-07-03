@@ -912,7 +912,6 @@
           "tier": "derived",
           "source": "live site uses calm fade-in-on-scroll; full motion spec deferred to P6 (PLAN_motion-capability.md)"
         },
-        "selected": null,
         "candidates": []
       }
     },
