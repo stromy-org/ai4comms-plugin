@@ -40,17 +40,35 @@
     "heading": {
       "family": "Montserrat",
       "fallback": "\"Helvetica Neue\", Arial, sans-serif",
-      "weight": "700"
+      "weight": "700",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic"
     },
     "body": {
       "family": "Montserrat",
       "fallback": "\"Helvetica Neue\", Arial, sans-serif",
-      "weight": "400"
+      "weight": "400",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic"
     },
     "mono": {
       "family": "JetBrains Mono",
       "fallback": "\"SFMono-Regular\", Consolas, monospace",
-      "weight": "500"
+      "weight": "500",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas"
     },
     "label": {
       "family": "Montserrat",
@@ -59,7 +77,13 @@
       "case": "uppercase",
       "tracking": "0.12em",
       "role": "eyebrow / kicker / overline",
-      "note": "Montserrat 600 uppercase 12px, letter-spacing 0.12em, in pine (#214C28), paired with the 64px sage hairline. From the deployed site."
+      "note": "Montserrat 600 uppercase 12px, letter-spacing 0.12em, in pine (#214C28), paired with the 64px sage hairline. From the deployed site.",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic"
     }
   },
   "logo": {
@@ -102,7 +126,7 @@
       "opacity": 0.55
     },
     "logoVariantOnImage": "primary",
-    "_note": "Overlay is canopy green at 55% (guidelines: --overlay-canopy-55), applied only when text must sit on the image. Only one logo variant exists (green wordmark, see logo._note) — do NOT place the logo on overlaid/dark imagery; if a page pairs logo and image, put the logo on an unoverlaid light region."
+    "_note": "Overlay is canopy green at 55% (guidelines: --overlay-canopy-55), applied only when text must sit on the image. Only one logo variant exists (green wordmark, see logo._note) \u2014 do NOT place the logo on overlaid/dark imagery; if a page pairs logo and image, put the logo on an unoverlaid light region."
   },
   "document": {
     "margins": {
@@ -299,16 +323,16 @@
       "primary": "sage",
       "secondary": "caregiver",
       "status": "approved",
-      "rationale": "Driven by observed voice and posture on the deployed ai4-comms.com site: FAQ-led navigation, peer-register copy (je/jullie), practical how-to framing, and a brand refresh decision to abandon the earlier Magician+Ruler aspirational system in favour of what the client actually ships. Sage expresses as knowledgeable colleague — mastery made legible, never guru-elevated. Caregiver expresses as craft-protection and safe-adoption assurance — the routekaart as a patient guide, not emotional warmth."
+      "rationale": "Driven by observed voice and posture on the deployed ai4-comms.com site: FAQ-led navigation, peer-register copy (je/jullie), practical how-to framing, and a brand refresh decision to abandon the earlier Magician+Ruler aspirational system in favour of what the client actually ships. Sage expresses as knowledgeable colleague \u2014 mastery made legible, never guru-elevated. Caregiver expresses as craft-protection and safe-adoption assurance \u2014 the routekaart as a patient guide, not emotional warmth."
     },
-    "essence": "AI4comms turns AI from abstract hype into usable operating practice for communications teams — in Dutch, on the ground, one routekaart at a time.",
-    "positioning": "For Dutch-speaking communications professionals under pressure to adopt AI responsibly, AI4comms is the enablement partner that translates AI tooling into practical routines — so teams gain impact without losing their craft or their judgment.",
+    "essence": "AI4comms turns AI from abstract hype into usable operating practice for communications teams \u2014 in Dutch, on the ground, one routekaart at a time.",
+    "positioning": "For Dutch-speaking communications professionals under pressure to adopt AI responsibly, AI4comms is the enablement partner that translates AI tooling into practical routines \u2014 so teams gain impact without losing their craft or their judgment.",
     "personalityTraits": [
-      "Practical — outcomes over theory; every concept has a hands-on next step",
-      "Approachable — explains rather than impresses; peer register, not guru register",
-      "Grounded — senior judgment, no hype, no jargon for jargon's sake",
-      "Patient — meets teams where they are; trusts the routekaart as the vehicle",
-      "Trustworthy — calm, clear, accountable; never oversells AI or undersells the team's craft"
+      "Practical \u2014 outcomes over theory; every concept has a hands-on next step",
+      "Approachable \u2014 explains rather than impresses; peer register, not guru register",
+      "Grounded \u2014 senior judgment, no hype, no jargon for jargon's sake",
+      "Patient \u2014 meets teams where they are; trusts the routekaart as the vehicle",
+      "Trustworthy \u2014 calm, clear, accountable; never oversells AI or undersells the team's craft"
     ],
     "personalityAxes": {
       "authorityVsPeer": 0.2,
@@ -323,11 +347,11 @@
     "confidence": "approved",
     "status": "approved",
     "principles": [
-      "Typographic-led: whitespace and heading hierarchy carry the page — imagery is supplementary, not structural",
+      "Typographic-led: whitespace and heading hierarchy carry the page \u2014 imagery is supplementary, not structural",
       "Light-mode-first: the brand lives on white and paper surfaces; dark sections (#15311A canopy) are deliberate exceptions, not the default",
       "Monotypeface discipline: Montserrat handles every typographic role (display through caption); the single-typeface constraint signals systematic clarity, not impoverishment",
-      "Accent as signal, not decoration: sage green (#9EC187) appears at active indicators, hairline rules, and section overlines — never as fill or background wash",
-      "Constrained motif vocabulary: the deployed site has no decorative motif system; rhythm comes from whitespace, the F8FAFC→ECECEC header gradient, and 64px sage hairline rules paired under overlines",
+      "Accent as signal, not decoration: sage green (#9EC187) appears at active indicators, hairline rules, and section overlines \u2014 never as fill or background wash",
+      "Constrained motif vocabulary: the deployed site has no decorative motif system; rhythm comes from whitespace, the F8FAFC\u2192ECECEC header gradient, and 64px sage hairline rules paired under overlines",
       "No hero photography by default: type and whitespace carry the page; photography (when used) is bright, human-scale, and largely untouched",
       "Peer register in copy: leads with the point, then explains; uses the team's own language (routekaart, communicatieprofessionals); asks honest rhetorical questions and answers them plainly"
     ],
@@ -344,7 +368,7 @@
     },
     "signatureElements": [
       "Montserrat 700 headings in canopy (#15311A) on white or paper surfaces",
-      "F8FAFC→ECECEC diagonal header gradient (135deg) as page/section opener",
+      "F8FAFC\u2192ECECEC diagonal header gradient (135deg) as page/section opener",
       "64px wide sage (#9EC187) hairline rule (1px) paired under overlines",
       "Overlines: Montserrat 600, 12px, uppercase, letter-spacing 0.12em, in pine (#214C28)",
       "CTA buttons: canopy fill with wide-tracked uppercase Montserrat 600 label; ghost variant with canopy border",
@@ -353,15 +377,15 @@
       "Section spacing 96px (--section-gap); content max-width 1320px"
     ],
     "antiPatterns": [
-      "Dark-mode-native layouts — the brand is light-first; the aspirational Signal Authority dark system is archived",
-      "Neon or high-chroma greens — the accent is muted sage (#9EC187), not the former phosphor #44E88A",
-      "Syne or Inter typefaces — replaced by Montserrat across all roles",
-      "Abstract data-texture or architectural photography — does not match the deployed light typographic identity",
-      "Decorative motif shapes (dark dividers, hatched tiles from Phase 3 aspirational) — archived, not canonical",
-      "White-on-dark logo placement — no white logo variant exists; avoid placing the green wordmark on dark surfaces",
-      "Guru or authority register in copy — 'Signal through the noise', 'Transform your communications', 'Disrupt' are explicitly prohibited",
-      "Accent sage used as fill color or background wash — accent is a hairline/indicator signal only",
-      "Multiple typeface families — single-typeface constraint is a deliberate discipline, not a gap"
+      "Dark-mode-native layouts \u2014 the brand is light-first; the aspirational Signal Authority dark system is archived",
+      "Neon or high-chroma greens \u2014 the accent is muted sage (#9EC187), not the former phosphor #44E88A",
+      "Syne or Inter typefaces \u2014 replaced by Montserrat across all roles",
+      "Abstract data-texture or architectural photography \u2014 does not match the deployed light typographic identity",
+      "Decorative motif shapes (dark dividers, hatched tiles from Phase 3 aspirational) \u2014 archived, not canonical",
+      "White-on-dark logo placement \u2014 no white logo variant exists; avoid placing the green wordmark on dark surfaces",
+      "Guru or authority register in copy \u2014 'Signal through the noise', 'Transform your communications', 'Disrupt' are explicitly prohibited",
+      "Accent sage used as fill color or background wash \u2014 accent is a hairline/indicator signal only",
+      "Multiple typeface families \u2014 single-typeface constraint is a deliberate discipline, not a gap"
     ],
     "requiredMotifs": [
       "Sage hairline rule (1px, 64px wide, #9EC187) under section overlines",
@@ -402,7 +426,7 @@
         "freshness": "current"
       }
     ],
-    "_migration_note": "The deployed ai4-comms.com site runs on WordPress with the Divi builder (theme: bureau-peppr-child). Divi global font presets (body 14px / lh 1.7) and inline CSS custom properties (--gcid-jd3gym30fa, --gcid-v6w1ho8m1g) were the source of truth for tokens.css. This is a platform-specific deployment detail — it does NOT become a hard expression axis and is not an Astro schema requirement. The charter.json website block describes the schema-valid Astro target the org's website-builder would produce.",
+    "_migration_note": "The deployed ai4-comms.com site runs on WordPress with the Divi builder (theme: bureau-peppr-child). Divi global font presets (body 14px / lh 1.7) and inline CSS custom properties (--gcid-jd3gym30fa, --gcid-v6w1ho8m1g) were the source of truth for tokens.css. This is a platform-specific deployment detail \u2014 it does NOT become a hard expression axis and is not an Astro schema requirement. The charter.json website block describes the schema-valid Astro target the org's website-builder would produce.",
     "visual_grammar": {
       "backgrounds": {
         "status": "approved",
@@ -564,7 +588,7 @@
             "label": "Flat, no gradient",
             "spec": {
               "policy": "flat fields only",
-              "note": "the deployed site DOES use soft gradients — contrast option only"
+              "note": "the deployed site DOES use soft gradients \u2014 contrast option only"
             },
             "evidence": {
               "tier": "proposed"
@@ -590,7 +614,7 @@
             "id": "spacious-symmetric",
             "label": "Spacious symmetric",
             "spec": {
-              "columns": "12-col symmetric; centered text blocks + alternating 1/2 image·1/2 text splits",
+              "columns": "12-col symmetric; centered text blocks + alternating 1/2 image\u00b71/2 text splits",
               "contentWidth": "1320px max",
               "sectionGap": "96px",
               "density": "spacious",
@@ -621,7 +645,7 @@
             "id": "wide-split",
             "label": "Wide alternating split",
             "spec": {
-              "columns": "strong 1/2·1/2 alternating image+text throughout",
+              "columns": "strong 1/2\u00b71/2 alternating image+text throughout",
               "symmetry": "balanced-asymmetry"
             },
             "evidence": {
@@ -641,7 +665,7 @@
         "required": false,
         "evidence": {
           "tier": "proposed",
-          "source": "DESIGNED from scratch — no icon system exists on the live site; seeded from Sage/Caregiver + rounded + calm + sage accent; OPEN/extensible (operator directive)"
+          "source": "DESIGNED from scratch \u2014 no icon system exists on the live site; seeded from Sage/Caregiver + rounded + calm + sage accent; OPEN/extensible (operator directive)"
         },
         "selected": "rounded-sage-fill",
         "candidates": [
@@ -653,9 +677,9 @@
               "strokeWeight": "2px",
               "caps": "round",
               "joins": "round",
-              "fillVsLine": "canopy line-dominant + a soft SAGE FILL accent (leaf/dot/tick) — a fill, not a dot-terminal (distinct from stromy/amaris)",
+              "fillVsLine": "canopy line-dominant + a soft SAGE FILL accent (leaf/dot/tick) \u2014 a fill, not a dot-terminal (distinct from stromy/amaris)",
               "extensible": true,
-              "setPolicy": "OPEN set — icons drawn to this STYLE on demand per slide/section need. The sample is representative, not a closed brand-bound set; the agent may add/select as many icons as a deck requires, keeping the style.",
+              "setPolicy": "OPEN set \u2014 icons drawn to this STYLE on demand per slide/section need. The sample is representative, not a closed brand-bound set; the agent may add/select as many icons as a deck requires, keeping the style.",
               "sample": [
                 "route-map (routekaart)",
                 "handshake",
@@ -689,7 +713,7 @@
             "label": "Flat minimal line",
             "spec": {
               "style": "thin 1.5px square-cap line, monochrome canopy, no fill",
-              "note": "rejected — too cold/rectilinear for a Caregiver/warm brand",
+              "note": "rejected \u2014 too cold/rectilinear for a Caregiver/warm brand",
               "extensible": true
             },
             "evidence": {
@@ -711,7 +735,7 @@
             "id": "rounded-outline",
             "label": "Rounded outline",
             "spec": {
-              "shadows": "none/minimal — depth via border + generous radius",
+              "shadows": "none/minimal \u2014 depth via border + generous radius",
               "borders": "1px hairline #ECECEC on white cards",
               "radius": "12px cards; FULLY-rounded (999px) pills/CTAs",
               "surface": "matte",
@@ -770,7 +794,7 @@
             "spec": {
               "family": "typographic",
               "elements": [
-                "two-tone heading — key phrase in sage #9EC187 within a canopy heading (verified on live site)",
+                "two-tone heading \u2014 key phrase in sage #9EC187 within a canopy heading (verified on live site)",
                 "64px sage hairline rule (1px) under Montserrat-600 caps overlines",
                 "rounded-panel / fully-rounded pill shape language"
               ],
@@ -791,10 +815,10 @@
             "label": "Canopy sprout mark (organic)",
             "spec": {
               "family": "organic",
-              "construction": "a minimal 2-3 stroke sprout/leaf growing from a baseline — references the forest palette + 'enablement/growth' story; sage leaf on canopy stem",
+              "construction": "a minimal 2-3 stroke sprout/leaf growing from a baseline \u2014 references the forest palette + 'enablement/growth' story; sage leaf on canopy stem",
               "prominence": "accent",
               "usage": "divider glyph, section marker, favicon echo",
-              "note": "adds a distinctive graphical mark the brand currently lacks — a designer proposal"
+              "note": "adds a distinctive graphical mark the brand currently lacks \u2014 a designer proposal"
             },
             "assets": [
               "assets/svg/_candidates/motif-canopy-sprout.svg"
@@ -808,7 +832,7 @@
             "label": "Rounded-node network",
             "spec": {
               "family": "geometric",
-              "construction": "soft rounded nodes linked by calm curved lines — the 'AI-as-partner network', rounded not technical",
+              "construction": "soft rounded nodes linked by calm curved lines \u2014 the 'AI-as-partner network', rounded not technical",
               "note": "on-theme (comms network) but risks the forbidden 'data-texture' anti-pattern if too busy"
             },
             "assets": [
@@ -848,7 +872,7 @@
             "id": "none",
             "label": "No pattern",
             "spec": {
-              "policy": "n-a — whitespace carries the page",
+              "policy": "n-a \u2014 whitespace carries the page",
               "note": "valid for a purely typographic brand"
             },
             "evidence": {
@@ -898,7 +922,7 @@
         "case": "uppercase",
         "tracking": "0.12em",
         "marker": "64px sage hairline rule (1px, #9EC187) below the overline",
-        "usage": "eyebrows/overlines above headings — Montserrat 600 caps pine + sage hairline"
+        "usage": "eyebrows/overlines above headings \u2014 Montserrat 600 caps pine + sage hairline"
       }
     },
     "treatments": {
@@ -907,7 +931,7 @@
       "looks": {
         "documentary-warm": {
           "label": "Documentary Warm",
-          "usage": "Natural warm-neutral, lightly desaturated — the default for content + image/text splits. Matches the deployed muted comms photography.",
+          "usage": "Natural warm-neutral, lightly desaturated \u2014 the default for content + image/text splits. Matches the deployed muted comms photography.",
           "css_filter": "saturate(0.82) contrast(1.02)",
           "grain": {
             "opacity": 0.04,
@@ -916,7 +940,7 @@
         },
         "canopy-duotone": {
           "label": "Canopy Duotone",
-          "usage": "Signature forest duotone for hero + covers — deep canopy shadows through pine mids to sage-tinted paper highlights. The AI4comms nature signature.",
+          "usage": "Signature forest duotone for hero + covers \u2014 deep canopy shadows through pine mids to sage-tinted paper highlights. The AI4comms nature signature.",
           "css_filter": "grayscale(1) contrast(1.04)",
           "duotone": {
             "shadows": "#15311A",
@@ -931,7 +955,7 @@
         },
         "sage-graded": {
           "label": "Sage Graded",
-          "usage": "Soft green cinematic grade for section imagery — cool-green shadows, sage highlights. Restrained, calm.",
+          "usage": "Soft green cinematic grade for section imagery \u2014 cool-green shadows, sage highlights. Restrained, calm.",
           "css_filter": "saturate(0.55) contrast(1.03)",
           "duotone": {
             "shadows": "#1E3A24",
@@ -946,7 +970,7 @@
         },
         "paper-soft": {
           "label": "Paper Soft",
-          "usage": "High-key lifted grade for airy light sections — low contrast, bright. Use where whitespace leads.",
+          "usage": "High-key lifted grade for airy light sections \u2014 low contrast, bright. Use where whitespace leads.",
           "css_filter": "saturate(0.85) contrast(0.96) brightness(1.05)",
           "grain": {
             "opacity": 0.03,

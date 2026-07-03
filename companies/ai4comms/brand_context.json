@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "d26c2a2b5e34d080264d7cff655d5ad40c15ae7ecd7d9fb3c907dc4d691ace7e",
+    "charterSha": "1b851095e5da8b58bfcab48a5f7867db1535b902643465e51d4ff48da2d3ecf6",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -26,21 +26,45 @@
     "heading": {
       "family": "Montserrat",
       "weight": "700",
-      "fallback": "\"Helvetica Neue\", Arial, sans-serif"
+      "fallback": "\"Helvetica Neue\", Arial, sans-serif",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic"
     },
     "body": {
       "family": "Montserrat",
       "weight": "400",
-      "fallback": "\"Helvetica Neue\", Arial, sans-serif"
+      "fallback": "\"Helvetica Neue\", Arial, sans-serif",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic"
     },
     "mono": {
       "family": "JetBrains Mono",
       "weight": "500",
-      "fallback": "\"SFMono-Regular\", Consolas, monospace"
+      "fallback": "\"SFMono-Regular\", Consolas, monospace",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas"
     },
     "label": {
       "family": "Montserrat",
       "weight": "600",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic",
       "case": "uppercase",
       "tracking": "0.12em"
     },
