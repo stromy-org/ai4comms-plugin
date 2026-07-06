@@ -270,7 +270,7 @@
       }
     },
     "deployment": {
-      "platform": "github-pages",
+      "platform": "azure-swa",
       "theme": "bureau-peppr-child",
       "analytics": "none",
       "contactForm": "mailto"
