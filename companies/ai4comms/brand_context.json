@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "c32412371a504b3ff17ac7a861ec41fea0c0827f6b8eacb6b49e3b5153e41640",
+    "charterSha": "dcd9a99c1aac8e2f4d56053ccdd9825ac35afdf667a98292bbe966df9156f82e",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -76,7 +76,7 @@
       "usage": "eyebrows/overlines above headings — Montserrat 600 caps pine + sage hairline"
     }
   },
-  "tokens_css": "/* ============================================================================\n * AI4comms — Design Tokens\n * Direction: Practical AI enablement partner (Sage + Caregiver)\n * Light-first, accessible, deployed-identity-aligned.\n *\n * Source of truth: ai4-comms.com live site (Divi global presets + verified\n * inline styles, captured 2026-05-18).\n *\n * Aspirational dark-mode \"Signal Authority\" tokens archived at\n * .build-history/aspirational-2026-04-05/tokens.css.\n * ============================================================================ */\n\n:root {\n  /* ---------- Primary palette ---------- */\n  --brand-canopy: #15311A;        /* primary deep brand green (logo wordmark) */\n  --brand-pine:   #214C28;        /* secondary mid brand green */\n  --brand-sage:   #9EC187;        /* accent — light sage green (active/highlight) */\n  --brand-paper:  #F8FAFC;        /* warm near-white surface */\n  --brand-mist:   #ECECEC;        /* secondary surface band */\n  --brand-white:  #FFFFFF;        /* primary surface */\n  --brand-ink:    #1F1F1F;        /* primary body text */\n\n  /* ---------- Pine scale (brand greens, light-mode oriented) ---------- */\n  --pine-50:  #EEF5EF;\n  --pine-100: #D5E7D8;\n  --pine-200: #A9CFB0;\n  --pine-300: #7AB488;\n  --pine-400: #509964;\n  --pine-500: #3B7A4E;\n  --pine-600: #2D5E3C;\n  --pine-700: #214C28;   /* secondary */\n  --pine-800: #15311A;   /* primary */\n  --pine-900: #0C1410;\n\n  /* ---------- Sage scale (accent) ---------- */\n  --sage-50:  #F1F6EC;\n  --sage-100: #E1EDD7;\n  --sage-200: #C9DEB5;\n  --sage-300: #B0CE93;\n  --sage-400: #9EC187;   /* accent */\n  --sage-500: #82AE68;\n  --sage-600: #678F4F;\n  --sage-700: #4F6F3D;\n  --sage-800: #3A522D;\n  --sage-900: #243620;\n\n  /* ---------- Neutral scale (cool grays, matches deployed site) ---------- */\n  --n-0:   #FFFFFF;\n  --n-50:  #F8FAFC;   /* deployed --gcid-jd3gym30fa */\n  --n-100: #ECECEC;   /* deployed --gcid-v6w1ho8m1g */\n  --n-200: #DDDDDD;\n  --n-300: #C4C4C4;\n  --n-400: #A1A1A1;\n  --n-500: #7A7A7A;\n  --n-600: #4E4E4E;   /* textLight */\n  --n-700: #3A3A3A;\n  --n-800: #2A2A2A;\n  --n-900: #1F1F1F;   /* text */\n\n  /* ---------- Semantic colors (palette-aligned, muted) ---------- */\n  --success:       #3B7A4E;\n  --success-light: #E2F0E6;\n  --warning:       #C89B3E;\n  --warning-light: #F6ECD4;\n  --error:         #B85648;\n  --error-light:   #F6DCD6;\n  --info:          #4F6F3D;\n  --info-light:    #E1EDD7;\n\n  /* ---------- Charter semantic mappings ---------- */\n  --color-primary:        var(--brand-canopy);\n  --color-secondary:      var(--brand-pine);\n  --color-accent:         var(--brand-sage);\n  --color-background:     var(--brand-white);\n  --color-background-alt: var(--brand-paper);\n  --color-text:           var(--n-900);\n  --color-text-light:     var(--n-600);\n  --color-text-on-dark:   var(--brand-white);\n  --color-text-on-accent: var(--brand-canopy);\n  --color-rule:           var(--n-100);\n  --color-rule-strong:    var(--n-200);\n\n  /* ---------- Typography ---------- */\n  --font-heading: \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-body:    \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-mono:    \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace;\n\n  --weight-regular:  400;\n  --weight-medium:   500;\n  --weight-semibold: 600;\n  --weight-bold:     700;\n\n  --line-height-tight: 1.2;\n  --line-height-snug:  1.4;\n  --line-height-base:  1.7;     /* matches deployed --et_global_body_font_height */\n  --line-height-loose: 1.9;\n\n  --letter-spacing-tight:  -0.01em;\n  --letter-spacing-normal: 0;\n  --letter-spacing-wide:   0.04em;\n  --letter-spacing-label:  0.12em;\n\n  /* ---------- Type scale ---------- */\n  --fs-xs:   12px;\n  --fs-sm:   13px;\n  --fs-base: 14px;    /* matches deployed --et_global_body_font_size */\n  --fs-md:   16px;\n  --fs-lg:   18px;\n  --fs-xl:   22px;\n  --fs-2xl:  28px;\n  --fs-3xl:  34px;\n  --fs-4xl:  44px;\n  --fs-5xl:  56px;\n  --fs-display: 72px;\n\n  /* ---------- Spacing scale ---------- */\n  --space-1:  4px;\n  --space-2:  8px;\n  --space-3:  12px;\n  --space-4:  16px;\n  --space-5:  24px;\n  --space-6:  32px;\n  --space-7:  48px;\n  --space-8:  64px;\n  --space-9:  96px;\n  --space-10: 128px;\n\n  /* ---------- Radii ---------- */\n  --radius-sm: 4px;\n  --radius-md: 6px;\n  --radius-lg: 12px;\n  --radius-pill: 999px;\n\n  /* ---------- Elevation ---------- */\n  --shadow-sm: 0 1px 2px rgba(15, 30, 18, 0.06);\n  --shadow-md: 0 4px 12px rgba(15, 30, 18, 0.08);\n  --shadow-lg: 0 12px 32px rgba(15, 30, 18, 0.12);\n\n  /* ---------- Motif tokens (light-mode hairline rules) ---------- */\n  --motif-line-weight: 1px;\n  --motif-line-color:  var(--brand-canopy);\n  --motif-rule-color:  var(--n-200);\n  --motif-pattern-opacity: 0.05;\n\n  /* ---------- Overlay tokens (for hero photography, if reintroduced) ---------- */\n  --overlay-canopy-80: rgba(21, 49, 26, 0.8);\n  --overlay-canopy-70: rgba(21, 49, 26, 0.7);\n  --overlay-canopy-55: rgba(21, 49, 26, 0.55);\n\n  /* ---------- Layout ---------- */\n  --content-max:  1320px;\n  --content-narrow: 760px;\n  --gutter:       24px;\n  --section-gap:  96px;\n}\n\n/* ============================================================================\n * Utility classes — light-mode base\n * ============================================================================ */\n\n.brand-button-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: var(--brand-canopy);\n  color: var(--brand-white);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: none;\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease;\n}\n.brand-button-primary:hover { background: var(--brand-pine); }\n\n.brand-button-ghost {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: transparent;\n  color: var(--brand-canopy);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: 1px solid var(--brand-canopy);\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease, color 160ms ease;\n}\n.brand-button-ghost:hover { background: var(--brand-canopy); color: var(--brand-white); }\n\n.brand-overline {\n  font-family: var(--font-body);\n  font-size: var(--fs-xs);\n  font-weight: var(--weight-semibold);\n  text-transform: uppercase;\n  letter-spacing: var(--letter-spacing-label);\n  color: var(--brand-pine);\n}\n\n.brand-heading {\n  font-family: var(--font-heading);\n  font-weight: var(--weight-bold);\n  line-height: var(--line-height-tight);\n  letter-spacing: var(--letter-spacing-tight);\n  color: var(--brand-canopy);\n}\n\n.brand-body {\n  font-family: var(--font-body);\n  font-weight: var(--weight-regular);\n  font-size: var(--fs-base);\n  line-height: var(--line-height-base);\n  color: var(--n-900);\n}\n\n.brand-rule {\n  border: none;\n  border-top: var(--motif-line-weight) solid var(--motif-rule-color);\n  margin: var(--space-6) 0;\n}\n\n.brand-rule-accent {\n  border: none;\n  border-top: 2px solid var(--brand-canopy);\n  width: 64px;\n  margin: var(--space-5) 0;\n}\n\n.brand-card {\n  background: var(--brand-white);\n  border: 1px solid var(--n-100);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-card-tinted {\n  background: var(--brand-paper);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-section-light    { background: var(--brand-white);  color: var(--n-900); }\n.brand-section-mist     { background: var(--brand-paper);  color: var(--n-900); }\n.brand-section-canopy   { background: var(--brand-canopy); color: var(--brand-white); }\n.brand-section-canopy .brand-heading { color: var(--brand-white); }\n.brand-section-canopy .brand-overline { color: var(--brand-sage); }\n\n/* --- visual grammar tokens (brand-visual-grammar; 2026-07-01) ---\n   backgrounds / gradients / grid / iconography / elevation. Applied\n   downstream, reference-not-bind. --- */\n:root {\n  --canvas-canopy: #15311A;\n  --canvas-paper:  #FFFFFF;\n  --canvas-mist:   #F8FAFC;\n  --gradient-header:      linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);\n  --gradient-cta:         linear-gradient(90deg,#15311A 0%,#9EC187 100%);\n  --gradient-canopy-hero: linear-gradient(160deg,#15311A 0%,#214C28 100%);\n  --content-width: 1320px;\n  --section-gap:   96px;\n  --icon-stroke:   2px;\n  --card-radius:   12px;\n  --pill-radius:   999px;\n  --elev-border:   1px solid #ECECEC;\n}\n\n/* --- image treatment system (Component T; ORG-PLAN-045) ---\n   Definition of record: charter.expression.treatments. Applied downstream\n   (format-MCP + website .img-treatment), never pre-baked. --- */\n:root {\n  --treatment-default: documentary-warm;\n  --treatment-documentary-warm-filter:  saturate(0.82) contrast(1.02);\n  --treatment-documentary-warm-grain:   0.04;\n  --treatment-canopy-duotone-filter:    grayscale(1) contrast(1.04);\n  --treatment-canopy-duotone-shadow:    #15311A;\n  --treatment-canopy-duotone-mid:       #3F6B47;\n  --treatment-canopy-duotone-highlight: #EDF3E7;\n  --treatment-canopy-duotone-strength:  0.38;\n  --treatment-canopy-duotone-grain:     0.04;\n  --treatment-sage-graded-filter:       saturate(0.55) contrast(1.03);\n  --treatment-sage-graded-shadow:       #1E3A24;\n  --treatment-sage-graded-mid:          #5E8A63;\n  --treatment-sage-graded-highlight:    #DCEBD2;\n  --treatment-sage-graded-strength:     0.28;\n  --treatment-sage-graded-grain:        0.04;\n  --treatment-paper-soft-filter:        saturate(0.85) contrast(0.96) brightness(1.05);\n  --treatment-paper-soft-grain:         0.03;\n}\n",
+  "tokens_css": "/* ============================================================================\n * AI4comms — Design Tokens\n * Direction: Practical AI enablement partner (Sage + Caregiver)\n * Light-first, accessible, deployed-identity-aligned.\n *\n * Source of truth: ai4-comms.com live site (Divi global presets + verified\n * inline styles, captured 2026-05-18).\n *\n * Aspirational dark-mode \"Signal Authority\" tokens archived at\n * .build-history/aspirational-2026-04-05/tokens.css.\n * ============================================================================ */\n\n:root {\n  /* ---------- Primary palette ---------- */\n  --brand-canopy: #15311A;        /* primary deep brand green (logo wordmark) */\n  --brand-pine:   #214C28;        /* secondary mid brand green */\n  --brand-sage:   #9EC187;        /* accent — light sage green (active/highlight) */\n  --brand-paper:  #F8FAFC;        /* warm near-white surface */\n  --brand-mist:   #ECECEC;        /* secondary surface band */\n  --brand-white:  #FFFFFF;        /* primary surface */\n  --brand-ink:    #1F1F1F;        /* primary body text */\n\n  /* ---------- Pine scale (brand greens, light-mode oriented) ---------- */\n  --pine-50:  #EEF5EF;\n  --pine-100: #D5E7D8;\n  --pine-200: #A9CFB0;\n  --pine-300: #7AB488;\n  --pine-400: #509964;\n  --pine-500: #3B7A4E;\n  --pine-600: #2D5E3C;\n  --pine-700: #214C28;   /* secondary */\n  --pine-800: #15311A;   /* primary */\n  --pine-900: #0C1410;\n\n  /* ---------- Sage scale (accent) ---------- */\n  --sage-50:  #F1F6EC;\n  --sage-100: #E1EDD7;\n  --sage-200: #C9DEB5;\n  --sage-300: #B0CE93;\n  --sage-400: #9EC187;   /* accent */\n  --sage-500: #82AE68;\n  --sage-600: #678F4F;\n  --sage-700: #4F6F3D;\n  --sage-800: #3A522D;\n  --sage-900: #243620;\n\n  /* ---------- Neutral scale (cool grays, matches deployed site) ---------- */\n  --n-0:   #FFFFFF;\n  --n-50:  #F8FAFC;   /* deployed --gcid-jd3gym30fa */\n  --n-100: #ECECEC;   /* deployed --gcid-v6w1ho8m1g */\n  --n-200: #DDDDDD;\n  --n-300: #C4C4C4;\n  --n-400: #A1A1A1;\n  --n-500: #7A7A7A;\n  --n-600: #4E4E4E;   /* textLight */\n  --n-700: #3A3A3A;\n  --n-800: #2A2A2A;\n  --n-900: #1F1F1F;   /* text */\n\n  /* ---------- Semantic colors (palette-aligned, muted) ---------- */\n  --success:       #3B7A4E;\n  --success-light: #E2F0E6;\n  --warning:       #C89B3E;\n  --warning-light: #F6ECD4;\n  --error:         #B85648;\n  --error-light:   #F6DCD6;\n  --info:          #4F6F3D;\n  --info-light:    #E1EDD7;\n\n  /* ---------- Charter semantic mappings ---------- */\n  --color-primary:        var(--brand-canopy);\n  --color-secondary:      var(--brand-pine);\n  --color-accent:         var(--brand-sage);\n  --color-background:     var(--brand-white);\n  --color-background-alt: var(--brand-paper);\n  --color-text:           var(--n-900);\n  --color-text-light:     var(--n-600);\n  --color-text-on-dark:   var(--brand-white);\n  --color-text-on-accent: var(--brand-canopy);\n  --color-rule:           var(--n-100);\n  --color-rule-strong:    var(--n-200);\n\n  /* ---------- Typography ---------- */\n  --font-heading: \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-body:    \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-mono:    \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace;\n\n  --weight-regular:  400;\n  --weight-medium:   500;\n  --weight-semibold: 600;\n  --weight-bold:     700;\n\n  --line-height-tight: 1.2;\n  --line-height-snug:  1.4;\n  --line-height-base:  1.7;     /* matches deployed --et_global_body_font_height */\n  --line-height-loose: 1.9;\n\n  --letter-spacing-tight:  -0.01em;\n  --letter-spacing-normal: 0;\n  --letter-spacing-wide:   0.04em;\n  --letter-spacing-label:  0.12em;\n\n  /* ---------- Type scale ---------- */\n  --fs-xs:   12px;\n  --fs-sm:   13px;\n  --fs-base: 14px;    /* matches deployed --et_global_body_font_size */\n  --fs-md:   16px;\n  --fs-lg:   18px;\n  --fs-xl:   22px;\n  --fs-2xl:  28px;\n  --fs-3xl:  34px;\n  --fs-4xl:  44px;\n  --fs-5xl:  56px;\n  --fs-display: 72px;\n\n  /* ---------- Spacing scale ---------- */\n  --space-1:  4px;\n  --space-2:  8px;\n  --space-3:  12px;\n  --space-4:  16px;\n  --space-5:  24px;\n  --space-6:  32px;\n  --space-7:  48px;\n  --space-8:  64px;\n  --space-9:  96px;\n  --space-10: 128px;\n\n  /* ---------- Radii ---------- */\n  --radius-sm: 4px;\n  --radius-md: 6px;\n  --radius-lg: 12px;\n  --radius-pill: 999px;\n\n  /* ---------- Elevation ---------- */\n  --shadow-sm: 0 1px 2px rgba(15, 30, 18, 0.06);\n  --shadow-md: 0 4px 12px rgba(15, 30, 18, 0.08);\n  --shadow-lg: 0 12px 32px rgba(15, 30, 18, 0.12);\n\n  /* ---------- Motif tokens (light-mode hairline rules) ---------- */\n  --motif-line-weight: 1px;\n  --motif-line-color:  var(--brand-canopy);\n  --motif-rule-color:  var(--n-200);\n  --motif-pattern-opacity: 0.05;\n\n  /* ---------- Overlay tokens (for hero photography, if reintroduced) ---------- */\n  --overlay-canopy-80: rgba(21, 49, 26, 0.8);\n  --overlay-canopy-70: rgba(21, 49, 26, 0.7);\n  --overlay-canopy-55: rgba(21, 49, 26, 0.55);\n\n  /* ---------- Layout ---------- */\n  --content-max:  1320px;\n  --content-narrow: 760px;\n  --gutter:       24px;\n  --section-gap:  96px;\n}\n\n/* ============================================================================\n * Utility classes — light-mode base\n * ============================================================================ */\n\n.brand-button-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: var(--brand-canopy);\n  color: var(--brand-white);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: none;\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease;\n}\n.brand-button-primary:hover { background: var(--brand-pine); }\n\n.brand-button-ghost {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: transparent;\n  color: var(--brand-canopy);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: 1px solid var(--brand-canopy);\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease, color 160ms ease;\n}\n.brand-button-ghost:hover { background: var(--brand-canopy); color: var(--brand-white); }\n\n.brand-overline {\n  font-family: var(--font-body);\n  font-size: var(--fs-xs);\n  font-weight: var(--weight-semibold);\n  text-transform: uppercase;\n  letter-spacing: var(--letter-spacing-label);\n  color: var(--brand-pine);\n}\n\n.brand-heading {\n  font-family: var(--font-heading);\n  font-weight: var(--weight-bold);\n  line-height: var(--line-height-tight);\n  letter-spacing: var(--letter-spacing-tight);\n  color: var(--brand-canopy);\n}\n\n.brand-body {\n  font-family: var(--font-body);\n  font-weight: var(--weight-regular);\n  font-size: var(--fs-base);\n  line-height: var(--line-height-base);\n  color: var(--n-900);\n}\n\n.brand-rule {\n  border: none;\n  border-top: var(--motif-line-weight) solid var(--motif-rule-color);\n  margin: var(--space-6) 0;\n}\n\n.brand-rule-accent {\n  border: none;\n  border-top: 2px solid var(--brand-canopy);\n  width: 64px;\n  margin: var(--space-5) 0;\n}\n\n.brand-card {\n  background: var(--brand-white);\n  border: 1px solid var(--n-100);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-card-tinted {\n  background: var(--brand-paper);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-section-light    { background: var(--brand-white);  color: var(--n-900); }\n.brand-section-mist     { background: var(--brand-paper);  color: var(--n-900); }\n.brand-section-canopy   { background: var(--brand-canopy); color: var(--brand-white); }\n.brand-section-canopy .brand-heading { color: var(--brand-white); }\n.brand-section-canopy .brand-overline { color: var(--brand-sage); }\n\n/* --- visual grammar tokens (brand-visual-grammar; 2026-07-01) ---\n   backgrounds / gradients / grid / iconography / elevation. Applied\n   downstream, reference-not-bind. --- */\n:root {\n  --canvas-canopy: #15311A;\n  --canvas-paper:  #FFFFFF;\n  --canvas-mist:   #F8FAFC;\n  --gradient-header:      linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);\n  --gradient-cta:         linear-gradient(90deg,#15311A 0%,#9EC187 100%);\n  --gradient-canopy-hero: linear-gradient(160deg,#15311A 0%,#214C28 100%);\n  --content-width: 1320px;\n  --section-gap:   96px;\n  --icon-stroke:   2px;\n  --card-radius:   12px;\n  --pill-radius:   999px;\n  --elev-border:   1px solid #ECECEC;\n}\n\n/* --- logo asset system (refresh 2026-07-22) ---\n   Background-adaptive wordmark variants (form unchanged, colour adapts) +\n   favicon tiles. Machine-readable source of record: charter.logo (variants /\n   usage / favicons), compiled into brand_context.logo for the format MCP.\n   These vars expose the same assets to web/CSS surfaces (paths relative to the\n   overlay root). Pick by surface: light -> primary; dark section -> reversed;\n   photo/immersive -> knockout; one-colour -> mono. --- */\n:root {\n  --logo-primary:      url(\"logos/ai4comms-logo-primary.svg\");     /* light backgrounds (default) */\n  --logo-reversed:     url(\"logos/ai4comms-logo-reversed.svg\");    /* solid canopy/dark sections */\n  --logo-knockout:     url(\"logos/ai4comms-logo-knockout.svg\");    /* photos / immersive dark */\n  --logo-mono-canopy:  url(\"logos/ai4comms-logo-mono-canopy.svg\"); /* one-colour on light */\n  --logo-mono-white:   url(\"logos/ai4comms-logo-mono-white.svg\");  /* one-colour on dark */\n  --favicon-canopy:    url(\"logos/favicons/ai4comms-favicon-canopy.svg\");  /* default tile */\n  --favicon-sage:      url(\"logos/favicons/ai4comms-favicon-sage.svg\");\n  --favicon-paper:     url(\"logos/favicons/ai4comms-favicon-paper.svg\");\n  --favicon-outline:   url(\"logos/favicons/ai4comms-favicon-outline.svg\");\n}\n\n/* --- image treatment system (Component T; ORG-PLAN-045) ---\n   Definition of record: charter.expression.treatments. Applied downstream\n   (format-MCP + website .img-treatment), never pre-baked. --- */\n:root {\n  --treatment-default: documentary-warm;\n  --treatment-documentary-warm-filter:  saturate(0.82) contrast(1.02);\n  --treatment-documentary-warm-grain:   0.04;\n  --treatment-canopy-duotone-filter:    grayscale(1) contrast(1.04);\n  --treatment-canopy-duotone-shadow:    #15311A;\n  --treatment-canopy-duotone-mid:       #3F6B47;\n  --treatment-canopy-duotone-highlight: #EDF3E7;\n  --treatment-canopy-duotone-strength:  0.38;\n  --treatment-canopy-duotone-grain:     0.04;\n  --treatment-sage-graded-filter:       saturate(0.55) contrast(1.03);\n  --treatment-sage-graded-shadow:       #1E3A24;\n  --treatment-sage-graded-mid:          #5E8A63;\n  --treatment-sage-graded-highlight:    #DCEBD2;\n  --treatment-sage-graded-strength:     0.28;\n  --treatment-sage-graded-grain:        0.04;\n  --treatment-paper-soft-filter:        saturate(0.85) contrast(0.96) brightness(1.05);\n  --treatment-paper-soft-grain:         0.03;\n}\n",
   "identity": {
     "essence": "AI4comms turns AI from abstract hype into usable operating practice for communications teams — in Dutch, on the ground, one routekaart at a time.",
     "positioning": "For Dutch-speaking communications professionals under pressure to adopt AI responsibly, AI4comms is the enablement partner that translates AI tooling into practical routines — so teams gain impact without losing their craft or their judgment.",
@@ -703,17 +703,249 @@
       "color": "primary",
       "opacity": 0.55
     },
-    "logoVariantOnImage": "primary"
+    "logoVariantOnImage": "white"
   },
   "logo": {
     "primary": "logos/ai4comms-logo-primary.svg",
     "png": "logos/ai4comms-logo-primary.png",
-    "favicon_192": "logos/ai4comms-favicon-192.png",
-    "favicon_180": "logos/ai4comms-favicon-180.png",
+    "white": "logos/ai4comms-logo-knockout.svg",
+    "whitePng": "logos/ai4comms-logo-knockout.png",
+    "reversed": "logos/ai4comms-logo-reversed.svg",
+    "reversedPng": "logos/ai4comms-logo-reversed.png",
+    "monoCanopy": "logos/ai4comms-logo-mono-canopy.svg",
+    "monoCanopyPng": "logos/ai4comms-logo-mono-canopy.png",
+    "monoWhite": "logos/ai4comms-logo-mono-white.svg",
+    "monoWhitePng": "logos/ai4comms-logo-mono-white.png",
+    "favicon_192": "logos/favicons/ai4comms-favicon-canopy-192.png",
+    "favicon_180": "logos/favicons/ai4comms-favicon-canopy-180.png",
     "maxWidth": "180pt",
     "maxHeight": "60pt",
     "sizing": "contain",
-    "_note": "Live deployed brand has only one logo variant (green wordmark on light backgrounds). White-on-dark variant, icon-only mark, and square mark variants are NOT deployed and have been intentionally omitted. Reintroduce only when client commissions them."
+    "variants": [
+      {
+        "id": "primary",
+        "key": "primary",
+        "svg": "logos/ai4comms-logo-primary.svg",
+        "png": "logos/ai4comms-logo-primary.png",
+        "backgrounds": [
+          "white",
+          "paper",
+          "mist",
+          "light"
+        ],
+        "surface": "Default — dark canopy panel on any light surface",
+        "minWidthPx": 96
+      },
+      {
+        "id": "reversed",
+        "key": "reversed",
+        "svg": "logos/ai4comms-logo-reversed.svg",
+        "png": "logos/ai4comms-logo-reversed.png",
+        "backgrounds": [
+          "canopy",
+          "pine",
+          "solid-dark"
+        ],
+        "surface": "Light paper chip for solid canopy/dark sections",
+        "minWidthPx": 96
+      },
+      {
+        "id": "knockout",
+        "key": "white",
+        "svg": "logos/ai4comms-logo-knockout.svg",
+        "png": "logos/ai4comms-logo-knockout.png",
+        "backgrounds": [
+          "photo",
+          "gradient",
+          "immersive-dark",
+          "canopy"
+        ],
+        "surface": "Outlined white + sage 4, for imagery / immersive dark",
+        "minWidthPx": 110
+      },
+      {
+        "id": "mono-canopy",
+        "key": "monoCanopy",
+        "svg": "logos/ai4comms-logo-mono-canopy.svg",
+        "png": "logos/ai4comms-logo-mono-canopy.png",
+        "backgrounds": [
+          "white",
+          "light"
+        ],
+        "surface": "One-colour canopy ink — stamps, single-colour print, emboss",
+        "minWidthPx": 96
+      },
+      {
+        "id": "mono-white",
+        "key": "monoWhite",
+        "svg": "logos/ai4comms-logo-mono-white.svg",
+        "png": "logos/ai4comms-logo-mono-white.png",
+        "backgrounds": [
+          "canopy",
+          "dark",
+          "ink"
+        ],
+        "surface": "One-colour white — reversed single-colour print, watermark",
+        "minWidthPx": 96
+      }
+    ],
+    "usage": {
+      "light": "primary",
+      "paper": "primary",
+      "mist": "primary",
+      "canopySection": "reversed",
+      "solidDark": "reversed",
+      "photo": "white",
+      "gradient": "white",
+      "immersiveDark": "white",
+      "oneColorLight": "monoCanopy",
+      "oneColorDark": "monoWhite"
+    },
+    "favicons": {
+      "default": "canopy",
+      "note": "AI4 square tile derived from the logo's own A/I/4 glyphs. 'canopy' is the default; alternates cover different browser-chrome / app-tile backgrounds.",
+      "sizes": [
+        16,
+        32,
+        180,
+        192
+      ],
+      "set": {
+        "canopy": {
+          "svg": "logos/favicons/ai4comms-favicon-canopy.svg",
+          "png": {
+            "16": "logos/favicons/ai4comms-favicon-canopy-16.png",
+            "32": "logos/favicons/ai4comms-favicon-canopy-32.png",
+            "180": "logos/favicons/ai4comms-favicon-canopy-180.png",
+            "192": "logos/favicons/ai4comms-favicon-canopy-192.png"
+          },
+          "use": "default · dark tab bars, app tile, document headers"
+        },
+        "sage": {
+          "svg": "logos/favicons/ai4comms-favicon-sage.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-sage-32.png",
+            "180": "logos/favicons/ai4comms-favicon-sage-180.png"
+          },
+          "use": "bright accent tile — busy/light chrome where it should pop"
+        },
+        "paper": {
+          "svg": "logos/favicons/ai4comms-favicon-paper.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-paper-32.png",
+            "180": "logos/favicons/ai4comms-favicon-paper-180.png"
+          },
+          "use": "quiet light-mode-native tile"
+        },
+        "outline": {
+          "svg": "logos/favicons/ai4comms-favicon-outline.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-outline-32.png",
+            "180": "logos/favicons/ai4comms-favicon-outline-180.png"
+          },
+          "use": "transparent — blends on any light surface"
+        }
+      }
+    },
+    "_note": "Multi-variant logo system (refresh 2026-07-22): the mark is unchanged; only colour adapts per background. Render surfaces pick a variant via `usage[<background-class>]` -> logo key; `images.logoVariantOnImage='white'` auto-selects the knockout on imagery. Favicons are AI4 square tiles (canopy default + sage/paper/outline). Aspirational note about a missing white variant is retired — the knockout IS the white variant now."
+  },
+  "symbol": {
+    "status": "approved",
+    "kind": "multi-version",
+    "selection": {
+      "mode": "contextual-preferred-variance",
+      "preferenceOrder": [
+        "routekaart",
+        "four-badge",
+        "network",
+        "partner-leaves"
+      ],
+      "default": "routekaart",
+      "variance": true,
+      "note": "A deliverable may show ANY mark in the set. Prefer the version whose contextTags best match the surface/topic; when several match (or none), fall back to preferenceOrder, but apply variance (seeded — reuse the image variance engine seed) so consecutive deliverables rotate marks instead of repeating. Never invent a mark outside the set. Deterministic single-pick consumers use selection.default."
+    },
+    "set": [
+      {
+        "id": "routekaart",
+        "label": "Routekaart",
+        "pref": 1,
+        "svg": "assets/svg/marks/mark-routekaart.svg",
+        "png": "assets/svg/marks/mark-routekaart.png",
+        "knockoutSvg": "assets/svg/marks/mark-routekaart-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-routekaart-knockout.png",
+        "concept": "The guided path to a goal — their signature method word (routekaart)",
+        "contextTags": [
+          "journey",
+          "method",
+          "process",
+          "roadmap",
+          "how-we-work",
+          "onboarding",
+          "approach",
+          "step-by-step"
+        ]
+      },
+      {
+        "id": "four-badge",
+        "label": "The “4” badge",
+        "pref": 2,
+        "svg": "assets/svg/marks/mark-four-badge.svg",
+        "png": "assets/svg/marks/mark-four-badge.png",
+        "knockoutSvg": "assets/svg/marks/mark-four-badge-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-four-badge-knockout.png",
+        "concept": "The sage 4 (already the logo accent) as a badge — ties to equity, doubles as favicon",
+        "contextTags": [
+          "favicon",
+          "compact",
+          "badge",
+          "identity",
+          "small-scale",
+          "avatar",
+          "app-icon",
+          "stamp"
+        ]
+      },
+      {
+        "id": "network",
+        "label": "Partner network",
+        "pref": 3,
+        "svg": "assets/svg/marks/mark-network.svg",
+        "png": "assets/svg/marks/mark-network.png",
+        "knockoutSvg": "assets/svg/marks/mark-network-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-network-knockout.png",
+        "concept": "Soft nodes + calm links — AI woven into the team, one node sage",
+        "contextTags": [
+          "ai",
+          "integration",
+          "system",
+          "connection",
+          "technology",
+          "product",
+          "platform"
+        ]
+      },
+      {
+        "id": "partner-leaves",
+        "label": "Partner leaves",
+        "pref": 4,
+        "svg": "assets/svg/marks/mark-partner-leaves.svg",
+        "png": "assets/svg/marks/mark-partner-leaves.png",
+        "knockoutSvg": "assets/svg/marks/mark-partner-leaves-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-partner-leaves-knockout.png",
+        "concept": "Two leaves, human + AI — partner not replacement (the tagline)",
+        "contextTags": [
+          "partnership",
+          "collaboration",
+          "human-ai",
+          "tagline",
+          "people",
+          "team",
+          "care",
+          "together"
+        ]
+      }
+    ],
+    "_note": "Multi-version distinctive mark set (refresh 2026-07-22). The mark FAMILY gives the brand rotating signalling — resolve via `selection` (contextual match -> preferenceOrder -> seeded variance), mirroring the image variance engine. Light variants = canopy line + sage fill; knockout = white + sage for dark/photo. Retired candidates (sprout, nurtured-sprout) not shipped. Distinct from the typographic `expression.visual_grammar.motifs` (sage-highlight) which stays as the wordmark-level motif."
   },
   "video": {
     "resolution": "1920x1080",

@@ -59,21 +59,35 @@ Write like a senior adviser who is a peer, not a guru. In Dutch, default to prof
 
 ## 3. Logo
 
-The deployed brand has **one logo variant**: a green wordmark on light backgrounds.
+The mark is **one wordmark** — the rounded "AI4comms" panel. It never changes shape. What changes is **colour**, so it sits correctly on any background. Refresh 2026-07-22 added a background-adaptive variant set + a favicon system; the wordmark geometry is untouched (a `protected` asset).
 
-| File | Use |
-|---|---|
-| `logos/ai4comms-logo-primary.svg` | Primary lockup, all light-background uses (web, docs, decks, signature) |
-| `logos/ai4comms-logo-primary.png` | Raster fallback (1500×966 source) |
-| `logos/ai4comms-favicon-192.png` | Favicon / app tile (192px) |
-| `logos/ai4comms-favicon-180.png` | apple-touch-icon (180px) |
+### Colour variants (pick by background)
 
-**Clear space:** maintain at least the height of the "A" in "AI4comms" on all sides.
-**Minimum size:** 96px wide on screen, 24mm wide in print.
+| Variant | File | Use it on |
+|---|---|---|
+| **Primary** | `logos/ai4comms-logo-primary.svg` (`.png`) | White / paper / any **light** surface — the default |
+| **Reversed** | `logos/ai4comms-logo-reversed.svg` (`.png`) | Solid **canopy / pine / dark** sections (light paper chip, canopy letters, sage 4) |
+| **Knockout** | `logos/ai4comms-logo-knockout.svg` (`.png`) | **Photos** & immersive dark (transparent, white outline + letters, sage 4) — this is the `logo.white` slot |
+| **Mono canopy** | `logos/ai4comms-logo-mono-canopy.svg` (`.png`) | **One-colour** print on light (stamps, emboss) |
+| **Mono white** | `logos/ai4comms-logo-mono-white.svg` (`.png`) | **One-colour reversed** print / watermark on dark |
 
-**Not yet deployed (do not invent):**
-- White-on-dark variant — the live site never places the logo on dark surfaces. If a dark surface is unavoidable, use the brand-canopy `#15311A` as the surface (matches the wordmark color), or commission a proper white variant before shipping.
-- Icon-only mark / square mark — not deployed. Use the favicon PNGs for sub-32px contexts.
+The background→variant mapping is machine-readable in `charter.logo.usage` and `charter.logo.variants`, and `images.logoVariantOnImage = "white"` so every render surface auto-selects the knockout over imagery. **Never place the primary dark panel on a dark surface — reach for reversed or knockout.**
+
+### Favicon
+
+`AI4` in a rounded square tile (built from the logo's own A/I/4 glyphs — legible to 16px, unlike the old shrunk panel). Multiple tints for different chrome, mapped in `charter.logo.favicons`:
+
+| Tile | Files | Use |
+|---|---|---|
+| **Canopy** (default) | `logos/favicons/ai4comms-favicon-canopy-{16,32,180,192}.png` (`.svg`) | Default — dark tab bars, app tile, document headers |
+| **Sage** | `logos/favicons/ai4comms-favicon-sage-{32,180}.png` | Bright accent — busy/light chrome where it should pop |
+| **Paper** | `logos/favicons/ai4comms-favicon-paper-{32,180}.png` | Quiet, light-mode-native |
+| **Outline** | `logos/favicons/ai4comms-favicon-outline-{32,180}.png` | Transparent — blends on any light surface |
+
+**Clear space:** at least the height of the "A" on all sides.
+**Minimum size:** wordmark 96px wide on screen (knockout 110px), 24mm in print; favicon down to 16px.
+
+*Icon-only / abstract symbol mark — still not part of the system; a distinctive graphical mark is the next refresh step (see BUILD_LOG). Until then the favicon tile is the sub-32px mark.*
 
 ---
 
@@ -126,6 +140,19 @@ The deployed site has **no decorative motif system** — it relies on whitespace
 - **Pine wedge** — a single 8px-tall canopy band used as a section opener at the top of dark callout boxes
 
 That is the full motif vocabulary until a richer system is commissioned. Do not invent decorative shapes that aren't deployed.
+
+### Distinctive mark family (added 2026-07-22)
+
+The brand now has a **graphical mark** — and deliberately, **not one mark but a small family of four**, so brand signalling can rotate instead of repeating (the same idea as the rotating image library). All share the language: canopy line + soft sage fill, rounded, 2px stroke — never neon, never cold. Each ships a light version (`assets/svg/marks/mark-<id>.svg`, canopy+sage) and a knockout (`-knockout.svg`, white+sage for dark/photo).
+
+| Pref | Mark | Says | Reach for it when |
+|---|---|---|---|
+| 1 | **Routekaart** (`mark-routekaart`) | the guided path to a goal — their method word | process, approach, how-we-work, onboarding |
+| 2 | **The "4" badge** (`mark-four-badge`) | the sage 4 as a badge — ties to logo equity | small/compact, favicon, avatar, app icon, stamp |
+| 3 | **Partner network** (`mark-network`) | AI woven into the team | AI, product, integration, platform |
+| 4 | **Partner leaves** (`mark-partner-leaves`) | human + AI, partner not replacement (the tagline) | partnership, people, collaboration, care |
+
+**How a deliverable picks one** — machine-readable in `charter.symbol.selection`: match the surface/topic against each mark's `contextTags`; when several fit (or none), follow `preferenceOrder` **with seeded variance** so consecutive documents rotate marks. Deterministic single-pick surfaces use `selection.default` (Routekaart). Never invent a mark outside the set. This is a **multi-version brand item** (`symbol.kind: "multi-version"`) — the same pattern as the logo variants, but the logo picks *deterministically by background* while the mark picks *by context with variance*.
 
 ---
 

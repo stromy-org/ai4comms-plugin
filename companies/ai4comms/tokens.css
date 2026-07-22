@@ -271,6 +271,25 @@
   --elev-border:   1px solid #ECECEC;
 }
 
+/* --- logo asset system (refresh 2026-07-22) ---
+   Background-adaptive wordmark variants (form unchanged, colour adapts) +
+   favicon tiles. Machine-readable source of record: charter.logo (variants /
+   usage / favicons), compiled into brand_context.logo for the format MCP.
+   These vars expose the same assets to web/CSS surfaces (paths relative to the
+   overlay root). Pick by surface: light -> primary; dark section -> reversed;
+   photo/immersive -> knockout; one-colour -> mono. --- */
+:root {
+  --logo-primary:      url("logos/ai4comms-logo-primary.svg");     /* light backgrounds (default) */
+  --logo-reversed:     url("logos/ai4comms-logo-reversed.svg");    /* solid canopy/dark sections */
+  --logo-knockout:     url("logos/ai4comms-logo-knockout.svg");    /* photos / immersive dark */
+  --logo-mono-canopy:  url("logos/ai4comms-logo-mono-canopy.svg"); /* one-colour on light */
+  --logo-mono-white:   url("logos/ai4comms-logo-mono-white.svg");  /* one-colour on dark */
+  --favicon-canopy:    url("logos/favicons/ai4comms-favicon-canopy.svg");  /* default tile */
+  --favicon-sage:      url("logos/favicons/ai4comms-favicon-sage.svg");
+  --favicon-paper:     url("logos/favicons/ai4comms-favicon-paper.svg");
+  --favicon-outline:   url("logos/favicons/ai4comms-favicon-outline.svg");
+}
+
 /* --- image treatment system (Component T; ORG-PLAN-045) ---
    Definition of record: charter.expression.treatments. Applied downstream
    (format-MCP + website .img-treatment), never pre-baked. --- */
