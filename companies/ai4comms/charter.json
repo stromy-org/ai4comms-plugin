@@ -422,7 +422,7 @@
   },
   "templates": {
     "docx": {
-      "default": "templates/docx/default.docx",
+      "styles": "templates/docx/styles.docx",
       "letterhead": "templates/docx/letterhead.docx"
     },
     "html": {

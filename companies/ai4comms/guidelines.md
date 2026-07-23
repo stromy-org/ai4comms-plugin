@@ -176,8 +176,7 @@ The existing `templates/` directory contains dark-mode artifacts that no longer 
 
 | Template | Status | Action |
 |---|---|---|
-| `templates/docx/default.docx` | dark-mode | Regenerate in light mode |
-| `templates/docx/letterhead.docx` | dark-mode | Regenerate in light mode |
+| `templates/docx/styles.docx` + `letterhead.docx` | ✅ light-mode | Materialised from specs via `render-anchors.js` (ORG-PLAN-149); stale `default.docx` removed |
 | `templates/html/business-cards.html` | dark-mode | Regenerate in light mode |
 | `templates/html/email-signature.html` | dark-mode | Regenerate in light mode |
 
