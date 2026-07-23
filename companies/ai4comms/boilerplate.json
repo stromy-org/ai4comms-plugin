@@ -1,6 +1,6 @@
 {
   "$schema": "../../schema/boilerplate.schema.json",
-  "$comment": "AI4Comms fixed cross-deliverable strings. AI4Comms is a brand of Duke Strategy & Corporate Affairs B.V.; company facts live in profile.json, not here.",
+  "$comment": "AI4Comms fixed cross-deliverable strings. AI4Comms is a brand of Duke Strategy & Corporate Affairs B.V.; company facts live in profile.json, not here. The rendered copyright is deliberately brand-facing (AI4Comms), NOT the legal entity — client-facing deliverables carry the brand the client engaged, not the parent B.V. The trademark field keeps the accurate brand-of relationship for formal documents. This removes the leak that build_payloads.py used to strip by hand (Emma review, r2/r4 A8).",
   "version": "1.0",
   "footer": {
     "deck": "AI4Comms · {{confidentiality.deck}} · {{page}} / {{pages}}",
@@ -20,7 +20,7 @@
     "draft": { "text": "CONCEPT", "opacity": 0.08, "rotation": -30, "color": "textLight" }
   },
   "legal": {
-    "copyright": "© {{year}} Duke Strategy & Corporate Affairs B.V. Alle rechten voorbehouden.",
+    "copyright": "© {{year}} AI4Comms. Alle rechten voorbehouden.",
     "trademark": "AI4Comms is een merk van Duke Strategy & Corporate Affairs B.V."
   },
   "sign_off": {
