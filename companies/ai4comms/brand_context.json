@@ -187,7 +187,7 @@
   "boilerplate": {
     "footer": "AI4Comms · {{confidentiality.deck}} · {{page}} / {{pages}}",
     "confidentiality": "Vertrouwelijk",
-    "copyright": "© {{year}} Duke Strategy & Corporate Affairs B.V. Alle rechten voorbehouden.",
+    "copyright": "© {{year}} AI4Comms. Alle rechten voorbehouden.",
     "sign_off": {
       "default_nl": "Met vriendelijke groet,",
       "default_en": "Kind regards,"
