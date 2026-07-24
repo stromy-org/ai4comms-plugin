@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "dcd9a99c1aac8e2f4d56053ccdd9825ac35afdf667a98292bbe966df9156f82e",
+    "charterSha": "316a3835c37709126db26aa404032aeeb9a05a2e11d857c9b71f6df3382e56ca",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -848,6 +848,12 @@
       }
     },
     "_note": "Multi-variant logo system (refresh 2026-07-22): the mark is unchanged; only colour adapts per background. Render surfaces pick a variant via `usage[<background-class>]` -> logo key; `images.logoVariantOnImage='white'` auto-selects the knockout on imagery. Favicons are AI4 square tiles (canopy default + sage/paper/outline). Aspirational note about a missing white variant is retired — the knockout IS the white variant now."
+  },
+  "templates": {
+    "docx": {
+      "styles": "templates/docx/styles.docx",
+      "letterhead": "templates/docx/letterhead.docx"
+    }
   },
   "symbol": {
     "status": "approved",
