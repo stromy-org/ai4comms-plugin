@@ -1,0 +1,704 @@
+{
+  "schema_version": 2,
+  "brand": "ai4comms",
+  "source": "Brand-imagery run 2026-07-22, selected + ultra-refined 2026-07-27",
+  "note": "31 stock (Unsplash) + 8 media-gen sourced from the 07-22 shotlist; 3 stock candidates dropped for content-brief mismatch (see .build-history note); 12 people-shots ultra-refined at imagen-4.0-ultra-generate-001 reusing original prompt+seed.",
+  "library": [
+    {
+      "id": "st-comms-1",
+      "source": "images/source/st-comms-1.jpg",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "hero"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
+        "attribution": "Photo by Christina @ wocintechchat.com on Unsplash"
+      }
+    },
+    {
+      "id": "st-comms-3",
+      "source": "images/source/st-comms-3.jpg",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Specht GmbH on Pexels"
+      }
+    },
+    {
+      "id": "st-comms-4",
+      "source": "images/source/st-comms-4.jpg",
+      "theme": "comms-at-work",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/7414038/pexels-photo-7414038.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by RDNE Stock project on Pexels"
+      }
+    },
+    {
+      "id": "t1-comms-at-work",
+      "source": "images/source/t1-comms-at-work.png",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "th1-comms-c",
+      "source": "images/source/th1-comms-c.png",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.45,
+          "y": 0.5
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "th1-comms-c_v2",
+      "source": "images/source/th1-comms-c_v2.png",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "th1-comms-d",
+      "source": "images/source/th1-comms-d.png",
+      "theme": "comms-at-work",
+      "roles": [
+        "hero",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "st-routekaart-1",
+      "source": "images/source/st-routekaart-1.jpg",
+      "theme": "routekaart-learning",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1758691737083-0e7fdbde0f05?w=1600&q=80",
+        "attribution": "Photo by Vitaly Gariev on Unsplash"
+      }
+    },
+    {
+      "id": "st-routekaart-3",
+      "source": "images/source/st-routekaart-3.jpg",
+      "theme": "routekaart-learning",
+      "roles": [
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Mizuno K on Pexels"
+      }
+    },
+    {
+      "id": "st-routekaart-4",
+      "source": "images/source/st-routekaart-4.jpg",
+      "theme": "routekaart-learning",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/7688083/pexels-photo-7688083.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Kindel Media on Pexels"
+      }
+    },
+    {
+      "id": "th2-routekaart-c",
+      "source": "images/source/th2-routekaart-c.png",
+      "theme": "routekaart-learning",
+      "roles": [
+        "section",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "st-human-ai-3",
+      "source": "images/source/st-human-ai-3.jpg",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Teona Swift on Pexels"
+      }
+    },
+    {
+      "id": "st-human-ai-4",
+      "source": "images/source/st-human-ai-4.jpg",
+      "theme": "human-ai-warm",
+      "roles": [
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/5668872/pexels-photo-5668872.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Sora Shimazaki on Pexels"
+      }
+    },
+    {
+      "id": "st-human-ai-5",
+      "source": "images/source/st-human-ai-5.jpg",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
+        "attribution": "Photo by Teona Swift on Pexels"
+      }
+    },
+    {
+      "id": "t3-human-ai-warm",
+      "source": "images/source/t3-human-ai-warm.png",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th3-human-ai-c",
+      "source": "images/source/th3-human-ai-c.png",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "closing"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th3-human-ai-d_v2",
+      "source": "images/source/th3-human-ai-d_v2.png",
+      "theme": "human-ai-warm",
+      "roles": [
+        "divider",
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "st-conversation-1",
+      "source": "images/source/st-conversation-1.jpg",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
+        "attribution": "Photo by Van Tay Media on Unsplash"
+      }
+    },
+    {
+      "id": "st-conversation-2",
+      "source": "images/source/st-conversation-2.jpg",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
+        "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
+      }
+    },
+    {
+      "id": "st-conversation-3",
+      "source": "images/source/st-conversation-3.jpg",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
+        "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
+      }
+    },
+    {
+      "id": "st-conversation-4",
+      "source": "images/source/st-conversation-4.jpg",
+      "theme": "conversation-trust",
+      "roles": [
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
+        "attribution": "Photo by Vitaly Gariev on Unsplash"
+      }
+    },
+    {
+      "id": "st-conversation-5",
+      "source": "images/source/st-conversation-5.jpg",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true,
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Vitaly Gariev on Pexels"
+      }
+    },
+    {
+      "id": "th4-conversation-b_v2",
+      "source": "images/source/th4-conversation-b_v2.png",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.4
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "th4-conversation-c",
+      "source": "images/source/th4-conversation-c.png",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "hero": true
+    },
+    {
+      "id": "st-workspace-2",
+      "source": "images/source/st-workspace-2.jpg",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Erika Andrade on Pexels"
+      }
+    },
+    {
+      "id": "st-workspace-5",
+      "source": "images/source/st-workspace-5.jpg",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1743385779534-f53c018c21f5?w=1600&q=80",
+        "attribution": "Photo by Kelly Sikkema on Unsplash"
+      }
+    },
+    {
+      "id": "st-workspace-6",
+      "source": "images/source/st-workspace-6.jpg",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/97987/pexels-photo-97987.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Markus Spiske on Pexels"
+      }
+    },
+    {
+      "id": "st-workspace-7",
+      "source": "images/source/st-workspace-7.jpg",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/4195334/pexels-photo-4195334.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Karola G (kaboompics) on Pexels"
+      }
+    },
+    {
+      "id": "st-workspace-8",
+      "source": "images/source/st-workspace-8.jpg",
+      "theme": "calm-workspace",
+      "roles": [
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
+        "attribution": "Photo by Sora Shimazaki on Pexels"
+      }
+    },
+    {
+      "id": "t5-calm-workspace",
+      "source": "images/source/t5-calm-workspace.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th5-workspace-b",
+      "source": "images/source/th5-workspace-b.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th5-workspace-b_v2",
+      "source": "images/source/th5-workspace-b_v2.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th5-workspace-c",
+      "source": "images/source/th5-workspace-c.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th5-workspace-d",
+      "source": "images/source/th5-workspace-d.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th5-workspace-d_v2",
+      "source": "images/source/th5-workspace-d_v2.png",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "st-craft-1",
+      "source": "images/source/st-craft-1.jpg",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
+        "attribution": "Photo by Priscilla Du Preez on Unsplash"
+      }
+    },
+    {
+      "id": "st-craft-5",
+      "source": "images/source/st-craft-5.jpg",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      },
+      "credit": {
+        "provider": "unsplash",
+        "url": "https://images.pexels.com/photos/5425598/pexels-photo-5425598.jpeg",
+        "attribution": "Photo by Anna Tarazevich on Pexels"
+      }
+    },
+    {
+      "id": "th6-craft-b",
+      "source": "images/source/th6-craft-b.png",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "th6-craft-d_v2",
+      "source": "images/source/th6-craft-d_v2.png",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "geometry": {
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ]
+}

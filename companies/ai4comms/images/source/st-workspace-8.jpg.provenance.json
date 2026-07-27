@@ -1,0 +1,14 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Sora Shimazaki on Pexels",
+  "roles": [
+    "background"
+  ],
+  "theme": "calm-workspace",
+  "subject": "White coffee cup on wooden table beside an open blank notebook and black pen, dark-framed window softly blurred behind, muted warm-neutral (portrait crop)",
+  "content_type": "image/jpeg",
+  "bytes": 294663,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

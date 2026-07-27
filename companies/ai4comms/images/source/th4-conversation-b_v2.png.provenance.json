@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "a3a856faaf99d70b7b3b16d6f6bce0e5980f2307fb0e365d5ff17d1e6a8f5313",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-27T14:52:09.699698+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-ultra-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "4:3",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1051
+  },
+  "prompt": "two colleagues in a relaxed genuine work conversation on a low sofa in an office breakout area, coffee cups on the table, one gesturing while the other listens, warm and candid. eye-level medium two-shot showing both people and the environment, softly blurred window behind, documentary reportage not a studio portrait. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "bf5287cf8d09129978db718ff64b0741917a9d4fa02d886358466234bba0cb88",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "two colleagues in a relaxed genuine work conversation on a low sofa in an office breakout area, coffee cups on the table, one gesturing while the other listens, warm and candid. eye-level medium two-shot showing both people and the environment, softly blurred window behind, documentary reportage not a studio portrait. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1051,
+  "synth_id_watermark": true
+}

@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Vitaly Gariev on Pexels",
+  "roles": [
+    "cover",
+    "section"
+  ],
+  "theme": "conversation-trust",
+  "subject": "A woman and a bearded man in glasses in genuine conversation across a small round table, both faces visible, coffee cups + notebook on table, bright window light (third person blurred in background)",
+  "content_type": "image/jpeg",
+  "bytes": 124878,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

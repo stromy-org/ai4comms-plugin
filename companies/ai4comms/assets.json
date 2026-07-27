@@ -296,6 +296,201 @@
       "name": "signal-03-nwNjeZ0WA6w--16x9-textsafe.jpg",
       "sha256": "292c136d7208a97ce3e1f1c50e5ead51a875de2c1de7bce8978a96509c83dcde",
       "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-1.jpg",
+      "sha256": "77ae43512d79de440b6119b2fe2647a888cea32f6d4cf8b9d1659d382db85db1",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-3.jpg",
+      "sha256": "e43b3db246d354e44e75527248f3a1f452a2529c631791a1e493c46fb8e1cc64",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-4.jpg",
+      "sha256": "04936592e4a2c5cf24847a715f3670b2d758d664193d5fd1794bc413608849ff",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-1.jpg",
+      "sha256": "e57c465e039993c58a8982cb419baa1497b14763ee70dcd1136e8e4de47a78cf",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-2.jpg",
+      "sha256": "7fce29084ab3c20dd9123dd51de0db09b9110bd23ec983bbaf48ad555b2c1896",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-3.jpg",
+      "sha256": "cae65d60a88326554fe459c01ecc5651c09c6fe09d9151336c1560d80e4c538c",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-4.jpg",
+      "sha256": "7585ca2937ac403a01b938c6d20da71d76a6924e018f896525dbd42ede11c275",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-5.jpg",
+      "sha256": "427f06bf06f72e1ea69eb81ef5297b3dddcfb9a1dd9a7a38e4f4da68a5d243ba",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-craft-1.jpg",
+      "sha256": "a041ff512c4efe138c54ae067ae6dc14be6ed3e2b922f86bce750be0d7499800",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-craft-5.jpg",
+      "sha256": "15fdec70bd0232b9fe9c88f06a244c230f7d3b424b8ebdde89d6182feb949bb8",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-3.jpg",
+      "sha256": "a44f491b238e2eba8ea953b4099439fcbc40013b2a4cc58b445d69611e4ab577",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-4.jpg",
+      "sha256": "e0ad92526006e31f51dd7323e7b0c8278c72b827b688df7d912ffc2598e01437",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-5.jpg",
+      "sha256": "437da85920a8abd2e305ba81373146be77ea8a0a3b89818053e05d273f239fde",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-1.jpg",
+      "sha256": "b7aec8bb98dcbe7180e6db79e3c3e1cf3a23c46b527b49514fc1346e8cba95f8",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-3.jpg",
+      "sha256": "3fce2fdf0974a8114e21fbbec121d93d0f17cd2610689a8cf1be2c9c46ee4edf",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-4.jpg",
+      "sha256": "006cde09e2dc79cbc280da8037f49672911ec7620bc157d00c3882b70e375b84",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-2.jpg",
+      "sha256": "214f63f5a637ba50b22b3cd9121a4cbad330cbb17c92c9b18abd2b27bffd74df",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-5.jpg",
+      "sha256": "ca3ddc3a5b3aad4e536f46d13b60be41fa154a813b54ec77537bdb3c79a03c77",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-6.jpg",
+      "sha256": "c2e4e89ed1c9d384376e2232c4f9e4ec80f0d076c97e91e8b205751e5de0fec1",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-7.jpg",
+      "sha256": "87e2e8ae87c60fa0d84e2c76c327037351e7f9a824f533c263ac8b796baabdfd",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-8.jpg",
+      "sha256": "9547ab2b74f67a536927471e297df1e8fd97a535b2c1de4d76ffb1a6f4bd8de3",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "t1-comms-at-work.png",
+      "sha256": "53281e2067182dd3742f632a3934445387fda17a4f93dc3253a026d340710178",
+      "mime": "image/png"
+    },
+    {
+      "name": "t3-human-ai-warm.png",
+      "sha256": "0870ef8a5f9f16545fbe82f5baacd9545c9731f45bab3b3a72b36948dbeff5ae",
+      "mime": "image/png"
+    },
+    {
+      "name": "t5-calm-workspace.png",
+      "sha256": "7af1ed630ba861ecf7443af759f6b213589655dc0593d2d234f202735c2a15b5",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-c.png",
+      "sha256": "dabbc4ee890943a2821a5ff2e9eb6eb963e5e49290ffd37922c6cb3e84dbaa78",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-c_v2.png",
+      "sha256": "029e07dee12b2670f07bfef428019725a89fb5e886acecbcec4d34b2a07c0e99",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-d.png",
+      "sha256": "8648c0af06c7054369404dd7cc15bfdc1d8fc0c122a3c65bf327a4f18036dd65",
+      "mime": "image/png"
+    },
+    {
+      "name": "th2-routekaart-c.png",
+      "sha256": "04794ba8a20ef19edd0e87b21e82c5730deef1f1c2eb7e2c7bfe27c4ea82e657",
+      "mime": "image/png"
+    },
+    {
+      "name": "th3-human-ai-c.png",
+      "sha256": "46a2233c03b40c2a6257e4f5905a99c4154323d8043ff7ebc687359421a09c83",
+      "mime": "image/png"
+    },
+    {
+      "name": "th3-human-ai-d_v2.png",
+      "sha256": "6ba32d5440cfe6dee6ee7d9752dfe9115747f1408d2a62a346fd7ba9c1aabb71",
+      "mime": "image/png"
+    },
+    {
+      "name": "th4-conversation-b_v2.png",
+      "sha256": "066717da44b69afc1b9296718eb94a542990da31764b7953e282fdd43d8204b9",
+      "mime": "image/png"
+    },
+    {
+      "name": "th4-conversation-c.png",
+      "sha256": "b96efb7a6371a3e34bd72c194541e476799d3310ef999bdf7e0a96b9c23fa055",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-b.png",
+      "sha256": "a236b8f491db95fb0ef50eacb4518818a915888375b13893c29f7b9c522e519b",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-b_v2.png",
+      "sha256": "dabfe91045fcc0a9c9b305c5862d2265e665651a44bb5dcfd7b3122c10f60799",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-c.png",
+      "sha256": "78f13c7222ba600d180f46036416fbbe98718de1a7791b4a85024da82f84f34b",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-d.png",
+      "sha256": "979c98f52ef5b682af987f0fd92f43a5d7b86d523bf8e64b0b626e6b832fb6dc",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-d_v2.png",
+      "sha256": "2b6991ab295f8deef48f033dbfe1f9c8910e2f1688fa2a6c6db155293d7a3e96",
+      "mime": "image/png"
+    },
+    {
+      "name": "th6-craft-b.png",
+      "sha256": "ed20dd2f504fa875f588b3ab8169de36fec18f2461d8aeabd4cf6b9b30357a88",
+      "mime": "image/png"
+    },
+    {
+      "name": "th6-craft-d_v2.png",
+      "sha256": "094c33af3c45738a7434eae8f833e06ead10e6c053fb02b8a2f7b245d22439c3",
+      "mime": "image/png"
     }
   ]
 }
