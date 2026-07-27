@@ -1,0 +1,431 @@
+{
+  "slug": "ai4comms",
+  "_note": "ai4comms STOCK candidates (2026-07-22) — 24 verified free Unsplash/Pexels shots across the 6 themes, sourced by 3 parallel subagents. sourcing:stock => generator downloads only (no Vertex cost) into raw/ and badges them Stock on the client board. LICENSE: Unsplash/Pexels license, commercially usable, no attribution required but recorded in provenance. Verify per-image before promotion.",
+  "style_families": {
+    "documentary-warm": {
+      "style_suffix": "(stock — no gen prompt)"
+    }
+  },
+  "accent_names": {
+    "#9EC187": "soft sage green"
+  },
+  "shots": [
+    {
+      "id": "st-comms-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "hero"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Christina @ wocintechchat.com on Unsplash",
+      "page": "https://unsplash.com/photos/faEfWCdOKIg",
+      "subject": "Diverse small group engaged around laptops at a wooden table, natural daylight, muted tones"
+    },
+    {
+      "id": "st-comms-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1565350897149-38dfafa81d83?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Van Tay Media on Unsplash",
+      "page": "https://unsplash.com/photos/Hh-PIe3qIug",
+      "subject": "Creative-agency team huddled over laptops mid-discussion, grey-neutral muted palette"
+    },
+    {
+      "id": "st-comms-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "comms-at-work",
+      "roles": [
+        "cover",
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Specht GmbH on Pexels",
+      "page": "https://www.pexels.com/photo/32082430/",
+      "subject": "Small team discussion in a bright European office, natural window light, neutral tones"
+    },
+    {
+      "id": "st-comms-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "comms-at-work",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/7414038/pexels-photo-7414038.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by RDNE Stock project on Pexels",
+      "page": "https://www.pexels.com/photo/7414038/",
+      "subject": "Small diverse team collaborating around documents/laptop at a table, neutral office tones"
+    },
+    {
+      "id": "st-routekaart-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "routekaart-learning",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1758691737083-0e7fdbde0f05?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Vitaly Gariev on Unsplash",
+      "page": "https://unsplash.com/photos/YDWdxElP3XI",
+      "subject": "Two colleagues leaning together over one laptop screen, warm-lit, unposed mentor/peer feel"
+    },
+    {
+      "id": "st-routekaart-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "routekaart-learning",
+      "roles": [
+        "section",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1695891689981-0be360e84d3f?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by phyo min on Unsplash",
+      "page": "https://unsplash.com/photos/cIocF-SSZiM",
+      "subject": "Mentoring dynamic between two men at a desk with a laptop, warm office tones"
+    },
+    {
+      "id": "st-routekaart-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "routekaart-learning",
+      "roles": [
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Mizuno K on Pexels",
+      "page": "https://www.pexels.com/photo/12902865/",
+      "subject": "One person typing while the other watches/guides over the shoulder — side-by-side mentoring"
+    },
+    {
+      "id": "st-routekaart-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "routekaart-learning",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/7688083/pexels-photo-7688083.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Kindel Media on Pexels",
+      "page": "https://www.pexels.com/photo/7688083/",
+      "subject": "Two colleagues planning together at a laptop, calm unposed exchange, bright natural light"
+    },
+    {
+      "id": "st-human-ai-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "human-ai-warm",
+      "roles": [
+        "divider",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Kyle Loftus on Unsplash",
+      "page": "https://unsplash.com/photos/PFC2fY9LE_g",
+      "subject": "Man reviewing his laptop with coffee alongside, screen not legible, muted neutral, unhurried"
+    },
+    {
+      "id": "st-human-ai-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "closing"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/12955738/pexels-photo-12955738.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Atlantic Ambience on Pexels",
+      "page": "https://www.pexels.com/photo/12955738/",
+      "subject": "Warm candid single-person moment holding coffee while reviewing laptop work, informal"
+    },
+    {
+      "id": "st-human-ai-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Teona Swift on Pexels",
+      "page": "https://www.pexels.com/photo/6913727/",
+      "subject": "Considered side view of a woman at a laptop with natural light and plants, calm concentration"
+    },
+    {
+      "id": "st-human-ai-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "human-ai-warm",
+      "roles": [
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/5668872/pexels-photo-5668872.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Sora Shimazaki on Pexels",
+      "page": "https://www.pexels.com/photo/5668872/",
+      "subject": "Overhead candid crop of a person with coffee beside their laptop, desaturated, quiet focus"
+    },
+    {
+      "id": "st-conversation-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Van Tay Media on Unsplash",
+      "page": "https://unsplash.com/photos/TFFn3BYLc5s",
+      "subject": "Two colleagues reviewing documents across a small table, both fully visible, reportage framing"
+    },
+    {
+      "id": "st-conversation-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+      "page": "https://unsplash.com/photos/46bom4lObsA",
+      "subject": "Two colleagues at a small desk, one speaking/gesturing, one listening, warm muted tones"
+    },
+    {
+      "id": "st-conversation-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+      "page": "https://unsplash.com/photos/zmwpbOQkEig",
+      "subject": "Two people in genuine conversation at a small table, natural daylight, unposed reportage"
+    },
+    {
+      "id": "st-conversation-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "conversation-trust",
+      "roles": [
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Vitaly Gariev on Unsplash",
+      "page": "https://unsplash.com/photos/so2ol7Wv0D0",
+      "subject": "Two coworkers in focused genuine discussion at a desk, both visible, no cheesy grins"
+    },
+    {
+      "id": "st-workspace-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/35372789/pexels-photo-35372789.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Tuğba Dönmez on Pexels",
+      "page": "https://www.pexels.com/photo/35372789/",
+      "subject": "Warm still-life desk with coffee, notebook and flowers, no people, muted cozy tone"
+    },
+    {
+      "id": "st-workspace-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Erika Andrade on Pexels",
+      "page": "https://www.pexels.com/photo/30703810/",
+      "subject": "Wooden desk with coffee and open notebooks, calm airy composition, warm neutral tones"
+    },
+    {
+      "id": "st-workspace-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/35378157/pexels-photo-35378157.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Tuğba Dönmez on Pexels",
+      "page": "https://www.pexels.com/photo/35378157/",
+      "subject": "Journal and soft warm light on desk, peaceful negative space, documentary-warm feel"
+    },
+    {
+      "id": "st-workspace-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/30703811/pexels-photo-30703811.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Erika Andrade on Pexels",
+      "page": "https://www.pexels.com/photo/30703811/",
+      "subject": "Flat-lay wooden desk with journal and coffee, muted warm palette, no people"
+    },
+    {
+      "id": "st-craft-1",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Priscilla Du Preez on Unsplash",
+      "page": "https://unsplash.com/photos/ZDDF6LMvh2s",
+      "subject": "Close-up hands journaling with pen, no face, warm cozy tone, shallow depth"
+    },
+    {
+      "id": "st-craft-2",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "texture"
+      ],
+      "aspect": "1:1",
+      "url": "https://images.pexels.com/photos/33715049/pexels-photo-33715049.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Biekir Litovchenko on Pexels",
+      "page": "https://www.pexels.com/photo/33715049/",
+      "subject": "Hands annotating printed documents with pen, warm-toned tactile close-up"
+    },
+    {
+      "id": "st-craft-3",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "url": "https://images.pexels.com/photos/34066105/pexels-photo-34066105.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Khaya Motsa on Pexels",
+      "page": "https://www.pexels.com/photo/34066105/",
+      "subject": "Extreme close-up of hand writing on a formal printed page, no face, textured paper"
+    },
+    {
+      "id": "st-craft-4",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "texture"
+      ],
+      "aspect": "1:1",
+      "url": "https://images.pexels.com/photos/7054513/pexels-photo-7054513.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Kindel Media on Pexels",
+      "page": "https://www.pexels.com/photo/7054513/",
+      "subject": "Hands with pen over paper documents on desk, natural light, no face visible"
+    }
+  ],
+  "themes": {
+    "comms-at-work": {
+      "title": "Communicatie at work",
+      "tag": "SIGNATURE TEAM ENERGY",
+      "desc": "Small teams of communications professionals genuinely collaborating — the core of what AI4comms strengthens.",
+      "roles": "cover, hero, section"
+    },
+    "routekaart-learning": {
+      "title": "Routekaart & learning",
+      "tag": "MENTOR & PEER — THE ROUTEKAART",
+      "desc": "Guiding a colleague along a path: mentoring, planning, learning together. Mirrors the Routekaart mark.",
+      "roles": "cover, section, divider"
+    },
+    "human-ai-warm": {
+      "title": "Human + AI, warm",
+      "tag": "CONSIDERED, NEVER FUTURISTIC",
+      "desc": "One professional working thoughtfully with technology — calm, human, no sci-fi tropes.",
+      "roles": "divider, section, closing"
+    },
+    "conversation-trust": {
+      "title": "Conversation & trust",
+      "tag": "THE CAREGIVER MOMENT",
+      "desc": "Genuine two-person conversations: listening, advising, building trust — the Sage+Caregiver archetype in one frame.",
+      "roles": "cover, divider"
+    },
+    "calm-workspace": {
+      "title": "Calm workspace",
+      "tag": "QUIET TEXTURE — NO PEOPLE",
+      "desc": "Still-life warmth: wooden desks, notebooks, morning light. Breathing room for text-heavy surfaces.",
+      "roles": "background, divider, section"
+    },
+    "craft-closeup": {
+      "title": "Craft close-ups",
+      "tag": "THE CRAFT OF COMMUNICATION",
+      "desc": "Hands, paper, pens — tactile detail shots of considered communication work.",
+      "roles": "closing, section, texture"
+    }
+  }
+}

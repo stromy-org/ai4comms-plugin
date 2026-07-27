@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "f3c0bf722564773fdcc039dde9a42837967c676ba108be6540ce1aa703202a02",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-22T13:57:43.371679+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1000
+  },
+  "prompt": "a small team of communications professionals collaborating around a laptop in a bright contemporary Dutch office, sticky notes and a whiteboard softly out of focus behind them, genuine focused and relaxed expressions. medium-wide eye-level shot, soft daylight from a large window, one person gesturing toward the screen, natural candid moment. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "8a48e789ea87115e9da3c4ea86b532c8fcbcc878be19e7048ecd80be3f552c71",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "a small team of communications professionals collaborating around a laptop in a bright contemporary Dutch office, sticky notes and a whiteboard softly out of focus behind them, genuine focused and relaxed expressions. medium-wide eye-level shot, soft daylight from a large window, one person gesturing toward the screen, natural candid moment. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1000,
+  "synth_id_watermark": true
+}

@@ -1,0 +1,14 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Mizuno K on Pexels",
+  "roles": [
+    "section"
+  ],
+  "theme": "routekaart-learning",
+  "subject": "One person typing while the other watches/guides over the shoulder \u2014 side-by-side mentoring",
+  "content_type": "image/jpeg",
+  "bytes": 358224,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

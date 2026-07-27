@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "f3c0bf722564773fdcc039dde9a42837967c676ba108be6540ce1aa703202a02",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-22T15:55:02.685288+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1060
+  },
+  "prompt": "a communications professional wearing a light headset, listening thoughtfully in a warm quiet office, considered and human, hand resting near the chin. medium-close side-lit portrait, face and hands in focus, shallow depth, no readable screens. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "4441b502ac2df8a377a77403312316964ed7df12858e864e9d65ae76cddac5c5",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "a communications professional wearing a light headset, listening thoughtfully in a warm quiet office, considered and human, hand resting near the chin. medium-close side-lit portrait, face and hands in focus, shallow depth, no readable screens. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1060,
+  "synth_id_watermark": true
+}

@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1695891689981-0be360e84d3f?w=1600&q=80",
+  "attribution": "Photo by phyo min on Unsplash",
+  "roles": [
+    "section",
+    "divider"
+  ],
+  "theme": "routekaart-learning",
+  "subject": "Mentoring dynamic between two men at a desk with a laptop, warm office tones",
+  "content_type": "image/jpeg",
+  "bytes": 198396,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

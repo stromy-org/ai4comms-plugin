@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/33715049/pexels-photo-33715049.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Biekir Litovchenko on Pexels",
+  "roles": [
+    "closing",
+    "texture"
+  ],
+  "theme": "craft-closeup",
+  "subject": "Hands annotating printed documents with pen, warm-toned tactile close-up",
+  "content_type": "image/jpeg",
+  "bytes": 127760,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

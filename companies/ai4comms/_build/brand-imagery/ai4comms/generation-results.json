@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "t4-conversation-trust",
+    "ok": true,
+    "family": "documentary-warm",
+    "roles": [
+      "cover"
+    ],
+    "aspect": "4:3",
+    "seed": 1000,
+    "bytes": 1379246,
+    "prompt": "two colleagues in a real contemporary office having a genuine work conversation across a small meeting table, one listening attentively while the other speaks, a laptop and notebooks on the table between them, warm and candid, both people fully visible. eye-level medium two-shot showing both people and the office environment, softly blurred window and desk behind, natural daylight, documentary reportage NOT a studio portrait, NOT a seamless backdrop. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t4-conversation-trust.png",
+    "cached": false,
+    "theme": "conversation-trust"
+  },
+  {
+    "id": "t4-conversation-trust_v2",
+    "ok": true,
+    "family": "documentary-warm",
+    "roles": [
+      "cover"
+    ],
+    "aspect": "4:3",
+    "seed": 1001,
+    "bytes": 1213857,
+    "prompt": "two colleagues in a real contemporary office having a genuine work conversation across a small meeting table, one listening attentively while the other speaks, a laptop and notebooks on the table between them, warm and candid, both people fully visible. eye-level medium two-shot showing both people and the office environment, softly blurred window and desk behind, natural daylight, documentary reportage NOT a studio portrait, NOT a seamless backdrop. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t4-conversation-trust_v2.png",
+    "cached": false,
+    "theme": "conversation-trust"
+  },
+  {
+    "id": "th1-comms-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "hero"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1000,
+    "bytes": 1076472,
+    "prompt": "a communications professional presenting an idea to two seated colleagues beside a whiteboard in a bright modern Dutch office, sticky notes softly out of focus, genuine engaged expressions. medium-wide eye-level shot, soft window daylight, the presenter mid-gesture, natural candid reportage moment. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-b.png",
+    "cached": false
+  },
+  {
+    "id": "th1-comms-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "hero"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1001,
+    "bytes": 1144307,
+    "prompt": "a communications professional presenting an idea to two seated colleagues beside a whiteboard in a bright modern Dutch office, sticky notes softly out of focus, genuine engaged expressions. medium-wide eye-level shot, soft window daylight, the presenter mid-gesture, natural candid reportage moment. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th1-comms-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1010,
+    "bytes": 1360457,
+    "prompt": "three colleagues working together at a shared wooden table in an airy contemporary office, laptops and notebooks between them, one laughing softly, relaxed and focused. wide environmental shot showing the room and daylight, shallow-to-medium depth, unposed. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-c.png",
+    "cached": false
+  },
+  {
+    "id": "th1-comms-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1011,
+    "bytes": 1177535,
+    "prompt": "three colleagues working together at a shared wooden table in an airy contemporary office, laptops and notebooks between them, one laughing softly, relaxed and focused. wide environmental shot showing the room and daylight, shallow-to-medium depth, unposed. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th1-comms-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "hero",
+      "background"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1010,
+    "bytes": 1158666,
+    "prompt": "a small comms team gathered around a single laptop screen, leaning in together to review something, warm collaborative energy, candid. medium over-the-shoulder shot toward the group, soft side daylight, faces lit, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-d.png",
+    "cached": false
+  },
+  {
+    "id": "th1-comms-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "hero",
+      "background"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "seed": 1011,
+    "bytes": 1161673,
+    "prompt": "a small comms team gathered around a single laptop screen, leaning in together to review something, warm collaborative energy, candid. medium over-the-shoulder shot toward the group, soft side daylight, faces lit, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th1-comms-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1020,
+    "bytes": 1249091,
+    "prompt": "a mentor and a younger colleague leaning over a printed roadmap on a desk, the mentor pointing at a step on the page while the other follows, warm guiding moment. medium over-the-shoulder shot onto the paper and their hands, warm morning daylight, shallow depth, no readable text on the page. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-b.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1021,
+    "bytes": 1219606,
+    "prompt": "a mentor and a younger colleague leaning over a printed roadmap on a desk, the mentor pointing at a step on the page while the other follows, warm guiding moment. medium over-the-shoulder shot onto the paper and their hands, warm morning daylight, shallow depth, no readable text on the page. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "divider"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1040,
+    "bytes": 1167578,
+    "prompt": "a small group workshop where one person sketches a simple plan on a glass board with a marker while two colleagues watch and discuss, engaged and calm. medium-wide three-quarter shot, soft daylight, the sketcher in focus, natural candid, abstract non-readable marks only. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-c.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "divider"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1041,
+    "bytes": 1204795,
+    "prompt": "a small group workshop where one person sketches a simple plan on a glass board with a marker while two colleagues watch and discuss, engaged and calm. medium-wide three-quarter shot, soft daylight, the sketcher in focus, natural candid, abstract non-readable marks only. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1050,
+    "bytes": 1158162,
+    "prompt": "two colleagues side by side at a laptop, one calmly explaining while the other takes handwritten notes in a notebook, unhurried peer-learning. medium two-shot from a slight angle, warm window light, shallow depth, both partly visible. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-d.png",
+    "cached": false
+  },
+  {
+    "id": "th2-routekaart-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "seed": 1051,
+    "bytes": 1143528,
+    "prompt": "two colleagues side by side at a laptop, one calmly explaining while the other takes handwritten notes in a notebook, unhurried peer-learning. medium two-shot from a slight angle, warm window light, shallow depth, both partly visible. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th2-routekaart-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "divider",
+      "section"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1060,
+    "bytes": 1306886,
+    "prompt": "a communications professional wearing a light headset, listening thoughtfully in a warm quiet office, considered and human, hand resting near the chin. medium-close side-lit portrait, face and hands in focus, shallow depth, no readable screens. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-b.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "divider",
+      "section"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1061,
+    "bytes": 1312923,
+    "prompt": "a communications professional wearing a light headset, listening thoughtfully in a warm quiet office, considered and human, hand resting near the chin. medium-close side-lit portrait, face and hands in focus, shallow depth, no readable screens. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "closing"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1030,
+    "bytes": 1018794,
+    "prompt": "a person writing reflective notes by hand in a notebook beside an open laptop, coffee cup nearby, calm and unhurried. medium-close shot over the hands and notebook, warm directional daylight, shallow depth, subject's face softly present. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-c.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "closing"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1031,
+    "bytes": 1124955,
+    "prompt": "a person writing reflective notes by hand in a notebook beside an open laptop, coffee cup nearby, calm and unhurried. medium-close shot over the hands and notebook, warm directional daylight, shallow depth, subject's face softly present. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "divider",
+      "background"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1040,
+    "bytes": 990669,
+    "prompt": "a professional pausing to think while looking out a large office window, laptop open in the foreground, contemplative and warm. medium shot with the window light wrapping the subject, negative space to one side, shallow depth. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-d.png",
+    "cached": false
+  },
+  {
+    "id": "th3-human-ai-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "divider",
+      "background"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "seed": 1041,
+    "bytes": 839171,
+    "prompt": "a professional pausing to think while looking out a large office window, laptop open in the foreground, contemplative and warm. medium shot with the window light wrapping the subject, negative space to one side, shallow depth. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th3-human-ai-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "4:3",
+    "seed": 1050,
+    "bytes": 1335725,
+    "prompt": "two colleagues in a relaxed genuine work conversation on a low sofa in an office breakout area, coffee cups on the table, one gesturing while the other listens, warm and candid. eye-level medium two-shot showing both people and the environment, softly blurred window behind, documentary reportage not a studio portrait. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-b.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "4:3",
+    "seed": 1051,
+    "bytes": 1243384,
+    "prompt": "two colleagues in a relaxed genuine work conversation on a low sofa in an office breakout area, coffee cups on the table, one gesturing while the other listens, warm and candid. eye-level medium two-shot showing both people and the environment, softly blurred window behind, documentary reportage not a studio portrait. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "seed": 1060,
+    "bytes": 1154829,
+    "prompt": "three colleagues in an easy standing conversation near a bright office window with coffee, natural body language and warm expressions, unposed. medium-wide environmental shot, soft daylight, all three visible and engaged, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-c.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "seed": 1061,
+    "bytes": 1233731,
+    "prompt": "three colleagues in an easy standing conversation near a bright office window with coffee, natural body language and warm expressions, unposed. medium-wide environmental shot, soft daylight, all three visible and engaged, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "divider"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "seed": 1110,
+    "bytes": 1139020,
+    "prompt": "two people mid-conversation across a small meeting table, one leaning in listening attentively, a notebook and laptop between them, a moment of trust. eye-level medium two-shot, warm window light from the side, both fully visible, candid. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-d.png",
+    "cached": false
+  },
+  {
+    "id": "th4-conversation-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "divider"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "seed": 1111,
+    "bytes": 1277686,
+    "prompt": "two people mid-conversation across a small meeting table, one leaning in listening attentively, a notebook and laptop between them, a moment of trust. eye-level medium two-shot, warm window light from the side, both fully visible, candid. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th4-conversation-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1120,
+    "bytes": 1081119,
+    "prompt": "a tidy Dutch office corner in soft morning daylight with a small potted plant, a stack of notebooks and a mug on a wooden surface, muted warm tones, no people. three-quarter still-life with airy negative space in the upper area, gentle shadows. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-b.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1121,
+    "bytes": 682635,
+    "prompt": "a tidy Dutch office corner in soft morning daylight with a small potted plant, a stack of notebooks and a mug on a wooden surface, muted warm tones, no people. three-quarter still-life with airy negative space in the upper area, gentle shadows. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "section"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1070,
+    "bytes": 1046119,
+    "prompt": "a close still-life of a closed laptop, an open notebook and a fountain pen on a warm wooden desk beside a window, calm and considered, no people. top-down-ish three-quarter still-life, soft daylight, negative space, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-c.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "section"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1071,
+    "bytes": 1087803,
+    "prompt": "a close still-life of a closed laptop, an open notebook and a fountain pen on a warm wooden desk beside a window, calm and considered, no people. top-down-ish three-quarter still-life, soft daylight, negative space, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1140,
+    "bytes": 1121667,
+    "prompt": "a soft-focus empty meeting room with warm daylight through sheer curtains, a plant and light wooden chairs, quiet and airy, no people. wide environmental still-life, generous negative space, gentle muted forest-green undertone. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-d.png",
+    "cached": false
+  },
+  {
+    "id": "th5-workspace-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "seed": 1141,
+    "bytes": 1093383,
+    "prompt": "a soft-focus empty meeting room with warm daylight through sheer curtains, a plant and light wooden chairs, quiet and airy, no people. wide environmental still-life, generous negative space, gentle muted forest-green undertone. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th5-workspace-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-b",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1080,
+    "bytes": 1071753,
+    "prompt": "an extreme close-up of hands typing gently on a laptop keyboard in warm directional light, the craft of considered work, no faces. macro shallow-depth detail, warm side light, textured focus on the hands. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-b.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-b_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1081,
+    "bytes": 1069931,
+    "prompt": "an extreme close-up of hands typing gently on a laptop keyboard in warm directional light, the craft of considered work, no faces. macro shallow-depth detail, warm side light, textured focus on the hands. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-b_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-c",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "texture"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1160,
+    "bytes": 850757,
+    "prompt": "a macro of a printed page marked with a highlighter and a pen resting on it, the edge of a coffee cup just in frame, tactile paper, no faces. macro shallow-depth detail, warm directional light, textured paper, abstract non-readable marks. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-c.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-c_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "texture"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1161,
+    "bytes": 890175,
+    "prompt": "a macro of a printed page marked with a highlighter and a pen resting on it, the edge of a coffee cup just in frame, tactile paper, no faces. macro shallow-depth detail, warm directional light, textured paper, abstract non-readable marks. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-c_v2.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-d",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1090,
+    "bytes": 999011,
+    "prompt": "a close-up of two colleagues' hands meeting over a shared notebook and pen on a warm desk, a gesture of collaboration, no faces. macro shallow-depth detail, warm window light, tactile textures, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-d.png",
+    "cached": false
+  },
+  {
+    "id": "th6-craft-d_v2",
+    "ok": true,
+    "source": "gen",
+    "family": "documentary-warm-stilllife",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "seed": 1091,
+    "bytes": 1033892,
+    "prompt": "a close-up of two colleagues' hands meeting over a shared notebook and pen on a warm desk, a gesture of collaboration, no faces. macro shallow-depth detail, warm window light, tactile textures, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/th6-craft-d_v2.png",
+    "cached": false
+  },
+  {
+    "id": "st-comms-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "hero"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "bytes": 293442,
+    "prompt": "Diverse small group engaged around laptops at a wooden table, natural daylight, muted tones",
+    "attribution": "Photo by Christina @ wocintechchat.com on Unsplash",
+    "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
+    "file": "raw/st-comms-1.jpg"
+  },
+  {
+    "id": "st-comms-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "bytes": 246806,
+    "prompt": "Creative-agency team huddled over laptops mid-discussion, grey-neutral muted palette",
+    "attribution": "Photo by Van Tay Media on Unsplash",
+    "url": "https://images.unsplash.com/photo-1565350897149-38dfafa81d83?w=1600&q=80",
+    "file": "raw/st-comms-2.jpg"
+  },
+  {
+    "id": "st-comms-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "background"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "bytes": 155616,
+    "prompt": "Small team discussion in a bright European office, natural window light, neutral tones",
+    "attribution": "Photo by Specht GmbH on Pexels",
+    "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
+    "file": "raw/st-comms-3.jpg"
+  },
+  {
+    "id": "st-comms-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "background"
+    ],
+    "theme": "comms-at-work",
+    "aspect": "16:9",
+    "bytes": 194827,
+    "prompt": "Small diverse team collaborating around documents/laptop at a table, neutral office tones",
+    "attribution": "Photo by RDNE Stock project on Pexels",
+    "url": "https://images.pexels.com/photos/7414038/pexels-photo-7414038.jpeg?auto=compress&w=1600",
+    "file": "raw/st-comms-4.jpg"
+  },
+  {
+    "id": "st-routekaart-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "bytes": 172886,
+    "prompt": "Two colleagues leaning together over one laptop screen, warm-lit, unposed mentor/peer feel",
+    "attribution": "Photo by Vitaly Gariev on Unsplash",
+    "url": "https://images.unsplash.com/photo-1758691737083-0e7fdbde0f05?w=1600&q=80",
+    "file": "raw/st-routekaart-1.jpg"
+  },
+  {
+    "id": "st-routekaart-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "divider"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "bytes": 198396,
+    "prompt": "Mentoring dynamic between two men at a desk with a laptop, warm office tones",
+    "attribution": "Photo by phyo min on Unsplash",
+    "url": "https://images.unsplash.com/photo-1695891689981-0be360e84d3f?w=1600&q=80",
+    "file": "raw/st-routekaart-2.jpg"
+  },
+  {
+    "id": "st-routekaart-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "bytes": 358224,
+    "prompt": "One person typing while the other watches/guides over the shoulder \u2014 side-by-side mentoring",
+    "attribution": "Photo by Mizuno K on Pexels",
+    "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
+    "file": "raw/st-routekaart-3.jpg"
+  },
+  {
+    "id": "st-routekaart-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "routekaart-learning",
+    "aspect": "16:9",
+    "bytes": 357803,
+    "prompt": "Two colleagues planning together at a laptop, calm unposed exchange, bright natural light",
+    "attribution": "Photo by Kindel Media on Pexels",
+    "url": "https://images.pexels.com/photos/7688083/pexels-photo-7688083.jpeg?auto=compress&w=1600",
+    "file": "raw/st-routekaart-4.jpg"
+  },
+  {
+    "id": "st-human-ai-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "divider",
+      "section"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "bytes": 612443,
+    "prompt": "\u26a0 Actual: man in a cap with coffee at a dark wooden cafe table \u2014 moodier/darker than the office brief",
+    "attribution": "Photo by Kyle Loftus on Unsplash",
+    "url": "https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=1600&q=80",
+    "file": "raw/st-human-ai-1.jpg"
+  },
+  {
+    "id": "st-human-ai-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "closing"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "bytes": 182320,
+    "prompt": "\u26a0 Actual: woman with coffee and laptop against a red-brick loft wall \u2014 saturated, not the muted Dutch-office grade",
+    "attribution": "Photo by Atlantic Ambience on Pexels",
+    "url": "https://images.pexels.com/photos/12955738/pexels-photo-12955738.jpeg?auto=compress&w=1600",
+    "file": "raw/st-human-ai-2.jpg"
+  },
+  {
+    "id": "st-human-ai-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "background"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "bytes": 190091,
+    "prompt": "Considered side view of a woman at a laptop with natural light and plants, calm concentration",
+    "attribution": "Photo by Teona Swift on Pexels",
+    "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
+    "file": "raw/st-human-ai-3.jpg"
+  },
+  {
+    "id": "st-human-ai-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "divider"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "bytes": 162560,
+    "prompt": "Overhead candid crop of a person with coffee beside their laptop, desaturated, quiet focus",
+    "attribution": "Photo by Sora Shimazaki on Pexels",
+    "url": "https://images.pexels.com/photos/5668872/pexels-photo-5668872.jpeg?auto=compress&w=1600",
+    "file": "raw/st-human-ai-4.jpg"
+  },
+  {
+    "id": "st-conversation-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "bytes": 159460,
+    "prompt": "\u26a0 Actual: close-up of hands reviewing sketches/documents across a table \u2014 no faces visible (brief said both people fully visible)",
+    "attribution": "Photo by Van Tay Media on Unsplash",
+    "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
+    "file": "raw/st-conversation-1.jpg"
+  },
+  {
+    "id": "st-conversation-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "bytes": 236630,
+    "prompt": "Two colleagues at a small desk, one speaking/gesturing, one listening, warm muted tones",
+    "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+    "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
+    "file": "raw/st-conversation-2.jpg"
+  },
+  {
+    "id": "st-conversation-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "divider"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "bytes": 230987,
+    "prompt": "\u26a0 Actual: two people at an outdoor table under a parasol, one seen from behind \u2014 outdoor, not the office brief",
+    "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+    "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
+    "file": "raw/st-conversation-3.jpg"
+  },
+  {
+    "id": "st-conversation-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "bytes": 168096,
+    "prompt": "Two coworkers in focused genuine discussion at a desk, both visible, no cheesy grins",
+    "attribution": "Photo by Vitaly Gariev on Unsplash",
+    "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
+    "file": "raw/st-conversation-4.jpg"
+  },
+  {
+    "id": "st-workspace-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 332151,
+    "prompt": "\u26a0 Actual content: candle-lit still life with flowers, Turkish coffee and patterned notebooks \u2014 darker/more decorative than the sourced brief",
+    "attribution": "Photo by Tu\u011fba D\u00f6nmez on Pexels",
+    "url": "https://images.pexels.com/photos/35372789/pexels-photo-35372789.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-1.jpg"
+  },
+  {
+    "id": "st-workspace-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "section"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 141848,
+    "prompt": "\u26a0 Actual: white desk with coffee cup, orange book and notebooks \u2014 bright but orange-accented, portrait aspect",
+    "attribution": "Photo by Erika Andrade on Pexels",
+    "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-2.jpg"
+  },
+  {
+    "id": "st-workspace-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 339968,
+    "prompt": "\u26a0 Actual: green diary, colour swatches and a lit candle on a sage cloth \u2014 moody-decorative, not the airy desk brief",
+    "attribution": "Photo by Tu\u011fba D\u00f6nmez on Pexels",
+    "url": "https://images.pexels.com/photos/35378157/pexels-photo-35378157.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-3.jpg"
+  },
+  {
+    "id": "st-workspace-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 339030,
+    "prompt": "\u26a0 Actual: flat-lay of coffee cup and orange-covered books on a white desk \u2014 clean but orange accent, portrait aspect",
+    "attribution": "Photo by Erika Andrade on Pexels",
+    "url": "https://images.pexels.com/photos/30703811/pexels-photo-30703811.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-4.jpg"
+  },
+  {
+    "id": "st-craft-1",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "bytes": 431893,
+    "prompt": "Close-up hands journaling with pen, no face, warm cozy tone, shallow depth",
+    "attribution": "Photo by Priscilla Du Preez on Unsplash",
+    "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
+    "file": "raw/st-craft-1.jpg"
+  },
+  {
+    "id": "st-craft-2",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "closing",
+      "texture"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "bytes": 127760,
+    "prompt": "\u26a0 Actual: hands writing on documents with bright-orange pens at an outdoor wooden table",
+    "attribution": "Photo by Biekir Litovchenko on Pexels",
+    "url": "https://images.pexels.com/photos/33715049/pexels-photo-33715049.jpeg?auto=compress&w=1600",
+    "file": "raw/st-craft-2.jpg"
+  },
+  {
+    "id": "st-craft-3",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "bytes": 264060,
+    "prompt": "Extreme close-up of hand writing on a formal printed page, no face, textured paper",
+    "attribution": "Photo by Khaya Motsa on Pexels",
+    "url": "https://images.pexels.com/photos/34066105/pexels-photo-34066105.jpeg?auto=compress&w=1600",
+    "file": "raw/st-craft-3.jpg"
+  },
+  {
+    "id": "st-craft-4",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "closing",
+      "texture"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "bytes": 105907,
+    "prompt": "\u26a0 Actual: hands with a blue pen over a saturated-blue textbook \u2014 off the warm-neutral grade",
+    "attribution": "Photo by Kindel Media on Pexels",
+    "url": "https://images.pexels.com/photos/7054513/pexels-photo-7054513.jpeg?auto=compress&w=1600",
+    "file": "raw/st-craft-4.jpg"
+  },
+  {
+    "id": "t1-comms-at-work",
+    "ok": true,
+    "source": "gen",
+    "theme": "comms-at-work",
+    "roles": [],
+    "seed": 1000,
+    "prompt": "a small team of communications professionals collaborating around a laptop in a bright contemporary Dutch office, sticky notes and a whiteboard softly out of focus behind them, genuine focused and relaxed expressions. medium-wide eye-level shot, soft daylight from a large window, one person gesturing toward the screen, natural candid moment. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t1-comms-at-work.png"
+  },
+  {
+    "id": "t2-routekaart-learning",
+    "ok": true,
+    "source": "gen",
+    "theme": "routekaart-learning",
+    "roles": [],
+    "seed": 1000,
+    "prompt": "two colleagues sitting side by side at a desk, one calmly guiding the other through something on a laptop, a warm mentor-and-peer moment, both engaged. over-the-shoulder medium shot, warm morning daylight, relaxed posture, soft screen glow, shallow depth. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t2-routekaart-learning.png"
+  },
+  {
+    "id": "t3-human-ai-warm",
+    "ok": true,
+    "source": "gen",
+    "theme": "human-ai-warm",
+    "roles": [],
+    "seed": 1010,
+    "prompt": "a communications professional thoughtfully reviewing work on a laptop, considered and calm, a cup of coffee beside them, unhurried and human. medium-close side-lit portrait, hands and face in focus, shallow depth, no readable screen interface. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t3-human-ai-warm.png"
+  },
+  {
+    "id": "t5-calm-workspace",
+    "ok": true,
+    "source": "gen",
+    "theme": "calm-workspace",
+    "roles": [],
+    "seed": 1030,
+    "prompt": "a calm Dutch workspace still life with no people: a wooden desk by a window holding an open notebook, a small plant and a coffee cup, soft morning daylight. three-quarter still-life, airy negative space in the upper area, muted warm tones, gentle shadows. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t5-calm-workspace.png"
+  },
+  {
+    "id": "t6-craft-closeup",
+    "ok": true,
+    "source": "gen",
+    "theme": "craft-closeup",
+    "roles": [],
+    "seed": 1040,
+    "prompt": "an extreme close-up of hands annotating a printed page with a pen, the craft of considered communication, tactile paper. macro shallow-depth detail, warm directional light, no faces, textured paper. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+    "file": "raw/t6-craft-closeup.png"
+  },
+  {
+    "id": "st-workspace-5",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "section"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 217964,
+    "prompt": "Overhead flat lay on warm honey wood: open dot-grid notebook, pens, dark mug of coffee, earbuds case, plant leaves entering frame \u2014 warm-neutral, no people",
+    "attribution": "Photo by Kelly Sikkema on Unsplash",
+    "url": "https://images.unsplash.com/photo-1743385779534-f53c018c21f5?w=1600&q=80",
+    "file": "raw/st-workspace-5.jpg"
+  },
+  {
+    "id": "st-workspace-6",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "divider"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 64216,
+    "prompt": "Sepia-warm shot along a wooden desk toward a soft-focus window: closed notebook, silver pen, white cup on saucer, sunlight pooling on the wood \u2014 no people",
+    "attribution": "Photo by Markus Spiske on Pexels",
+    "url": "https://images.pexels.com/photos/97987/pexels-photo-97987.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-6.jpg"
+  },
+  {
+    "id": "st-workspace-7",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background",
+      "section"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 188969,
+    "prompt": "Clean overhead on pale honey wood: espresso cup on white saucer beside a blank spiral notepad and silver pen, generous negative space, muted warm tones",
+    "attribution": "Photo by Karola G (kaboompics) on Pexels",
+    "url": "https://images.pexels.com/photos/4195334/pexels-photo-4195334.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-7.jpg"
+  },
+  {
+    "id": "st-workspace-8",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "background"
+    ],
+    "theme": "calm-workspace",
+    "aspect": "16:9",
+    "bytes": 294663,
+    "prompt": "White coffee cup on wooden table beside an open blank notebook and black pen, dark-framed window softly blurred behind, muted warm-neutral (portrait crop)",
+    "attribution": "Photo by Sora Shimazaki on Pexels",
+    "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
+    "file": "raw/st-workspace-8.jpg"
+  },
+  {
+    "id": "st-craft-5",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "closing",
+      "section"
+    ],
+    "theme": "craft-closeup",
+    "aspect": "1:1",
+    "bytes": 582570,
+    "prompt": "Extreme close-up of a hand gripping a black pen over a blank notebook page, striped cuff blurred behind, warm skin tones, soft window light \u2014 no face",
+    "attribution": "Photo by Anna Tarazevich on Pexels",
+    "url": "https://images.pexels.com/photos/5425598/pexels-photo-5425598.jpeg",
+    "file": "raw/st-craft-5.jpg"
+  },
+  {
+    "id": "st-human-ai-5",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "section",
+      "background"
+    ],
+    "theme": "human-ai-warm",
+    "aspect": "16:9",
+    "bytes": 3595807,
+    "prompt": "Hands typing on a laptop at a pale wood table surrounded by houseplants, blue-green mug and notebook nearby, screen unreadable, no face \u2014 bright airy warm-neutral",
+    "attribution": "Photo by Teona Swift on Pexels",
+    "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
+    "file": "raw/st-human-ai-5.jpg"
+  },
+  {
+    "id": "st-conversation-5",
+    "ok": true,
+    "source": "stock",
+    "family": "documentary-warm",
+    "roles": [
+      "cover",
+      "section"
+    ],
+    "theme": "conversation-trust",
+    "aspect": "16:9",
+    "bytes": 124878,
+    "prompt": "A woman and a bearded man in glasses in genuine conversation across a small round table, both faces visible, coffee cups + notebook on table, bright window light (third person blurred in background)",
+    "attribution": "Photo by Vitaly Gariev on Pexels",
+    "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
+    "file": "raw/st-conversation-5.jpg"
+  }
+]

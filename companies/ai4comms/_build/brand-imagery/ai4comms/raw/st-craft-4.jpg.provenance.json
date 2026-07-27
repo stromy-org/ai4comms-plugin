@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/7054513/pexels-photo-7054513.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Kindel Media on Pexels",
+  "roles": [
+    "closing",
+    "texture"
+  ],
+  "theme": "craft-closeup",
+  "subject": "Hands with pen over paper documents on desk, natural light, no face visible",
+  "content_type": "image/jpeg",
+  "bytes": 105907,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

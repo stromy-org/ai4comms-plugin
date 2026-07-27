@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI4comms — Logo Variants &amp; Favicon Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --canopy:#15311A;--pine:#214C28;--sage:#9EC187;--paper:#F8FAFC;--mist:#ECECEC;--ink:#1F1F1F;--ink-light:#4E4E4E;--white:#fff;
+    --header-grad:linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);
+    --canopy-hero:linear-gradient(160deg,#15311A 0%,#214C28 100%);
+    --font:"Montserrat","Helvetica Neue",Arial,sans-serif;--mono:"JetBrains Mono",monospace;--content:1180px;
+  }
+  *{box-sizing:border-box} html,body{width:100%;margin:0}
+  body{font-family:var(--font);color:var(--ink);background:var(--white);font-size:15px;line-height:1.65}
+  .wrap{max-width:var(--content);margin:0 auto;padding:0 28px}
+  code{font-family:var(--mono);font-size:.85em;background:var(--paper);padding:1px 5px;border-radius:4px}
+  header.hero{background:var(--header-grad);border-bottom:1px solid var(--mist);padding:52px 0 40px}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pine)}
+  .hairline{width:64px;height:1px;background:var(--sage);border:0;margin:10px 0 20px}
+  h1{font-weight:700;font-size:38px;line-height:1.15;letter-spacing:-.01em;color:var(--canopy);margin:0 0 12px}
+  .lede{max-width:780px;color:var(--ink-light);font-size:16px;margin:0}
+  nav.sticky{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--mist)}
+  nav.sticky .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 28px}
+  nav.sticky a{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-light);text-decoration:none;padding:6px 11px;border-radius:999px;white-space:nowrap}
+  nav.sticky a.active{background:var(--canopy);color:#fff}
+
+  section{padding:38px 0 6px}
+  .sec-head h2{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pine);margin:0}
+  .sec-head .h2sub{font-size:24px;font-weight:700;color:var(--canopy);letter-spacing:-.01em;margin:6px 0 20px}
+
+  .vcard{border:1px solid var(--mist);border-radius:12px;overflow:hidden;margin-bottom:22px;background:#fff;transition:box-shadow .16s}
+  .vcard:hover{box-shadow:0 6px 22px rgba(15,30,18,.07)}
+  .vcard .head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:18px 22px 6px;flex-wrap:wrap}
+  .vcard h3{font-size:18px;font-weight:700;color:var(--canopy);margin:0}
+  .vcard .use{font-size:12.5px;color:var(--ink-light)}
+  .vcard .filemeta{font-family:var(--mono);font-size:11px;color:var(--ink-light);padding:0 22px 14px}
+  .stage-row{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--mist)}
+  .stage{padding:34px 24px;display:flex;flex-direction:column;align-items:center;gap:16px;justify-content:center;min-height:180px}
+  .stage .cap{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;opacity:.75}
+  .stage img{display:block}
+  .stage .big{height:70px;width:auto}
+  .stage .small{height:34px;width:auto}
+  .st-white{background:#fff} .st-white .cap{color:var(--ink-light)}
+  .st-paper{background:var(--paper)} .st-paper .cap{color:var(--ink-light)}
+  .st-mist{background:var(--mist)} .st-mist .cap{color:var(--ink-light)}
+  .st-canopy{background:var(--canopy)} .st-canopy .cap{color:#cddac2}
+  .st-pine{background:var(--pine)} .st-pine .cap{color:#cddac2}
+  .st-ink{background:var(--ink)} .st-ink .cap{color:#999}
+  .st-hero{background:var(--canopy-hero)} .st-hero .cap{color:#cddac2}
+  .st-photo{background:linear-gradient(160deg,#15311A 0%,#214C28 55%,#3F6B47 100%);position:relative} .st-photo .cap{color:#e6efe0}
+
+  .pick{cursor:pointer;user-select:none;font-family:var(--font);font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:7px 15px;border-radius:999px;border:1.5px solid var(--mist);color:var(--ink-light);background:#fff;margin:0 22px 16px}
+  .pick.keep.on{background:#3B7A4E;border-color:#3B7A4E;color:#fff}
+  .pick.drop.on{background:var(--ink-light);border-color:var(--ink-light);color:#fff}
+  .pickrow{display:flex;gap:8px;padding-bottom:4px}
+
+  /* favicon tiles */
+  .fav-grid{display:flex;gap:22px;flex-wrap:wrap;margin:4px 0 10px}
+  .fav-opt{border:1.5px solid var(--mist);border-radius:12px;padding:20px;text-align:center;cursor:pointer;transition:.15s;background:#fff;width:230px}
+  .fav-opt:hover{border-color:var(--sage)}
+  .fav-opt.on{border-color:var(--canopy);box-shadow:0 0 0 3px rgba(158,193,135,.35)}
+  .fav-sizes{display:flex;align-items:flex-end;gap:14px;justify-content:center;margin-bottom:14px;min-height:56px}
+  .tile{border-radius:22%;display:flex;align-items:center;justify-content:center;font-weight:700;line-height:1;overflow:hidden}
+  .tile.s48{width:48px;height:48px;font-size:20px}
+  .tile.s32{width:32px;height:32px;font-size:13px}
+  .tile.s16{width:16px;height:16px;font-size:7px}
+  .tile .n4{color:var(--sage)}
+  .t-canopy{background:var(--canopy)} .t-canopy .lt{color:#fff}
+  .t-sage{background:var(--sage)} .t-sage .lt{color:var(--canopy)} .t-sage .n4{color:var(--white)}
+  .t-paper{background:var(--paper);border:1px solid var(--mist)} .t-paper .lt{color:var(--canopy)} .t-paper .n4{color:var(--pine)}
+  .t-outline{background:transparent;border:2px solid var(--canopy)} .t-outline .lt{color:var(--canopy)}
+  .fav-opt .lbl{font-size:13px;font-weight:600;color:var(--pine);margin-top:4px}
+  .fav-opt .desc{font-size:11.5px;color:var(--ink-light);margin-top:3px}
+  .fav-context{display:flex;gap:20px;align-items:center;margin-top:8px;flex-wrap:wrap}
+  .tab-mock{display:inline-flex;align-items:center;gap:8px;background:var(--mist);border-radius:8px 8px 0 0;padding:8px 14px;font-size:12px;color:var(--ink)}
+  .doc-mock{display:flex;align-items:center;gap:10px;border:1px solid var(--mist);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--ink-light)}
+
+  .note{background:var(--paper);border-left:3px solid var(--sage);padding:12px 16px;border-radius:0 8px 8px 0;font-size:13.5px;margin:6px 0 18px;color:var(--ink)}
+  .bar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--canopy);color:#fff;box-shadow:0 -4px 20px rgba(0,0,0,.18)}
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 28px}
+  .bar .status{font-size:13px}.bar .status b{color:var(--sage)}
+  .bar button{cursor:pointer;font-family:var(--font);font-weight:600;font-size:12px;letter-spacing:.05em;text-transform:uppercase;border:0;border-radius:999px;padding:11px 22px;background:var(--sage);color:var(--canopy)}
+  main{padding-bottom:88px}
+  @media(max-width:640px){.stage-row{grid-template-columns:1fr}h1{font-size:29px}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">Brand Refresh · Logo system</div>
+  <hr class="hairline">
+  <h1>Logo Variants &amp; Favicon</h1>
+  <p class="lede">Same mark, adaptive colour — so the logo works on light, dark, canopy, photo and one-colour surfaces, plus a dedicated favicon for browser tabs &amp; document headers. Each variant is the <b>real recoloured SVG</b> shown on the background it's built for. Keep or drop each, pick a favicon, then export.</p>
+</div></header>
+
+<nav class="sticky"><div class="wrap">
+  <a href="#variants">Colour variants</a>
+  <a href="#favicon">Favicon</a>
+</div></nav>
+
+<main>
+<div class="wrap">
+  <div class="note" style="margin-top:26px"><b>Reading the board:</b> the left/right panels of each card are the surfaces that variant is meant for. If a logo looks wrong on a surface, that's the point — it tells us which variant to reach for where.</div>
+
+  <section id="variants">
+    <div class="sec-head"><h2>One mark, five surfaces</h2><div class="h2sub">Colour variants</div></div>
+
+    <!-- Primary -->
+    <div class="vcard" data-v="primary">
+      <div class="head"><h3>1 · Primary</h3><span class="use">The deployed mark — dark canopy panel. Default for all <b>light</b> backgrounds.</span></div>
+      <div class="filemeta">logos/ai4comms-logo-primary.svg <span style="color:#3B7A4E">· already canonical</span></div>
+      <div class="stage-row">
+        <div class="stage st-white"><span class="cap">on white</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-primary.svg" alt=""></div>
+        <div class="stage st-paper"><span class="cap">on paper · small</span><img class="small" src="../staged/phase2-identity/logos/ai4comms-logo-primary.svg" alt=""></div>
+      </div>
+      <div class="pickrow"><span class="pick keep on" data-v="primary" data-a="keep">Keep</span><span class="pick drop" data-v="primary" data-a="drop">Drop</span></div>
+    </div>
+
+    <!-- Reversed -->
+    <div class="vcard" data-v="reversed">
+      <div class="head"><h3>2 · Reversed <span style="font-weight:500;color:var(--ink-light)">(paper chip)</span></h3><span class="use">Light chip for placing on <b>canopy / dark</b> sections where the dark panel would vanish.</span></div>
+      <div class="filemeta">logos/ai4comms-logo-reversed.svg · panel #F8FAFC · text canopy · 4 sage · border pine</div>
+      <div class="stage-row">
+        <div class="stage st-canopy"><span class="cap">on canopy</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-reversed.svg" alt=""></div>
+        <div class="stage st-pine"><span class="cap">on pine · small</span><img class="small" src="../staged/phase2-identity/logos/ai4comms-logo-reversed.svg" alt=""></div>
+      </div>
+      <div class="pickrow"><span class="pick keep on" data-v="reversed" data-a="keep">Keep</span><span class="pick drop" data-v="reversed" data-a="drop">Drop</span></div>
+    </div>
+
+    <!-- Knockout -->
+    <div class="vcard" data-v="knockout">
+      <div class="head"><h3>3 · Knockout <span style="font-weight:500;color:var(--ink-light)">(outlined, white + sage 4)</span></h3><span class="use">Transparent panel, white outline &amp; letters, sage "4". For <b>photos</b> and immersive dark surfaces.</span></div>
+      <div class="filemeta">logos/ai4comms-logo-knockout.svg · panel none · outline+text white · 4 sage</div>
+      <div class="stage-row">
+        <div class="stage st-hero"><span class="cap">on canopy gradient</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-knockout.svg" alt=""></div>
+        <div class="stage st-photo"><span class="cap">on photo / dark surface</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-knockout.svg" alt=""></div>
+      </div>
+      <div class="pickrow"><span class="pick keep on" data-v="knockout" data-a="keep">Keep</span><span class="pick drop" data-v="knockout" data-a="drop">Drop</span></div>
+    </div>
+
+    <!-- Mono canopy -->
+    <div class="vcard" data-v="mono-canopy">
+      <div class="head"><h3>4 · Mono canopy <span style="font-weight:500;color:var(--ink-light)">(one colour)</span></h3><span class="use">Single-ink canopy — stamps, faxes, one-colour print, embossing on <b>light</b>.</span></div>
+      <div class="filemeta">logos/ai4comms-logo-mono-canopy.svg · everything #15311A</div>
+      <div class="stage-row">
+        <div class="stage st-white"><span class="cap">on white</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-mono-canopy.svg" alt=""></div>
+        <div class="stage st-mist"><span class="cap">on mist · small</span><img class="small" src="../staged/phase2-identity/logos/ai4comms-logo-mono-canopy.svg" alt=""></div>
+      </div>
+      <div class="pickrow"><span class="pick keep on" data-v="mono-canopy" data-a="keep">Keep</span><span class="pick drop" data-v="mono-canopy" data-a="drop">Drop</span></div>
+    </div>
+
+    <!-- Mono white -->
+    <div class="vcard" data-v="mono-white">
+      <div class="head"><h3>5 · Mono white <span style="font-weight:500;color:var(--ink-light)">(one colour)</span></h3><span class="use">Single-ink white — one-colour reversed print, watermarks on <b>dark</b>.</span></div>
+      <div class="filemeta">logos/ai4comms-logo-mono-white.svg · everything #FFFFFF</div>
+      <div class="stage-row">
+        <div class="stage st-canopy"><span class="cap">on canopy</span><img class="big" src="../staged/phase2-identity/logos/ai4comms-logo-mono-white.svg" alt=""></div>
+        <div class="stage st-ink"><span class="cap">on ink · small</span><img class="small" src="../staged/phase2-identity/logos/ai4comms-logo-mono-white.svg" alt=""></div>
+      </div>
+      <div class="pickrow"><span class="pick keep on" data-v="mono-white" data-a="keep">Keep</span><span class="pick drop" data-v="mono-white" data-a="drop">Drop</span></div>
+    </div>
+  </section>
+
+  <section id="favicon">
+    <div class="sec-head"><h2>Small-scale mark for tabs &amp; documents</h2><div class="h2sub">Favicon</div></div>
+    <div class="note">The current favicon is the whole panel shrunk — <b>illegible below ~48px</b> (all you see is a green blob). A favicon should carry only <code>AI4</code> in a square tile. Pick a direction; final PNGs (16/32/180/192) are produced after.</div>
+
+    <div class="fav-grid">
+      <div class="fav-opt on" data-fav="canopy">
+        <div class="fav-sizes">
+          <div class="tile s48 t-canopy"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s32 t-canopy"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s16 t-canopy"><span class="lt">AI<span class="n4">4</span></span></div>
+        </div>
+        <div class="lbl">Canopy tile ✓ rec</div>
+        <div class="desc">Dark green tile, white "AI", sage "4". Matches the primary logo panel.</div>
+      </div>
+      <div class="fav-opt" data-fav="sage">
+        <div class="fav-sizes">
+          <div class="tile s48 t-sage"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s32 t-sage"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s16 t-sage"><span class="lt">AI<span class="n4">4</span></span></div>
+        </div>
+        <div class="lbl">Sage tile</div>
+        <div class="desc">Light sage tile, canopy letters. Brighter, pops in a busy tab bar.</div>
+      </div>
+      <div class="fav-opt" data-fav="paper">
+        <div class="fav-sizes">
+          <div class="tile s48 t-paper"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s32 t-paper"><span class="lt">AI<span class="n4">4</span></span></div>
+          <div class="tile s16 t-paper"><span class="lt">AI<span class="n4">4</span></span></div>
+        </div>
+        <div class="lbl">Paper tile</div>
+        <div class="desc">Near-white tile, canopy "AI", pine "4". Quiet, light-mode-native.</div>
+      </div>
+      <div class="fav-opt" data-fav="outline">
+        <div class="fav-sizes">
+          <div class="tile s48 t-outline"><span class="lt">AI<span class="n4" style="color:var(--sage)">4</span></span></div>
+          <div class="tile s32 t-outline"><span class="lt">AI<span class="n4" style="color:var(--sage)">4</span></span></div>
+          <div class="tile s16 t-outline"><span class="lt">AI<span class="n4" style="color:var(--sage)">4</span></span></div>
+        </div>
+        <div class="lbl">Outline tile</div>
+        <div class="desc">Transparent, canopy outline + letters, sage "4". Blends on any light chrome.</div>
+      </div>
+    </div>
+
+    <div class="fav-context">
+      <span class="tab-mock"><span class="tile s16 t-canopy" id="ctx-tab"><span class="lt">AI<span class="n4">4</span></span></span> ai4-comms.com — Home</span>
+      <span class="doc-mock"><span class="tile s32 t-canopy" id="ctx-doc"><span class="lt">AI<span class="n4">4</span></span></span> AI4comms — Voorstel.pdf</span>
+    </div>
+  </section>
+</div>
+</main>
+
+<div class="bar"><div class="wrap">
+  <div class="status">Variants kept: <b id="kept">5</b>/5 · Favicon: <b id="favpick">Canopy tile</b></div>
+  <button id="copyBtn">Copy my decisions</button>
+</div></div>
+
+<script>
+const NAMES={primary:"Primary",reversed:"Reversed (paper chip)",knockout:"Knockout (white+sage)","mono-canopy":"Mono canopy","mono-white":"Mono white"};
+const FAVN={canopy:"Canopy tile",sage:"Sage tile",paper:"Paper tile",outline:"Outline tile"};
+const state={primary:"keep",reversed:"keep",knockout:"keep","mono-canopy":"keep","mono-white":"keep"};
+let fav="canopy";
+
+document.querySelectorAll('.pick').forEach(p=>{
+  p.addEventListener('click',()=>{
+    const v=p.dataset.v,a=p.dataset.a; state[v]=a;
+    document.querySelectorAll('.pick[data-v="'+v+'"]').forEach(x=>x.classList.toggle('on',x.dataset.a===a));
+    document.getElementById('kept').textContent=Object.values(state).filter(x=>x==='keep').length;
+  });
+});
+document.querySelectorAll('.fav-opt').forEach(o=>{
+  o.addEventListener('click',()=>{
+    fav=o.dataset.fav;
+    document.querySelectorAll('.fav-opt').forEach(x=>x.classList.toggle('on',x===o));
+    document.getElementById('favpick').textContent=FAVN[fav];
+    // update context mocks to chosen tile class
+    ['ctx-tab','ctx-doc'].forEach(id=>{
+      const el=document.getElementById(id);
+      el.className=el.className.replace(/t-\w+/,'t-'+fav);
+    });
+  });
+});
+document.getElementById('copyBtn').addEventListener('click',()=>{
+  let out='AI4comms — Logo variant decisions\\n\\n';
+  Object.keys(NAMES).forEach(v=>out+='• '+NAMES[v]+': '+state[v].toUpperCase()+'\\n');
+  out+='\\nFavicon direction: '+FAVN[fav]+'\\nNotes: ';
+  navigator.clipboard.writeText(out).then(()=>{const b=document.getElementById('copyBtn');const t=b.textContent;b.textContent='Copied ✓';setTimeout(()=>b.textContent=t,1500);});
+});
+const links=[...document.querySelectorAll('nav.sticky a')];
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id));})},{rootMargin:'-40% 0px -55% 0px'});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
+</script>
+</body>
+</html>

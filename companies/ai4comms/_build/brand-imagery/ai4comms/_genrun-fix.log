@@ -1,0 +1,37 @@
+brand: AI4comms | 10 shot(s) | model=imagen-4.0-generate-001
+  ✓ th1-comms-b                        seed=1000 aspect=16:9 bytes=1076472 
+  ✓ th1-comms-b_v2                     seed=1001 aspect=16:9 bytes=1144307 
+  … th1-comms-d                        429 quota — waiting 35s (retry 1/6)
+  … th1-comms-d                        429 quota — waiting 70s (retry 2/6)
+  ✓ th1-comms-d                        seed=1010 aspect=16:9 bytes=1158666 
+  ✓ th1-comms-d_v2                     seed=1011 aspect=16:9 bytes=1161673 
+  … th2-routekaart-b                   429 quota — waiting 35s (retry 1/6)
+  ✓ th2-routekaart-b                   seed=1020 aspect=16:9 bytes=1249091 
+  ✓ th2-routekaart-b_v2                seed=1021 aspect=16:9 bytes=1219606 
+  … th3-human-ai-c                     429 quota — waiting 35s (retry 1/6)
+  … th3-human-ai-c                     429 quota — waiting 70s (retry 2/6)
+  ✓ th3-human-ai-c                     seed=1030 aspect=16:9 bytes=1018794 
+  ✓ th3-human-ai-c_v2                  seed=1031 aspect=16:9 bytes=1124955 
+  … th3-human-ai-d                     429 quota — waiting 35s (retry 1/6)
+  ✓ th3-human-ai-d                     seed=1040 aspect=16:9 bytes=990669 
+  ✓ th3-human-ai-d_v2                  seed=1041 aspect=16:9 bytes=839171 
+  … th4-conversation-b                 429 quota — waiting 35s (retry 1/6)
+  ✓ th4-conversation-b                 seed=1050 aspect=4:3 bytes=1335725 
+  ✓ th4-conversation-b_v2              seed=1051 aspect=4:3 bytes=1243384 
+  … th4-conversation-c                 429 quota — waiting 35s (retry 1/6)
+  … th4-conversation-c                 429 quota — waiting 70s (retry 2/6)
+  ✓ th4-conversation-c                 seed=1060 aspect=16:9 bytes=1154829 
+  ✓ th4-conversation-c_v2              seed=1061 aspect=16:9 bytes=1233731 
+  … th5-workspace-c                    429 quota — waiting 35s (retry 1/6)
+  … th5-workspace-c                    429 quota — waiting 70s (retry 2/6)
+  ✓ th5-workspace-c                    seed=1070 aspect=16:9 bytes=1046119 
+  ✓ th5-workspace-c_v2                 seed=1071 aspect=16:9 bytes=1087803 
+  … th6-craft-b                        429 quota — waiting 35s (retry 1/6)
+  ✓ th6-craft-b                        seed=1080 aspect=1:1 bytes=1071753 
+  ✓ th6-craft-b_v2                     seed=1081 aspect=1:1 bytes=1069931 
+  … th6-craft-d                        429 quota — waiting 35s (retry 1/6)
+  … th6-craft-d                        429 quota — waiting 70s (retry 2/6)
+  ✓ th6-craft-d                        seed=1090 aspect=1:1 bytes=999011 
+  ✓ th6-craft-d_v2                     seed=1091 aspect=1:1 bytes=1033892 
+
+DONE: 20/20 this run · 67 shot(s) total on the board → /Users/williammasquelier/Repositories/stromy-org/client-data/clients/ai4comms/_build/brand-imagery/ai4comms/CONTACT-SHEET.html

@@ -1,0 +1,137 @@
+{
+  "slug": "ai4comms",
+  "_note": "ai4comms documentary-warm validation batch (2026-07-22). One signature shot per approved theme to lock the treatment before scaling to the full ~20-24 library. Real Dutch communications professionals, unposed, warm-neutral muted grade. NO abstract/data-texture/architectural/neon (brand anti-patterns).",
+  "style_families": {
+    "documentary-warm": {
+      "style_suffix": "candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones"
+    }
+  },
+  "accent_names": {
+    "#9EC187": "soft sage green",
+    "#15311A": "deep forest green",
+    "#214C28": "pine green"
+  },
+  "shots": [
+    {
+      "id": "t1-comms-at-work",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "hero"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "a small team of communications professionals collaborating around a laptop in a bright contemporary Dutch office, sticky notes and a whiteboard softly out of focus behind them, genuine focused and relaxed expressions",
+      "composition": "medium-wide eye-level shot, soft daylight from a large window, one person gesturing toward the screen, natural candid moment",
+      "theme": "comms-at-work"
+    },
+    {
+      "id": "t2-routekaart-learning",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "two colleagues sitting side by side at a desk, one calmly guiding the other through something on a laptop, a warm mentor-and-peer moment, both engaged",
+      "composition": "over-the-shoulder medium shot, warm morning daylight, relaxed posture, soft screen glow, shallow depth",
+      "theme": "routekaart-learning"
+    },
+    {
+      "id": "t3-human-ai-warm",
+      "family": "documentary-warm",
+      "roles": [
+        "divider",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "a communications professional thoughtfully reviewing work on a laptop, considered and calm, a cup of coffee beside them, unhurried and human",
+      "composition": "medium-close side-lit portrait, hands and face in focus, shallow depth, no readable screen interface",
+      "theme": "human-ai-warm"
+    },
+    {
+      "id": "t4-conversation-trust",
+      "family": "documentary-warm",
+      "roles": [
+        "cover"
+      ],
+      "aspect": "4:3",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "two colleagues in a real contemporary office having a genuine work conversation across a small meeting table, one listening attentively while the other speaks, a laptop and notebooks on the table between them, warm and candid, both people fully visible",
+      "composition": "eye-level medium two-shot showing both people and the office environment, softly blurred window and desk behind, natural daylight, documentary reportage NOT a studio portrait, NOT a seamless backdrop",
+      "theme": "conversation-trust"
+    },
+    {
+      "id": "t5-calm-workspace",
+      "family": "documentary-warm",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "a calm Dutch workspace still life with no people: a wooden desk by a window holding an open notebook, a small plant and a coffee cup, soft morning daylight",
+      "composition": "three-quarter still-life, airy negative space in the upper area, muted warm tones, gentle shadows",
+      "theme": "calm-workspace"
+    },
+    {
+      "id": "t6-craft-closeup",
+      "family": "documentary-warm",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "an extreme close-up of hands annotating a printed page with a pen, the craft of considered communication, tactile paper",
+      "composition": "macro shallow-depth detail, warm directional light, no faces, textured paper",
+      "theme": "craft-closeup"
+    }
+  ],
+  "themes": {
+    "comms-at-work": {
+      "title": "Communicatie at work",
+      "tag": "SIGNATURE TEAM ENERGY",
+      "desc": "Small teams of communications professionals genuinely collaborating — the core of what AI4comms strengthens.",
+      "roles": "cover, hero, section"
+    },
+    "routekaart-learning": {
+      "title": "Routekaart & learning",
+      "tag": "MENTOR & PEER — THE ROUTEKAART",
+      "desc": "Guiding a colleague along a path: mentoring, planning, learning together. Mirrors the Routekaart mark.",
+      "roles": "cover, section, divider"
+    },
+    "human-ai-warm": {
+      "title": "Human + AI, warm",
+      "tag": "CONSIDERED, NEVER FUTURISTIC",
+      "desc": "One professional working thoughtfully with technology — calm, human, no sci-fi tropes.",
+      "roles": "divider, section, closing"
+    },
+    "conversation-trust": {
+      "title": "Conversation & trust",
+      "tag": "THE CAREGIVER MOMENT",
+      "desc": "Genuine two-person conversations: listening, advising, building trust — the Sage+Caregiver archetype in one frame.",
+      "roles": "cover, divider"
+    },
+    "calm-workspace": {
+      "title": "Calm workspace",
+      "tag": "QUIET TEXTURE — NO PEOPLE",
+      "desc": "Still-life warmth: wooden desks, notebooks, morning light. Breathing room for text-heavy surfaces.",
+      "roles": "background, divider, section"
+    },
+    "craft-closeup": {
+      "title": "Craft close-ups",
+      "tag": "THE CRAFT OF COMMUNICATION",
+      "desc": "Hands, paper, pens — tactile detail shots of considered communication work.",
+      "roles": "closing, section, texture"
+    }
+  }
+}

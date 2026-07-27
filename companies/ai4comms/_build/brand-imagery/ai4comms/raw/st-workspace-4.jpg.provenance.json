@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/30703811/pexels-photo-30703811.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Erika Andrade on Pexels",
+  "roles": [
+    "background",
+    "divider"
+  ],
+  "theme": "calm-workspace",
+  "subject": "Flat-lay wooden desk with journal and coffee, muted warm palette, no people",
+  "content_type": "image/jpeg",
+  "bytes": 339030,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

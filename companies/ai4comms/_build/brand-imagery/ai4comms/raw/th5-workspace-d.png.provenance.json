@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "f3c0bf722564773fdcc039dde9a42837967c676ba108be6540ce1aa703202a02",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-22T16:05:10.708597+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1140
+  },
+  "prompt": "a soft-focus empty meeting room with warm daylight through sheer curtains, a plant and light wooden chairs, quiet and airy, no people. wide environmental still-life, generous negative space, gentle muted forest-green undertone. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "1214b8f62a60a63ddd6192aa2697d814604bb03de09d00b86326ddfd978c91d2",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "a soft-focus empty meeting room with warm daylight through sheer curtains, a plant and light wooden chairs, quiet and airy, no people. wide environmental still-life, generous negative space, gentle muted forest-green undertone. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. deep forest green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1140,
+  "synth_id_watermark": true
+}

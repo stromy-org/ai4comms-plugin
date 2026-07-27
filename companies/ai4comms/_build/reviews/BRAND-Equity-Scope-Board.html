@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI4comms — Brand Equity &amp; Scope Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --canopy:#15311A; --pine:#214C28; --sage:#9EC187; --sage-soft:#E1EDD7;
+    --paper:#F8FAFC; --mist:#ECECEC; --ink:#1F1F1F; --ink-light:#4E4E4E; --white:#fff;
+    --keep:#3B7A4E; --evolve:#C89B3E; --fill:#214C28;
+    --header-grad:linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);
+    --font:"Montserrat","Helvetica Neue",Arial,sans-serif;
+    --mono:"JetBrains Mono",monospace;
+    --content:1180px;
+  }
+  *{box-sizing:border-box}
+  html,body{width:100%;margin:0}
+  body{font-family:var(--font);color:var(--ink);background:var(--white);font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--content);margin:0 auto;padding:0 28px}
+  a{color:var(--pine)}
+
+  /* ---- header ---- */
+  header.hero{background:var(--header-grad);border-bottom:1px solid var(--mist);padding:56px 0 44px}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pine)}
+  .hairline{width:64px;height:1px;background:var(--sage);border:0;margin:10px 0 20px}
+  h1{font-weight:700;font-size:40px;line-height:1.15;letter-spacing:-.01em;color:var(--canopy);margin:0 0 12px}
+  .lede{max-width:760px;color:var(--ink-light);font-size:16px;margin:0}
+  .logo-row{display:flex;align-items:center;gap:18px;margin-bottom:26px}
+  .logo-row img{height:52px;width:auto}
+  .meta-pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+  .pill{font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:6px 12px;border-radius:999px;background:var(--white);border:1px solid var(--mist);color:var(--pine)}
+
+  /* ---- nav ---- */
+  nav.sticky{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--mist)}
+  nav.sticky .wrap{display:flex;gap:6px;overflow-x:auto;padding-top:10px;padding-bottom:10px}
+  nav.sticky a{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-light);text-decoration:none;padding:6px 11px;border-radius:999px;white-space:nowrap}
+  nav.sticky a.active{background:var(--canopy);color:#fff}
+
+  /* ---- legend ---- */
+  .legend{display:flex;gap:22px;flex-wrap:wrap;margin:34px 0 6px}
+  .legend .li{display:flex;gap:10px;align-items:flex-start;max-width:330px}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:6px;color:#fff;white-space:nowrap}
+  .tag.keep{background:var(--keep)} .tag.evolve{background:var(--evolve)} .tag.fill{background:var(--fill)}
+  .legend .li p{margin:0;font-size:13px;color:var(--ink-light)}
+
+  /* ---- section ---- */
+  section{padding:40px 0 8px}
+  .sec-head{margin-bottom:22px}
+  .sec-head h2{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pine);margin:0}
+  .sec-head .h2sub{font-size:26px;font-weight:700;color:var(--canopy);letter-spacing:-.01em;margin:6px 0 0}
+
+  /* ---- dimension card ---- */
+  .card{border:1px solid var(--mist);border-radius:12px;padding:24px 24px 20px;margin-bottom:18px;background:var(--white);transition:box-shadow .16s}
+  .card:hover{box-shadow:0 4px 18px rgba(15,30,18,.06)}
+  .card .top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+  .card h3{font-size:19px;font-weight:700;color:var(--canopy);margin:0}
+  .rec{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-light)}
+  .card .now{font-size:14px;color:var(--ink-light);margin:12px 0 4px}
+  .card .now b{color:var(--ink);font-weight:600}
+  .card .why{font-size:14px;color:var(--ink);margin:10px 0 16px}
+  .flag{background:#F6ECD4;border-left:3px solid var(--evolve);padding:10px 14px;border-radius:0 8px 8px 0;font-size:13.5px;margin:12px 0 16px}
+  .flag b{color:#8a6a1f}
+
+  .choices{display:flex;gap:10px;flex-wrap:wrap}
+  .choice{cursor:pointer;user-select:none;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:9px 16px;border-radius:999px;border:1.5px solid var(--mist);color:var(--ink-light);background:var(--white);transition:.14s}
+  .choice:hover{border-color:var(--sage)}
+  .choice[data-v="keep"].on{background:var(--keep);border-color:var(--keep);color:#fff}
+  .choice[data-v="evolve"].on{background:var(--evolve);border-color:var(--evolve);color:#fff}
+  .choice[data-v="fill"].on{background:var(--fill);border-color:var(--fill);color:#fff}
+  .choice[data-v="skip"].on{background:var(--ink-light);border-color:var(--ink-light);color:#fff}
+  .reccue{font-size:11px;color:var(--sage);font-weight:600;margin-left:2px}
+
+  /* swatches + specimens */
+  .swatches{display:flex;gap:8px;margin:14px 0 4px;flex-wrap:wrap}
+  .sw{width:64px;height:52px;border-radius:8px;border:1px solid rgba(0,0,0,.06);display:flex;align-items:flex-end;padding:5px;font-size:9px;font-family:var(--mono);color:#fff}
+  .sw.light{color:var(--ink)}
+  .motif-grid{display:flex;gap:16px;flex-wrap:wrap;margin:8px 0 6px}
+  .motif-cell{border:1px solid var(--mist);border-radius:12px;padding:16px;text-align:center;width:150px;background:var(--paper)}
+  .motif-cell svg{width:56px;height:56px}
+  .motif-cell .lbl{font-size:12px;font-weight:600;color:var(--pine);margin-top:8px}
+  .motif-cell .tier{font-size:10px;color:var(--ink-light);text-transform:uppercase;letter-spacing:.05em}
+
+  /* ---- bottom bar ---- */
+  .bar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--canopy);color:#fff;box-shadow:0 -4px 20px rgba(0,0,0,.18)}
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 28px}
+  .bar .status{font-size:13px}
+  .bar .status b{color:var(--sage);font-size:16px}
+  .bar .status .rem{color:#cddac2}
+  .bar button{cursor:pointer;font-family:var(--font);font-weight:600;font-size:12px;letter-spacing:.05em;text-transform:uppercase;border:0;border-radius:999px;padding:11px 22px;background:var(--sage);color:var(--canopy)}
+  .bar button.ghost{background:transparent;border:1.5px solid var(--sage);color:var(--sage)}
+  .bar button:active{transform:translateY(1px)}
+  main{padding-bottom:96px}
+  .foot{color:var(--ink-light);font-size:12px;padding:26px 0 8px;border-top:1px solid var(--mist);margin-top:30px}
+  @media(max-width:640px){h1{font-size:30px}.card .top{flex-direction:column}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="logo-row">
+      <img src="../../logos/ai4comms-logo-primary.svg" alt="AI4comms logo">
+    </div>
+    <div class="eyebrow">Brand Refresh · Mode C</div>
+    <hr class="hairline">
+    <h1>Equity &amp; Scope Board</h1>
+    <p class="lede">The deployed identity at ai4-comms.com is settled and strong. This board maps <b>every</b> brand dimension so you decide the scope before we build: what stays locked (<b>keep</b>), what we sharpen (<b>evolve</b>), and the gaps we finish (<b>fill</b>). Change any recommendation, then export your decisions.</p>
+    <div class="meta-pills">
+      <span class="pill">Tier · Producer</span>
+      <span class="pill">Sage + Caregiver</span>
+      <span class="pill">Light-first</span>
+      <span class="pill">Protected assets</span>
+      <span class="pill">NL primary / EN secondary</span>
+    </div>
+  </div>
+</header>
+
+<nav class="sticky"><div class="wrap">
+  <a href="#core">Core identity</a>
+  <a href="#gaps">Gaps to finish</a>
+  <a href="#fixes">Inconsistencies</a>
+  <a href="#surfaces">Deliverable surfaces</a>
+</div></nav>
+
+<div class="wrap">
+  <div class="legend">
+    <div class="li"><span class="tag keep">Keep</span><p>Locked equity. Deployed &amp; protected — changing it means changing the live site. Off the table unless you say so.</p></div>
+    <div class="li"><span class="tag evolve">Evolve</span><p>Sharpen without breaking the squint test. Old &amp; new still read as the same brand at thumbnail size.</p></div>
+    <div class="li"><span class="tag fill">Fill</span><p>A real gap the deferred phases never completed. Net-new work, with options + a review board each.</p></div>
+  </div>
+</div>
+
+<main>
+<div class="wrap">
+
+  <!-- CORE -->
+  <section id="core">
+    <div class="sec-head"><h2>Locked equity — confirm we keep it</h2><div class="h2sub">The deployed core identity</div></div>
+
+    <div class="card" data-dim="palette" data-rec="keep">
+      <div class="top"><h3>Colour palette</h3><span class="rec">Recommend · <span style="color:var(--keep)">KEEP</span></span></div>
+      <div class="swatches">
+        <div class="sw" style="background:#15311A">Canopy</div>
+        <div class="sw" style="background:#214C28">Pine</div>
+        <div class="sw light" style="background:#9EC187">Sage</div>
+        <div class="sw light" style="background:#F8FAFC;border-color:#ddd">Paper</div>
+        <div class="sw light" style="background:#ECECEC">Mist</div>
+        <div class="sw" style="background:#1F1F1F">Ink</div>
+      </div>
+      <p class="now"><b>Now:</b> forest system, live on ai-4comms.com, <b>protected</b>. The one thing that survived the 2026 refresh — canopy green is the equity.</p>
+      <p class="why">No reason to touch it. Sage stays an accent/signal, never a fill. This is the anchor everything else hangs off.</p>
+      <div class="choices" data-dim="palette"></div>
+    </div>
+
+    <div class="card" data-dim="type" data-rec="keep">
+      <div class="top"><h3>Typography — Montserrat everywhere</h3><span class="rec">Recommend · <span style="color:var(--keep)">KEEP</span> <span style="color:var(--evolve)">(+ optional evolve)</span></span></div>
+      <p class="now"><b>Now:</b> single-typeface discipline — Montserrat 700 display through 400 body, matching the deployed Divi settings. <b>Heading font protected.</b></p>
+      <p class="why">Keep the discipline. <b>Optional evolve:</b> introduce a restrained mono (JetBrains Mono, already licensed) for numbers &amp; eyebrow labels only — a subtle "technical-but-human" texture for an AI brand, without breaking the monotype rule.</p>
+      <div class="choices" data-dim="type"></div>
+    </div>
+
+    <div class="card" data-dim="logo" data-rec="evolve">
+      <div class="top"><h3>Logo — rounded canopy panel</h3><span class="rec">Recommend · <span style="color:var(--evolve)">EVOLVE</span> (add variant, keep the mark)</span></div>
+      <div class="logo-row" style="margin:8px 0 4px"><img src="../../logos/ai4comms-logo-primary.png" alt="logo" style="height:64px"></div>
+      <p class="now"><b>Now:</b> one variant only — a dark-green rounded panel wordmark. <b>No white/knockout variant</b>, so it can never sit cleanly on canopy sections or photos.</p>
+      <p class="why">Keep the mark as-is (protected). <b>Evolve = add a transparent knockout variant</b> (light wordmark, no panel) so it works on dark &amp; imagery. This is the single biggest flexibility win. Touches a protected asset → your call.</p>
+      <div class="choices" data-dim="logo"></div>
+    </div>
+
+    <div class="card" data-dim="voice" data-rec="keep">
+      <div class="top"><h3>Voice &amp; messaging</h3><span class="rec">Recommend · <span style="color:var(--keep)">KEEP</span></span></div>
+      <p class="now"><b>Now:</b> peer-register Dutch, FAQ-led, "routekaart" language, honest rhetorical questions. Well-documented, matches the live site. Tagline: <i>"Kies voor AI als partner, niet als vervanger."</i></p>
+      <p class="why">Strong and coherent. No change proposed — we just make sure new surfaces (templates, brand book) speak it.</p>
+      <div class="choices" data-dim="voice"></div>
+    </div>
+  </section>
+
+  <!-- GAPS -->
+  <section id="gaps">
+    <div class="sec-head"><h2>The real work — deferred phases &amp; the missing mark</h2><div class="h2sub">Gaps to finish</div></div>
+
+    <div class="card" data-dim="mark" data-rec="fill">
+      <div class="top"><h3>Distinctive mark / symbol</h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span> — the highest-leverage move</span></div>
+      <p class="now"><b>Now:</b> the brand has <b>no graphical mark</b> — recognition rests entirely on the wordmark + green. The motif system is <code>sage-highlight</code> (typographic only). Two candidates were drawn but never reviewed:</p>
+      <div class="motif-grid">
+        <div class="motif-cell">
+          <svg viewBox="0 0 64 64" aria-label="Canopy sprout"><path d="M32 56 V30" fill="none" stroke="#15311A" stroke-width="3" stroke-linecap="round"/><path d="M32 34 C22 34 16 27 16 18 C26 18 32 25 32 34 Z" fill="#9EC187"/><path d="M32 30 C42 30 48 23 48 14 C38 14 32 21 32 30 Z" fill="#214C28"/></svg>
+          <div class="lbl">Canopy sprout</div><div class="tier">proposed · growth/enablement</div>
+        </div>
+        <div class="motif-cell">
+          <svg viewBox="0 0 64 64" aria-label="Rounded node"><path d="M16 20 C28 28 36 28 48 20" fill="none" stroke="#214C28" stroke-width="2.4" stroke-linecap="round"/><path d="M16 20 C22 34 22 40 32 48" fill="none" stroke="#214C28" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="20" r="6" fill="#15311A"/><circle cx="48" cy="20" r="6" fill="#9EC187"/><circle cx="32" cy="48" r="6" fill="#214C28"/></svg>
+          <div class="lbl">Rounded node</div><div class="tier">proposed · AI-as-partner network</div>
+        </div>
+        <div class="motif-cell" style="border-style:dashed;display:flex;flex-direction:column;justify-content:center">
+          <div style="font-size:30px;color:var(--sage)">+</div>
+          <div class="lbl">New options</div><div class="tier">a fresh board of 6–8</div>
+        </div>
+      </div>
+      <p class="why">Pick FILL and I'll build a proper motif board — the two existing candidates plus fresh options (sprout, leaf, route-map, node), each shown at favicon → hero scale, on light &amp; canopy, so you choose a real signature device.</p>
+      <div class="choices" data-dim="mark"></div>
+    </div>
+
+    <div class="card" data-dim="imagery" data-rec="fill">
+      <div class="top"><h3>Imagery library <span class="reccue">(Phase 4 — never done)</span></h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span></span></div>
+      <p class="now"><b>Now:</b> the <code>images/</code> folder still holds the <b>old 140-image dark library</b> (data-texture, architectural, "signal"). The charter <i>says</i> the brand is documentary comms photography, rounded, warm — but no such image exists on disk.</p>
+      <div class="flag"><b>⚠ Inconsistency #1:</b> the charter's image catalog points at 3 archived dark images that are <b>explicitly banned</b> by the brand's own anti-patterns. Fixing imagery fixes this.</div>
+      <p class="why">FILL = source/generate a warm documentary library of real comms professionals (selection board → curation board → treatments → manifest with focal points). Retire the dark library.</p>
+      <div class="choices" data-dim="imagery"></div>
+    </div>
+
+    <div class="card" data-dim="icons" data-rec="fill">
+      <div class="top"><h3>Iconography</h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span></span></div>
+      <p class="now"><b>Now:</b> <code>status: approved</code> but <code>evidence: proposed</code> — an intended <i>rounded line + sage-fill</i> style exists on paper; <b>no actual icon set</b> is drawn.</p>
+      <p class="why">FILL = draw the open, extensible icon style (routekaart, handshake, shield-check, growth, chat, gears-people…) so decks &amp; the site have a consistent glyph language.</p>
+      <div class="choices" data-dim="icons"></div>
+    </div>
+  </section>
+
+  <!-- FIXES -->
+  <section id="fixes">
+    <div class="sec-head"><h2>Bugs, not taste — the charter contradicts its own rules</h2><div class="h2sub">Inconsistencies to correct</div></div>
+
+    <div class="card" data-dim="divider" data-rec="evolve">
+      <div class="top"><h3>Neon divider asset</h3><span class="rec">Recommend · <span style="color:var(--evolve)">FIX</span></span></div>
+      <div class="flag"><b>⚠ Inconsistency #2:</b> <code>assets/svg/divider-full.svg</code> still renders the <b>killed neon <span style="color:#44E88A;background:#15311A;padding:1px 5px;border-radius:3px">#44E88A</span></b> accent + JetBrains Mono decoratively — both explicit anti-patterns — yet it's the asset listed under the <i>approved</i> sage-highlight motif.</div>
+      <p class="why">Trivial fix: re-color to sage <code>#9EC187</code> and drop the mono label, or replace with the clean hairline system. Ships immediately.</p>
+      <div class="choices" data-dim="divider"></div>
+    </div>
+  </section>
+
+  <!-- SURFACES -->
+  <section id="surfaces">
+    <div class="sec-head"><h2>Where the brand gets used — regenerate for light mode</h2><div class="h2sub">Deliverable surfaces (Phase 5 &amp; 6)</div></div>
+
+    <div class="card" data-dim="templates" data-rec="fill">
+      <div class="top"><h3>Documents &amp; stationery</h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span> <span class="reccue">(Phase 5 — deferred)</span></span></div>
+      <p class="now"><b>Now:</b> the 4 existing templates (DOCX default + letterhead, business cards, email signature) are <b>dark-mode aspirational artifacts</b> — they encode the retired brand.</p>
+      <p class="why">FILL = regenerate in the deployed light identity: DOCX style base + letterhead, a business-card review board (20 concepts), email-signature variants. Each is its own review board.</p>
+      <div class="choices" data-dim="templates"></div>
+    </div>
+
+    <div class="card" data-dim="render" data-rec="fill">
+      <div class="top"><h3>Deck &amp; PDF render assets</h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span></span></div>
+      <p class="now"><b>Now:</b> no <code>pptx-assets/</code>, no PPTX/PDF page shells. Server-side render skills (format-pptx-hd, format-pdf-hd) fall back to generic framing for ai4comms decks.</p>
+      <p class="why">FILL = brand gradients, photo overlays (from the new imagery), motif tiles + cover/divider/closing page shells so every ai4comms deck &amp; PDF is unmistakably theirs.</p>
+      <div class="choices" data-dim="render"></div>
+    </div>
+
+    <div class="card" data-dim="brandbook" data-rec="fill">
+      <div class="top"><h3>Brand book</h3><span class="rec">Recommend · <span style="color:var(--fill)">FILL</span> <span class="reccue">(Phase 6 — deferred)</span></span></div>
+      <p class="now"><b>Now:</b> no compiled brand book. Guidelines live as markdown only.</p>
+      <p class="why">FILL = the magazine-quality HTML brand book once imagery + mark + templates land — the single shareable artifact that captures the whole system.</p>
+      <div class="choices" data-dim="brandbook"></div>
+    </div>
+  </section>
+
+  <div class="foot wrap" style="padding-left:0;padding-right:0">
+    Board generated from <code>charter.json</code> · <code>guidelines.md</code> · <code>BUILD_LOG.md</code> · disk state. Recommendations are mine — you decide. Nothing is built until you validate scope.
+  </div>
+</div>
+</main>
+
+<div class="bar"><div class="wrap">
+  <div class="status"><b id="count">0</b> / <span id="total">11</span> confirmed <span class="rem" id="rem">· click a chip on each card</span></div>
+  <div style="display:flex;gap:10px">
+    <button class="ghost" id="resetBtn">Reset to recommended</button>
+    <button id="copyBtn">Copy my decisions</button>
+  </div>
+</div></div>
+
+<script>
+const DIMS = {
+  palette:"Colour palette", type:"Typography (Montserrat)", logo:"Logo (panel wordmark)",
+  voice:"Voice & messaging", mark:"Distinctive mark/symbol", imagery:"Imagery library",
+  icons:"Iconography", divider:"Neon divider fix", templates:"Documents & stationery",
+  render:"Deck & PDF render assets", brandbook:"Brand book"
+};
+const REC = {palette:"keep",type:"keep",logo:"evolve",voice:"keep",mark:"fill",imagery:"fill",icons:"fill",divider:"evolve",templates:"fill",render:"fill",brandbook:"fill"};
+const LABELS = {keep:"Keep",evolve:"Evolve",fill:"Fill",skip:"Skip for now"};
+const OPTS = {
+  palette:["keep","skip"], voice:["keep","skip"],
+  type:["keep","evolve","skip"], logo:["keep","evolve","skip"],
+  mark:["fill","evolve","skip"], imagery:["fill","skip"], icons:["fill","skip"],
+  divider:["evolve","skip"], templates:["fill","skip"], render:["fill","skip"], brandbook:["fill","skip"]
+};
+const state = {};
+document.querySelectorAll('.choices').forEach(box=>{
+  const dim = box.dataset.dim;
+  OPTS[dim].forEach(v=>{
+    const b=document.createElement('span');
+    b.className='choice'; b.dataset.v=v; b.dataset.dim=dim;
+    b.textContent = LABELS[v] + (v===REC[dim] ? '  ✓ rec' : '');
+    b.addEventListener('click',()=>{ state[dim]=v; paint(dim); update(); });
+    box.appendChild(b);
+  });
+});
+function applyRec(){ Object.keys(REC).forEach(d=>{state[d]=REC[d];paint(d);}); update(); }
+function paint(dim){
+  document.querySelectorAll('.choice[data-dim="'+dim+'"]').forEach(c=>{
+    c.classList.toggle('on', c.dataset.v===state[dim]);
+  });
+}
+function update(){
+  const n=Object.keys(state).length, total=Object.keys(DIMS).length;
+  document.getElementById('count').textContent=n;
+  document.getElementById('total').textContent=total;
+  document.getElementById('rem').textContent = n>=total ? '· all set — copy your decisions' : '· click a chip on each card';
+}
+document.getElementById('resetBtn').addEventListener('click',applyRec);
+document.getElementById('copyBtn').addEventListener('click',()=>{
+  let out='AI4comms — Equity & Scope decisions\\n\\n';
+  Object.keys(DIMS).forEach(d=>{
+    const v = state[d]||'(unset)';
+    const flag = (state[d]&&state[d]!==REC[d])?'   [changed from '+LABELS[REC[d]]+']':'';
+    out += '• '+DIMS[d]+': '+(LABELS[v]||v).toUpperCase()+flag+'\\n';
+  });
+  out += '\\nNotes: ';
+  navigator.clipboard.writeText(out).then(()=>{
+    const b=document.getElementById('copyBtn'); const t=b.textContent;
+    b.textContent='Copied ✓'; setTimeout(()=>b.textContent=t,1600);
+  });
+});
+// sticky nav active state
+const links=[...document.querySelectorAll('nav.sticky a')];
+const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){
+  links.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+e.target.id));
+}})},{rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('section').forEach(s=>io.observe(s));
+applyRec();
+</script>
+</body>
+</html>

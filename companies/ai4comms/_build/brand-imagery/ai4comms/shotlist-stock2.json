@@ -1,0 +1,163 @@
+{
+  "slug": "ai4comms",
+  "_note": "Verified replacement stock (2026-07-22) — each candidate DOWNLOADED + VIEWED by the sourcing agent before listing (new SKILL directive); captions describe actual pixels.",
+  "style_families": {
+    "documentary-warm": {
+      "style_suffix": "(stock — no gen prompt)"
+    }
+  },
+  "accent_names": {
+    "#9EC187": "soft sage green"
+  },
+  "themes": {
+    "comms-at-work": {
+      "title": "Communicatie at work",
+      "tag": "SIGNATURE TEAM ENERGY",
+      "desc": "Small teams of communications professionals genuinely collaborating — the core of what AI4comms strengthens.",
+      "roles": "cover, hero, section"
+    },
+    "routekaart-learning": {
+      "title": "Routekaart & learning",
+      "tag": "MENTOR & PEER — THE ROUTEKAART",
+      "desc": "Guiding a colleague along a path: mentoring, planning, learning together. Mirrors the Routekaart mark.",
+      "roles": "cover, section, divider"
+    },
+    "human-ai-warm": {
+      "title": "Human + AI, warm",
+      "tag": "CONSIDERED, NEVER FUTURISTIC",
+      "desc": "One professional working thoughtfully with technology — calm, human, no sci-fi tropes.",
+      "roles": "divider, section, closing"
+    },
+    "conversation-trust": {
+      "title": "Conversation & trust",
+      "tag": "THE CAREGIVER MOMENT",
+      "desc": "Genuine two-person conversations: listening, advising, building trust — the Sage+Caregiver archetype in one frame.",
+      "roles": "cover, divider"
+    },
+    "calm-workspace": {
+      "title": "Calm workspace",
+      "tag": "QUIET TEXTURE — NO PEOPLE",
+      "desc": "Still-life warmth: wooden desks, notebooks, morning light. Breathing room for text-heavy surfaces.",
+      "roles": "background, divider, section"
+    },
+    "craft-closeup": {
+      "title": "Craft close-ups",
+      "tag": "THE CRAFT OF COMMUNICATION",
+      "desc": "Hands, paper, pens — tactile detail shots of considered communication work.",
+      "roles": "closing, section, texture"
+    }
+  },
+  "shots": [
+    {
+      "id": "st-workspace-5",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.unsplash.com/photo-1743385779534-f53c018c21f5?w=1600&q=80",
+      "platform": "unsplash",
+      "attribution": "Photo by Kelly Sikkema on Unsplash",
+      "page": "https://unsplash.com/photos/wl2qQ2JHMXA",
+      "subject": "Overhead flat lay on warm honey wood: open dot-grid notebook, pens, dark mug of coffee, earbuds case, plant leaves entering frame — warm-neutral, no people"
+    },
+    {
+      "id": "st-workspace-6",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/97987/pexels-photo-97987.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Markus Spiske on Pexels",
+      "page": "https://www.pexels.com/photo/97987/",
+      "subject": "Sepia-warm shot along a wooden desk toward a soft-focus window: closed notebook, silver pen, white cup on saucer, sunlight pooling on the wood — no people"
+    },
+    {
+      "id": "st-workspace-7",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/4195334/pexels-photo-4195334.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Karola G (kaboompics) on Pexels",
+      "page": "https://www.pexels.com/photo/4195334/",
+      "subject": "Clean overhead on pale honey wood: espresso cup on white saucer beside a blank spiral notepad and silver pen, generous negative space, muted warm tones"
+    },
+    {
+      "id": "st-workspace-8",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "calm-workspace",
+      "roles": [
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Sora Shimazaki on Pexels",
+      "page": "https://www.pexels.com/photo/5668833/",
+      "subject": "White coffee cup on wooden table beside an open blank notebook and black pen, dark-framed window softly blurred behind, muted warm-neutral (portrait crop)"
+    },
+    {
+      "id": "st-craft-5",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "craft-closeup",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "url": "https://images.pexels.com/photos/5425598/pexels-photo-5425598.jpeg",
+      "platform": "pexels",
+      "attribution": "Photo by Anna Tarazevich on Pexels",
+      "page": "https://www.pexels.com/photo/5425598/",
+      "subject": "Extreme close-up of a hand gripping a black pen over a blank notebook page, striped cuff blurred behind, warm skin tones, soft window light — no face"
+    },
+    {
+      "id": "st-human-ai-5",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "human-ai-warm",
+      "roles": [
+        "section",
+        "background"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
+      "platform": "pexels",
+      "attribution": "Photo by Teona Swift on Pexels",
+      "page": "https://www.pexels.com/photo/6912814/",
+      "subject": "Hands typing on a laptop at a pale wood table surrounded by houseplants, blue-green mug and notebook nearby, screen unreadable, no face — bright airy warm-neutral"
+    },
+    {
+      "id": "st-conversation-5",
+      "sourcing": "stock",
+      "family": "documentary-warm",
+      "theme": "conversation-trust",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
+      "platform": "pexels",
+      "attribution": "Photo by Vitaly Gariev on Pexels",
+      "page": "https://www.pexels.com/photo/23496898/",
+      "subject": "A woman and a bearded man in glasses in genuine conversation across a small round table, both faces visible, coffee cups + notebook on table, bright window light (third person blurred in background)"
+    }
+  ]
+}

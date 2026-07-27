@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
+  "attribution": "Photo by Teona Swift on Pexels",
+  "roles": [
+    "section",
+    "background"
+  ],
+  "theme": "human-ai-warm",
+  "subject": "Hands typing on a laptop at a pale wood table surrounded by houseplants, blue-green mug and notebook nearby, screen unreadable, no face \u2014 bright airy warm-neutral",
+  "content_type": "image/jpeg",
+  "bytes": 3595807,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

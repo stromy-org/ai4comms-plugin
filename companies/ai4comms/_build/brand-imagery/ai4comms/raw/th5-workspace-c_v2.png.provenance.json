@@ -1,0 +1,28 @@
+{
+  "brand_context_hash": "f3c0bf722564773fdcc039dde9a42837967c676ba108be6540ce1aa703202a02",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-22T16:39:24.843327+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "enhance_prompt": false,
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1071
+  },
+  "prompt": "a close still-life of a closed laptop, an open notebook and a fountain pen on a warm wooden desk beside a window, calm and considered, no people. top-down-ish three-quarter still-life, soft daylight, negative space, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "fc6a0b7a7a92963ab65f0856174c152811adc8113390829d907ea71fbd4f5276",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "a close still-life of a closed laptop, an open notebook and a fountain pen on a warm wooden desk beside a window, calm and considered, no people. top-down-ish three-quarter still-life, soft daylight, negative space, muted tones. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1071,
+  "synth_id_watermark": true
+}

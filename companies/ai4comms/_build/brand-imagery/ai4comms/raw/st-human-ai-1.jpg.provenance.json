@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=1600&q=80",
+  "attribution": "Photo by Kyle Loftus on Unsplash",
+  "roles": [
+    "divider",
+    "section"
+  ],
+  "theme": "human-ai-warm",
+  "subject": "Man reviewing his laptop with coffee alongside, screen not legible, muted neutral, unhurried",
+  "content_type": "image/jpeg",
+  "bytes": 612443,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

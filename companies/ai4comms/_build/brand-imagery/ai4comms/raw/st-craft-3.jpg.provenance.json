@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/34066105/pexels-photo-34066105.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Khaya Motsa on Pexels",
+  "roles": [
+    "closing",
+    "section"
+  ],
+  "theme": "craft-closeup",
+  "subject": "Extreme close-up of hand writing on a formal printed page, no face, textured paper",
+  "content_type": "image/jpeg",
+  "bytes": 264060,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

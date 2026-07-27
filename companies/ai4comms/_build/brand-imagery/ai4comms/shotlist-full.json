@@ -1,0 +1,308 @@
+{
+  "slug": "ai4comms",
+  "_note": "ai4comms FULL documentary-warm library (2026-07-22). Builds on the locked validation batch (t1-t6 stay as each theme's first option). 3 new distinct compositions per theme (-b/-c/-d) x --variants 2 => ~8 generated frames/theme; combined with sourced stock => ~10 options/theme for the selection board. Real Dutch communications professionals, unposed, warm-neutral muted grade. NO abstract/data-texture/architectural/neon (brand anti-patterns).",
+  "style_families": {
+    "documentary-warm": {
+      "style_suffix": "candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones"
+    },
+    "documentary-warm-stilllife": {
+      "style_suffix": "candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people"
+    }
+  },
+  "accent_names": {
+    "#9EC187": "soft sage green",
+    "#214C28": "pine green",
+    "#15311A": "deep forest green"
+  },
+  "shots": [
+    {
+      "id": "th1-comms-b",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "hero"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "a communications professional presenting an idea to two seated colleagues beside a whiteboard in a bright modern Dutch office, sticky notes softly out of focus, genuine engaged expressions",
+      "composition": "medium-wide eye-level shot, soft window daylight, the presenter mid-gesture, natural candid reportage moment",
+      "theme": "comms-at-work"
+    },
+    {
+      "id": "th1-comms-c",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "three colleagues working together at a shared wooden table in an airy contemporary office, laptops and notebooks between them, one laughing softly, relaxed and focused",
+      "composition": "wide environmental shot showing the room and daylight, shallow-to-medium depth, unposed",
+      "theme": "comms-at-work"
+    },
+    {
+      "id": "th1-comms-d",
+      "family": "documentary-warm",
+      "roles": [
+        "hero",
+        "background"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "a small comms team gathered around a single laptop screen, leaning in together to review something, warm collaborative energy, candid",
+      "composition": "medium over-the-shoulder shot toward the group, soft side daylight, faces lit, shallow background",
+      "theme": "comms-at-work"
+    },
+    {
+      "id": "th2-routekaart-b",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "a mentor and a younger colleague leaning over a printed roadmap on a desk, the mentor pointing at a step on the page while the other follows, warm guiding moment",
+      "composition": "medium over-the-shoulder shot onto the paper and their hands, warm morning daylight, shallow depth, no readable text on the page",
+      "theme": "routekaart-learning"
+    },
+    {
+      "id": "th2-routekaart-c",
+      "family": "documentary-warm",
+      "roles": [
+        "section",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "a small group workshop where one person sketches a simple plan on a glass board with a marker while two colleagues watch and discuss, engaged and calm",
+      "composition": "medium-wide three-quarter shot, soft daylight, the sketcher in focus, natural candid, abstract non-readable marks only",
+      "theme": "routekaart-learning"
+    },
+    {
+      "id": "th2-routekaart-d",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "two colleagues side by side at a laptop, one calmly explaining while the other takes handwritten notes in a notebook, unhurried peer-learning",
+      "composition": "medium two-shot from a slight angle, warm window light, shallow depth, both partly visible",
+      "theme": "routekaart-learning"
+    },
+    {
+      "id": "th3-human-ai-b",
+      "family": "documentary-warm",
+      "roles": [
+        "divider",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "a communications professional wearing a light headset, listening thoughtfully in a warm quiet office, considered and human, hand resting near the chin",
+      "composition": "medium-close side-lit portrait, face and hands in focus, shallow depth, no readable screens",
+      "theme": "human-ai-warm"
+    },
+    {
+      "id": "th3-human-ai-c",
+      "family": "documentary-warm",
+      "roles": [
+        "section",
+        "closing"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "a person writing reflective notes by hand in a notebook beside an open laptop, coffee cup nearby, calm and unhurried",
+      "composition": "medium-close shot over the hands and notebook, warm directional daylight, shallow depth, subject's face softly present",
+      "theme": "human-ai-warm"
+    },
+    {
+      "id": "th3-human-ai-d",
+      "family": "documentary-warm",
+      "roles": [
+        "divider",
+        "background"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "a professional pausing to think while looking out a large office window, laptop open in the foreground, contemplative and warm",
+      "composition": "medium shot with the window light wrapping the subject, negative space to one side, shallow depth",
+      "theme": "human-ai-warm"
+    },
+    {
+      "id": "th4-conversation-b",
+      "family": "documentary-warm",
+      "roles": [
+        "cover"
+      ],
+      "aspect": "4:3",
+      "dominant_accent": "#214C28",
+      "palette_mode": "full",
+      "subject": "two colleagues in a relaxed genuine work conversation on a low sofa in an office breakout area, coffee cups on the table, one gesturing while the other listens, warm and candid",
+      "composition": "eye-level medium two-shot showing both people and the environment, softly blurred window behind, documentary reportage not a studio portrait",
+      "theme": "conversation-trust"
+    },
+    {
+      "id": "th4-conversation-c",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "full",
+      "subject": "three colleagues in an easy standing conversation near a bright office window with coffee, natural body language and warm expressions, unposed",
+      "composition": "medium-wide environmental shot, soft daylight, all three visible and engaged, shallow background",
+      "theme": "conversation-trust"
+    },
+    {
+      "id": "th4-conversation-d",
+      "family": "documentary-warm",
+      "roles": [
+        "cover",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "two people mid-conversation across a small meeting table, one leaning in listening attentively, a notebook and laptop between them, a moment of trust",
+      "composition": "eye-level medium two-shot, warm window light from the side, both fully visible, candid",
+      "theme": "conversation-trust"
+    },
+    {
+      "id": "th5-workspace-b",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "muted",
+      "subject": "a tidy Dutch office corner in soft morning daylight with a small potted plant, a stack of notebooks and a mug on a wooden surface, muted warm tones, no people",
+      "composition": "three-quarter still-life with airy negative space in the upper area, gentle shadows",
+      "theme": "calm-workspace"
+    },
+    {
+      "id": "th5-workspace-c",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "background",
+        "section"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#214C28",
+      "palette_mode": "muted",
+      "subject": "a close still-life of a closed laptop, an open notebook and a fountain pen on a warm wooden desk beside a window, calm and considered, no people",
+      "composition": "top-down-ish three-quarter still-life, soft daylight, negative space, muted tones",
+      "theme": "calm-workspace"
+    },
+    {
+      "id": "th5-workspace-d",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "background",
+        "divider"
+      ],
+      "aspect": "16:9",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "a soft-focus empty meeting room with warm daylight through sheer curtains, a plant and light wooden chairs, quiet and airy, no people",
+      "composition": "wide environmental still-life, generous negative space, gentle muted forest-green undertone",
+      "theme": "calm-workspace"
+    },
+    {
+      "id": "th6-craft-b",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "dominant_accent": "#214C28",
+      "palette_mode": "muted",
+      "subject": "an extreme close-up of hands typing gently on a laptop keyboard in warm directional light, the craft of considered work, no faces",
+      "composition": "macro shallow-depth detail, warm side light, textured focus on the hands",
+      "theme": "craft-closeup"
+    },
+    {
+      "id": "th6-craft-c",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "closing",
+        "texture"
+      ],
+      "aspect": "1:1",
+      "dominant_accent": "#9EC187",
+      "palette_mode": "muted",
+      "subject": "a macro of a printed page marked with a highlighter and a pen resting on it, the edge of a coffee cup just in frame, tactile paper, no faces",
+      "composition": "macro shallow-depth detail, warm directional light, textured paper, abstract non-readable marks",
+      "theme": "craft-closeup"
+    },
+    {
+      "id": "th6-craft-d",
+      "family": "documentary-warm-stilllife",
+      "roles": [
+        "closing",
+        "section"
+      ],
+      "aspect": "1:1",
+      "dominant_accent": "#15311A",
+      "palette_mode": "muted",
+      "subject": "a close-up of two colleagues' hands meeting over a shared notebook and pen on a warm desk, a gesture of collaboration, no faces",
+      "composition": "macro shallow-depth detail, warm window light, tactile textures, muted tones",
+      "theme": "craft-closeup"
+    }
+  ],
+  "themes": {
+    "comms-at-work": {
+      "title": "Communicatie at work",
+      "tag": "SIGNATURE TEAM ENERGY",
+      "desc": "Small teams of communications professionals genuinely collaborating — the core of what AI4comms strengthens.",
+      "roles": "cover, hero, section"
+    },
+    "routekaart-learning": {
+      "title": "Routekaart & learning",
+      "tag": "MENTOR & PEER — THE ROUTEKAART",
+      "desc": "Guiding a colleague along a path: mentoring, planning, learning together. Mirrors the Routekaart mark.",
+      "roles": "cover, section, divider"
+    },
+    "human-ai-warm": {
+      "title": "Human + AI, warm",
+      "tag": "CONSIDERED, NEVER FUTURISTIC",
+      "desc": "One professional working thoughtfully with technology — calm, human, no sci-fi tropes.",
+      "roles": "divider, section, closing"
+    },
+    "conversation-trust": {
+      "title": "Conversation & trust",
+      "tag": "THE CAREGIVER MOMENT",
+      "desc": "Genuine two-person conversations: listening, advising, building trust — the Sage+Caregiver archetype in one frame.",
+      "roles": "cover, divider"
+    },
+    "calm-workspace": {
+      "title": "Calm workspace",
+      "tag": "QUIET TEXTURE — NO PEOPLE",
+      "desc": "Still-life warmth: wooden desks, notebooks, morning light. Breathing room for text-heavy surfaces.",
+      "roles": "background, divider, section"
+    },
+    "craft-closeup": {
+      "title": "Craft close-ups",
+      "tag": "THE CRAFT OF COMMUNICATION",
+      "desc": "Hands, paper, pens — tactile detail shots of considered communication work.",
+      "roles": "closing, section, texture"
+    }
+  }
+}

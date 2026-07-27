@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Teona Swift on Pexels",
+  "roles": [
+    "section",
+    "background"
+  ],
+  "theme": "human-ai-warm",
+  "subject": "Considered side view of a woman at a laptop with natural light and plants, calm concentration",
+  "content_type": "image/jpeg",
+  "bytes": 190091,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

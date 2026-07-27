@@ -1,0 +1,28 @@
+{
+  "brand_context_hash": "f3c0bf722564773fdcc039dde9a42837967c676ba108be6540ce1aa703202a02",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-22T16:37:11.780146+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "enhance_prompt": false,
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1060
+  },
+  "prompt": "three colleagues in an easy standing conversation near a bright office window with coffee, natural body language and warm expressions, unposed. medium-wide environmental shot, soft daylight, all three visible and engaged, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "820bb48e6b5ff3e0160cd9f1045009e9b97061e0c0d251ebbf8bf1416694c68c",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "three colleagues in an easy standing conversation near a bright office window with coffee, natural body language and warm expressions, unposed. medium-wide environmental shot, soft daylight, all three visible and engaged, shallow background. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1060,
+  "synth_id_watermark": true
+}
