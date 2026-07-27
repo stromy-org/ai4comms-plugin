@@ -276,5 +276,26 @@
       "mime": "image/svg+xml"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "name": "comms-env-06-GP7SH7RRkqo--16x9-textsafe.jpg",
+      "sha256": "1afe92ad52998ec82c7b963ba30234857d1ec594c9164888744250666c48a2d6",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "comms-env-08-bGo01h57aCE--16x9-textsafe.jpg",
+      "sha256": "7f4e002857fcc506c2f9a5a81c3e38a2a10fedf067a89f79d22b6525e1b841b4",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "data-tex-05-ETiSF2VSRTQ--16x9-textsafe.jpg",
+      "sha256": "a8f3d0a11aed7daff14ff99581f1f23b2b7b065d7af7ba1f9e82a54cde948a05",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "signal-03-nwNjeZ0WA6w--16x9-textsafe.jpg",
+      "sha256": "292c136d7208a97ce3e1f1c50e5ead51a875de2c1de7bce8978a96509c83dcde",
+      "mime": "image/jpeg"
+    }
+  ]
 }
