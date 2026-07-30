@@ -2,6 +2,18 @@
   "$schema": "https://gofastmcp.com/public/schemas/mcp-config.schema.json",
   "_notes": "Canonical MCP server config for ai4comms. Edit only this file. Run scripts/render-mcp.py to regenerate .mcp.json / .gemini/settings.json / .codex/config.toml / .vscode/mcp.json.",
   "servers": {
+    "nl-gov-data": {
+      "transport": "http",
+      "url": "https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp",
+      "_consumed_by": [
+        "claude",
+        "codex",
+        "gemini"
+      ],
+      "_codex_via": "mcp-remote",
+      "_gemini_via": "mcp-remote",
+      "_notes": "Dutch government open-data MCP — search/fetch legislation, parliamentary records, Rijksoverheid documents, plus the twelve intel/analysis skills (nl-gov-data, nl-monitor, nl-tensions, nl-accountability, nl-policy-legislative-landscape, nl-parliamentary-positioning, nl-issue-framing, nl-dossier-tracker, nl-eu-transposition, nl-evidence-grounding, nl-horizon-scan, nl-guide). Unauthenticated (catalog auth: null), which is what makes it plugin-declarable under Invariant #13. AI4comms is Dutch ('s-Hertogenbosch) and serves public-affairs clients, so the NL gov record is a primary evidence source. Composes with stromy-format for rendering."
+    },
     "stromy-format": {
       "transport": "http",
       "url": "https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp",
