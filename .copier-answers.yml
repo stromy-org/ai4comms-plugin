@@ -1,11 +1,10 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: '7498731'
+_commit: v1.0.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: AI4comms
 client_slug: ai4comms
 description: Claude Code plugin for AI4comms branded deliverables
-enable_asset_broker: true
 enable_stromy_format: true
 github_org: stromy-org
 include_mcp: false
