@@ -46,7 +46,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Century Gothic"
+      "webSafe": "Century Gothic",
+      "embedFamily": "Montserrat"
     },
     "body": {
       "family": "Montserrat",
@@ -57,7 +58,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Century Gothic"
+      "webSafe": "Century Gothic",
+      "embedFamily": "Montserrat"
     },
     "mono": {
       "family": "JetBrains Mono",
@@ -68,7 +70,8 @@
         "Courier New",
         "monospace"
       ],
-      "webSafe": "Consolas"
+      "webSafe": "Consolas",
+      "embedFamily": "JetBrains Mono"
     },
     "label": {
       "family": "Montserrat",
@@ -83,7 +86,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Century Gothic"
+      "webSafe": "Century Gothic",
+      "embedFamily": "Montserrat"
     }
   },
   "logo": {
@@ -592,7 +596,7 @@
             }
           },
           {
-            "id": "paper-forward",
+            "id": "light-first",
             "label": "Paper-forward (light-first)",
             "spec": {
               "canvases": [
@@ -614,7 +618,7 @@
             }
           },
           {
-            "id": "canopy-immersive",
+            "id": "canopy-deep",
             "label": "Canopy immersive (green-forward)",
             "spec": {
               "canvases": [
@@ -911,13 +915,9 @@
                 "rounded-panel / fully-rounded pill shape language"
               ],
               "prominence": "accent",
-              "note": "honest to the 'typographic-led, imagery supplementary' principle; no invented graphical motif"
+              "note": "honest to the 'typographic-led, imagery supplementary' principle; no invented graphical motif",
+              "assetNote": "Realised in CSS/type, not as SVG files. The divider-full/short/minimal SVGs were detached 2026-08-26: they belong to the retired Signal Authority system (still filled #44E88A, which antiPattern #2 forbids and antiPattern #5 archives), and being listed here they were projected into requiredMotifs and enforced on every render. Kept on disk under assets/svg/ as history only."
             },
-            "assets": [
-              "assets/svg/divider-full.svg",
-              "assets/svg/divider-short.svg",
-              "assets/svg/divider-minimal.svg"
-            ],
             "evidence": {
               "tier": "live-site"
             }
@@ -960,10 +960,10 @@
         "status": "approved",
         "required": false,
         "evidence": {
-          "tier": "source-artifact",
-          "source": "existing assets/svg/pattern-tile.svg"
+          "tier": "proposed",
+          "note": "restrained-tile detached 2026-08-26: assets/svg/pattern-tile.svg is the same retired Signal Authority asset family as the divider SVGs — #0C1410 fill + #44E88A accent dots, forbidden by name in antiPatterns ('former phosphor #44E88A'; 'hatched tiles from Phase 3 aspirational — archived'). Recoloring to sage would still violate 'accent sage used as fill color or background wash — accent is a hairline/indicator signal only'. `none` matches the brand's own 'no decorative motif system' principle and guidelines.md §6, which already documents the hatched pattern tile as archived. File kept on disk under assets/svg/ as history only."
         },
-        "selected": "restrained-tile",
+        "selected": "none",
         "candidates": [
           {
             "id": "restrained-tile",
@@ -1023,8 +1023,7 @@
         "evidence": {
           "tier": "derived",
           "source": "live site uses calm fade-in-on-scroll; full motion spec deferred to P6 (PLAN_motion-capability.md)"
-        },
-        "candidates": []
+        }
       }
     },
     "typography": {
@@ -1092,7 +1091,7 @@
     }
   },
   "_audit": {
-    "source": "_build/brand-intelligence/ai4comms/audit.md",
+    "source": ".build-history/BUILD_LOG.md",
     "date": "2026-05-18",
     "decision": "Realigned to deployed identity at ai4-comms.com (option B from audit). Aspirational dark-mode 'Signal Authority' brand archived to .build-history/aspirational-2026-04-05/.",
     "mode": "Refresh (Mode C)"

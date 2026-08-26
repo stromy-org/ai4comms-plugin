@@ -275,19 +275,29 @@
    Background-adaptive wordmark variants (form unchanged, colour adapts) +
    favicon tiles. Machine-readable source of record: charter.logo (variants /
    usage / favicons), compiled into brand_context.logo for the format MCP.
-   These vars expose the same assets to web/CSS surfaces (paths relative to the
-   overlay root). Pick by surface: light -> primary; dark section -> reversed;
-   photo/immersive -> knockout; one-colour -> mono. --- */
+   Pick by surface: light -> primary; dark section -> reversed;
+   photo/immersive -> knockout; one-colour -> mono.
+
+   NOTE: these are deliberately PATH STRINGS, not url() values. A relative
+   url() inside a CSS custom property resolves against the CONSUMING document,
+   not against tokens.css — so `url("logos/…")` silently 404s for every
+   consumer not served from the brand root, which is most of them. Held as
+   bare path strings they are inert to CSS by design: a consumer reads the
+   path (JS/build step, or straight from charter.logo) and emits its own
+   absolute url() against a root it actually knows. Note CSS cannot
+   concatenate a url() from a custom property, so there is no in-CSS shortcut
+   here — that limitation is the point. Matches the ogilvy contract, where
+   asset paths live in the charter and only metrics are tokenised. --- */
 :root {
-  --logo-primary:      url("logos/ai4comms-logo-primary.svg");     /* light backgrounds (default) */
-  --logo-reversed:     url("logos/ai4comms-logo-reversed.svg");    /* solid canopy/dark sections */
-  --logo-knockout:     url("logos/ai4comms-logo-knockout.svg");    /* photos / immersive dark */
-  --logo-mono-canopy:  url("logos/ai4comms-logo-mono-canopy.svg"); /* one-colour on light */
-  --logo-mono-white:   url("logos/ai4comms-logo-mono-white.svg");  /* one-colour on dark */
-  --favicon-canopy:    url("logos/favicons/ai4comms-favicon-canopy.svg");  /* default tile */
-  --favicon-sage:      url("logos/favicons/ai4comms-favicon-sage.svg");
-  --favicon-paper:     url("logos/favicons/ai4comms-favicon-paper.svg");
-  --favicon-outline:   url("logos/favicons/ai4comms-favicon-outline.svg");
+  --logo-primary:      "logos/ai4comms-logo-primary.svg";     /* light backgrounds (default) */
+  --logo-reversed:     "logos/ai4comms-logo-reversed.svg";    /* solid canopy/dark sections */
+  --logo-knockout:     "logos/ai4comms-logo-knockout.svg";    /* photos / immersive dark */
+  --logo-mono-canopy:  "logos/ai4comms-logo-mono-canopy.svg"; /* one-colour on light */
+  --logo-mono-white:   "logos/ai4comms-logo-mono-white.svg";  /* one-colour on dark */
+  --favicon-canopy:    "logos/favicons/ai4comms-favicon-canopy.svg";  /* default tile */
+  --favicon-sage:      "logos/favicons/ai4comms-favicon-sage.svg";
+  --favicon-paper:     "logos/favicons/ai4comms-favicon-paper.svg";
+  --favicon-outline:   "logos/favicons/ai4comms-favicon-outline.svg";
 }
 
 /* --- image treatment system (Component T; ORG-PLAN-045) ---

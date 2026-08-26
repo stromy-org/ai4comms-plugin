@@ -172,15 +172,13 @@ A new image library will be sourced in a follow-up Phase 4 pass.
 
 ## 8. Templates
 
-The existing `templates/` directory contains dark-mode artifacts that no longer match the brand:
+Template regeneration status after the refresh:
 
 | Template | Status | Action |
 |---|---|---|
 | `templates/docx/styles.docx` + `letterhead.docx` | ✅ light-mode | Materialised from specs via `render-anchors.js` (ORG-PLAN-149); stale `default.docx` removed |
-| `templates/html/business-cards.html` | dark-mode | Regenerate in light mode |
-| `templates/html/email-signature.html` | dark-mode | Regenerate in light mode |
-
-This refresh updates the **charter, tokens, guidelines, and logos only**. Template regeneration is a separate Phase 5 pass (flagged in BUILD_LOG.md as the next-action item).
+| `business-cards/review/business-cards.html` | ✅ light-mode | Regenerated (canopy/sage/Montserrat); the old `templates/html/business-cards.html` path no longer exists |
+| `templates/html/email-signature.html` | ✅ light-mode | Regenerated 2026-08-26: Montserrat replaces Syne/Inter, canopy `#15311A` replaces near-black, sage hairlines replace phosphor, banned tagline removed |
 
 ---
 

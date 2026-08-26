@@ -36,16 +36,6 @@
   ],
   "logos": [
     {
-      "name": "ai4comms-favicon-180.png",
-      "sha256": "e856586c950ce9bfde0a0014e4032c8137d71ca0b2029eaf9db7c9ee5d5aadb0",
-      "mime": "image/png"
-    },
-    {
-      "name": "ai4comms-favicon-192.png",
-      "sha256": "c7311069d06ff97305bc4389c1384e64b588d6547ca4e56c9d3129aa2174189f",
-      "mime": "image/png"
-    },
-    {
       "name": "ai4comms-favicon-canopy-16.png",
       "sha256": "d3b6ac0d23bb5470c6790d724460f78c8d5f748dc9220b315ef95d6dc42f8e5f",
       "mime": "image/png"
