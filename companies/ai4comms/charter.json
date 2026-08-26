@@ -1018,12 +1018,23 @@
         ]
       },
       "motion": {
-        "status": "deferred",
+        "status": "approved",
         "required": false,
         "evidence": {
           "tier": "derived",
           "source": "live site uses calm fade-in-on-scroll; full motion spec deferred to P6 (PLAN_motion-capability.md)"
-        }
+        },
+        "spec": {
+          "principle": "calm fade-in-on-scroll — content rises into place, nothing bounces",
+          "transform": "translateY 14px → 0",
+          "opacity": "0 → 1",
+          "duration": "600ms",
+          "easing": "ease-out",
+          "stagger": "~450ms between sibling blocks",
+          "scope": "section entry only; no hover choreography, no looping ambient motion",
+          "reducedMotion": "prefers-reduced-motion: render final state, no transition"
+        },
+        "decision": "signed off 2026-08-26 (William) against a drawn specimen: recorded now rather than parked. P6 (PLAN_motion-capability) may refine the numbers fleet-wide; it no longer blocks this brand from a terminal grammar."
       }
     },
     "typography": {

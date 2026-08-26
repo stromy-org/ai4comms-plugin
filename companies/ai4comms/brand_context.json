@@ -3,7 +3,7 @@
   "schemaVersion": 1,
   "version": "1.0",
   "generatedFrom": {
-    "charterSha": "d82fb0fecf255ecc6b1505db965c394dd99bce77f0c16cd4b4904c2662e172e9",
+    "charterSha": "549f84a4e4e83d6bbdb3fae9b2d6c0612ab78879e0a905c54ebc2df9b44deeb0",
     "compiler": "1.0"
   },
   "tier": "producer",
@@ -491,12 +491,23 @@
         }
       },
       "motion": {
-        "status": "deferred",
+        "status": "approved",
         "required": false,
         "evidence": {
           "tier": "derived",
           "source": "live site uses calm fade-in-on-scroll; full motion spec deferred to P6 (PLAN_motion-capability.md)"
-        }
+        },
+        "spec": {
+          "principle": "calm fade-in-on-scroll — content rises into place, nothing bounces",
+          "transform": "translateY 14px → 0",
+          "opacity": "0 → 1",
+          "duration": "600ms",
+          "easing": "ease-out",
+          "stagger": "~450ms between sibling blocks",
+          "scope": "section entry only; no hover choreography, no looping ambient motion",
+          "reducedMotion": "prefers-reduced-motion: render final state, no transition"
+        },
+        "decision": "signed off 2026-08-26 (William) against a drawn specimen: recorded now rather than parked. P6 (PLAN_motion-capability) may refine the numbers fleet-wide; it no longer blocks this brand from a terminal grammar."
       }
     },
     "treatments": {
