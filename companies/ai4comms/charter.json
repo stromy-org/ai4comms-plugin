@@ -475,7 +475,7 @@
       "density": "spacious",
       "contrast": "medium",
       "symmetry": "symmetric",
-      "geometry": "rectilinear",
+      "geometry": "rounded",
       "typeExpression": "systematic",
       "imageTreatment": "documentary-muted",
       "motifProminence": "accent",
