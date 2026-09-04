@@ -16,7 +16,7 @@ simplify until it does.
 > AI4Comms slaat de brug tussen corporate communicatie-expertise en
 > state-of-the-art AI-toepassingen.
 
-## Anchor — tagline
+## Anchor — tagline (verbatim, charter.identity.tagline)
 
 > Kies voor AI als partner, niet als vervanger.
 

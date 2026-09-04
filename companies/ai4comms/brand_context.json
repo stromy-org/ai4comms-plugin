@@ -30,7 +30,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Century Gothic"
+      "webSafe": "Century Gothic",
+      "rightsStatus": "unknown"
     },
     "body": {
       "family": "Montserrat",
@@ -42,7 +43,8 @@
         "Arial",
         "sans-serif"
       ],
-      "webSafe": "Century Gothic"
+      "webSafe": "Century Gothic",
+      "rightsStatus": "unknown"
     },
     "mono": {
       "family": "JetBrains Mono",
@@ -54,7 +56,8 @@
         "Courier New",
         "monospace"
       ],
-      "webSafe": "Consolas"
+      "webSafe": "Consolas",
+      "rightsStatus": "unknown"
     },
     "label": {
       "family": "Montserrat",
@@ -66,6 +69,7 @@
         "sans-serif"
       ],
       "webSafe": "Century Gothic",
+      "rightsStatus": "unknown",
       "case": "uppercase",
       "tracking": "0.12em"
     },
@@ -1655,5 +1659,58 @@
     "fps": 30
   },
   "fallbacksUsed": [],
-  "warnings": []
+  "warnings": [],
+  "token_roles": {
+    "surface": null,
+    "surfaceAlt": null,
+    "elevation": "--shadow-md",
+    "radius": "--radius-md",
+    "lineWeight": "--motif-line-weight",
+    "tracking": "--letter-spacing-wide",
+    "textStrong": "--color-text",
+    "textMuted": "--color-text-light",
+    "edge": "--color-rule"
+  },
+  "integrity": {
+    "compiler": "brand_compile.py",
+    "compiler_version": "1.0",
+    "key_set": [
+      "boilerplate",
+      "client_slug",
+      "colors",
+      "document",
+      "excalidraw_theme",
+      "expression",
+      "fallbacksUsed",
+      "formatting",
+      "generatedFrom",
+      "identity",
+      "images",
+      "logo",
+      "plotly_theme",
+      "schemaVersion",
+      "surfaceExpression",
+      "symbol",
+      "templates",
+      "tier",
+      "token_roles",
+      "tokens_css",
+      "typography",
+      "version",
+      "video",
+      "warnings"
+    ],
+    "visual_grammar_dimensions": [
+      "backgrounds",
+      "elevation",
+      "gradients",
+      "grid",
+      "iconography",
+      "motifs",
+      "motion",
+      "patterns",
+      "photo"
+    ],
+    "sha256": "757cdbdf3be5918c1e9af5784be58ff0e8fbb5c3a9b8f7b0a52322d7213bdfc6"
+  }
 }
