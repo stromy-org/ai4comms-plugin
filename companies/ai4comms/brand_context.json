@@ -1661,12 +1661,12 @@
   "fallbacksUsed": [],
   "warnings": [],
   "token_roles": {
-    "surface": null,
-    "surfaceAlt": null,
+    "surface": "--canvas-paper",
+    "surfaceAlt": "--color-background-alt",
     "elevation": "--shadow-md",
     "radius": "--radius-md",
     "lineWeight": "--motif-line-weight",
-    "tracking": "--letter-spacing-wide",
+    "tracking": "--letter-spacing-label",
     "textStrong": "--color-text",
     "textMuted": "--color-text-light",
     "edge": "--color-rule"
@@ -1711,6 +1711,6 @@
       "patterns",
       "photo"
     ],
-    "sha256": "757cdbdf3be5918c1e9af5784be58ff0e8fbb5c3a9b8f7b0a52322d7213bdfc6"
+    "sha256": "fd3e536cf9de857258ef09769ec6cf0fa6e8827cc83422f0bb6446eb39bb7e5a"
   }
 }
