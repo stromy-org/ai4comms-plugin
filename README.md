@@ -18,8 +18,8 @@ Via marketplace:
 
 For local development:
 ```bash
-git clone https://github.com/stromy-org/ai4comms.git
-cd ai4comms
+git clone https://github.com/stromy-org/ai4comms-plugin.git
+cd ai4comms-plugin
 npm install
 uv sync
 claude --plugin-dir .
