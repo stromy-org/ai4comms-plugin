@@ -1,17 +1,20 @@
 # Changes here will be overwritten by Copier; DO NOT edit manually.
-_commit: v1.0.2
+_commit: v1.2.0
 _src_path: gh:stromy-org/claude-plugin-template
 author_name: William Masquelier
 client_name: AI4comms
 client_slug: ai4comms
 description: Claude Code plugin for AI4comms branded deliverables
+display_name: AI4comms
 enable_stromy_format: true
 github_org: stromy-org
 include_mcp: false
 include_node: true
 include_python: true
+marketplace_slug: ai4comms-marketplace
 mcp_servers: []
 plugin_name: AI4comms Deliverables
 plugin_slug: ai4comms
 provider_targets: claude
+repo_slug: ai4comms-plugin
 version: 0.1.0
