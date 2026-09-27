@@ -1,7 +1,5 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "ai4comms",
-  "displayName": "AI4comms",
   "version": "0.4.36",
   "description": "Plugin for AI4comms branded deliverables",
   "author": {
@@ -19,7 +17,5 @@
     "public-affairs",
     "dutch-government"
   ],
-  "skills": [
-    "./.claude-plugin/skills"
-  ]
+  "mcpServers": "./mcp.json"
 }
