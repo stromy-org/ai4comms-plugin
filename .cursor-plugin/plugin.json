@@ -1,6 +1,6 @@
 {
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai4comms",
+  "displayName": "AI4comms",
   "version": "0.4.37",
   "description": "Plugin for AI4comms branded deliverables",
   "author": {
@@ -17,5 +17,16 @@
     "social",
     "public-affairs",
     "dutch-government"
-  ]
+  ],
+  "skills": [
+    "./skills"
+  ],
+  "mcpServers": {
+    "nl-gov-data": {
+      "url": "https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp"
+    },
+    "stromy-format": {
+      "url": "https://stromy-format-mcp.whitetree-762cff59.westeurope.azurecontainerapps.io/mcp"
+    }
+  }
 }
