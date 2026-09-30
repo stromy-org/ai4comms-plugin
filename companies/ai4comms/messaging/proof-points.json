@@ -1,0 +1,42 @@
+[
+  {
+    "id": "proof-001",
+    "type": "credibility",
+    "claim": "AI4Comms is het eerste bureau in Nederland dat zich specifiek richt op AI-oplossingen voor communicatieprofessionals",
+    "source": "ai4-comms.com (geraadpleegd 2026-06-19)",
+    "verified": false,
+    "tier": 2,
+    "tags": ["positioning", "market-first", "netherlands"],
+    "lastVerified": "2026-06"
+  },
+  {
+    "id": "proof-002",
+    "type": "credibility",
+    "claim": "Co-founder Ingo Heijnen bracht meer dan 25 jaar door in corporate communicatie en corporate affairs, voornamelijk bij Hill & Knowlton",
+    "source": "people.json publicBio, ai4-comms.com team page",
+    "verified": false,
+    "tier": 2,
+    "tags": ["founding-team", "experience", "hill-knowlton"],
+    "lastVerified": "2026-06"
+  },
+  {
+    "id": "proof-003",
+    "type": "credibility",
+    "claim": "Co-founder Emma van Gelder heeft een achtergrond in corporate communicatie bij Hill & Knowlton",
+    "source": "people.json publicBio, ai4-comms.com team page",
+    "verified": false,
+    "tier": 2,
+    "tags": ["founding-team", "experience", "hill-knowlton"],
+    "lastVerified": "2026-06"
+  },
+  {
+    "id": "proof-004",
+    "type": "credibility",
+    "claim": "Advisor Ariën Stuijt is voormalig journalist bij Dow Jones Newswires en The Wall Street Journal, en bracht 17 jaar door als strategisch adviseur bij Hill & Knowlton",
+    "source": "people.json publicBio, ai4-comms.com team page",
+    "verified": false,
+    "tier": 2,
+    "tags": ["advisor", "experience", "journalism", "hill-knowlton"],
+    "lastVerified": "2026-06"
+  }
+]

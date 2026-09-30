@@ -1,0 +1,14 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
+  "attribution": "Photo by Vitaly Gariev on Unsplash",
+  "roles": [
+    "section"
+  ],
+  "theme": "conversation-trust",
+  "subject": "Two coworkers in focused genuine discussion at a desk, both visible, no cheesy grins",
+  "content_type": "image/jpeg",
+  "bytes": 168096,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": {
+    "profileSha": "ff03d2941c05c4c24aafcc7884196b9785097c5cb73b726170bcd1c3acfccff7",
+    "peopleSha": "2a01add54b0c8328cc79b826f0f2302d67b092e5966f52358644c76fd28dcaa4",
+    "compiler": "1.0"
+  },
+  "company": {
+    "name": "AI4Comms",
+    "description": "AI4comms helps communications leaders turn AI from abstract hype into practical advantage through strategy, training, governance, and hands-on implementation support.",
+    "tagline": "Lead AI with clarity.",
+    "website": "https://ai4-comms.com",
+    "founded": 2026,
+    "headquarters": {
+      "city": "'s-Hertogenbosch",
+      "country": "Netherlands"
+    },
+    "services": [
+      {
+        "id": "svc-001",
+        "name": "AI Strategy for Communications Teams",
+        "description": "Strategic advisory for communication leaders who need to define where AI creates real value across corporate communications, public affairs, media relations, and content operations.",
+        "industries": [
+          "Corporate Communications",
+          "Public Affairs",
+          "Professional Services",
+          "In-house Communications"
+        ],
+        "deliverables": [
+          "AI Opportunity Assessment",
+          "Communications AI Roadmap",
+          "Leadership Briefing",
+          "Use-Case Prioritization"
+        ],
+        "typicalDuration": "2-6 weeks",
+        "pricingModel": "price-001"
+      },
+      {
+        "id": "svc-002",
+        "name": "AI Training and Team Enablement",
+        "description": "Practical training programs that help communications teams adopt AI tools responsibly, improve workflows, and build confidence without drowning in jargon.",
+        "industries": [
+          "Corporate Communications",
+          "Agencies",
+          "Public Affairs",
+          "Associations"
+        ],
+        "deliverables": [
+          "Workshop Design",
+          "Prompt Playbooks",
+          "Team Training Sessions",
+          "Adoption Guidelines"
+        ],
+        "typicalDuration": "1 day to 4 weeks",
+        "pricingModel": "price-002"
+      },
+      {
+        "id": "svc-003",
+        "name": "Governance and Responsible AI for Comms",
+        "description": "Policy, governance, and operating-model support for organizations that need to use AI in communications without creating reputational, legal, or workflow risk.",
+        "industries": [
+          "Corporate Communications",
+          "Regulated Industries",
+          "Public Sector",
+          "Professional Services"
+        ],
+        "deliverables": [
+          "AI Governance Framework",
+          "Risk Register",
+          "Approval Workflow",
+          "Usage Policy"
+        ],
+        "typicalDuration": "3-8 weeks",
+        "pricingModel": "price-001"
+      },
+      {
+        "id": "svc-004",
+        "name": "Executive AI Advisory",
+        "description": "Senior advisory support for leaders who need a clear view on how AI is reshaping communications functions, stakeholder expectations, and team structures.",
+        "industries": [
+          "Executive Leadership",
+          "Communications Leadership",
+          "Boards",
+          "Founder-led Firms"
+        ],
+        "deliverables": [
+          "Executive Briefing",
+          "Decision Memo",
+          "Scenario Analysis",
+          "Facilitated Leadership Session"
+        ],
+        "typicalDuration": "Retainer or targeted advisory sprints",
+        "pricingModel": "price-001"
+      }
+    ],
+    "publicContact": {
+      "website": "https://ai4-comms.com",
+      "press": "Info@ai4-comms.com"
+    }
+  },
+  "credentials": {
+    "_note": "pendingTruth: AI4Comms shares the Duke B.V.; confirm whether it presents Duke's memberships (e.g. Logeion) as its own."
+  },
+  "pricing": {
+    "publicModels": [
+      {
+        "id": "price-001",
+        "name": "Advisory Retainer or Project Fee",
+        "description": "Used for strategic advisory, governance work, and executive support. Pricing depends on scope, access, and pace."
+      },
+      {
+        "id": "price-002",
+        "name": "Workshop and Enablement Fee",
+        "description": "Used for training sessions, team enablement, and playbook development. Pricing depends on team size and preparation required."
+      }
+    ]
+  },
+  "people": [
+    {
+      "id": "person-001",
+      "name": "Ingo Heijnen",
+      "title": "Co-founder",
+      "publicRole": "spokesperson",
+      "publicBio": "Ingo Heijnen is co-founder of AI4Comms. He spent more than 25 years in corporate communications and corporate affairs, most of it at Hill & Knowlton, advising executives and building senior communications teams. He now focuses on making AI practically useful for the communications function.",
+      "quoteStyle": "Measured and senior; speaks from decades of in-the-room experience and frames AI as a strategic accelerator, never as hype."
+    },
+    {
+      "id": "person-002",
+      "name": "Emma van Gelder",
+      "title": "Co-founder",
+      "publicRole": "spokesperson",
+      "publicBio": "Emma van Gelder is a co-founder of AI4Comms. She worked in corporate communications at Hill & Knowlton before co-founding AI4Comms, where she focuses on helping organisations treat AI adoption in communications as a leadership challenge rather than a tooling question.",
+      "quoteStyle": "Mission-driven and collaborative; frames AI adoption in communications as a leadership question, not a tooling one."
+    },
+    {
+      "id": "person-003",
+      "name": "Ariën Stuijt",
+      "title": "Advisor",
+      "publicRole": "spokesperson",
+      "publicBio": "Ariën Stuijt is a former journalist (Dow Jones Newswires, The Wall Street Journal) who spent 17 years in strategic consulting at Hill & Knowlton, specialising in transformative situations such as crises, shareholder activism, M&A, and stakeholder communication. He advises on keeping authority and authenticity in the age of generative AI.",
+      "quoteStyle": "Reflective and principled; moves between corporate-affairs analysis and public commentary on journalism and the rule of law; writes in Dutch and English."
+    }
+  ],
+  "redactions": [
+    "company direct email",
+    "company phone number",
+    "company registration numbers",
+    "personal contact (email / phone)"
+  ]
+}

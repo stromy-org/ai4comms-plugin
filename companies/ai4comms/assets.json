@@ -1,0 +1,491 @@
+{
+  "version": "1.0",
+  "fonts": [
+    {
+      "family": "JetBrains Mono",
+      "weight": 700,
+      "style": "normal",
+      "sha256": "a2349098b9e45419e7bf0e2958d6c4937a049dded37387b08be725be4c7615f3",
+      "mime": "font/ttf",
+      "name": "JetBrainsMono-Bold.ttf"
+    },
+    {
+      "family": "JetBrains Mono",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "b6b1ff4ddefe36d7f2a6174e1d001cab374e594519ee9049af028d577b64c5f5",
+      "mime": "font/ttf",
+      "name": "JetBrainsMono-Regular.ttf"
+    },
+    {
+      "family": "Montserrat",
+      "weight": 100,
+      "style": "italic",
+      "sha256": "51607f316bc020e59f03cbf51543eecffbea501c0b31d73e5b82927c5cca442c",
+      "mime": "font/ttf",
+      "name": "Montserrat-Italic[wght].ttf"
+    },
+    {
+      "family": "Montserrat",
+      "weight": 100,
+      "style": "normal",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+      "mime": "font/ttf",
+      "name": "Montserrat[wght].ttf"
+    }
+  ],
+  "logos": [
+    {
+      "name": "ai4comms-favicon-canopy-16.png",
+      "sha256": "d3b6ac0d23bb5470c6790d724460f78c8d5f748dc9220b315ef95d6dc42f8e5f",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-canopy-180.png",
+      "sha256": "186387989e85fcc6d5bbe06f9ea29a2147b1cdf3aff272647f4fa97f16522908",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-canopy-192.png",
+      "sha256": "cae4966cfa71ca3b8a141419ec9e6b98c11e83bc90e098854ab61f6641007223",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-canopy-32.png",
+      "sha256": "57dcbcde5072c160a27dfc25b32c3da6980204117b5cc2c1dd2649f49bc04af3",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-canopy.svg",
+      "sha256": "822080258617842bf51d1453ede3bc41aa8a1220f7e3e6750b20a24c89c60b89",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-favicon-outline-180.png",
+      "sha256": "3c6fedea9da7b2ca7304b463619aebf4a9fdac378daa35cd577a24466ff79f9c",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-outline-32.png",
+      "sha256": "d295c6a55a9e53414f4aaa916fc68b69009fc4ff103b6cfba33d144600514e4f",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-outline.svg",
+      "sha256": "3001c30defe71bd90a8691ba0998b045166969fcd530aae516467557f502d180",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-favicon-paper-180.png",
+      "sha256": "3a5a033ef946c182deab81a5531c322660e7d7efee2e7a9d191b72897b7e50bc",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-paper-32.png",
+      "sha256": "f8053f46dcf06f90c2917e98175c3c7efcb703b387c8e06d40c3998149cf5c8d",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-paper.svg",
+      "sha256": "b0ee96f0015c4020b722d0efa9699d0c3c39e12b1620e8d6f8ffcab9ea3497ff",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-favicon-sage-180.png",
+      "sha256": "32aa74fad4ffcd7249c8e4509533f97fc2fa1a8c66e4408a158d5c6ce2a1cacd",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-sage-32.png",
+      "sha256": "e359a151e7e02be59c33edc2fedd69c9f8ee53d4bb0fada934381109e4b6c0d6",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-favicon-sage.svg",
+      "sha256": "e0dc2ed2928c73ed015425d1202bd418b1dbac49fc6f806aa858ca18143db24c",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-logo-knockout.png",
+      "sha256": "ac35d2d863a97bde569769fef020df24a5a497413f4582f3062eaa468bc80700",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-logo-knockout.svg",
+      "sha256": "9352f8c67da680792da3258ed419eaf5ed6598a89566392d49e76c991aa90c40",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-logo-mono-canopy.png",
+      "sha256": "46dc955084b98df78a170406eb0c5e9d8d86a0a832787cb7133080236cb0d8d4",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-logo-mono-canopy.svg",
+      "sha256": "c43a01e374a8dd1e39df8c61303d985529174a8609035cfe92d0f37b58134635",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-logo-mono-white.png",
+      "sha256": "35d8979e701ea6d4e37cf507cdc5872292c2d8c59c4ca49ca183a6ca1212e028",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-logo-mono-white.svg",
+      "sha256": "04f0e1295aa5736ec8d18b9fdcbccbe769b47118ad9f8828c91ea19a84cd7ace",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-logo-primary.png",
+      "sha256": "ba745448738495cde08307b4c07c0e56d510f521d5f4039fb38d1a125257762b",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-logo-primary.svg",
+      "sha256": "eef1d8b2ee89872475dff4d5bfd25bbc849abfc61b23ed829ad4cedf0625799b",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "ai4comms-logo-reversed.png",
+      "sha256": "e2c9b98ada5b71523d263ef847ea3af88a630bd792536ba51e36cb6edea38f1c",
+      "mime": "image/png"
+    },
+    {
+      "name": "ai4comms-logo-reversed.svg",
+      "sha256": "ea70de6be754b5b5b06a367422ea05aac520048296b30e4eb98a26e0a2a6fe5f",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-full.svg",
+      "sha256": "6e6b1cc7c77ff89c3b1a2a39804795498d8f5c84773ab5704301fd6c2750dbae",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-minimal.svg",
+      "sha256": "8675797580a9e86aad1ad5de9e782b05f39f550825170d20c2ff6de05f12b5fd",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "divider-short.svg",
+      "sha256": "5ad507d3076a4a23f9b9e236ff9b847a220a49936f4617d77e1045c064368301",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-four-badge-knockout.png",
+      "sha256": "e0ea06b6efc22fa78216761669ace811e6ab5bdbc696474d1e44d2682cde0cc8",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-four-badge-knockout.svg",
+      "sha256": "d0188e354670fdaf6ab469b6557728b41c7b15f3807226e420caad36ebecda11",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-four-badge.png",
+      "sha256": "86a0432ae22d7f5d75d14107ba8494af31ae332d6ddd1c1a06ce1bf0469b1cdf",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-four-badge.svg",
+      "sha256": "5c601b6ffbbbc3f9214db5e9b75bc3681a9168356ae74e074da6c401d7b44134",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-network-knockout.png",
+      "sha256": "f3fe48e85d294cfb7e515af0cebd86b4f98047c07d4bacb066d193aacd0a290b",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-network-knockout.svg",
+      "sha256": "dc7d14117e41c43900576bee136a3fadeb254a2f6da2b6648694ec9d2f6ed5f6",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-network.png",
+      "sha256": "349e106bc099829a1895351c8f9e5efb8ba089dd0ed57a729f524c6b248ec893",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-network.svg",
+      "sha256": "b9ef382477396e80dc0aad390dd06f276fd62f92dc561e8b6e3d6df0981d280b",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-partner-leaves-knockout.png",
+      "sha256": "8a8c8703b0211e732cf148ef5d5621fa3f1a561c2f33b9b1de9d20b77ea0cb21",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-partner-leaves-knockout.svg",
+      "sha256": "0a55d2615ca1b74b9c145a5fb0c2fde306702ecdc1b15d11cc30df20735a7f19",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-partner-leaves.png",
+      "sha256": "40ac8eb91ac2364dac11ca4a7a9c2400c3be9b1dab45438d627f0f75672b3cfc",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-partner-leaves.svg",
+      "sha256": "f457677b9db925f6701929bd64ae58c8290b337c5ab93f4f66c73b3157b31249",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-routekaart-knockout.png",
+      "sha256": "9ca7f8243c94a6ac7f1509ff7e962d1c0b40df705d8e1be9cc70345d76292245",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-routekaart-knockout.svg",
+      "sha256": "11be6b250a886b3529058bf2fb81266fcb137be83737153aadfb1d1e1dfebe74",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "mark-routekaart.png",
+      "sha256": "1aa550305f3767ab29be11826d2807d8f7c603330bffd06944852e1e87616a6a",
+      "mime": "image/png"
+    },
+    {
+      "name": "mark-routekaart.svg",
+      "sha256": "76b51e63f79b55716f521399322da71318b2d15dd6c96dbc67e12936c92e9036",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "motif-canopy-sprout.svg",
+      "sha256": "3095f4c4ef5c21b3899018ac6bd76ca92079d5b0d05348acd13004039304b8a7",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "motif-rounded-node.svg",
+      "sha256": "ed4a38299930464d02067f924b6c5eec586c158e677f03d371efb2f63a4f02f5",
+      "mime": "image/svg+xml"
+    },
+    {
+      "name": "pattern-tile.svg",
+      "sha256": "eae3d31fdc81869df84adea3369a786d40b8c36870fc5296b4a643799ce9e126",
+      "mime": "image/svg+xml"
+    }
+  ],
+  "images": [
+    {
+      "name": "comms-env-06-GP7SH7RRkqo--16x9-textsafe.jpg",
+      "sha256": "1afe92ad52998ec82c7b963ba30234857d1ec594c9164888744250666c48a2d6",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "comms-env-08-bGo01h57aCE--16x9-textsafe.jpg",
+      "sha256": "7f4e002857fcc506c2f9a5a81c3e38a2a10fedf067a89f79d22b6525e1b841b4",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "data-tex-05-ETiSF2VSRTQ--16x9-textsafe.jpg",
+      "sha256": "a8f3d0a11aed7daff14ff99581f1f23b2b7b065d7af7ba1f9e82a54cde948a05",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "signal-03-nwNjeZ0WA6w--16x9-textsafe.jpg",
+      "sha256": "292c136d7208a97ce3e1f1c50e5ead51a875de2c1de7bce8978a96509c83dcde",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-1.jpg",
+      "sha256": "77ae43512d79de440b6119b2fe2647a888cea32f6d4cf8b9d1659d382db85db1",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-3.jpg",
+      "sha256": "e43b3db246d354e44e75527248f3a1f452a2529c631791a1e493c46fb8e1cc64",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-comms-4.jpg",
+      "sha256": "04936592e4a2c5cf24847a715f3670b2d758d664193d5fd1794bc413608849ff",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-1.jpg",
+      "sha256": "e57c465e039993c58a8982cb419baa1497b14763ee70dcd1136e8e4de47a78cf",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-2.jpg",
+      "sha256": "7fce29084ab3c20dd9123dd51de0db09b9110bd23ec983bbaf48ad555b2c1896",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-3.jpg",
+      "sha256": "cae65d60a88326554fe459c01ecc5651c09c6fe09d9151336c1560d80e4c538c",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-4.jpg",
+      "sha256": "7585ca2937ac403a01b938c6d20da71d76a6924e018f896525dbd42ede11c275",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-conversation-5.jpg",
+      "sha256": "427f06bf06f72e1ea69eb81ef5297b3dddcfb9a1dd9a7a38e4f4da68a5d243ba",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-craft-1.jpg",
+      "sha256": "a041ff512c4efe138c54ae067ae6dc14be6ed3e2b922f86bce750be0d7499800",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-craft-5.jpg",
+      "sha256": "15fdec70bd0232b9fe9c88f06a244c230f7d3b424b8ebdde89d6182feb949bb8",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-3.jpg",
+      "sha256": "a44f491b238e2eba8ea953b4099439fcbc40013b2a4cc58b445d69611e4ab577",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-4.jpg",
+      "sha256": "e0ad92526006e31f51dd7323e7b0c8278c72b827b688df7d912ffc2598e01437",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-human-ai-5.jpg",
+      "sha256": "437da85920a8abd2e305ba81373146be77ea8a0a3b89818053e05d273f239fde",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-1.jpg",
+      "sha256": "b7aec8bb98dcbe7180e6db79e3c3e1cf3a23c46b527b49514fc1346e8cba95f8",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-3.jpg",
+      "sha256": "3fce2fdf0974a8114e21fbbec121d93d0f17cd2610689a8cf1be2c9c46ee4edf",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-routekaart-4.jpg",
+      "sha256": "006cde09e2dc79cbc280da8037f49672911ec7620bc157d00c3882b70e375b84",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-2.jpg",
+      "sha256": "214f63f5a637ba50b22b3cd9121a4cbad330cbb17c92c9b18abd2b27bffd74df",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-5.jpg",
+      "sha256": "ca3ddc3a5b3aad4e536f46d13b60be41fa154a813b54ec77537bdb3c79a03c77",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-6.jpg",
+      "sha256": "c2e4e89ed1c9d384376e2232c4f9e4ec80f0d076c97e91e8b205751e5de0fec1",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-7.jpg",
+      "sha256": "87e2e8ae87c60fa0d84e2c76c327037351e7f9a824f533c263ac8b796baabdfd",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "st-workspace-8.jpg",
+      "sha256": "9547ab2b74f67a536927471e297df1e8fd97a535b2c1de4d76ffb1a6f4bd8de3",
+      "mime": "image/jpeg"
+    },
+    {
+      "name": "t1-comms-at-work.png",
+      "sha256": "53281e2067182dd3742f632a3934445387fda17a4f93dc3253a026d340710178",
+      "mime": "image/png"
+    },
+    {
+      "name": "t3-human-ai-warm.png",
+      "sha256": "0870ef8a5f9f16545fbe82f5baacd9545c9731f45bab3b3a72b36948dbeff5ae",
+      "mime": "image/png"
+    },
+    {
+      "name": "t5-calm-workspace.png",
+      "sha256": "7af1ed630ba861ecf7443af759f6b213589655dc0593d2d234f202735c2a15b5",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-c.png",
+      "sha256": "dabbc4ee890943a2821a5ff2e9eb6eb963e5e49290ffd37922c6cb3e84dbaa78",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-c_v2.png",
+      "sha256": "029e07dee12b2670f07bfef428019725a89fb5e886acecbcec4d34b2a07c0e99",
+      "mime": "image/png"
+    },
+    {
+      "name": "th1-comms-d.png",
+      "sha256": "8648c0af06c7054369404dd7cc15bfdc1d8fc0c122a3c65bf327a4f18036dd65",
+      "mime": "image/png"
+    },
+    {
+      "name": "th2-routekaart-c.png",
+      "sha256": "04794ba8a20ef19edd0e87b21e82c5730deef1f1c2eb7e2c7bfe27c4ea82e657",
+      "mime": "image/png"
+    },
+    {
+      "name": "th3-human-ai-c.png",
+      "sha256": "46a2233c03b40c2a6257e4f5905a99c4154323d8043ff7ebc687359421a09c83",
+      "mime": "image/png"
+    },
+    {
+      "name": "th3-human-ai-d_v2.png",
+      "sha256": "6ba32d5440cfe6dee6ee7d9752dfe9115747f1408d2a62a346fd7ba9c1aabb71",
+      "mime": "image/png"
+    },
+    {
+      "name": "th4-conversation-b_v2.png",
+      "sha256": "066717da44b69afc1b9296718eb94a542990da31764b7953e282fdd43d8204b9",
+      "mime": "image/png"
+    },
+    {
+      "name": "th4-conversation-c.png",
+      "sha256": "b96efb7a6371a3e34bd72c194541e476799d3310ef999bdf7e0a96b9c23fa055",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-b.png",
+      "sha256": "a236b8f491db95fb0ef50eacb4518818a915888375b13893c29f7b9c522e519b",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-b_v2.png",
+      "sha256": "dabfe91045fcc0a9c9b305c5862d2265e665651a44bb5dcfd7b3122c10f60799",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-c.png",
+      "sha256": "78f13c7222ba600d180f46036416fbbe98718de1a7791b4a85024da82f84f34b",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-d.png",
+      "sha256": "979c98f52ef5b682af987f0fd92f43a5d7b86d523bf8e64b0b626e6b832fb6dc",
+      "mime": "image/png"
+    },
+    {
+      "name": "th5-workspace-d_v2.png",
+      "sha256": "2b6991ab295f8deef48f033dbfe1f9c8910e2f1688fa2a6c6db155293d7a3e96",
+      "mime": "image/png"
+    },
+    {
+      "name": "th6-craft-b.png",
+      "sha256": "ed20dd2f504fa875f588b3ab8169de36fec18f2461d8aeabd4cf6b9b30357a88",
+      "mime": "image/png"
+    },
+    {
+      "name": "th6-craft-d_v2.png",
+      "sha256": "094c33af3c45738a7434eae8f833e06ead10e6c053fb02b8a2f7b245d22439c3",
+      "mime": "image/png"
+    }
+  ],
+  "brand_context": {
+    "sha256": "6abac4765c987f9f7d07e1e2bcf057271234f7bad47a25eb5192ccdf4ed4cfb2",
+    "mime": "application/json",
+    "bytes": 68002
+  }
+}

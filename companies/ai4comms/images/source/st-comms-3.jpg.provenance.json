@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Specht GmbH on Pexels",
+  "roles": [
+    "cover",
+    "background"
+  ],
+  "theme": "comms-at-work",
+  "subject": "Small team discussion in a bright European office, natural window light, neutral tones",
+  "content_type": "image/jpeg",
+  "bytes": 155616,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
+  "attribution": "Photo by Christina @ wocintechchat.com on Unsplash",
+  "roles": [
+    "cover",
+    "hero"
+  ],
+  "theme": "comms-at-work",
+  "subject": "Diverse small group engaged around laptops at a wooden table, natural daylight, muted tones",
+  "content_type": "image/jpeg",
+  "bytes": 293442,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

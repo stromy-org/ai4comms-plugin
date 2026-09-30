@@ -1,0 +1,1722 @@
+{
+  "client_slug": "ai4comms",
+  "schemaVersion": 1,
+  "version": "1.0",
+  "generatedFrom": {
+    "charterSha": "549f84a4e4e83d6bbdb3fae9b2d6c0612ab78879e0a905c54ebc2df9b44deeb0",
+    "compiler": "1.0"
+  },
+  "tier": "producer",
+  "colors": {
+    "primary": "#15311A",
+    "secondary": "#214C28",
+    "accent": "#9EC187",
+    "background": "#FFFFFF",
+    "backgroundAlt": "#F8FAFC",
+    "text": "#1F1F1F",
+    "textLight": "#4E4E4E",
+    "success": "#3B7A4E",
+    "warning": "#C89B3E",
+    "error": "#B85648"
+  },
+  "typography": {
+    "heading": {
+      "family": "Montserrat",
+      "weight": "700",
+      "fallback": "\"Helvetica Neue\", Arial, sans-serif",
+      "embedFamily": "Montserrat",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic",
+      "webSafeAvailability": "office-cloud",
+      "rightsStatus": "unknown"
+    },
+    "body": {
+      "family": "Montserrat",
+      "weight": "400",
+      "fallback": "\"Helvetica Neue\", Arial, sans-serif",
+      "embedFamily": "Montserrat",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic",
+      "webSafeAvailability": "office-cloud",
+      "rightsStatus": "unknown"
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weight": "500",
+      "fallback": "\"SFMono-Regular\", Consolas, monospace",
+      "embedFamily": "JetBrains Mono",
+      "fallbackStack": [
+        "Consolas",
+        "Courier New",
+        "monospace"
+      ],
+      "webSafe": "Consolas",
+      "webSafeAvailability": "web-safe",
+      "rightsStatus": "unknown"
+    },
+    "label": {
+      "family": "Montserrat",
+      "weight": "600",
+      "embedFamily": "Montserrat",
+      "fallbackStack": [
+        "Century Gothic",
+        "Arial",
+        "sans-serif"
+      ],
+      "webSafe": "Century Gothic",
+      "webSafeAvailability": "office-cloud",
+      "rightsStatus": "unknown",
+      "case": "uppercase",
+      "tracking": "0.12em"
+    },
+    "smallTitle": {
+      "face": "label",
+      "case": "uppercase",
+      "tracking": "0.12em",
+      "marker": "64px sage hairline rule (1px, #9EC187) below the overline",
+      "usage": "eyebrows/overlines above headings — Montserrat 600 caps pine + sage hairline"
+    }
+  },
+  "tokens_css": "/* ============================================================================\n * AI4comms — Design Tokens\n * Direction: Practical AI enablement partner (Sage + Caregiver)\n * Light-first, accessible, deployed-identity-aligned.\n *\n * Source of truth: ai4-comms.com live site (Divi global presets + verified\n * inline styles, captured 2026-05-18).\n *\n * Aspirational dark-mode \"Signal Authority\" tokens archived at\n * .build-history/aspirational-2026-04-05/tokens.css.\n * ============================================================================ */\n\n:root {\n  /* ---------- Primary palette ---------- */\n  --brand-canopy: #15311A;        /* primary deep brand green (logo wordmark) */\n  --brand-pine:   #214C28;        /* secondary mid brand green */\n  --brand-sage:   #9EC187;        /* accent — light sage green (active/highlight) */\n  --brand-paper:  #F8FAFC;        /* warm near-white surface */\n  --brand-mist:   #ECECEC;        /* secondary surface band */\n  --brand-white:  #FFFFFF;        /* primary surface */\n  --brand-ink:    #1F1F1F;        /* primary body text */\n\n  /* ---------- Pine scale (brand greens, light-mode oriented) ---------- */\n  --pine-50:  #EEF5EF;\n  --pine-100: #D5E7D8;\n  --pine-200: #A9CFB0;\n  --pine-300: #7AB488;\n  --pine-400: #509964;\n  --pine-500: #3B7A4E;\n  --pine-600: #2D5E3C;\n  --pine-700: #214C28;   /* secondary */\n  --pine-800: #15311A;   /* primary */\n  --pine-900: #0C1410;\n\n  /* ---------- Sage scale (accent) ---------- */\n  --sage-50:  #F1F6EC;\n  --sage-100: #E1EDD7;\n  --sage-200: #C9DEB5;\n  --sage-300: #B0CE93;\n  --sage-400: #9EC187;   /* accent */\n  --sage-500: #82AE68;\n  --sage-600: #678F4F;\n  --sage-700: #4F6F3D;\n  --sage-800: #3A522D;\n  --sage-900: #243620;\n\n  /* ---------- Neutral scale (cool grays, matches deployed site) ---------- */\n  --n-0:   #FFFFFF;\n  --n-50:  #F8FAFC;   /* deployed --gcid-jd3gym30fa */\n  --n-100: #ECECEC;   /* deployed --gcid-v6w1ho8m1g */\n  --n-200: #DDDDDD;\n  --n-300: #C4C4C4;\n  --n-400: #A1A1A1;\n  --n-500: #7A7A7A;\n  --n-600: #4E4E4E;   /* textLight */\n  --n-700: #3A3A3A;\n  --n-800: #2A2A2A;\n  --n-900: #1F1F1F;   /* text */\n\n  /* ---------- Semantic colors (palette-aligned, muted) ---------- */\n  --success:       #3B7A4E;\n  --success-light: #E2F0E6;\n  --warning:       #C89B3E;\n  --warning-light: #F6ECD4;\n  --error:         #B85648;\n  --error-light:   #F6DCD6;\n  --info:          #4F6F3D;\n  --info-light:    #E1EDD7;\n\n  /* ---------- Charter semantic mappings ---------- */\n  --color-primary:        var(--brand-canopy);\n  --color-secondary:      var(--brand-pine);\n  --color-accent:         var(--brand-sage);\n  --color-background:     var(--brand-white);\n  --color-background-alt: var(--brand-paper);\n  --color-text:           var(--n-900);\n  --color-text-light:     var(--n-600);\n  --color-text-on-dark:   var(--brand-white);\n  --color-text-on-accent: var(--brand-canopy);\n  --color-rule:           var(--n-100);\n  --color-rule-strong:    var(--n-200);\n\n  /* ---------- Typography ---------- */\n  --font-heading: \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-body:    \"Montserrat\", \"Helvetica Neue\", Arial, sans-serif;\n  --font-mono:    \"JetBrains Mono\", \"SFMono-Regular\", Consolas, monospace;\n\n  --weight-regular:  400;\n  --weight-medium:   500;\n  --weight-semibold: 600;\n  --weight-bold:     700;\n\n  --line-height-tight: 1.2;\n  --line-height-snug:  1.4;\n  --line-height-base:  1.7;     /* matches deployed --et_global_body_font_height */\n  --line-height-loose: 1.9;\n\n  --letter-spacing-tight:  -0.01em;\n  --letter-spacing-normal: 0;\n  --letter-spacing-wide:   0.04em;\n  --letter-spacing-label:  0.12em;\n\n  /* ---------- Type scale ---------- */\n  --fs-xs:   12px;\n  --fs-sm:   13px;\n  --fs-base: 14px;    /* matches deployed --et_global_body_font_size */\n  --fs-md:   16px;\n  --fs-lg:   18px;\n  --fs-xl:   22px;\n  --fs-2xl:  28px;\n  --fs-3xl:  34px;\n  --fs-4xl:  44px;\n  --fs-5xl:  56px;\n  --fs-display: 72px;\n\n  /* ---------- Spacing scale ---------- */\n  --space-1:  4px;\n  --space-2:  8px;\n  --space-3:  12px;\n  --space-4:  16px;\n  --space-5:  24px;\n  --space-6:  32px;\n  --space-7:  48px;\n  --space-8:  64px;\n  --space-9:  96px;\n  --space-10: 128px;\n\n  /* ---------- Radii ---------- */\n  --radius-sm: 4px;\n  --radius-md: 6px;\n  --radius-lg: 12px;\n  --radius-pill: 999px;\n\n  /* ---------- Elevation ---------- */\n  --shadow-sm: 0 1px 2px rgba(15, 30, 18, 0.06);\n  --shadow-md: 0 4px 12px rgba(15, 30, 18, 0.08);\n  --shadow-lg: 0 12px 32px rgba(15, 30, 18, 0.12);\n\n  /* ---------- Motif tokens (light-mode hairline rules) ---------- */\n  --motif-line-weight: 1px;\n  --motif-line-color:  var(--brand-canopy);\n  --motif-rule-color:  var(--n-200);\n  --motif-pattern-opacity: 0.05;\n\n  /* ---------- Overlay tokens (for hero photography, if reintroduced) ---------- */\n  --overlay-canopy-80: rgba(21, 49, 26, 0.8);\n  --overlay-canopy-70: rgba(21, 49, 26, 0.7);\n  --overlay-canopy-55: rgba(21, 49, 26, 0.55);\n\n  /* ---------- Layout ---------- */\n  --content-max:  1320px;\n  --content-narrow: 760px;\n  --gutter:       24px;\n  --section-gap:  96px;\n}\n\n/* ============================================================================\n * Utility classes — light-mode base\n * ============================================================================ */\n\n.brand-button-primary {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: var(--brand-canopy);\n  color: var(--brand-white);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: none;\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease;\n}\n.brand-button-primary:hover { background: var(--brand-pine); }\n\n.brand-button-ghost {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  padding: 12px 24px;\n  background: transparent;\n  color: var(--brand-canopy);\n  font-family: var(--font-body);\n  font-weight: var(--weight-semibold);\n  font-size: var(--fs-base);\n  letter-spacing: var(--letter-spacing-wide);\n  text-transform: uppercase;\n  border: 1px solid var(--brand-canopy);\n  border-radius: var(--radius-md);\n  text-decoration: none;\n  transition: background 160ms ease, color 160ms ease;\n}\n.brand-button-ghost:hover { background: var(--brand-canopy); color: var(--brand-white); }\n\n.brand-overline {\n  font-family: var(--font-body);\n  font-size: var(--fs-xs);\n  font-weight: var(--weight-semibold);\n  text-transform: uppercase;\n  letter-spacing: var(--letter-spacing-label);\n  color: var(--brand-pine);\n}\n\n.brand-heading {\n  font-family: var(--font-heading);\n  font-weight: var(--weight-bold);\n  line-height: var(--line-height-tight);\n  letter-spacing: var(--letter-spacing-tight);\n  color: var(--brand-canopy);\n}\n\n.brand-body {\n  font-family: var(--font-body);\n  font-weight: var(--weight-regular);\n  font-size: var(--fs-base);\n  line-height: var(--line-height-base);\n  color: var(--n-900);\n}\n\n.brand-rule {\n  border: none;\n  border-top: var(--motif-line-weight) solid var(--motif-rule-color);\n  margin: var(--space-6) 0;\n}\n\n.brand-rule-accent {\n  border: none;\n  border-top: 2px solid var(--brand-canopy);\n  width: 64px;\n  margin: var(--space-5) 0;\n}\n\n.brand-card {\n  background: var(--brand-white);\n  border: 1px solid var(--n-100);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-card-tinted {\n  background: var(--brand-paper);\n  border-radius: var(--radius-lg);\n  padding: var(--space-6);\n}\n\n.brand-section-light    { background: var(--brand-white);  color: var(--n-900); }\n.brand-section-mist     { background: var(--brand-paper);  color: var(--n-900); }\n.brand-section-canopy   { background: var(--brand-canopy); color: var(--brand-white); }\n.brand-section-canopy .brand-heading { color: var(--brand-white); }\n.brand-section-canopy .brand-overline { color: var(--brand-sage); }\n\n/* --- visual grammar tokens (brand-visual-grammar; 2026-07-01) ---\n   backgrounds / gradients / grid / iconography / elevation. Applied\n   downstream, reference-not-bind. --- */\n:root {\n  --canvas-canopy: #15311A;\n  --canvas-paper:  #FFFFFF;\n  --canvas-mist:   #F8FAFC;\n  --gradient-header:      linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);\n  --gradient-cta:         linear-gradient(90deg,#15311A 0%,#9EC187 100%);\n  --gradient-canopy-hero: linear-gradient(160deg,#15311A 0%,#214C28 100%);\n  --content-width: 1320px;\n  --section-gap:   96px;\n  --icon-stroke:   2px;\n  --card-radius:   12px;\n  --pill-radius:   999px;\n  --elev-border:   1px solid #ECECEC;\n}\n\n/* --- logo asset system (refresh 2026-07-22) ---\n   Background-adaptive wordmark variants (form unchanged, colour adapts) +\n   favicon tiles. Machine-readable source of record: charter.logo (variants /\n   usage / favicons), compiled into brand_context.logo for the format MCP.\n   Pick by surface: light -> primary; dark section -> reversed;\n   photo/immersive -> knockout; one-colour -> mono.\n\n   NOTE: these are deliberately PATH STRINGS, not url() values. A relative\n   url() inside a CSS custom property resolves against the CONSUMING document,\n   not against tokens.css — so `url(\"logos/…\")` silently 404s for every\n   consumer not served from the brand root, which is most of them. Held as\n   bare path strings they are inert to CSS by design: a consumer reads the\n   path (JS/build step, or straight from charter.logo) and emits its own\n   absolute url() against a root it actually knows. Note CSS cannot\n   concatenate a url() from a custom property, so there is no in-CSS shortcut\n   here — that limitation is the point. Matches the ogilvy contract, where\n   asset paths live in the charter and only metrics are tokenised. --- */\n:root {\n  --logo-primary:      \"logos/ai4comms-logo-primary.svg\";     /* light backgrounds (default) */\n  --logo-reversed:     \"logos/ai4comms-logo-reversed.svg\";    /* solid canopy/dark sections */\n  --logo-knockout:     \"logos/ai4comms-logo-knockout.svg\";    /* photos / immersive dark */\n  --logo-mono-canopy:  \"logos/ai4comms-logo-mono-canopy.svg\"; /* one-colour on light */\n  --logo-mono-white:   \"logos/ai4comms-logo-mono-white.svg\";  /* one-colour on dark */\n  --favicon-canopy:    \"logos/favicons/ai4comms-favicon-canopy.svg\";  /* default tile */\n  --favicon-sage:      \"logos/favicons/ai4comms-favicon-sage.svg\";\n  --favicon-paper:     \"logos/favicons/ai4comms-favicon-paper.svg\";\n  --favicon-outline:   \"logos/favicons/ai4comms-favicon-outline.svg\";\n}\n\n/* --- image treatment system (Component T; ORG-PLAN-045) ---\n   Definition of record: charter.expression.treatments. Applied downstream\n   (format-MCP + website .img-treatment), never pre-baked. --- */\n:root {\n  --treatment-default: documentary-warm;\n  --treatment-documentary-warm-filter:  saturate(0.82) contrast(1.02);\n  --treatment-documentary-warm-grain:   0.04;\n  --treatment-canopy-duotone-filter:    grayscale(1) contrast(1.04);\n  --treatment-canopy-duotone-shadow:    #15311A;\n  --treatment-canopy-duotone-mid:       #3F6B47;\n  --treatment-canopy-duotone-highlight: #EDF3E7;\n  --treatment-canopy-duotone-strength:  0.38;\n  --treatment-canopy-duotone-grain:     0.04;\n  --treatment-sage-graded-filter:       saturate(0.55) contrast(1.03);\n  --treatment-sage-graded-shadow:       #1E3A24;\n  --treatment-sage-graded-mid:          #5E8A63;\n  --treatment-sage-graded-highlight:    #DCEBD2;\n  --treatment-sage-graded-strength:     0.28;\n  --treatment-sage-graded-grain:        0.04;\n  --treatment-paper-soft-filter:        saturate(0.85) contrast(0.96) brightness(1.05);\n  --treatment-paper-soft-grain:         0.03;\n}\n",
+  "identity": {
+    "name": "AI4comms",
+    "essence": "AI4comms turns AI from abstract hype into usable operating practice for communications teams — in Dutch, on the ground, one routekaart at a time.",
+    "positioning": "For Dutch-speaking communications professionals under pressure to adopt AI responsibly, AI4comms is the enablement partner that translates AI tooling into practical routines — so teams gain impact without losing their craft or their judgment.",
+    "archetype": {
+      "primary": "sage",
+      "secondary": "caregiver",
+      "status": "approved",
+      "rationale": "Driven by observed voice and posture on the deployed ai4-comms.com site: FAQ-led navigation, peer-register copy (je/jullie), practical how-to framing, and a brand refresh decision to abandon the earlier Magician+Ruler aspirational system in favour of what the client actually ships. Sage expresses as knowledgeable colleague — mastery made legible, never guru-elevated. Caregiver expresses as craft-protection and safe-adoption assurance — the routekaart as a patient guide, not emotional warmth."
+    },
+    "personalityTraits": [
+      "Practical — outcomes over theory; every concept has a hands-on next step",
+      "Approachable — explains rather than impresses; peer register, not guru register",
+      "Grounded — senior judgment, no hype, no jargon for jargon's sake",
+      "Patient — meets teams where they are; trusts the routekaart as the vehicle",
+      "Trustworthy — calm, clear, accountable; never oversells AI or undersells the team's craft"
+    ],
+    "personalityAxes": {
+      "authorityVsPeer": 0.2,
+      "abstractVsConcrete": 0.1,
+      "warmthVsProfessional": 0.35,
+      "cautionVsBoldness": 0.3,
+      "minimalistVsExpressive": 0.2
+    },
+    "company": {
+      "name": "AI4Comms",
+      "description": "AI4comms helps communications leaders turn AI from abstract hype into practical advantage through strategy, training, governance, and hands-on implementation support.",
+      "website": "https://ai4-comms.com",
+      "services": [
+        {
+          "id": "svc-001",
+          "name": "AI Strategy for Communications Teams",
+          "description": "Strategic advisory for communication leaders who need to define where AI creates real value across corporate communications, public affairs, media relations, and content operations.",
+          "industries": [
+            "Corporate Communications",
+            "Public Affairs",
+            "Professional Services",
+            "In-house Communications"
+          ],
+          "deliverables": [
+            "AI Opportunity Assessment",
+            "Communications AI Roadmap",
+            "Leadership Briefing",
+            "Use-Case Prioritization"
+          ],
+          "typicalDuration": "2-6 weeks",
+          "pricingModel": "price-001"
+        },
+        {
+          "id": "svc-002",
+          "name": "AI Training and Team Enablement",
+          "description": "Practical training programs that help communications teams adopt AI tools responsibly, improve workflows, and build confidence without drowning in jargon.",
+          "industries": [
+            "Corporate Communications",
+            "Agencies",
+            "Public Affairs",
+            "Associations"
+          ],
+          "deliverables": [
+            "Workshop Design",
+            "Prompt Playbooks",
+            "Team Training Sessions",
+            "Adoption Guidelines"
+          ],
+          "typicalDuration": "1 day to 4 weeks",
+          "pricingModel": "price-002"
+        },
+        {
+          "id": "svc-003",
+          "name": "Governance and Responsible AI for Comms",
+          "description": "Policy, governance, and operating-model support for organizations that need to use AI in communications without creating reputational, legal, or workflow risk.",
+          "industries": [
+            "Corporate Communications",
+            "Regulated Industries",
+            "Public Sector",
+            "Professional Services"
+          ],
+          "deliverables": [
+            "AI Governance Framework",
+            "Risk Register",
+            "Approval Workflow",
+            "Usage Policy"
+          ],
+          "typicalDuration": "3-8 weeks",
+          "pricingModel": "price-001"
+        },
+        {
+          "id": "svc-004",
+          "name": "Executive AI Advisory",
+          "description": "Senior advisory support for leaders who need a clear view on how AI is reshaping communications functions, stakeholder expectations, and team structures.",
+          "industries": [
+            "Executive Leadership",
+            "Communications Leadership",
+            "Boards",
+            "Founder-led Firms"
+          ],
+          "deliverables": [
+            "Executive Briefing",
+            "Decision Memo",
+            "Scenario Analysis",
+            "Facilitated Leadership Session"
+          ],
+          "typicalDuration": "Retainer or targeted advisory sprints",
+          "pricingModel": "price-001"
+        }
+      ]
+    }
+  },
+  "boilerplate": {
+    "footer": "AI4Comms · {{confidentiality.deck}} · {{page}} / {{pages}}",
+    "confidentiality": "Vertrouwelijk",
+    "copyright": "© {{year}} AI4Comms. Alle rechten voorbehouden.",
+    "sign_off": {
+      "default_nl": "Met vriendelijke groet,",
+      "default_en": "Kind regards,"
+    },
+    "contact_block": {
+      "default_nl": "AI4Comms\nHambakenwetering 1, 5231 DD 's-Hertogenbosch\nInfo@ai4-comms.com · +31 85 212 94 14 · ai4-comms.com"
+    }
+  },
+  "expression": {
+    "sourceLevel": "expression",
+    "status": "approved",
+    "confidence": "approved",
+    "source": "co_created",
+    "evidence": [
+      {
+        "path": "clients/ai4comms/guidelines.md",
+        "kind": "brand_guidelines",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/ai4comms/charter.json#website",
+        "kind": "schema_block",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/ai4comms/tokens.css",
+        "kind": "design_tokens",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      },
+      {
+        "path": "clients/ai4comms/.build-history/BUILD_LOG.md",
+        "kind": "build_log",
+        "sourceAuthority": "co_created",
+        "confidence": "approved",
+        "surface": "all",
+        "freshness": "current"
+      }
+    ],
+    "principles": [
+      "Typographic-led: whitespace and heading hierarchy carry the page — imagery is supplementary, not structural",
+      "Light-mode-first: the brand lives on white and paper surfaces; dark sections (#15311A canopy) are deliberate exceptions, not the default",
+      "Monotypeface discipline: Montserrat handles every typographic role (display through caption); the single-typeface constraint signals systematic clarity, not impoverishment",
+      "Accent as signal, not decoration: sage green (#9EC187) appears at active indicators, hairline rules, and section overlines — never as fill or background wash",
+      "Constrained motif vocabulary: the deployed site has no decorative motif system; rhythm comes from whitespace, the F8FAFC→ECECEC header gradient, and 64px sage hairline rules paired under overlines",
+      "No hero photography by default: type and whitespace carry the page; photography (when used) is bright, human-scale, and largely untouched",
+      "Peer register in copy: leads with the point, then explains; uses the team's own language (routekaart, communicatieprofessionals); asks honest rhetorical questions and answers them plainly"
+    ],
+    "visualAxes": {
+      "density": "spacious",
+      "contrast": "medium",
+      "symmetry": "symmetric",
+      "geometry": "rounded",
+      "typeExpression": "systematic",
+      "imageTreatment": "documentary-muted",
+      "motifProminence": "accent",
+      "colorRhythm": "light-dominant",
+      "ornament": "restrained"
+    },
+    "signatureElements": [
+      "Montserrat 700 headings in canopy (#15311A) on white or paper surfaces",
+      "F8FAFC→ECECEC diagonal header gradient (135deg) as page/section opener",
+      "64px wide sage (#9EC187) hairline rule (1px) paired under overlines",
+      "Overlines: Montserrat 600, 12px, uppercase, letter-spacing 0.12em, in pine (#214C28)",
+      "CTA buttons: canopy fill with wide-tracked uppercase Montserrat 600 label; ghost variant with canopy border",
+      "Outlined cards with 1px #ECECEC border and 12px radius on white surface",
+      "Body text 14px / line-height 1.7 (matches deployed Divi global presets)",
+      "Section spacing 96px (--section-gap); content max-width 1320px"
+    ],
+    "antiPatterns": [
+      "Dark-mode-native layouts — the brand is light-first; the aspirational Signal Authority dark system is archived",
+      "Neon or high-chroma greens — the accent is muted sage (#9EC187), not the former phosphor #44E88A",
+      "Syne or Inter typefaces — replaced by Montserrat across all roles",
+      "Abstract data-texture or architectural photography — does not match the deployed light typographic identity",
+      "Decorative motif shapes (dark dividers, hatched tiles from Phase 3 aspirational) — archived, not canonical",
+      "White-on-dark logo placement — no white logo variant exists; avoid placing the green wordmark on dark surfaces",
+      "Guru or authority register in copy — 'Signal through the noise', 'Transform your communications', 'Disrupt' are explicitly prohibited",
+      "Accent sage used as fill color or background wash — accent is a hairline/indicator signal only",
+      "Multiple typeface families — single-typeface constraint is a deliberate discipline, not a gap"
+    ],
+    "visual_grammar": {
+      "backgrounds": {
+        "status": "approved",
+        "required": true,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "canopy-paper",
+        "cssTokens": {
+          "--bg-canopy": "#15311A",
+          "--bg-pine": "#214C28",
+          "--bg-paper": "#FFFFFF",
+          "--bg-mist": "#F8FAFC"
+        },
+        "spec": {
+          "canvases": [
+            {
+              "name": "canopy",
+              "role": "primary-dark",
+              "css": "#15311A"
+            },
+            {
+              "name": "pine",
+              "role": "secondary-dark",
+              "css": "#214C28"
+            },
+            {
+              "name": "paper",
+              "role": "primary-light",
+              "css": "#FFFFFF"
+            },
+            {
+              "name": "mist",
+              "role": "surface-light",
+              "css": "#F8FAFC"
+            }
+          ],
+          "rhythm": "alternating canopy-dark / paper-light (the deployed section rhythm)",
+          "darkFrequency": 3,
+          "photo": {
+            "treatment": "documentary-muted, rounded corners",
+            "overlay": "canopy #15311A scrim on hero, never neon"
+          }
+        },
+        "tokens": [
+          "--canvas-canopy",
+          "--canvas-paper",
+          "--canvas-mist"
+        ]
+      },
+      "gradients": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "soft-forest",
+        "cssTokens": {
+          "--gradient-header": "linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%)",
+          "--gradient-cta": "linear-gradient(90deg,#15311A 0%,#9EC187 100%)",
+          "--gradient-canopy-hero": "linear-gradient(160deg,#15311A 0%,#214C28 100%)"
+        },
+        "spec": {
+          "gradients": [
+            {
+              "name": "header",
+              "stops": "linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%)",
+              "usage": "page/section opener (light)"
+            },
+            {
+              "name": "cta",
+              "stops": "linear-gradient(90deg,#15311A 0%,#9EC187 100%)",
+              "usage": "primary CTA pill"
+            },
+            {
+              "name": "canopy-hero",
+              "stops": "linear-gradient(160deg,#15311A 0%,#214C28 100%)",
+              "usage": "dark hero field"
+            }
+          ],
+          "geometry": "soft directional; low-contrast washes, never high-chroma"
+        },
+        "tokens": [
+          "--gradient-header",
+          "--gradient-cta",
+          "--gradient-canopy-hero"
+        ]
+      },
+      "grid": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "spacious-symmetric",
+        "cssTokens": {
+          "--grid-max": "1320px",
+          "--section-gap": "96px",
+          "--grid-margin": "6vw",
+          "--rule-divider": "1px solid #9EC187"
+        },
+        "spec": {
+          "columns": "12-col symmetric; centered text blocks + alternating 1/2 image·1/2 text splits",
+          "contentWidth": "1320px max",
+          "sectionGap": "96px",
+          "density": "spacious",
+          "margins": "generous",
+          "symmetry": "symmetric",
+          "dividers": "64px sage hairline under overlines"
+        },
+        "tokens": [
+          "--content-width",
+          "--section-gap"
+        ]
+      },
+      "iconography": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "rounded-sage-fill",
+        "spec": {
+          "style": "stroke-led geometric, generous rounded corners (echoes the rounded logo panel + pills)",
+          "strokeWeight": "2px",
+          "caps": "round",
+          "joins": "round",
+          "fillVsLine": "canopy line-dominant + a soft SAGE FILL accent (leaf/dot/tick) — a fill, not a dot-terminal (distinct from stromy/amaris)",
+          "extensible": true,
+          "setPolicy": "OPEN set — icons drawn to this STYLE on demand per slide/section need. The sample is representative, not a closed brand-bound set; the agent may add/select as many icons as a deck requires, keeping the style.",
+          "sample": [
+            "route-map (routekaart)",
+            "handshake",
+            "shield-check",
+            "growth-arrow",
+            "chat-bubble",
+            "gears-people"
+          ]
+        },
+        "tokens": [
+          "--icon-stroke"
+        ]
+      },
+      "elevation": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "rounded-outline",
+        "cssTokens": {
+          "--radius-card": "12px",
+          "--radius-pill": "999px",
+          "--border-hairline": "1px solid #ECECEC"
+        },
+        "spec": {
+          "shadows": "none/minimal — depth via border + generous radius",
+          "borders": "1px hairline #ECECEC on white cards",
+          "radius": "12px cards; FULLY-rounded (999px) pills/CTAs",
+          "surface": "matte",
+          "signature": "the fully-rounded pill is the elevation signature"
+        },
+        "tokens": [
+          "--card-radius",
+          "--pill-radius",
+          "--elev-border"
+        ]
+      },
+      "motifs": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "sage-highlight",
+        "spec": {
+          "family": "typographic",
+          "elements": [
+            "two-tone heading — key phrase in sage #9EC187 within a canopy heading (verified on live site)",
+            "64px sage hairline rule (1px) under Montserrat-600 caps overlines",
+            "rounded-panel / fully-rounded pill shape language"
+          ],
+          "prominence": "accent",
+          "note": "honest to the 'typographic-led, imagery supplementary' principle; no invented graphical motif",
+          "assetNote": "Realised in CSS/type, not as SVG files. The divider-full/short/minimal SVGs were detached 2026-08-26: they belong to the retired Signal Authority system (still filled #44E88A, which antiPattern #2 forbids and antiPattern #5 archives), and being listed here they were projected into requiredMotifs and enforced on every render. Kept on disk under assets/svg/ as history only."
+        }
+      },
+      "patterns": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "proposed"
+        },
+        "selected": "none",
+        "spec": {
+          "policy": "n-a — whitespace carries the page",
+          "note": "valid for a purely typographic brand"
+        }
+      },
+      "photo": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "live-site"
+        },
+        "selected": "documentary-rounded",
+        "spec": {
+          "treatment": "documentary-muted, warm-neutral grade",
+          "corners": "rounded (12px)",
+          "usage": "image+text splits (supplementary, not structural per principle); canopy scrim on hero",
+          "subjects": "real communications professionals in real settings; never abstract data-texture or architectural (anti-pattern)"
+        }
+      },
+      "motion": {
+        "status": "approved",
+        "required": false,
+        "evidence": {
+          "tier": "derived",
+          "source": "live site uses calm fade-in-on-scroll; full motion spec deferred to P6 (PLAN_motion-capability.md)"
+        },
+        "spec": {
+          "principle": "calm fade-in-on-scroll — content rises into place, nothing bounces",
+          "transform": "translateY 14px → 0",
+          "opacity": "0 → 1",
+          "duration": "600ms",
+          "easing": "ease-out",
+          "stagger": "~450ms between sibling blocks",
+          "scope": "section entry only; no hover choreography, no looping ambient motion",
+          "reducedMotion": "prefers-reduced-motion: render final state, no transition"
+        },
+        "decision": "signed off 2026-08-26 (William) against a drawn specimen: recorded now rather than parked. P6 (PLAN_motion-capability) may refine the numbers fleet-wide; it no longer blocks this brand from a terminal grammar."
+      }
+    },
+    "treatments": {
+      "default": "documentary-warm",
+      "note": "Named brand house looks applied to photography DOWNSTREAM (format-MCP + website), never pre-baked. Restrained, warm-neutral; canopy-duotone is the forest signature. Imagery is supplementary (typographic-led brand). Overlay = canopy #15311A scrim, never neon. ORG-PLAN-045.",
+      "looks": {
+        "documentary-warm": {
+          "label": "Documentary Warm",
+          "usage": "Natural warm-neutral, lightly desaturated — the default for content + image/text splits. Matches the deployed muted comms photography.",
+          "css_filter": "saturate(0.82) contrast(1.02)",
+          "grain": {
+            "opacity": 0.04,
+            "blend": "overlay"
+          }
+        },
+        "canopy-duotone": {
+          "label": "Canopy Duotone",
+          "usage": "Signature forest duotone for hero + covers — deep canopy shadows through pine mids to sage-tinted paper highlights. The AI4comms nature signature.",
+          "css_filter": "grayscale(1) contrast(1.04)",
+          "duotone": {
+            "shadows": "#15311A",
+            "mid": "#3F6B47",
+            "highlights": "#EDF3E7",
+            "strength": 0.38
+          },
+          "grain": {
+            "opacity": 0.04,
+            "blend": "overlay"
+          }
+        },
+        "sage-graded": {
+          "label": "Sage Graded",
+          "usage": "Soft green cinematic grade for section imagery — cool-green shadows, sage highlights. Restrained, calm.",
+          "css_filter": "saturate(0.55) contrast(1.03)",
+          "duotone": {
+            "shadows": "#1E3A24",
+            "mid": "#5E8A63",
+            "highlights": "#DCEBD2",
+            "strength": 0.28
+          },
+          "grain": {
+            "opacity": 0.04,
+            "blend": "overlay"
+          }
+        },
+        "paper-soft": {
+          "label": "Paper Soft",
+          "usage": "High-key lifted grade for airy light sections — low contrast, bright. Use where whitespace leads.",
+          "css_filter": "saturate(0.85) contrast(0.96) brightness(1.05)",
+          "grain": {
+            "opacity": 0.03,
+            "blend": "overlay"
+          }
+        }
+      }
+    }
+  },
+  "surfaceExpression": {
+    "presentation": {
+      "visualAxes": {
+        "density": "spacious",
+        "contrast": "medium",
+        "symmetry": "symmetric",
+        "geometry": "rounded",
+        "typeExpression": "systematic",
+        "imageTreatment": "documentary-muted",
+        "motifProminence": "accent",
+        "colorRhythm": "light-dominant",
+        "ornament": "restrained"
+      },
+      "principles": [
+        "Typographic-led: whitespace and heading hierarchy carry the page — imagery is supplementary, not structural",
+        "Light-mode-first: the brand lives on white and paper surfaces; dark sections (#15311A canopy) are deliberate exceptions, not the default",
+        "Monotypeface discipline: Montserrat handles every typographic role (display through caption); the single-typeface constraint signals systematic clarity, not impoverishment",
+        "Accent as signal, not decoration: sage green (#9EC187) appears at active indicators, hairline rules, and section overlines — never as fill or background wash",
+        "Constrained motif vocabulary: the deployed site has no decorative motif system; rhythm comes from whitespace, the F8FAFC→ECECEC header gradient, and 64px sage hairline rules paired under overlines",
+        "No hero photography by default: type and whitespace carry the page; photography (when used) is bright, human-scale, and largely untouched",
+        "Peer register in copy: leads with the point, then explains; uses the team's own language (routekaart, communicatieprofessionals); asks honest rhetorical questions and answers them plainly"
+      ]
+    },
+    "document": {
+      "visualAxes": {
+        "density": "spacious",
+        "contrast": "medium",
+        "symmetry": "symmetric",
+        "geometry": "rounded",
+        "typeExpression": "systematic",
+        "imageTreatment": "documentary-muted",
+        "motifProminence": "accent",
+        "colorRhythm": "light-dominant",
+        "ornament": "restrained"
+      },
+      "principles": [
+        "Typographic-led: whitespace and heading hierarchy carry the page — imagery is supplementary, not structural",
+        "Light-mode-first: the brand lives on white and paper surfaces; dark sections (#15311A canopy) are deliberate exceptions, not the default",
+        "Monotypeface discipline: Montserrat handles every typographic role (display through caption); the single-typeface constraint signals systematic clarity, not impoverishment",
+        "Accent as signal, not decoration: sage green (#9EC187) appears at active indicators, hairline rules, and section overlines — never as fill or background wash",
+        "Constrained motif vocabulary: the deployed site has no decorative motif system; rhythm comes from whitespace, the F8FAFC→ECECEC header gradient, and 64px sage hairline rules paired under overlines",
+        "No hero photography by default: type and whitespace carry the page; photography (when used) is bright, human-scale, and largely untouched",
+        "Peer register in copy: leads with the point, then explains; uses the team's own language (routekaart, communicatieprofessionals); asks honest rhetorical questions and answers them plainly"
+      ]
+    }
+  },
+  "plotly_theme": {
+    "colorway": [
+      "#15311A",
+      "#9EC187",
+      "#214C28",
+      "#3B7A4E",
+      "#C89B3E",
+      "#B85648"
+    ],
+    "baseTemplate": "plotly_white",
+    "canvasColor": "#FFFFFF",
+    "font": {
+      "family": "Montserrat",
+      "color": "#1F1F1F"
+    },
+    "titleFontSize": 18,
+    "gridColor": "#ECECEC",
+    "secondaryTextColor": "#4E4E4E",
+    "sentiment": {
+      "positive": "#3B7A4E",
+      "negative": "#B85648",
+      "neutral": "#4E4E4E"
+    },
+    "categoricalPalette": [
+      "#15311A",
+      "#9EC187",
+      "#3B7A4E",
+      "#C89B3E",
+      "#82AE68",
+      "#4E4E4E"
+    ],
+    "defaultHeight": 500,
+    "axisFontSize": 12,
+    "legendFontSize": 11,
+    "margins": {
+      "top": 80,
+      "bottom": 70,
+      "left": 60,
+      "right": 50
+    }
+  },
+  "excalidraw_theme": {
+    "strokeColor": "#1F1F1F",
+    "fillColors": [
+      "#15311A",
+      "#9EC187",
+      "#214C28"
+    ],
+    "textColor": "#1F1F1F",
+    "arrowColor": "#15311A",
+    "backgroundColor": "#FFFFFF",
+    "roughness": 0,
+    "headingFont": "Montserrat",
+    "bodyFont": "Montserrat"
+  },
+  "formatting": {
+    "slideMargin": "40pt",
+    "titleMargin": "30pt",
+    "contentMargin": "20pt",
+    "aspectRatio": "16:9",
+    "defaultTheme": "light",
+    "headingThreshold": 24,
+    "accentCycleColors": [
+      "accent",
+      "secondary",
+      "primary"
+    ],
+    "autoContrastText": true
+  },
+  "document": {
+    "margins": {
+      "top": "1in",
+      "bottom": "1in",
+      "left": "1in",
+      "right": "1in"
+    },
+    "header": {
+      "content": "{{company.name}}",
+      "logo": true
+    },
+    "footer": {
+      "content": "Confidential",
+      "pageNumbers": true
+    },
+    "headingColor": "primary",
+    "tableHeaderColor": "primary"
+  },
+  "images": {
+    "manifest": [
+      {
+        "id": "st-comms-1",
+        "source": "images/source/st-comms-1.jpg",
+        "theme": "comms-at-work",
+        "roles": [
+          "cover",
+          "hero"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
+          "attribution": "Photo by Christina @ wocintechchat.com on Unsplash"
+        }
+      },
+      {
+        "id": "st-comms-3",
+        "source": "images/source/st-comms-3.jpg",
+        "theme": "comms-at-work",
+        "roles": [
+          "cover",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Specht GmbH on Pexels"
+        }
+      },
+      {
+        "id": "st-comms-4",
+        "source": "images/source/st-comms-4.jpg",
+        "theme": "comms-at-work",
+        "roles": [
+          "section",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/7414038/pexels-photo-7414038.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by RDNE Stock project on Pexels"
+        }
+      },
+      {
+        "id": "t1-comms-at-work",
+        "source": "images/source/t1-comms-at-work.png",
+        "theme": "comms-at-work",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "th1-comms-c",
+        "source": "images/source/th1-comms-c.png",
+        "theme": "comms-at-work",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.45,
+            "y": 0.5
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "th1-comms-c_v2",
+        "source": "images/source/th1-comms-c_v2.png",
+        "theme": "comms-at-work",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "th1-comms-d",
+        "source": "images/source/th1-comms-d.png",
+        "theme": "comms-at-work",
+        "roles": [
+          "hero",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "st-routekaart-1",
+        "source": "images/source/st-routekaart-1.jpg",
+        "theme": "routekaart-learning",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1758691737083-0e7fdbde0f05?w=1600&q=80",
+          "attribution": "Photo by Vitaly Gariev on Unsplash"
+        }
+      },
+      {
+        "id": "st-routekaart-3",
+        "source": "images/source/st-routekaart-3.jpg",
+        "theme": "routekaart-learning",
+        "roles": [
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Mizuno K on Pexels"
+        }
+      },
+      {
+        "id": "st-routekaart-4",
+        "source": "images/source/st-routekaart-4.jpg",
+        "theme": "routekaart-learning",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/7688083/pexels-photo-7688083.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Kindel Media on Pexels"
+        }
+      },
+      {
+        "id": "th2-routekaart-c",
+        "source": "images/source/th2-routekaart-c.png",
+        "theme": "routekaart-learning",
+        "roles": [
+          "section",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "st-human-ai-3",
+        "source": "images/source/st-human-ai-3.jpg",
+        "theme": "human-ai-warm",
+        "roles": [
+          "section",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Teona Swift on Pexels"
+        }
+      },
+      {
+        "id": "st-human-ai-4",
+        "source": "images/source/st-human-ai-4.jpg",
+        "theme": "human-ai-warm",
+        "roles": [
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/5668872/pexels-photo-5668872.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Sora Shimazaki on Pexels"
+        }
+      },
+      {
+        "id": "st-human-ai-5",
+        "source": "images/source/st-human-ai-5.jpg",
+        "theme": "human-ai-warm",
+        "roles": [
+          "section",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
+          "attribution": "Photo by Teona Swift on Pexels"
+        }
+      },
+      {
+        "id": "t3-human-ai-warm",
+        "source": "images/source/t3-human-ai-warm.png",
+        "theme": "human-ai-warm",
+        "roles": [
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th3-human-ai-c",
+        "source": "images/source/th3-human-ai-c.png",
+        "theme": "human-ai-warm",
+        "roles": [
+          "section",
+          "closing"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th3-human-ai-d_v2",
+        "source": "images/source/th3-human-ai-d_v2.png",
+        "theme": "human-ai-warm",
+        "roles": [
+          "divider",
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "st-conversation-1",
+        "source": "images/source/st-conversation-1.jpg",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
+          "attribution": "Photo by Van Tay Media on Unsplash"
+        }
+      },
+      {
+        "id": "st-conversation-2",
+        "source": "images/source/st-conversation-2.jpg",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
+          "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
+        }
+      },
+      {
+        "id": "st-conversation-3",
+        "source": "images/source/st-conversation-3.jpg",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
+          "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
+        }
+      },
+      {
+        "id": "st-conversation-4",
+        "source": "images/source/st-conversation-4.jpg",
+        "theme": "conversation-trust",
+        "roles": [
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
+          "attribution": "Photo by Vitaly Gariev on Unsplash"
+        }
+      },
+      {
+        "id": "st-conversation-5",
+        "source": "images/source/st-conversation-5.jpg",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true,
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Vitaly Gariev on Pexels"
+        }
+      },
+      {
+        "id": "th4-conversation-b_v2",
+        "source": "images/source/th4-conversation-b_v2.png",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.4
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "th4-conversation-c",
+        "source": "images/source/th4-conversation-c.png",
+        "theme": "conversation-trust",
+        "roles": [
+          "cover",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "hero": true
+      },
+      {
+        "id": "st-workspace-2",
+        "source": "images/source/st-workspace-2.jpg",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Erika Andrade on Pexels"
+        }
+      },
+      {
+        "id": "st-workspace-5",
+        "source": "images/source/st-workspace-5.jpg",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1743385779534-f53c018c21f5?w=1600&q=80",
+          "attribution": "Photo by Kelly Sikkema on Unsplash"
+        }
+      },
+      {
+        "id": "st-workspace-6",
+        "source": "images/source/st-workspace-6.jpg",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/97987/pexels-photo-97987.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Markus Spiske on Pexels"
+        }
+      },
+      {
+        "id": "st-workspace-7",
+        "source": "images/source/st-workspace-7.jpg",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/4195334/pexels-photo-4195334.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Karola G (kaboompics) on Pexels"
+        }
+      },
+      {
+        "id": "st-workspace-8",
+        "source": "images/source/st-workspace-8.jpg",
+        "theme": "calm-workspace",
+        "roles": [
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
+          "attribution": "Photo by Sora Shimazaki on Pexels"
+        }
+      },
+      {
+        "id": "t5-calm-workspace",
+        "source": "images/source/t5-calm-workspace.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th5-workspace-b",
+        "source": "images/source/th5-workspace-b.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th5-workspace-b_v2",
+        "source": "images/source/th5-workspace-b_v2.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th5-workspace-c",
+        "source": "images/source/th5-workspace-c.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th5-workspace-d",
+        "source": "images/source/th5-workspace-d.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th5-workspace-d_v2",
+        "source": "images/source/th5-workspace-d_v2.png",
+        "theme": "calm-workspace",
+        "roles": [
+          "background",
+          "divider"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "st-craft-1",
+        "source": "images/source/st-craft-1.jpg",
+        "theme": "craft-closeup",
+        "roles": [
+          "closing",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
+          "attribution": "Photo by Priscilla Du Preez on Unsplash"
+        }
+      },
+      {
+        "id": "st-craft-5",
+        "source": "images/source/st-craft-5.jpg",
+        "theme": "craft-closeup",
+        "roles": [
+          "closing",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        "credit": {
+          "provider": "unsplash",
+          "url": "https://images.pexels.com/photos/5425598/pexels-photo-5425598.jpeg",
+          "attribution": "Photo by Anna Tarazevich on Pexels"
+        }
+      },
+      {
+        "id": "th6-craft-b",
+        "source": "images/source/th6-craft-b.png",
+        "theme": "craft-closeup",
+        "roles": [
+          "closing",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      },
+      {
+        "id": "th6-craft-d_v2",
+        "source": "images/source/th6-craft-d_v2.png",
+        "theme": "craft-closeup",
+        "roles": [
+          "closing",
+          "section"
+        ],
+        "geometry": {
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      }
+    ],
+    "overlay": {
+      "color": "primary",
+      "opacity": 0.55
+    },
+    "logoVariantOnImage": "white"
+  },
+  "logo": {
+    "primary": "logos/ai4comms-logo-primary.svg",
+    "png": "logos/ai4comms-logo-primary.png",
+    "white": "logos/ai4comms-logo-knockout.svg",
+    "whitePng": "logos/ai4comms-logo-knockout.png",
+    "reversed": "logos/ai4comms-logo-reversed.svg",
+    "reversedPng": "logos/ai4comms-logo-reversed.png",
+    "monoCanopy": "logos/ai4comms-logo-mono-canopy.svg",
+    "monoCanopyPng": "logos/ai4comms-logo-mono-canopy.png",
+    "monoWhite": "logos/ai4comms-logo-mono-white.svg",
+    "monoWhitePng": "logos/ai4comms-logo-mono-white.png",
+    "favicon_192": "logos/favicons/ai4comms-favicon-canopy-192.png",
+    "favicon_180": "logos/favicons/ai4comms-favicon-canopy-180.png",
+    "maxWidth": "180pt",
+    "maxHeight": "60pt",
+    "sizing": "contain",
+    "variants": [
+      {
+        "id": "primary",
+        "key": "primary",
+        "svg": "logos/ai4comms-logo-primary.svg",
+        "png": "logos/ai4comms-logo-primary.png",
+        "backgrounds": [
+          "white",
+          "paper",
+          "mist",
+          "light"
+        ],
+        "surface": "Default — dark canopy panel on any light surface",
+        "minWidthPx": 96
+      },
+      {
+        "id": "reversed",
+        "key": "reversed",
+        "svg": "logos/ai4comms-logo-reversed.svg",
+        "png": "logos/ai4comms-logo-reversed.png",
+        "backgrounds": [
+          "canopy",
+          "pine",
+          "solid-dark"
+        ],
+        "surface": "Light paper chip for solid canopy/dark sections",
+        "minWidthPx": 96
+      },
+      {
+        "id": "knockout",
+        "key": "white",
+        "svg": "logos/ai4comms-logo-knockout.svg",
+        "png": "logos/ai4comms-logo-knockout.png",
+        "backgrounds": [
+          "photo",
+          "gradient",
+          "immersive-dark",
+          "canopy"
+        ],
+        "surface": "Outlined white + sage 4, for imagery / immersive dark",
+        "minWidthPx": 110
+      },
+      {
+        "id": "mono-canopy",
+        "key": "monoCanopy",
+        "svg": "logos/ai4comms-logo-mono-canopy.svg",
+        "png": "logos/ai4comms-logo-mono-canopy.png",
+        "backgrounds": [
+          "white",
+          "light"
+        ],
+        "surface": "One-colour canopy ink — stamps, single-colour print, emboss",
+        "minWidthPx": 96
+      },
+      {
+        "id": "mono-white",
+        "key": "monoWhite",
+        "svg": "logos/ai4comms-logo-mono-white.svg",
+        "png": "logos/ai4comms-logo-mono-white.png",
+        "backgrounds": [
+          "canopy",
+          "dark",
+          "ink"
+        ],
+        "surface": "One-colour white — reversed single-colour print, watermark",
+        "minWidthPx": 96
+      }
+    ],
+    "usage": {
+      "light": "primary",
+      "paper": "primary",
+      "mist": "primary",
+      "canopySection": "reversed",
+      "solidDark": "reversed",
+      "photo": "white",
+      "gradient": "white",
+      "immersiveDark": "white",
+      "oneColorLight": "monoCanopy",
+      "oneColorDark": "monoWhite"
+    },
+    "favicons": {
+      "default": "canopy",
+      "note": "AI4 square tile derived from the logo's own A/I/4 glyphs. 'canopy' is the default; alternates cover different browser-chrome / app-tile backgrounds.",
+      "sizes": [
+        16,
+        32,
+        180,
+        192
+      ],
+      "set": {
+        "canopy": {
+          "svg": "logos/favicons/ai4comms-favicon-canopy.svg",
+          "png": {
+            "16": "logos/favicons/ai4comms-favicon-canopy-16.png",
+            "32": "logos/favicons/ai4comms-favicon-canopy-32.png",
+            "180": "logos/favicons/ai4comms-favicon-canopy-180.png",
+            "192": "logos/favicons/ai4comms-favicon-canopy-192.png"
+          },
+          "use": "default · dark tab bars, app tile, document headers"
+        },
+        "sage": {
+          "svg": "logos/favicons/ai4comms-favicon-sage.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-sage-32.png",
+            "180": "logos/favicons/ai4comms-favicon-sage-180.png"
+          },
+          "use": "bright accent tile — busy/light chrome where it should pop"
+        },
+        "paper": {
+          "svg": "logos/favicons/ai4comms-favicon-paper.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-paper-32.png",
+            "180": "logos/favicons/ai4comms-favicon-paper-180.png"
+          },
+          "use": "quiet light-mode-native tile"
+        },
+        "outline": {
+          "svg": "logos/favicons/ai4comms-favicon-outline.svg",
+          "png": {
+            "32": "logos/favicons/ai4comms-favicon-outline-32.png",
+            "180": "logos/favicons/ai4comms-favicon-outline-180.png"
+          },
+          "use": "transparent — blends on any light surface"
+        }
+      }
+    },
+    "_note": "Multi-variant logo system (refresh 2026-07-22): the mark is unchanged; only colour adapts per background. Render surfaces pick a variant via `usage[<background-class>]` -> logo key; `images.logoVariantOnImage='white'` auto-selects the knockout on imagery. Favicons are AI4 square tiles (canopy default + sage/paper/outline). Aspirational note about a missing white variant is retired — the knockout IS the white variant now."
+  },
+  "templates": {
+    "docx": {
+      "styles": "templates/docx/styles.docx",
+      "letterhead": "templates/docx/letterhead.docx"
+    }
+  },
+  "symbol": {
+    "status": "approved",
+    "kind": "multi-version",
+    "selection": {
+      "mode": "contextual-preferred-variance",
+      "preferenceOrder": [
+        "routekaart",
+        "four-badge",
+        "network",
+        "partner-leaves"
+      ],
+      "default": "routekaart",
+      "variance": true,
+      "note": "A deliverable may show ANY mark in the set. Prefer the version whose contextTags best match the surface/topic; when several match (or none), fall back to preferenceOrder, but apply variance (seeded — reuse the image variance engine seed) so consecutive deliverables rotate marks instead of repeating. Never invent a mark outside the set. Deterministic single-pick consumers use selection.default."
+    },
+    "set": [
+      {
+        "id": "routekaart",
+        "label": "Routekaart",
+        "pref": 1,
+        "svg": "assets/svg/marks/mark-routekaart.svg",
+        "png": "assets/svg/marks/mark-routekaart.png",
+        "knockoutSvg": "assets/svg/marks/mark-routekaart-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-routekaart-knockout.png",
+        "concept": "The guided path to a goal — their signature method word (routekaart)",
+        "contextTags": [
+          "journey",
+          "method",
+          "process",
+          "roadmap",
+          "how-we-work",
+          "onboarding",
+          "approach",
+          "step-by-step"
+        ]
+      },
+      {
+        "id": "four-badge",
+        "label": "The “4” badge",
+        "pref": 2,
+        "svg": "assets/svg/marks/mark-four-badge.svg",
+        "png": "assets/svg/marks/mark-four-badge.png",
+        "knockoutSvg": "assets/svg/marks/mark-four-badge-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-four-badge-knockout.png",
+        "concept": "The sage 4 (already the logo accent) as a badge — ties to equity, doubles as favicon",
+        "contextTags": [
+          "favicon",
+          "compact",
+          "badge",
+          "identity",
+          "small-scale",
+          "avatar",
+          "app-icon",
+          "stamp"
+        ]
+      },
+      {
+        "id": "network",
+        "label": "Partner network",
+        "pref": 3,
+        "svg": "assets/svg/marks/mark-network.svg",
+        "png": "assets/svg/marks/mark-network.png",
+        "knockoutSvg": "assets/svg/marks/mark-network-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-network-knockout.png",
+        "concept": "Soft nodes + calm links — AI woven into the team, one node sage",
+        "contextTags": [
+          "ai",
+          "integration",
+          "system",
+          "connection",
+          "technology",
+          "product",
+          "platform"
+        ]
+      },
+      {
+        "id": "partner-leaves",
+        "label": "Partner leaves",
+        "pref": 4,
+        "svg": "assets/svg/marks/mark-partner-leaves.svg",
+        "png": "assets/svg/marks/mark-partner-leaves.png",
+        "knockoutSvg": "assets/svg/marks/mark-partner-leaves-knockout.svg",
+        "knockoutPng": "assets/svg/marks/mark-partner-leaves-knockout.png",
+        "concept": "Two leaves, human + AI — partner not replacement (the tagline)",
+        "contextTags": [
+          "partnership",
+          "collaboration",
+          "human-ai",
+          "tagline",
+          "people",
+          "team",
+          "care",
+          "together"
+        ]
+      }
+    ],
+    "_note": "Multi-version distinctive mark set (refresh 2026-07-22). The mark FAMILY gives the brand rotating signalling — resolve via `selection` (contextual match -> preferenceOrder -> seeded variance), mirroring the image variance engine. Light variants = canopy line + sage fill; knockout = white + sage for dark/photo. Retired candidates (sprout, nurtured-sprout) not shipped. Distinct from the typographic `expression.visual_grammar.motifs` (sage-highlight) which stays as the wordmark-level motif."
+  },
+  "video": {
+    "resolution": "1920x1080",
+    "fps": 30
+  },
+  "fallbacksUsed": [],
+  "warnings": [],
+  "token_roles": {
+    "surface": "--canvas-paper",
+    "surfaceAlt": "--color-background-alt",
+    "elevation": "--shadow-md",
+    "radius": "--radius-md",
+    "lineWeight": "--motif-line-weight",
+    "tracking": "--letter-spacing-label",
+    "textStrong": "--color-text",
+    "textMuted": "--color-text-light",
+    "edge": "--color-rule"
+  },
+  "integrity": {
+    "compiler": "brand_compile.py",
+    "compiler_version": "1.0",
+    "key_set": [
+      "boilerplate",
+      "client_slug",
+      "colors",
+      "document",
+      "excalidraw_theme",
+      "expression",
+      "fallbacksUsed",
+      "formatting",
+      "generatedFrom",
+      "identity",
+      "images",
+      "logo",
+      "plotly_theme",
+      "schemaVersion",
+      "surfaceExpression",
+      "symbol",
+      "templates",
+      "tier",
+      "token_roles",
+      "tokens_css",
+      "typography",
+      "version",
+      "video",
+      "warnings"
+    ],
+    "visual_grammar_dimensions": [
+      "backgrounds",
+      "elevation",
+      "gradients",
+      "grid",
+      "iconography",
+      "motifs",
+      "motion",
+      "patterns",
+      "photo"
+    ],
+    "sha256": "054b12ae26535a126b3ac18ed9c2d7de418795f8ac9b1ac6da3ad8c61815b77f"
+  }
+}

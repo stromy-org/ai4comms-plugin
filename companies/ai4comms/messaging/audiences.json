@@ -1,0 +1,104 @@
+[
+  {
+    "id": "aud-001",
+    "name": "Hoofd Communicatie / Director Corporate Communications",
+    "type": "external",
+    "description": "Heads of corporate communications, public affairs, or communications departments at medium to large organizations in the Netherlands — the leaders who own the communications function and are accountable for how it responds to AI.",
+    "priority": "primary",
+    "painPoints": [
+      "Leadership expects the communications team to have an AI position, but no one has defined what responsible AI adoption looks like for communications specifically",
+      "Team members are already using AI tools informally — without policy, oversight, or governance",
+      "Fear of reputational risk if AI-generated content goes wrong under their watch",
+      "Difficulty distinguishing which AI applications create real value from the noise of vendor claims"
+    ],
+    "decisionCriteria": [
+      "Advisors who understand communications from the inside — not technologists explaining AI to communicators",
+      "Practical, team-ready output: training, playbooks, governance frameworks that actually get used",
+      "No hype: honest about what AI can and cannot do for a communications team",
+      "Speed: the team needs to move from scattered adoption to governed practice without a 6-month transformation"
+    ],
+    "vocabulary": {
+      "use": ["communicatiefunctie", "praktisch inzetbaar", "AI als partner", "verantwoord", "governance", "werkwijze", "team-enablement"],
+      "avoid": ["revolutionair", "game-changing", "disruptief", "supercharge", "AI-gedreven transformatie"]
+    },
+    "skepticism": "Has seen too many AI vendors promise simplicity and deliver complexity. Needs to see that AI4Comms understands the actual work of a communications team — not just AI capabilities.",
+    "pillarPriority": ["pillar-001", "pillar-002", "pillar-003"],
+    "preferredProofTypes": ["capability", "credibility"],
+    "adaptedMessage": "Wij maken AI praktisch toepasbaar voor uw communicatieteam — met strategie, training en governance die past bij uw organisatie en uw risicoprofiel.",
+    "topObjection": {
+      "objection": "We kunnen dit zelf oppakken via onze IT- of digitale transformatie-afdeling.",
+      "response": "IT-afdelingen ontwerpen AI-governance voor systemen en data. Communicatie-governance vraagt iets anders: hoe beoordeel je AI-gegenereerde content op toon, reputatierisico en authenticiteit? Hoe train je een team om AI verantwoord te gebruiken voor persberichten, crisiscommunicatie of stakeholderbrieven? Dat vereist communicatie-expertise, niet alleen technische kennis.",
+      "proofId": null
+    },
+    "channels": ["LinkedIn", "Logeion events", "communicatie-netwerken", "conferenties", "referrals"],
+    "tags": ["communications-leadership", "corporate-comms", "practitioner", "B2B"]
+  },
+  {
+    "id": "aud-002",
+    "name": "Communicatieteam / Afdeling Corporate Communications",
+    "type": "external",
+    "description": "In-house communications teams and departments — the practitioners who do the daily work of corporate communications, media relations, content production, and stakeholder engagement, and who are directly affected by AI adoption.",
+    "priority": "secondary",
+    "painPoints": [
+      "Already using AI tools informally but without guidance on what is responsible or effective",
+      "Unclear which tasks AI should and should not handle in a communications context",
+      "Concern about quality, accuracy, and brand voice when using AI-generated content",
+      "Feeling left behind by colleagues in other departments who seem to have adopted AI faster"
+    ],
+    "decisionCriteria": [
+      "Training that is relevant to communications work — not generic AI literacy",
+      "Practical tools: prompt playbooks, workflow guidance, approval checklists",
+      "Honest: what works, what doesn't, what the risks are",
+      "Respect for professional judgment: AI assists, the communicator decides"
+    ],
+    "vocabulary": {
+      "use": ["praktische handvatten", "werkbaar", "jouw expertise", "AI ondersteunt", "eigen oordeel"],
+      "avoid": ["vervanging", "automatisering", "AI neemt het over", "efficiëntie-winst"]
+    },
+    "skepticism": "Worried that AI adoption means less control over quality, or that it signals headcount pressure. Needs reassurance that AI augments the professional, not the other way around.",
+    "pillarPriority": ["pillar-002", "pillar-001", "pillar-003"],
+    "preferredProofTypes": ["capability"],
+    "adaptedMessage": "AI maakt jouw communicatiewerk sterker — als je het goed inricht. Wij leren je wat werkt, wat niet werkt, en hoe je het verantwoord toepast.",
+    "topObjection": {
+      "objection": "We have no time for training — we're already stretched.",
+      "response": "That is exactly the point: AI should reduce the load, not add to it. Training that is too abstract or too long does the opposite. Our programmes are designed around your actual workflows — short, targeted, and applied to the tasks your team already does.",
+      "proofId": null
+    },
+    "channels": ["Logeion events", "communicatie-netwerken", "LinkedIn", "werkgever/manager referral"],
+    "tags": ["communications-practitioners", "in-house", "team", "B2B"]
+  },
+  {
+    "id": "aud-003",
+    "name": "Communicatiebureaus en -adviesbureaus",
+    "type": "external",
+    "description": "Communications agencies and consultancies serving clients in the Netherlands — firms that need to develop their own AI approach and advise their clients on AI in communications.",
+    "priority": "secondary",
+    "painPoints": [
+      "Clients are asking about AI in communications — the agency needs a credible, grounded position",
+      "Staff are adopting AI tools informally; the agency needs governance and quality standards",
+      "Risk that AI-generated client deliverables create reputational or quality issues",
+      "Competitive pressure from agencies claiming AI superiority"
+    ],
+    "decisionCriteria": [
+      "Communications-specific AI advisory — not generic digital transformation consulting",
+      "Governance and policy frameworks the agency can adapt for its own use",
+      "Training that works for account teams at different seniority levels",
+      "A partner who can also help advise the agency's clients"
+    ],
+    "vocabulary": {
+      "use": ["kwaliteitsstandaarden", "verantwoord gebruik", "klantenvertrouwen", "AI-strategie voor bureaus"],
+      "avoid": ["disrupting the agency model", "AI replaces account managers"]
+    },
+    "skepticism": "Agencies are cautious about bringing in a third party that might compete for their clients. Needs to see clear advisory positioning — AI4Comms advises the communications function, not the communications market.",
+    "pillarPriority": ["pillar-003", "pillar-001", "pillar-002"],
+    "preferredProofTypes": ["capability", "credibility"],
+    "adaptedMessage": "Wij helpen communicatiebureaus een eerlijke, goed onderbouwde AI-aanpak te ontwikkelen — voor hun eigen processen en voor het advies aan hun klanten.",
+    "topObjection": {
+      "objection": "We already have our own AI tools and workflows.",
+      "response": "Having tools is not the same as having a governed, defensible AI practice. We work with agencies to define what good looks like: which AI applications are appropriate, how quality is maintained, how governance is documented, and how the agency can advise its own clients with confidence.",
+      "proofId": null
+    },
+    "channels": ["Logeion events", "branchevereniging-netwerken", "referrals", "LinkedIn"],
+    "tags": ["agencies", "consultancies", "B2B", "professional-services"]
+  }
+]

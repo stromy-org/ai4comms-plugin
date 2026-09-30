@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "a3a856faaf99d70b7b3b16d6f6bce0e5980f2307fb0e365d5ff17d1e6a8f5313",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-27T14:53:54.301227+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-ultra-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "1:1",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1080
+  },
+  "prompt": "an extreme close-up of hands typing gently on a laptop keyboard in warm directional light, the craft of considered work, no faces. macro shallow-depth detail, warm side light, textured focus on the hands. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "c5042848ae796d7c2e8f94b8bf25cb65d8dcfbe8dedc4ef60e43585e919b37e0",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "an extreme close-up of hands typing gently on a laptop keyboard in warm directional light, the craft of considered work, no faces. macro shallow-depth detail, warm side light, textured focus on the hands. candid documentary still-life photograph, natural available window light, warm-neutral and lightly desaturated colour grade, contemporary Dutch office, shallow-to-medium depth of field, soft muted calm tones, airy and unhurried, magazine-quality, tactile real surfaces, no people. pine green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1080,
+  "synth_id_watermark": true
+}

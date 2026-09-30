@@ -1,0 +1,27 @@
+{
+  "brand_context_hash": "a3a856faaf99d70b7b3b16d6f6bce0e5980f2307fb0e365d5ff17d1e6a8f5313",
+  "cached": false,
+  "client_slug": "ai4comms",
+  "dashboard_url": "https://aistudio.google.com/apikey",
+  "display_name": "AI4comms",
+  "generated_at": "2026-07-27T14:49:12.354206+00:00",
+  "media_type": "image",
+  "model": "imagen-4.0-ultra-generate-001",
+  "operation_name": null,
+  "parameters": {
+    "aspect_ratio": "16:9",
+    "include_rai_reason": true,
+    "number_of_images": 1,
+    "output_mime_type": "image/png",
+    "person_generation": "allow_adult",
+    "seed": 1030
+  },
+  "prompt": "a person writing reflective notes by hand in a notebook beside an open laptop, coffee cup nearby, calm and unhurried. medium-close shot over the hands and notebook, warm directional daylight, shallow depth, subject's face softly present. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "prompt_hash": "94772d5284b5d3986f4a181f742abd7bc807224f5d45307668fa134346f866ee",
+  "provider": "google",
+  "rai_reason": null,
+  "reference_images": [],
+  "rendered_prompt": "a person writing reflective notes by hand in a notebook beside an open laptop, coffee cup nearby, calm and unhurried. medium-close shot over the hands and notebook, warm directional daylight, shallow depth, subject's face softly present. candid documentary editorial photograph, natural available window light, warm-neutral and lightly desaturated colour grade, authentic unposed real people, contemporary Dutch office setting, shallow-to-medium depth of field, soft muted calm tones, human and unhurried, magazine-quality photojournalism, film-like natural skin tones. soft sage green as the single accent colour, used sparingly. purely visual \u2014 NO text, words, letters, numbers, captions, labels or colour codes; no logos, no sheet music or musical notation; a real photographic or illustrated subject, not a 3D render, infographic, diagram or AI-futurism.",
+  "seed": 1030,
+  "synth_id_watermark": true
+}

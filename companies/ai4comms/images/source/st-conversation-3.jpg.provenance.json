@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
+  "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+  "roles": [
+    "cover",
+    "divider"
+  ],
+  "theme": "conversation-trust",
+  "subject": "Two people in genuine conversation at a small table, natural daylight, unposed reportage",
+  "content_type": "image/jpeg",
+  "bytes": 230987,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

@@ -1,0 +1,324 @@
+/* ============================================================================
+ * AI4comms — Design Tokens
+ * Direction: Practical AI enablement partner (Sage + Caregiver)
+ * Light-first, accessible, deployed-identity-aligned.
+ *
+ * Source of truth: ai4-comms.com live site (Divi global presets + verified
+ * inline styles, captured 2026-05-18).
+ *
+ * Aspirational dark-mode "Signal Authority" tokens archived at
+ * .build-history/aspirational-2026-04-05/tokens.css.
+ * ============================================================================ */
+
+:root {
+  /* ---------- Primary palette ---------- */
+  --brand-canopy: #15311A;        /* primary deep brand green (logo wordmark) */
+  --brand-pine:   #214C28;        /* secondary mid brand green */
+  --brand-sage:   #9EC187;        /* accent — light sage green (active/highlight) */
+  --brand-paper:  #F8FAFC;        /* warm near-white surface */
+  --brand-mist:   #ECECEC;        /* secondary surface band */
+  --brand-white:  #FFFFFF;        /* primary surface */
+  --brand-ink:    #1F1F1F;        /* primary body text */
+
+  /* ---------- Pine scale (brand greens, light-mode oriented) ---------- */
+  --pine-50:  #EEF5EF;
+  --pine-100: #D5E7D8;
+  --pine-200: #A9CFB0;
+  --pine-300: #7AB488;
+  --pine-400: #509964;
+  --pine-500: #3B7A4E;
+  --pine-600: #2D5E3C;
+  --pine-700: #214C28;   /* secondary */
+  --pine-800: #15311A;   /* primary */
+  --pine-900: #0C1410;
+
+  /* ---------- Sage scale (accent) ---------- */
+  --sage-50:  #F1F6EC;
+  --sage-100: #E1EDD7;
+  --sage-200: #C9DEB5;
+  --sage-300: #B0CE93;
+  --sage-400: #9EC187;   /* accent */
+  --sage-500: #82AE68;
+  --sage-600: #678F4F;
+  --sage-700: #4F6F3D;
+  --sage-800: #3A522D;
+  --sage-900: #243620;
+
+  /* ---------- Neutral scale (cool grays, matches deployed site) ---------- */
+  --n-0:   #FFFFFF;
+  --n-50:  #F8FAFC;   /* deployed --gcid-jd3gym30fa */
+  --n-100: #ECECEC;   /* deployed --gcid-v6w1ho8m1g */
+  --n-200: #DDDDDD;
+  --n-300: #C4C4C4;
+  --n-400: #A1A1A1;
+  --n-500: #7A7A7A;
+  --n-600: #4E4E4E;   /* textLight */
+  --n-700: #3A3A3A;
+  --n-800: #2A2A2A;
+  --n-900: #1F1F1F;   /* text */
+
+  /* ---------- Semantic colors (palette-aligned, muted) ---------- */
+  --success:       #3B7A4E;
+  --success-light: #E2F0E6;
+  --warning:       #C89B3E;
+  --warning-light: #F6ECD4;
+  --error:         #B85648;
+  --error-light:   #F6DCD6;
+  --info:          #4F6F3D;
+  --info-light:    #E1EDD7;
+
+  /* ---------- Charter semantic mappings ---------- */
+  --color-primary:        var(--brand-canopy);
+  --color-secondary:      var(--brand-pine);
+  --color-accent:         var(--brand-sage);
+  --color-background:     var(--brand-white);
+  --color-background-alt: var(--brand-paper);
+  --color-text:           var(--n-900);
+  --color-text-light:     var(--n-600);
+  --color-text-on-dark:   var(--brand-white);
+  --color-text-on-accent: var(--brand-canopy);
+  --color-rule:           var(--n-100);
+  --color-rule-strong:    var(--n-200);
+
+  /* ---------- Typography ---------- */
+  --font-heading: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font-body:    "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  --font-mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+  --line-height-tight: 1.2;
+  --line-height-snug:  1.4;
+  --line-height-base:  1.7;     /* matches deployed --et_global_body_font_height */
+  --line-height-loose: 1.9;
+
+  --letter-spacing-tight:  -0.01em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide:   0.04em;
+  --letter-spacing-label:  0.12em;
+
+  /* ---------- Type scale ---------- */
+  --fs-xs:   12px;
+  --fs-sm:   13px;
+  --fs-base: 14px;    /* matches deployed --et_global_body_font_size */
+  --fs-md:   16px;
+  --fs-lg:   18px;
+  --fs-xl:   22px;
+  --fs-2xl:  28px;
+  --fs-3xl:  34px;
+  --fs-4xl:  44px;
+  --fs-5xl:  56px;
+  --fs-display: 72px;
+
+  /* ---------- Spacing scale ---------- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+  --space-10: 128px;
+
+  /* ---------- Radii ---------- */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --radius-pill: 999px;
+
+  /* ---------- Elevation ---------- */
+  --shadow-sm: 0 1px 2px rgba(15, 30, 18, 0.06);
+  --shadow-md: 0 4px 12px rgba(15, 30, 18, 0.08);
+  --shadow-lg: 0 12px 32px rgba(15, 30, 18, 0.12);
+
+  /* ---------- Motif tokens (light-mode hairline rules) ---------- */
+  --motif-line-weight: 1px;
+  --motif-line-color:  var(--brand-canopy);
+  --motif-rule-color:  var(--n-200);
+  --motif-pattern-opacity: 0.05;
+
+  /* ---------- Overlay tokens (for hero photography, if reintroduced) ---------- */
+  --overlay-canopy-80: rgba(21, 49, 26, 0.8);
+  --overlay-canopy-70: rgba(21, 49, 26, 0.7);
+  --overlay-canopy-55: rgba(21, 49, 26, 0.55);
+
+  /* ---------- Layout ---------- */
+  --content-max:  1320px;
+  --content-narrow: 760px;
+  --gutter:       24px;
+  --section-gap:  96px;
+}
+
+/* ============================================================================
+ * Utility classes — light-mode base
+ * ============================================================================ */
+
+.brand-button-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: var(--brand-canopy);
+  color: var(--brand-white);
+  font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
+  font-size: var(--fs-base);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  border: none;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 160ms ease;
+}
+.brand-button-primary:hover { background: var(--brand-pine); }
+
+.brand-button-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background: transparent;
+  color: var(--brand-canopy);
+  font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
+  font-size: var(--fs-base);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  border: 1px solid var(--brand-canopy);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+.brand-button-ghost:hover { background: var(--brand-canopy); color: var(--brand-white); }
+
+.brand-overline {
+  font-family: var(--font-body);
+  font-size: var(--fs-xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-label);
+  color: var(--brand-pine);
+}
+
+.brand-heading {
+  font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+  color: var(--brand-canopy);
+}
+
+.brand-body {
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--fs-base);
+  line-height: var(--line-height-base);
+  color: var(--n-900);
+}
+
+.brand-rule {
+  border: none;
+  border-top: var(--motif-line-weight) solid var(--motif-rule-color);
+  margin: var(--space-6) 0;
+}
+
+.brand-rule-accent {
+  border: none;
+  border-top: 2px solid var(--brand-canopy);
+  width: 64px;
+  margin: var(--space-5) 0;
+}
+
+.brand-card {
+  background: var(--brand-white);
+  border: 1px solid var(--n-100);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+
+.brand-card-tinted {
+  background: var(--brand-paper);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+
+.brand-section-light    { background: var(--brand-white);  color: var(--n-900); }
+.brand-section-mist     { background: var(--brand-paper);  color: var(--n-900); }
+.brand-section-canopy   { background: var(--brand-canopy); color: var(--brand-white); }
+.brand-section-canopy .brand-heading { color: var(--brand-white); }
+.brand-section-canopy .brand-overline { color: var(--brand-sage); }
+
+/* --- visual grammar tokens (brand-visual-grammar; 2026-07-01) ---
+   backgrounds / gradients / grid / iconography / elevation. Applied
+   downstream, reference-not-bind. --- */
+:root {
+  --canvas-canopy: #15311A;
+  --canvas-paper:  #FFFFFF;
+  --canvas-mist:   #F8FAFC;
+  --gradient-header:      linear-gradient(135deg,#F8FAFC 0%,#ECECEC 100%);
+  --gradient-cta:         linear-gradient(90deg,#15311A 0%,#9EC187 100%);
+  --gradient-canopy-hero: linear-gradient(160deg,#15311A 0%,#214C28 100%);
+  --content-width: 1320px;
+  --section-gap:   96px;
+  --icon-stroke:   2px;
+  --card-radius:   12px;
+  --pill-radius:   999px;
+  --elev-border:   1px solid #ECECEC;
+}
+
+/* --- logo asset system (refresh 2026-07-22) ---
+   Background-adaptive wordmark variants (form unchanged, colour adapts) +
+   favicon tiles. Machine-readable source of record: charter.logo (variants /
+   usage / favicons), compiled into brand_context.logo for the format MCP.
+   Pick by surface: light -> primary; dark section -> reversed;
+   photo/immersive -> knockout; one-colour -> mono.
+
+   NOTE: these are deliberately PATH STRINGS, not url() values. A relative
+   url() inside a CSS custom property resolves against the CONSUMING document,
+   not against tokens.css — so `url("logos/…")` silently 404s for every
+   consumer not served from the brand root, which is most of them. Held as
+   bare path strings they are inert to CSS by design: a consumer reads the
+   path (JS/build step, or straight from charter.logo) and emits its own
+   absolute url() against a root it actually knows. Note CSS cannot
+   concatenate a url() from a custom property, so there is no in-CSS shortcut
+   here — that limitation is the point. Matches the ogilvy contract, where
+   asset paths live in the charter and only metrics are tokenised. --- */
+:root {
+  --logo-primary:      "logos/ai4comms-logo-primary.svg";     /* light backgrounds (default) */
+  --logo-reversed:     "logos/ai4comms-logo-reversed.svg";    /* solid canopy/dark sections */
+  --logo-knockout:     "logos/ai4comms-logo-knockout.svg";    /* photos / immersive dark */
+  --logo-mono-canopy:  "logos/ai4comms-logo-mono-canopy.svg"; /* one-colour on light */
+  --logo-mono-white:   "logos/ai4comms-logo-mono-white.svg";  /* one-colour on dark */
+  --favicon-canopy:    "logos/favicons/ai4comms-favicon-canopy.svg";  /* default tile */
+  --favicon-sage:      "logos/favicons/ai4comms-favicon-sage.svg";
+  --favicon-paper:     "logos/favicons/ai4comms-favicon-paper.svg";
+  --favicon-outline:   "logos/favicons/ai4comms-favicon-outline.svg";
+}
+
+/* --- image treatment system (Component T; ORG-PLAN-045) ---
+   Definition of record: charter.expression.treatments. Applied downstream
+   (format-MCP + website .img-treatment), never pre-baked. --- */
+:root {
+  --treatment-default: documentary-warm;
+  --treatment-documentary-warm-filter:  saturate(0.82) contrast(1.02);
+  --treatment-documentary-warm-grain:   0.04;
+  --treatment-canopy-duotone-filter:    grayscale(1) contrast(1.04);
+  --treatment-canopy-duotone-shadow:    #15311A;
+  --treatment-canopy-duotone-mid:       #3F6B47;
+  --treatment-canopy-duotone-highlight: #EDF3E7;
+  --treatment-canopy-duotone-strength:  0.38;
+  --treatment-canopy-duotone-grain:     0.04;
+  --treatment-sage-graded-filter:       saturate(0.55) contrast(1.03);
+  --treatment-sage-graded-shadow:       #1E3A24;
+  --treatment-sage-graded-mid:          #5E8A63;
+  --treatment-sage-graded-highlight:    #DCEBD2;
+  --treatment-sage-graded-strength:     0.28;
+  --treatment-sage-graded-grain:        0.04;
+  --treatment-paper-soft-filter:        saturate(0.85) contrast(0.96) brightness(1.05);
+  --treatment-paper-soft-grain:         0.03;
+}

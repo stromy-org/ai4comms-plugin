@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Pexels",
+  "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
+  "attribution": "Photo by Erika Andrade on Pexels",
+  "roles": [
+    "background",
+    "section"
+  ],
+  "theme": "calm-workspace",
+  "subject": "Wooden desk with coffee and open notebooks, calm airy composition, warm neutral tones",
+  "content_type": "image/jpeg",
+  "bytes": 141848,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

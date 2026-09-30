@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+_output/
+*.egg-info/
+dist/
+build/
+.env
+
+# Office temp/lock files
+~$*

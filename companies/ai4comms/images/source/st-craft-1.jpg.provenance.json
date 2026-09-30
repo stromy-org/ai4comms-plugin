@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
+  "attribution": "Photo by Priscilla Du Preez on Unsplash",
+  "roles": [
+    "closing",
+    "section"
+  ],
+  "theme": "craft-closeup",
+  "subject": "Close-up hands journaling with pen, no face, warm cozy tone, shallow depth",
+  "content_type": "image/jpeg",
+  "bytes": 431893,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

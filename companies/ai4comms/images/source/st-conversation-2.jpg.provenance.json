@@ -1,0 +1,15 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
+  "attribution": "Photo by LinkedIn Sales Solutions on Unsplash",
+  "roles": [
+    "cover",
+    "section"
+  ],
+  "theme": "conversation-trust",
+  "subject": "Two colleagues at a small desk, one speaking/gesturing, one listening, warm muted tones",
+  "content_type": "image/jpeg",
+  "bytes": 236630,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}

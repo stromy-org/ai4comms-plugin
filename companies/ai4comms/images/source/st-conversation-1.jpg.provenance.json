@@ -1,0 +1,14 @@
+{
+  "source": "stock",
+  "platform": "Unsplash",
+  "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
+  "attribution": "Photo by Van Tay Media on Unsplash",
+  "roles": [
+    "cover"
+  ],
+  "theme": "conversation-trust",
+  "subject": "Two colleagues reviewing documents across a small table, both fully visible, reportage framing",
+  "content_type": "image/jpeg",
+  "bytes": 159460,
+  "license_note": "Verify license + attribution before client publishing. Unsplash/Pexels/Pixabay permit commercial use; record the photographer credit where the platform requests it."
+}
