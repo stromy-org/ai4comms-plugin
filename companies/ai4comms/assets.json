@@ -23,7 +23,11 @@
       "style": "normal",
       "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda",
       "mime": "font/ttf",
-      "name": "JetBrainsMono[wght].ttf"
+      "name": "JetBrainsMono[wght].ttf",
+      "weight_range": [
+        100,
+        800
+      ]
     },
     {
       "family": "Montserrat",
@@ -31,7 +35,11 @@
       "style": "italic",
       "sha256": "51607f316bc020e59f03cbf51543eecffbea501c0b31d73e5b82927c5cca442c",
       "mime": "font/ttf",
-      "name": "Montserrat-Italic[wght].ttf"
+      "name": "Montserrat-Italic[wght].ttf",
+      "weight_range": [
+        100,
+        900
+      ]
     },
     {
       "family": "Montserrat",
@@ -39,7 +47,11 @@
       "style": "normal",
       "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
       "mime": "font/ttf",
-      "name": "Montserrat[wght].ttf"
+      "name": "Montserrat[wght].ttf",
+      "weight_range": [
+        100,
+        900
+      ]
     }
   ],
   "logos": [
@@ -492,8 +504,10 @@
     }
   ],
   "brand_context": {
-    "sha256": "1e4654ef6c13335ffdc9303a1325a069aaf05fa73e70d98777959f548d708729",
+    "sha256": null,
     "mime": "application/json",
-    "bytes": 68026
+    "bytes": 68026,
+    "pending_upload": "1e4654ef6c13335ffdc9303a1325a069aaf05fa73e70d98777959f548d708729",
+    "reason": "no remote upload: local backend or dry-run"
   }
 }
