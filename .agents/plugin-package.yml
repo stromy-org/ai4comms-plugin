@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: ai4comms
   display_name: AI4comms
-  version: 0.4.43
+  version: 0.4.44
   description: Plugin for AI4comms branded deliverables
   author:
     name: stromy-org
@@ -60,10 +60,6 @@ portable_capabilities:
     summary: Workflows authored for this plugin and shipped inside it
     skills:
     - getting-started
-    - messaging-framework
-    - organic-social-campaign
-    - press-release
-    - proposal
   dutch-government-research:
     summary: Dutch government, parliament and legislation research
     skills:
@@ -101,7 +97,6 @@ skills:
   - format-video-hd
   - format-xlsx
   - getting-started
-  - messaging-framework
   - nl-accountability
   - nl-dossier-tracker
   - nl-eu-transposition
@@ -114,9 +109,6 @@ skills:
   - nl-parliamentary-positioning
   - nl-policy-legislative-landscape
   - nl-tensions
-  - organic-social-campaign
-  - press-release
-  - proposal
   provider_extras:
   - skill: asset-editor
     providers:
