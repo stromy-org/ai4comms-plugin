@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: ai4comms
   display_name: AI4comms
-  version: 0.4.42
+  version: 0.4.43
   description: Plugin for AI4comms branded deliverables
   author:
     name: stromy-org
@@ -154,6 +154,42 @@ skills:
     capability: cowork-workspace
     reason: Reads and writes the client's SharePoint workspace record through workspace-scoped tools that
       exist only in a Cowork workspace session.
+  - skill: comms-messaging-framework
+    providers:
+    - claude
+    capability: comms-connector
+    reason: 'Hosted on the OAuth-gated ''comms'' MCP, which reaches a session only as an authorized Claude/Cowork
+      workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: comms-organic-social
+    providers:
+    - claude
+    capability: comms-connector
+    reason: 'Hosted on the OAuth-gated ''comms'' MCP, which reaches a session only as an authorized Claude/Cowork
+      workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: comms-press-release
+    providers:
+    - claude
+    capability: comms-connector
+    reason: 'Hosted on the OAuth-gated ''comms'' MCP, which reaches a session only as an authorized Claude/Cowork
+      workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: kit-proposal
+    providers:
+    - claude
+    capability: toolkit-connector
+    reason: 'Hosted on the OAuth-gated ''toolkit'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: comms-guide
+    providers:
+    - claude
+    capability: comms-connector
+    reason: 'Hosted on the OAuth-gated ''comms'' MCP, which reaches a session only as an authorized Claude/Cowork
+      workspace connector and is never plugin-declared (Invariant #13).'
+  - skill: kit-guide
+    providers:
+    - claude
+    capability: toolkit-connector
+    reason: 'Hosted on the OAuth-gated ''toolkit'' MCP, which reaches a session only as an authorized
+      Claude/Cowork workspace connector and is never plugin-declared (Invariant #13).'
 marketplace:
   name: ai4comms-marketplace
   repository: https://github.com/stromy-org/ai4comms-marketplace
