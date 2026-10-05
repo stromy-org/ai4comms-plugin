@@ -504,10 +504,8 @@
     }
   ],
   "brand_context": {
-    "sha256": null,
+    "sha256": "1e4654ef6c13335ffdc9303a1325a069aaf05fa73e70d98777959f548d708729",
     "mime": "application/json",
-    "bytes": 68026,
-    "pending_upload": "1e4654ef6c13335ffdc9303a1325a069aaf05fa73e70d98777959f548d708729",
-    "reason": "no remote upload: local backend or dry-run"
+    "bytes": 68026
   }
 }
