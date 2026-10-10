@@ -30,6 +30,37 @@ English on request. Keep the same register in both: clear, grounded, human.
 - Explain AI basics at length or talk down to the reader.
 - Promise autonomy where a human should stay in the loop.
 
+## How the founder writes (calibrated 2026-10-09)
+
+The firm's voice is its founder's. Over 40 review rounds of a client campaign
+she rewrote drafts by hand; her final copy shows how AI4Comms writes when it
+writes Dutch for people rather than for a website. Apply these habits to
+AI4Comms' own social posts, newsletters and client-facing notes:
+
+- **Spoken Dutch, je-form.** Sentences you would say out loud, softened with
+  `misschien`, `even`, `eigenlijk`, `natuurlijk`; joined with `maar` and `want`.
+  Never "u".
+- **Hook first, then the substance.** A question or a contrast pair opens
+  ("Waar komt … vandaan?", "X lijkt … Maar …"); the finding follows.
+- **Concede before you correct.** "Digitaal is niet slecht, maar …" is the
+  pattern; for AI: what AI does well first, then where people stay in charge.
+- **Short paragraphs, one ask at the end.** One to three sentences per
+  paragraph; a single closing ask ("Volg ons …", "Deel dit met …").
+- **Cut, don't explain.** She deletes method sentences, caveats, repeated
+  figures, funder credits and clever reframes rather than rewording them.
+- **Named, concrete things** over abstractions: the tool, the task, the meeting.
+- **No em-dashes, no AI smell.** She removes them by hand; the L1 ban is her
+  rule too.
+- **English mails**: warm and brisk ("Hi William, … Many thanks! Emma"), polite
+  requests ("Can we …", "Could we …"), quoted exact Dutch strings when asking for
+  a change.
+
+Exclamation marks: none in AI4Comms' corporate positioning copy (see
+`voice-anchors.md`); one on a call to action is fine in social posts.
+
+Campaigns she edits for clients use those clients' own voice folders, not this
+one.
+
 ## Relationship to L1
 
 The L1 baseline already bans em-dashes, antithesis frames, filler openers, and
