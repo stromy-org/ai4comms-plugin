@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: ai4comms
   display_name: AI4comms
-  version: 0.4.45
+  version: 0.4.46
   description: Plugin for AI4comms branded deliverables
   author:
     name: stromy-org
