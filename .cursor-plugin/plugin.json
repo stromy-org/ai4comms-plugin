@@ -1,7 +1,7 @@
 {
   "name": "ai4comms",
   "displayName": "AI4comms",
-  "version": "0.4.46",
+  "version": "0.4.47",
   "description": "Plugin for AI4comms branded deliverables",
   "author": {
     "name": "stromy-org"
@@ -27,6 +27,9 @@
     },
     "nl-gov-data": {
       "url": "https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp"
+    },
+    "eu-gov-data": {
+      "url": "https://eu-gov-data.braveforest-e73e8541.northeurope.azurecontainerapps.io/mcp"
     }
   }
 }

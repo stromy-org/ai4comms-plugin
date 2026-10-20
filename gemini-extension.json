@@ -1,6 +1,6 @@
 {
   "name": "ai4comms",
-  "version": "0.4.46",
+  "version": "0.4.47",
   "description": "Plugin for AI4comms branded deliverables",
   "mcpServers": {
     "stromy-format": {
@@ -8,6 +8,9 @@
     },
     "nl-gov-data": {
       "httpUrl": "https://nl-gov-data.whitebush-d817afec.westeurope.azurecontainerapps.io/mcp"
+    },
+    "eu-gov-data": {
+      "httpUrl": "https://eu-gov-data.braveforest-e73e8541.northeurope.azurecontainerapps.io/mcp"
     }
   }
 }
