@@ -41,3 +41,5 @@ See `skills/README.md` for the maintenance workflow; the maintainer skill
 ## License
 
 See [LICENSE](LICENSE) for terms.
+
+<!-- Temporary ORG-PLAN-413 entitlement-check canary; this PR will not merge. -->
