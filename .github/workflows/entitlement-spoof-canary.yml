@@ -1,0 +1,17 @@
+name: entitlement-spoof-canary
+
+# Temporary ORG-PLAN-413 canary. This PR is closed without merging.
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  spoof:
+    name: entitlement-contract / verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Report an unrelated success
+        run: echo 'Canary job; no entitlement verification was performed'
