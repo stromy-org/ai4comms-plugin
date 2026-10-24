@@ -1,1 +1,1 @@
-Temporary PR-head verifier canary, revision A.
+Temporary PR-head verifier canary, revision B.
