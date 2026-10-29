@@ -1911,6 +1911,20 @@
     "textMuted": "--color-text-light",
     "edge": "--color-rule"
   },
+  "presentation": {
+    "backgrounds": {},
+    "margins": {
+      "slide": "40pt",
+      "title": "30pt",
+      "content": "20pt"
+    },
+    "aspectRatio": "16:9",
+    "textFit": {
+      "lintFont": "Arial",
+      "widen": 1.04,
+      "lineHeight": 1.22
+    }
+  },
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -1928,6 +1942,7 @@
       "images",
       "logo",
       "plotly_theme",
+      "presentation",
       "schemaVersion",
       "surfaceExpression",
       "symbol",
@@ -1952,6 +1967,6 @@
       "photo"
     ],
     "images_count": 39,
-    "sha256": "672515114ceecb5485a38601655e98b8616b57f22fc037274c26bad4ed8b58af"
+    "sha256": "d1b89a974df88cea5ba83802f201b3e9c71ad06a47d362419237636f47066d7e"
   }
 }
