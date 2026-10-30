@@ -8,7 +8,7 @@ schema_version: 1
 identity:
   name: ai4comms
   display_name: AI4comms
-  version: 0.4.51
+  version: 0.4.52
   description: Plugin for AI4comms branded deliverables
   author:
     name: stromy-org
@@ -43,9 +43,7 @@ portable_capabilities:
     - format-docx-hd
     - format-guide
     - format-html-hd
-    - format-html-reveal
     - format-i18n
-    - format-mermaid
     - format-motion
     - format-pdf
     - format-pdf-hd
@@ -98,9 +96,7 @@ skills:
   - format-docx-hd
   - format-guide
   - format-html-hd
-  - format-html-reveal
   - format-i18n
-  - format-mermaid
   - format-motion
   - format-pdf
   - format-pdf-hd
