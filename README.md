@@ -41,3 +41,5 @@ See `skills/README.md` for the maintenance workflow; the maintainer skill
 ## License
 
 See [LICENSE](LICENSE) for terms.
+
+<!-- ORG-PLAN-413 B3PA: fork-head check canary. -->

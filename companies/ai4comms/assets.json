@@ -503,6 +503,7 @@
       "mime": "image/png"
     }
   ],
+  "templates": [],
   "brand_context": {
     "sha256": "10c3faf5da27394d1b08aebaae9576f6e10e78caa141392df00ae5df7490b8c3",
     "mime": "application/json",
