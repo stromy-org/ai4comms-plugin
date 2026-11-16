@@ -753,7 +753,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1573164574572-cb89e39749b4?w=1600&q=80",
           "attribution": "Photo by Christina @ wocintechchat.com on Unsplash"
-        }
+        },
+        "sha256": "77ae43512d79de440b6119b2fe2647a888cea32f6d4cf8b9d1659d382db85db1",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-comms-3",
@@ -780,7 +782,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/32082430/pexels-photo-32082430.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Specht GmbH on Pexels"
-        }
+        },
+        "sha256": "e43b3db246d354e44e75527248f3a1f452a2529c631791a1e493c46fb8e1cc64",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-comms-4",
@@ -806,7 +810,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/7414038/pexels-photo-7414038.jpeg?auto=compress&w=1600",
           "attribution": "Photo by RDNE Stock project on Pexels"
-        }
+        },
+        "sha256": "04936592e4a2c5cf24847a715f3670b2d758d664193d5fd1794bc413608849ff",
+        "mime": "image/jpeg"
       },
       {
         "id": "t1-comms-at-work",
@@ -828,7 +834,9 @@
             "h": 0.7
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "53281e2067182dd3742f632a3934445387fda17a4f93dc3253a026d340710178",
+        "mime": "image/png"
       },
       {
         "id": "th1-comms-c",
@@ -850,7 +858,9 @@
             "h": 0.55
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "dabbc4ee890943a2821a5ff2e9eb6eb963e5e49290ffd37922c6cb3e84dbaa78",
+        "mime": "image/png"
       },
       {
         "id": "th1-comms-c_v2",
@@ -872,7 +882,9 @@
             "h": 0.55
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "029e07dee12b2670f07bfef428019725a89fb5e886acecbcec4d34b2a07c0e99",
+        "mime": "image/png"
       },
       {
         "id": "th1-comms-d",
@@ -894,7 +906,9 @@
             "h": 0.88
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "8648c0af06c7054369404dd7cc15bfdc1d8fc0c122a3c65bf327a4f18036dd65",
+        "mime": "image/png"
       },
       {
         "id": "st-routekaart-1",
@@ -921,7 +935,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1758691737083-0e7fdbde0f05?w=1600&q=80",
           "attribution": "Photo by Vitaly Gariev on Unsplash"
-        }
+        },
+        "sha256": "b7aec8bb98dcbe7180e6db79e3c3e1cf3a23c46b527b49514fc1346e8cba95f8",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-routekaart-3",
@@ -946,7 +962,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/12902865/pexels-photo-12902865.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Mizuno K on Pexels"
-        }
+        },
+        "sha256": "3fce2fdf0974a8114e21fbbec121d93d0f17cd2610689a8cf1be2c9c46ee4edf",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-routekaart-4",
@@ -973,7 +991,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/7688083/pexels-photo-7688083.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Kindel Media on Pexels"
-        }
+        },
+        "sha256": "006cde09e2dc79cbc280da8037f49672911ec7620bc157d00c3882b70e375b84",
+        "mime": "image/jpeg"
       },
       {
         "id": "th2-routekaart-c",
@@ -994,7 +1014,9 @@
             "w": 1.0,
             "h": 0.75
           }
-        }
+        },
+        "sha256": "04794ba8a20ef19edd0e87b21e82c5730deef1f1c2eb7e2c7bfe27c4ea82e657",
+        "mime": "image/png"
       },
       {
         "id": "st-human-ai-3",
@@ -1020,7 +1042,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/6913727/pexels-photo-6913727.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Teona Swift on Pexels"
-        }
+        },
+        "sha256": "a44f491b238e2eba8ea953b4099439fcbc40013b2a4cc58b445d69611e4ab577",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-human-ai-4",
@@ -1045,7 +1069,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/5668872/pexels-photo-5668872.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Sora Shimazaki on Pexels"
-        }
+        },
+        "sha256": "e0ad92526006e31f51dd7323e7b0c8278c72b827b688df7d912ffc2598e01437",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-human-ai-5",
@@ -1071,7 +1097,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/6912814/pexels-photo-6912814.jpeg",
           "attribution": "Photo by Teona Swift on Pexels"
-        }
+        },
+        "sha256": "437da85920a8abd2e305ba81373146be77ea8a0a3b89818053e05d273f239fde",
+        "mime": "image/jpeg"
       },
       {
         "id": "t3-human-ai-warm",
@@ -1091,7 +1119,9 @@
             "w": 0.45,
             "h": 0.95
           }
-        }
+        },
+        "sha256": "0870ef8a5f9f16545fbe82f5baacd9545c9731f45bab3b3a72b36948dbeff5ae",
+        "mime": "image/png"
       },
       {
         "id": "th3-human-ai-c",
@@ -1112,7 +1142,9 @@
             "w": 0.87,
             "h": 0.8
           }
-        }
+        },
+        "sha256": "46a2233c03b40c2a6257e4f5905a99c4154323d8043ff7ebc687359421a09c83",
+        "mime": "image/png"
       },
       {
         "id": "th3-human-ai-d_v2",
@@ -1133,7 +1165,9 @@
             "w": 0.45,
             "h": 0.83
           }
-        }
+        },
+        "sha256": "6ba32d5440cfe6dee6ee7d9752dfe9115747f1408d2a62a346fd7ba9c1aabb71",
+        "mime": "image/png"
       },
       {
         "id": "st-conversation-1",
@@ -1159,7 +1193,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=1600&q=80",
           "attribution": "Photo by Van Tay Media on Unsplash"
-        }
+        },
+        "sha256": "e57c465e039993c58a8982cb419baa1497b14763ee70dcd1136e8e4de47a78cf",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-conversation-2",
@@ -1186,7 +1222,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1600&q=80",
           "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
-        }
+        },
+        "sha256": "7fce29084ab3c20dd9123dd51de0db09b9110bd23ec983bbaf48ad555b2c1896",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-conversation-3",
@@ -1213,7 +1251,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1507306989963-f618e20a4237?w=1600&q=80",
           "attribution": "Photo by LinkedIn Sales Solutions on Unsplash"
-        }
+        },
+        "sha256": "cae65d60a88326554fe459c01ecc5651c09c6fe09d9151336c1560d80e4c538c",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-conversation-4",
@@ -1238,7 +1278,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1758691737421-86dd84bd2951?w=1600&q=80",
           "attribution": "Photo by Vitaly Gariev on Unsplash"
-        }
+        },
+        "sha256": "7585ca2937ac403a01b938c6d20da71d76a6924e018f896525dbd42ede11c275",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-conversation-5",
@@ -1265,7 +1307,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/23496898/pexels-photo-23496898.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Vitaly Gariev on Pexels"
-        }
+        },
+        "sha256": "427f06bf06f72e1ea69eb81ef5297b3dddcfb9a1dd9a7a38e4f4da68a5d243ba",
+        "mime": "image/jpeg"
       },
       {
         "id": "th4-conversation-b_v2",
@@ -1286,7 +1330,9 @@
             "h": 0.85
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "066717da44b69afc1b9296718eb94a542990da31764b7953e282fdd43d8204b9",
+        "mime": "image/png"
       },
       {
         "id": "th4-conversation-c",
@@ -1308,7 +1354,9 @@
             "h": 0.75
           }
         },
-        "hero": true
+        "hero": true,
+        "sha256": "b96efb7a6371a3e34bd72c194541e476799d3310ef999bdf7e0a96b9c23fa055",
+        "mime": "image/png"
       },
       {
         "id": "st-workspace-2",
@@ -1334,7 +1382,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/30703810/pexels-photo-30703810.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Erika Andrade on Pexels"
-        }
+        },
+        "sha256": "214f63f5a637ba50b22b3cd9121a4cbad330cbb17c92c9b18abd2b27bffd74df",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-workspace-5",
@@ -1360,7 +1410,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1743385779534-f53c018c21f5?w=1600&q=80",
           "attribution": "Photo by Kelly Sikkema on Unsplash"
-        }
+        },
+        "sha256": "ca3ddc3a5b3aad4e536f46d13b60be41fa154a813b54ec77537bdb3c79a03c77",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-workspace-6",
@@ -1386,7 +1438,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/97987/pexels-photo-97987.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Markus Spiske on Pexels"
-        }
+        },
+        "sha256": "c2e4e89ed1c9d384376e2232c4f9e4ec80f0d076c97e91e8b205751e5de0fec1",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-workspace-7",
@@ -1412,7 +1466,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/4195334/pexels-photo-4195334.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Karola G (kaboompics) on Pexels"
-        }
+        },
+        "sha256": "87e2e8ae87c60fa0d84e2c76c327037351e7f9a824f533c263ac8b796baabdfd",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-workspace-8",
@@ -1437,7 +1493,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&w=1600",
           "attribution": "Photo by Sora Shimazaki on Pexels"
-        }
+        },
+        "sha256": "9547ab2b74f67a536927471e297df1e8fd97a535b2c1de4d76ffb1a6f4bd8de3",
+        "mime": "image/jpeg"
       },
       {
         "id": "t5-calm-workspace",
@@ -1457,7 +1515,9 @@
             "w": 0.75,
             "h": 0.75
           }
-        }
+        },
+        "sha256": "7af1ed630ba861ecf7443af759f6b213589655dc0593d2d234f202735c2a15b5",
+        "mime": "image/png"
       },
       {
         "id": "th5-workspace-b",
@@ -1478,7 +1538,9 @@
             "w": 0.7,
             "h": 0.67
           }
-        }
+        },
+        "sha256": "a236b8f491db95fb0ef50eacb4518818a915888375b13893c29f7b9c522e519b",
+        "mime": "image/png"
       },
       {
         "id": "th5-workspace-b_v2",
@@ -1499,7 +1561,9 @@
             "w": 0.6,
             "h": 0.7
           }
-        }
+        },
+        "sha256": "dabfe91045fcc0a9c9b305c5862d2265e665651a44bb5dcfd7b3122c10f60799",
+        "mime": "image/png"
       },
       {
         "id": "th5-workspace-c",
@@ -1520,7 +1584,9 @@
             "w": 0.95,
             "h": 0.5
           }
-        }
+        },
+        "sha256": "78f13c7222ba600d180f46036416fbbe98718de1a7791b4a85024da82f84f34b",
+        "mime": "image/png"
       },
       {
         "id": "th5-workspace-d",
@@ -1541,7 +1607,9 @@
             "w": 0.85,
             "h": 0.75
           }
-        }
+        },
+        "sha256": "979c98f52ef5b682af987f0fd92f43a5d7b86d523bf8e64b0b626e6b832fb6dc",
+        "mime": "image/png"
       },
       {
         "id": "th5-workspace-d_v2",
@@ -1562,7 +1630,9 @@
             "w": 0.65,
             "h": 0.65
           }
-        }
+        },
+        "sha256": "2b6991ab295f8deef48f033dbfe1f9c8910e2f1688fa2a6c6db155293d7a3e96",
+        "mime": "image/png"
       },
       {
         "id": "st-craft-1",
@@ -1588,7 +1658,9 @@
           "provider": "unsplash",
           "url": "https://images.unsplash.com/photo-1643148636630-0b0fb138fc74?w=1600&q=80",
           "attribution": "Photo by Priscilla Du Preez on Unsplash"
-        }
+        },
+        "sha256": "a041ff512c4efe138c54ae067ae6dc14be6ed3e2b922f86bce750be0d7499800",
+        "mime": "image/jpeg"
       },
       {
         "id": "st-craft-5",
@@ -1614,7 +1686,9 @@
           "provider": "unsplash",
           "url": "https://images.pexels.com/photos/5425598/pexels-photo-5425598.jpeg",
           "attribution": "Photo by Anna Tarazevich on Pexels"
-        }
+        },
+        "sha256": "15fdec70bd0232b9fe9c88f06a244c230f7d3b424b8ebdde89d6182feb949bb8",
+        "mime": "image/jpeg"
       },
       {
         "id": "th6-craft-b",
@@ -1635,7 +1709,9 @@
             "w": 1.0,
             "h": 0.7
           }
-        }
+        },
+        "sha256": "ed20dd2f504fa875f588b3ab8169de36fec18f2461d8aeabd4cf6b9b30357a88",
+        "mime": "image/png"
       },
       {
         "id": "th6-craft-d_v2",
@@ -1656,7 +1732,9 @@
             "w": 0.9,
             "h": 0.75
           }
-        }
+        },
+        "sha256": "094c33af3c45738a7434eae8f833e06ead10e6c053fb02b8a2f7b245d22439c3",
+        "mime": "image/png"
       }
     ],
     "overlay": {
@@ -2019,6 +2097,332 @@
       }
     }
   },
+  "libraryHandles": [
+    {
+      "path": "business-cards/print/arien-eu-print.pdf",
+      "sha256": "ed2c9e47f0b1b66f3d575ed9b6c09eba94cd4e1d7d891223c6b290bd3a28bc20",
+      "mime": "application/pdf",
+      "libraryId": "business-cards-print-arien-eu-print.pdf"
+    },
+    {
+      "path": "business-cards/print/emma-eu-print.pdf",
+      "sha256": "84903f52ca11d5946ea771c2785897ea477403592997d645ccc9b197e9c9d50d",
+      "mime": "application/pdf",
+      "libraryId": "business-cards-print-emma-eu-print.pdf"
+    },
+    {
+      "path": "business-cards/print/ingo-eu-print.pdf",
+      "sha256": "2af6c8350507ba1380d2f800bc2d55531e022364de9780ab4feed3939cd7a4f9",
+      "mime": "application/pdf",
+      "libraryId": "business-cards-print-ingo-eu-print.pdf"
+    },
+    {
+      "path": "business-cards/print/william-eu-print.pdf",
+      "sha256": "3a2690f84d365f6498739179488d2c2e86dde6f6bf5eb1044b8e9de9a95a91ee",
+      "mime": "application/pdf",
+      "libraryId": "business-cards-print-william-eu-print.pdf"
+    },
+    {
+      "path": "business-cards/source/arien-eu-front.svg",
+      "sha256": "f472ab37dc99ccb961dc5824c40507bbd1c4d72874e1f1e7e8f0c50664082560",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-arien-eu-front.svg"
+    },
+    {
+      "path": "business-cards/source/back-eu.svg",
+      "sha256": "17c435ce09548c3a1805564b06651db4bf0b36c44aa6aa199cb552beed7a2ac0",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-back-eu.svg"
+    },
+    {
+      "path": "business-cards/source/emma-eu-front.svg",
+      "sha256": "3cd9f3d52c9998deb343118919932b587f1e8d399ed6c332c4aa72528cc7c48f",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-emma-eu-front.svg"
+    },
+    {
+      "path": "business-cards/source/ingo-eu-front.svg",
+      "sha256": "e295088db371bfa2a51893c4b9d1925e2abcf6c4209ff6815c394d4c025456da",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-ingo-eu-front.svg"
+    },
+    {
+      "path": "business-cards/source/william-eu-front.svg",
+      "sha256": "bfce8d401367f1ff3550a944457de4c815fae0551dce0d748871b4436fc7371f",
+      "mime": "image/svg+xml",
+      "libraryId": "business-cards-source-william-eu-front.svg"
+    },
+    {
+      "path": "images/comms-env-06-GP7SH7RRkqo--16x9-textsafe.jpg",
+      "sha256": "1afe92ad52998ec82c7b963ba30234857d1ec594c9164888744250666c48a2d6",
+      "mime": "image/jpeg",
+      "libraryId": "images-comms-env-06-gp7sh7rrkqo-16x9-textsafe.jpg"
+    },
+    {
+      "path": "images/comms-env-08-bGo01h57aCE--16x9-textsafe.jpg",
+      "sha256": "7f4e002857fcc506c2f9a5a81c3e38a2a10fedf067a89f79d22b6525e1b841b4",
+      "mime": "image/jpeg",
+      "libraryId": "images-comms-env-08-bgo01h57ace-16x9-textsafe.jpg"
+    },
+    {
+      "path": "images/data-tex-05-ETiSF2VSRTQ--16x9-textsafe.jpg",
+      "sha256": "a8f3d0a11aed7daff14ff99581f1f23b2b7b065d7af7ba1f9e82a54cde948a05",
+      "mime": "image/jpeg",
+      "libraryId": "images-data-tex-05-etisf2vsrtq-16x9-textsafe.jpg"
+    },
+    {
+      "path": "images/signal-03-nwNjeZ0WA6w--16x9-textsafe.jpg",
+      "sha256": "292c136d7208a97ce3e1f1c50e5ead51a875de2c1de7bce8978a96509c83dcde",
+      "mime": "image/jpeg",
+      "libraryId": "images-signal-03-nwnjez0wa6w-16x9-textsafe.jpg"
+    },
+    {
+      "path": "images/source/st-comms-1.jpg",
+      "sha256": "77ae43512d79de440b6119b2fe2647a888cea32f6d4cf8b9d1659d382db85db1",
+      "mime": "image/jpeg",
+      "libraryId": "st-comms-1"
+    },
+    {
+      "path": "images/source/st-comms-3.jpg",
+      "sha256": "e43b3db246d354e44e75527248f3a1f452a2529c631791a1e493c46fb8e1cc64",
+      "mime": "image/jpeg",
+      "libraryId": "st-comms-3"
+    },
+    {
+      "path": "images/source/st-comms-4.jpg",
+      "sha256": "04936592e4a2c5cf24847a715f3670b2d758d664193d5fd1794bc413608849ff",
+      "mime": "image/jpeg",
+      "libraryId": "st-comms-4"
+    },
+    {
+      "path": "images/source/st-conversation-1.jpg",
+      "sha256": "e57c465e039993c58a8982cb419baa1497b14763ee70dcd1136e8e4de47a78cf",
+      "mime": "image/jpeg",
+      "libraryId": "st-conversation-1"
+    },
+    {
+      "path": "images/source/st-conversation-2.jpg",
+      "sha256": "7fce29084ab3c20dd9123dd51de0db09b9110bd23ec983bbaf48ad555b2c1896",
+      "mime": "image/jpeg",
+      "libraryId": "st-conversation-2"
+    },
+    {
+      "path": "images/source/st-conversation-3.jpg",
+      "sha256": "cae65d60a88326554fe459c01ecc5651c09c6fe09d9151336c1560d80e4c538c",
+      "mime": "image/jpeg",
+      "libraryId": "st-conversation-3"
+    },
+    {
+      "path": "images/source/st-conversation-4.jpg",
+      "sha256": "7585ca2937ac403a01b938c6d20da71d76a6924e018f896525dbd42ede11c275",
+      "mime": "image/jpeg",
+      "libraryId": "st-conversation-4"
+    },
+    {
+      "path": "images/source/st-conversation-5.jpg",
+      "sha256": "427f06bf06f72e1ea69eb81ef5297b3dddcfb9a1dd9a7a38e4f4da68a5d243ba",
+      "mime": "image/jpeg",
+      "libraryId": "st-conversation-5"
+    },
+    {
+      "path": "images/source/st-craft-1.jpg",
+      "sha256": "a041ff512c4efe138c54ae067ae6dc14be6ed3e2b922f86bce750be0d7499800",
+      "mime": "image/jpeg",
+      "libraryId": "st-craft-1"
+    },
+    {
+      "path": "images/source/st-craft-5.jpg",
+      "sha256": "15fdec70bd0232b9fe9c88f06a244c230f7d3b424b8ebdde89d6182feb949bb8",
+      "mime": "image/jpeg",
+      "libraryId": "st-craft-5"
+    },
+    {
+      "path": "images/source/st-human-ai-3.jpg",
+      "sha256": "a44f491b238e2eba8ea953b4099439fcbc40013b2a4cc58b445d69611e4ab577",
+      "mime": "image/jpeg",
+      "libraryId": "st-human-ai-3"
+    },
+    {
+      "path": "images/source/st-human-ai-4.jpg",
+      "sha256": "e0ad92526006e31f51dd7323e7b0c8278c72b827b688df7d912ffc2598e01437",
+      "mime": "image/jpeg",
+      "libraryId": "st-human-ai-4"
+    },
+    {
+      "path": "images/source/st-human-ai-5.jpg",
+      "sha256": "437da85920a8abd2e305ba81373146be77ea8a0a3b89818053e05d273f239fde",
+      "mime": "image/jpeg",
+      "libraryId": "st-human-ai-5"
+    },
+    {
+      "path": "images/source/st-routekaart-1.jpg",
+      "sha256": "b7aec8bb98dcbe7180e6db79e3c3e1cf3a23c46b527b49514fc1346e8cba95f8",
+      "mime": "image/jpeg",
+      "libraryId": "st-routekaart-1"
+    },
+    {
+      "path": "images/source/st-routekaart-3.jpg",
+      "sha256": "3fce2fdf0974a8114e21fbbec121d93d0f17cd2610689a8cf1be2c9c46ee4edf",
+      "mime": "image/jpeg",
+      "libraryId": "st-routekaart-3"
+    },
+    {
+      "path": "images/source/st-routekaart-4.jpg",
+      "sha256": "006cde09e2dc79cbc280da8037f49672911ec7620bc157d00c3882b70e375b84",
+      "mime": "image/jpeg",
+      "libraryId": "st-routekaart-4"
+    },
+    {
+      "path": "images/source/st-workspace-2.jpg",
+      "sha256": "214f63f5a637ba50b22b3cd9121a4cbad330cbb17c92c9b18abd2b27bffd74df",
+      "mime": "image/jpeg",
+      "libraryId": "st-workspace-2"
+    },
+    {
+      "path": "images/source/st-workspace-5.jpg",
+      "sha256": "ca3ddc3a5b3aad4e536f46d13b60be41fa154a813b54ec77537bdb3c79a03c77",
+      "mime": "image/jpeg",
+      "libraryId": "st-workspace-5"
+    },
+    {
+      "path": "images/source/st-workspace-6.jpg",
+      "sha256": "c2e4e89ed1c9d384376e2232c4f9e4ec80f0d076c97e91e8b205751e5de0fec1",
+      "mime": "image/jpeg",
+      "libraryId": "st-workspace-6"
+    },
+    {
+      "path": "images/source/st-workspace-7.jpg",
+      "sha256": "87e2e8ae87c60fa0d84e2c76c327037351e7f9a824f533c263ac8b796baabdfd",
+      "mime": "image/jpeg",
+      "libraryId": "st-workspace-7"
+    },
+    {
+      "path": "images/source/st-workspace-8.jpg",
+      "sha256": "9547ab2b74f67a536927471e297df1e8fd97a535b2c1de4d76ffb1a6f4bd8de3",
+      "mime": "image/jpeg",
+      "libraryId": "st-workspace-8"
+    },
+    {
+      "path": "images/source/t1-comms-at-work.png",
+      "sha256": "53281e2067182dd3742f632a3934445387fda17a4f93dc3253a026d340710178",
+      "mime": "image/png",
+      "libraryId": "t1-comms-at-work"
+    },
+    {
+      "path": "images/source/t3-human-ai-warm.png",
+      "sha256": "0870ef8a5f9f16545fbe82f5baacd9545c9731f45bab3b3a72b36948dbeff5ae",
+      "mime": "image/png",
+      "libraryId": "t3-human-ai-warm"
+    },
+    {
+      "path": "images/source/t5-calm-workspace.png",
+      "sha256": "7af1ed630ba861ecf7443af759f6b213589655dc0593d2d234f202735c2a15b5",
+      "mime": "image/png",
+      "libraryId": "t5-calm-workspace"
+    },
+    {
+      "path": "images/source/th1-comms-c.png",
+      "sha256": "dabbc4ee890943a2821a5ff2e9eb6eb963e5e49290ffd37922c6cb3e84dbaa78",
+      "mime": "image/png",
+      "libraryId": "th1-comms-c"
+    },
+    {
+      "path": "images/source/th1-comms-c_v2.png",
+      "sha256": "029e07dee12b2670f07bfef428019725a89fb5e886acecbcec4d34b2a07c0e99",
+      "mime": "image/png",
+      "libraryId": "th1-comms-c_v2"
+    },
+    {
+      "path": "images/source/th1-comms-d.png",
+      "sha256": "8648c0af06c7054369404dd7cc15bfdc1d8fc0c122a3c65bf327a4f18036dd65",
+      "mime": "image/png",
+      "libraryId": "th1-comms-d"
+    },
+    {
+      "path": "images/source/th2-routekaart-c.png",
+      "sha256": "04794ba8a20ef19edd0e87b21e82c5730deef1f1c2eb7e2c7bfe27c4ea82e657",
+      "mime": "image/png",
+      "libraryId": "th2-routekaart-c"
+    },
+    {
+      "path": "images/source/th3-human-ai-c.png",
+      "sha256": "46a2233c03b40c2a6257e4f5905a99c4154323d8043ff7ebc687359421a09c83",
+      "mime": "image/png",
+      "libraryId": "th3-human-ai-c"
+    },
+    {
+      "path": "images/source/th3-human-ai-d_v2.png",
+      "sha256": "6ba32d5440cfe6dee6ee7d9752dfe9115747f1408d2a62a346fd7ba9c1aabb71",
+      "mime": "image/png",
+      "libraryId": "th3-human-ai-d_v2"
+    },
+    {
+      "path": "images/source/th4-conversation-b_v2.png",
+      "sha256": "066717da44b69afc1b9296718eb94a542990da31764b7953e282fdd43d8204b9",
+      "mime": "image/png",
+      "libraryId": "th4-conversation-b_v2"
+    },
+    {
+      "path": "images/source/th4-conversation-c.png",
+      "sha256": "b96efb7a6371a3e34bd72c194541e476799d3310ef999bdf7e0a96b9c23fa055",
+      "mime": "image/png",
+      "libraryId": "th4-conversation-c"
+    },
+    {
+      "path": "images/source/th5-workspace-b.png",
+      "sha256": "a236b8f491db95fb0ef50eacb4518818a915888375b13893c29f7b9c522e519b",
+      "mime": "image/png",
+      "libraryId": "th5-workspace-b"
+    },
+    {
+      "path": "images/source/th5-workspace-b_v2.png",
+      "sha256": "dabfe91045fcc0a9c9b305c5862d2265e665651a44bb5dcfd7b3122c10f60799",
+      "mime": "image/png",
+      "libraryId": "th5-workspace-b_v2"
+    },
+    {
+      "path": "images/source/th5-workspace-c.png",
+      "sha256": "78f13c7222ba600d180f46036416fbbe98718de1a7791b4a85024da82f84f34b",
+      "mime": "image/png",
+      "libraryId": "th5-workspace-c"
+    },
+    {
+      "path": "images/source/th5-workspace-d.png",
+      "sha256": "979c98f52ef5b682af987f0fd92f43a5d7b86d523bf8e64b0b626e6b832fb6dc",
+      "mime": "image/png",
+      "libraryId": "th5-workspace-d"
+    },
+    {
+      "path": "images/source/th5-workspace-d_v2.png",
+      "sha256": "2b6991ab295f8deef48f033dbfe1f9c8910e2f1688fa2a6c6db155293d7a3e96",
+      "mime": "image/png",
+      "libraryId": "th5-workspace-d_v2"
+    },
+    {
+      "path": "images/source/th6-craft-b.png",
+      "sha256": "ed20dd2f504fa875f588b3ab8169de36fec18f2461d8aeabd4cf6b9b30357a88",
+      "mime": "image/png",
+      "libraryId": "th6-craft-b"
+    },
+    {
+      "path": "images/source/th6-craft-d_v2.png",
+      "sha256": "094c33af3c45738a7434eae8f833e06ead10e6c053fb02b8a2f7b245d22439c3",
+      "mime": "image/png",
+      "libraryId": "th6-craft-d_v2"
+    },
+    {
+      "path": "templates/docx/letterhead.docx",
+      "sha256": "0408ba24593ae26f6a0af0deddf9dfacb4113f052fedbcae06a4197054d487ef",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-letterhead.docx"
+    },
+    {
+      "path": "templates/docx/styles.docx",
+      "sha256": "22b6a1b21832ee9c4ae039b025c197e7abaa3f660dc602111b1a309d72e9fd15",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "libraryId": "templates-docx-styles.docx"
+    }
+  ],
   "integrity": {
     "compiler": "brand_compile.py",
     "compiler_version": "1.0",
@@ -2035,6 +2439,7 @@
       "generatedFrom",
       "identity",
       "images",
+      "libraryHandles",
       "logo",
       "plotly_theme",
       "presentation",
@@ -2063,6 +2468,6 @@
       "photo"
     ],
     "images_count": 39,
-    "sha256": "593f4ecedf07ce135cfdaac7484f328dfb3b2409caf6c539673849b21f015b46"
+    "sha256": "11253a79b6fb8d8939f36a8617cfc9c5f03440bdc0ca0433c023598d49cbffc2"
   }
 }
